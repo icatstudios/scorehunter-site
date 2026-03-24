@@ -135,7 +135,7 @@ export default function Home() {
         </div>
 
         {/* Store badges - coming soon style */}
-        <div className="animate-fade-in-delay flex flex-col sm:flex-row gap-3 items-center">
+        <div className="animate-fade-in-delay flex flex-row gap-3 items-center">
           <div className="glass-card w-44 h-14 flex items-center justify-center gap-3 opacity-60 hover:opacity-80 transition-opacity cursor-default">
             <svg
               className="w-6 h-6 text-text-primary"
