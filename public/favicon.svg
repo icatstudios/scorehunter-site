@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect width="1024" height="1024" id="slice_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#slice_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Slice" clip-path="url(#clip_1)">
+    <use xlink:href="#slice_1" stroke="none" fill="none" />
+    <g id="appicon-">
+      <path d="M1024 0L1024 0L1024 1024L0 1024L0 0L1024 0Z" id="appicon-" fill="none" stroke="none" />
+      <path d="M0 0L1024 0L1024 1024L0 1024L0 0Z" id="Background-Flat" fill="#05FA87" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
