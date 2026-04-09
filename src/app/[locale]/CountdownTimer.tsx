@@ -18,7 +18,7 @@ export function CountdownTimer({ labels }: { labels: CountdownLabels }) {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2026-04-10T20:00:00");
+    const targetDate = new Date("2026-04-17T20:00:00");
 
     const timer = setInterval(() => {
       const now = new Date();
