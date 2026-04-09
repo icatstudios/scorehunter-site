@@ -6,7 +6,9 @@
     "deleteAccountTitle": "Hesabı Sil — ScoreHunter",
     "deleteAccountDescription": "ScoreHunter hesabınızın ve ilişkili tüm verilerin silinmesini talep edin.",
     "privacyPolicyTitle": "Gizlilik Politikası — ScoreHunter",
-    "privacyPolicyDescription": "ScoreHunter'ın kişisel verilerinizi nasıl topladığını, kullandığını ve koruduğunu öğrenin."
+    "privacyPolicyDescription": "ScoreHunter'ın kişisel verilerinizi nasıl topladığını, kullandığını ve koruduğunu öğrenin.",
+    "termsOfUseTitle": "Kullanım Koşulları — ScoreHunter",
+    "termsOfUseDescription": "ScoreHunter uygulamasına erişiminizi ve kullanımınızı düzenleyen Kullanım Koşullarını okuyun."
   },
   "nav": {
     "backToHome": "Ana Sayfaya Dön"
@@ -46,6 +48,15 @@
   },
   "privacyPolicy": {
     "title": "Gizlilik Politikası",
+    "lastUpdatedLabel": "Son güncelleme",
+    "lastUpdatedValue": "9 Nisan 2026",
+    "applicationLabel": "Uygulama",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Geliştirici",
+    "developerValue": "iCat Studios"
+  },
+  "termsOfUse": {
+    "title": "Kullanım Koşulları",
     "lastUpdatedLabel": "Son güncelleme",
     "lastUpdatedValue": "9 Nisan 2026",
     "applicationLabel": "Uygulama",

@@ -6,7 +6,9 @@
     "deleteAccountTitle": "Delete Account — ScoreHunter",
     "deleteAccountDescription": "Request the deletion of your ScoreHunter account and all associated data.",
     "privacyPolicyTitle": "Privacy Policy — ScoreHunter",
-    "privacyPolicyDescription": "Learn how ScoreHunter collects, uses, and protects your personal data."
+    "privacyPolicyDescription": "Learn how ScoreHunter collects, uses, and protects your personal data.",
+    "termsOfUseTitle": "Terms of Use — ScoreHunter",
+    "termsOfUseDescription": "Read the Terms of Use that govern your access to and use of the ScoreHunter application."
   },
   "nav": {
     "backToHome": "Back to Home"
@@ -46,6 +48,15 @@
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdatedValue": "April 9, 2026",
+    "applicationLabel": "Application",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Developer",
+    "developerValue": "iCat Studios"
+  },
+  "termsOfUse": {
+    "title": "Terms of Use",
     "lastUpdatedLabel": "Last updated",
     "lastUpdatedValue": "April 9, 2026",
     "applicationLabel": "Application",
