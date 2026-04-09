@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Coming Soon",
+    "comingSoonDescription": "Something big is coming. Are you ready to hunt?",
+    "deleteAccountTitle": "Delete Account — ScoreHunter",
+    "deleteAccountDescription": "Request the deletion of your ScoreHunter account and all associated data.",
+    "privacyPolicyTitle": "Privacy Policy — ScoreHunter",
+    "privacyPolicyDescription": "Learn how ScoreHunter collects, uses, and protects your personal data."
+  },
+  "nav": {
+    "backToHome": "Back to Home"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. All rights reserved."
+  },
+  "landing": {
+    "tagline": "Something big is coming.",
+    "subtagline": "Are you ready to hunt?",
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "min": "Min",
+      "sec": "Sec"
+    },
+    "comingSoon": "Coming Soon",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Delete Account",
+    "description": "To request the deletion of your account and all associated data, please fill in the form below. This will open your email client with a pre-filled message to our support team.",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "confirmCode": "Confirm Code",
+    "confirmCodePlaceholder": "Enter your confirm code",
+    "confirmCodeNote": "You can get your confirm code from the app settings.",
+    "submit": "Submit Request",
+    "errorEmpty": "Please fill in all fields.",
+    "info": "Your request will be processed within 30 days. You will receive a confirmation email once your account has been deleted.",
+    "emailSubject": "Account Deletion Request",
+    "emailBodyHeader": "Account Deletion Request",
+    "emailBodyUsernameLabel": "Username",
+    "emailBodyConfirmCodeLabel": "Confirm Code",
+    "emailBodyMessage": "I would like to request the deletion of my account and all associated data."
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdatedValue": "April 9, 2026",
+    "applicationLabel": "Application",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Developer",
+    "developerValue": "iCat Studios"
+  }
+}

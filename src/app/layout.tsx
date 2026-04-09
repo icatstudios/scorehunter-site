@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://scorehunter.app"),
   title: "ScoreHunter — Coming Soon",
-  description:
-    "Something big is coming. Are you ready to hunt?",
+  description: "Something big is coming. Are you ready to hunt?",
   keywords: ["scorehunter", "coming soon", "mobile app", "gaming"],
   openGraph: {
     title: "ScoreHunter — Coming Soon",
     description: "Something big is coming. Are you ready to hunt?",
-    url: "https://scorehunt.app",
+    url: "https://scorehunter.app",
     siteName: "ScoreHunter",
     type: "website",
     images: [
@@ -44,9 +44,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className="antialiased">{children}</body>
-    </html>
-  );
+  return children;
 }

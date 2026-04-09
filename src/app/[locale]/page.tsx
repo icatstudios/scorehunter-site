@@ -1,100 +1,29 @@
-"use client";
-
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { notFound } from "next/navigation";
+import { isLocale } from "@/i18n/config";
+import { getDictionary } from "@/i18n/get-dictionary";
+import { FloatingParticles } from "@/components/FloatingParticles";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { CountdownTimer } from "./CountdownTimer";
 
-function CountdownTimer() {
-  const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
-  });
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!isLocale(locale)) notFound();
 
-  useEffect(() => {
-    const targetDate = new Date("2026-04-10T20:00:00");
+  const dict = await getDictionary(locale);
 
-    const timer = setInterval(() => {
-      const now = new Date();
-      const diff = targetDate.getTime() - now.getTime();
-
-      if (diff <= 0) {
-        clearInterval(timer);
-        return;
-      }
-
-      setTimeLeft({
-        days: Math.floor(diff / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((diff / (1000 * 60)) % 60),
-        seconds: Math.floor((diff / 1000) % 60),
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  const blocks = [
-    { value: timeLeft.days, label: "Days" },
-    { value: timeLeft.hours, label: "Hours" },
-    { value: timeLeft.minutes, label: "Min" },
-    { value: timeLeft.seconds, label: "Sec" },
-  ];
-
-  return (
-    <div className="flex gap-3 sm:gap-4">
-      {blocks.map((block) => (
-        <div key={block.label} className="flex flex-col items-center">
-          <div className="glass-card w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center relative overflow-hidden group">
-            <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-colors" />
-            <span className="text-2xl sm:text-3xl font-bold text-primary relative z-10 font-poppins">
-              {String(block.value).padStart(2, "0")}
-            </span>
-          </div>
-          <span className="text-[10px] sm:text-xs text-text-secondary mt-2 uppercase tracking-widest">
-            {block.label}
-          </span>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function FloatingParticles() {
-  return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden">
-      {/* Green glow blob - top right */}
-      <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-primary/10 blur-[120px] animate-pulse-glow" />
-
-      {/* Purple glow blob - bottom left */}
-      <div
-        className="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-secondary/15 blur-[120px] animate-pulse-glow"
-        style={{ animationDelay: "2s" }}
-      />
-
-      {/* Small green glow - center */}
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-primary/5 blur-[100px] animate-pulse-glow"
-        style={{ animationDelay: "1s" }}
-      />
-
-      {/* Subtle grid pattern */}
-      <div
-        className="absolute inset-0 opacity-[0.02]"
-        style={{
-          backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-          backgroundSize: "60px 60px",
-        }}
-      />
-    </div>
-  );
-}
-
-export default function Home() {
   return (
     <main className="relative min-h-screen flex flex-col items-center justify-center px-4 py-12">
       <FloatingParticles />
+
+      {/* Top right: language switcher */}
+      <div className="absolute top-4 right-4 sm:top-6 sm:right-6 z-20">
+        <LanguageSwitcher currentLocale={locale} />
+      </div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-2xl mx-auto">
@@ -123,15 +52,15 @@ export default function Home() {
 
         {/* Tagline */}
         <p className="animate-slide-up-delay-2 text-text-secondary text-lg sm:text-xl mb-2 max-w-md">
-          Something big is coming.
+          {dict.landing.tagline}
         </p>
         <p className="animate-slide-up-delay-2 text-text-muted text-sm mb-8">
-          Are you ready to hunt?
+          {dict.landing.subtagline}
         </p>
 
         {/* Countdown */}
         <div className="animate-slide-up-delay-3 mb-10">
-          <CountdownTimer />
+          <CountdownTimer labels={dict.landing.countdown} />
         </div>
 
         {/* Store badges - coming soon style */}
@@ -146,10 +75,10 @@ export default function Home() {
             </svg>
             <div className="text-left">
               <div className="text-[10px] text-text-muted leading-none">
-                Coming Soon
+                {dict.landing.comingSoon}
               </div>
               <div className="text-sm font-semibold text-text-primary leading-tight">
-                App Store
+                {dict.landing.appStore}
               </div>
             </div>
           </div>
@@ -164,10 +93,10 @@ export default function Home() {
             </svg>
             <div className="text-left">
               <div className="text-[10px] text-text-muted leading-none">
-                Coming Soon
+                {dict.landing.comingSoon}
               </div>
               <div className="text-sm font-semibold text-text-primary leading-tight">
-                Google Play
+                {dict.landing.googlePlay}
               </div>
             </div>
           </div>
@@ -176,7 +105,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="relative z-10 mt-auto pt-12 pb-6 text-text-muted text-xs">
-        © 2026 iCat Studios. All rights reserved.
+        {dict.footer.copyright}
       </footer>
     </main>
   );
