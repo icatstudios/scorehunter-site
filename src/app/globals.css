@@ -138,6 +138,24 @@ body {
   }
 }
 
+@keyframes tick {
+  0% {
+    opacity: 0.45;
+    transform: translateY(-4px) scale(0.96);
+    filter: blur(1px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
@@ -180,6 +198,16 @@ body {
 
 .animate-score-flip {
   animation: score-flip 3s ease-in-out infinite;
+}
+
+.animate-tick {
+  animation: tick 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-tick {
+    animation: none;
+  }
 }
 
 .animate-shimmer {
