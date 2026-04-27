@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — In arrivo",
+    "comingSoonDescription": "Sta per arrivare qualcosa di grande. Sei pronto per la caccia?",
+    "deleteAccountTitle": "Elimina account — ScoreHunter",
+    "deleteAccountDescription": "Richiedi l'eliminazione del tuo account ScoreHunter e di tutti i dati associati.",
+    "privacyPolicyTitle": "Informativa sulla privacy — ScoreHunter",
+    "privacyPolicyDescription": "Scopri come ScoreHunter raccoglie, utilizza e protegge i tuoi dati personali.",
+    "termsOfUseTitle": "Condizioni d'uso — ScoreHunter",
+    "termsOfUseDescription": "Leggi le condizioni che regolano il tuo accesso a ScoreHunter e il suo utilizzo.",
+    "supportTitle": "Assistenza — ScoreHunter",
+    "supportDescription": "Hai bisogno di aiuto con ScoreHunter? Contatta il nostro team di assistenza via e-mail."
+  },
+  "nav": {
+    "backToHome": "Torna alla home"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Tutti i diritti riservati."
+  },
+  "legalNote": "Questo documento è fornito in più lingue per tua comodità. In caso di conflitto o discrepanza tra le versioni linguistiche, prevarrà la versione in inglese.",
+  "landing": {
+    "tagline": "Sta per arrivare qualcosa di grande.",
+    "subtagline": "Sei pronto per la caccia?",
+    "countdown": {
+      "days": "Giorni",
+      "hours": "Ore",
+      "min": "Min",
+      "sec": "Sec"
+    },
+    "comingSoon": "In arrivo",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Elimina account",
+    "description": "Per richiedere l'eliminazione del tuo account e di tutti i dati associati, compila il modulo qui sotto. Si aprirà il tuo client di posta con un messaggio precompilato per il nostro team di assistenza.",
+    "username": "Nome utente",
+    "usernamePlaceholder": "Inserisci il tuo nome utente",
+    "confirmCode": "Codice di conferma",
+    "confirmCodePlaceholder": "Inserisci il tuo codice di conferma",
+    "confirmCodeNote": "Puoi ottenere il codice di conferma dalle impostazioni dell'app.",
+    "submit": "Invia richiesta",
+    "errorEmpty": "Compila tutti i campi.",
+    "info": "La tua richiesta verrà elaborata entro 30 giorni. Riceverai un'e-mail di conferma una volta eliminato l'account.",
+    "emailSubject": "Richiesta di eliminazione account",
+    "emailBodyHeader": "Richiesta di eliminazione account",
+    "emailBodyUsernameLabel": "Nome utente",
+    "emailBodyConfirmCodeLabel": "Codice di conferma",
+    "emailBodyMessage": "Richiedo l'eliminazione del mio account e di tutti i dati associati."
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla privacy",
+    "lastUpdatedLabel": "Ultimo aggiornamento",
+    "lastUpdatedValue": "27 aprile 2026",
+    "applicationLabel": "Applicazione",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Sviluppatore",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Assistenza",
+    "intro": "Siamo qui per aiutarti. Scegli un argomento qui sotto e apriremo un'e-mail con l'oggetto già compilato, così potremo risponderti più rapidamente.",
+    "topics": {
+      "accountLabel": "Account e accesso",
+      "accountDescription": "Problemi di accesso, nome utente, modifiche al profilo",
+      "accountSubject": "Assistenza — Account e accesso",
+      "billingLabel": "Abbonamento e pagamenti",
+      "billingDescription": "Abbonamento Pro, pagamenti, rimborsi",
+      "billingSubject": "Assistenza — Abbonamento e pagamenti",
+      "bugLabel": "Segnala un bug",
+      "bugDescription": "Qualcosa non funziona come previsto",
+      "bugSubject": "Segnalazione bug",
+      "feedbackLabel": "Feedback e idee",
+      "feedbackDescription": "Richieste di funzionalità e feedback generali",
+      "feedbackSubject": "Feedback / Richiesta di funzionalità"
+    },
+    "directContact": "Oppure scrivici direttamente a",
+    "responseNote": "Solitamente rispondiamo entro 2 giorni lavorativi. Per richieste di eliminazione account, utilizza il nostro",
+    "deletionLink": "modulo dedicato",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Condizioni d'uso",
+    "lastUpdatedLabel": "Ultimo aggiornamento",
+    "lastUpdatedValue": "27 aprile 2026",
+    "applicationLabel": "Applicazione",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Sviluppatore",
+    "developerValue": "iCat Studios"
+  }
+}

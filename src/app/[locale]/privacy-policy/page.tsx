@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale } from "@/i18n/config";
+import { isLocale, localizedPathMap } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { FloatingParticles } from "@/components/FloatingParticles";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { BackToHome } from "../BackToHome";
-import { PolicyContentEn } from "@/content/privacy-policy/en";
-import { PolicyContentTr } from "@/content/privacy-policy/tr";
+import { PolicyContent } from "@/content/privacy-policy";
 
 export async function generateMetadata({
   params,
@@ -22,11 +21,7 @@ export async function generateMetadata({
     description: dict.metadata.privacyPolicyDescription,
     alternates: {
       canonical: `/${locale}/privacy-policy`,
-      languages: {
-        en: "/en/privacy-policy",
-        tr: "/tr/privacy-policy",
-        "x-default": "/en/privacy-policy",
-      },
+      languages: localizedPathMap("/privacy-policy"),
     },
   };
 }
@@ -44,7 +39,6 @@ export default async function PrivacyPolicy({
     <main className="relative min-h-screen px-4 py-12 sm:py-16">
       <FloatingParticles />
 
-      {/* Top right: language switcher */}
       <div className="absolute top-4 right-4 sm:top-6 sm:right-6 z-20">
         <LanguageSwitcher currentLocale={locale} />
       </div>
@@ -52,7 +46,6 @@ export default async function PrivacyPolicy({
       <div className="relative z-10 max-w-3xl mx-auto">
         <BackToHome locale={locale} label={dict.nav.backToHome} />
 
-        {/* Brand */}
         <div className="animate-slide-up mb-2">
           <h2 className="text-xl font-bold tracking-tight">
             <span className="animate-shimmer">Score</span>
@@ -60,14 +53,12 @@ export default async function PrivacyPolicy({
           </h2>
         </div>
 
-        {/* Title */}
         <div className="animate-slide-up-delay-1 mb-2">
           <h1 className="text-4xl sm:text-5xl font-bold text-text-primary">
             {dict.privacyPolicy.title}
           </h1>
         </div>
 
-        {/* Meta */}
         <div className="animate-slide-up-delay-2 mb-10 text-text-muted text-sm space-y-1">
           <p>
             <span className="text-text-secondary">
@@ -89,12 +80,15 @@ export default async function PrivacyPolicy({
           </p>
         </div>
 
-        {/* Content */}
         <article className="animate-slide-up-delay-3 glass-card p-6 sm:p-10 space-y-8 text-text-secondary text-[15px] leading-relaxed">
-          {locale === "tr" ? <PolicyContentTr /> : <PolicyContentEn />}
+          {locale !== "en" && (
+            <p className="text-text-muted text-xs italic border-l-2 border-primary/40 pl-3">
+              {dict.legalNote}
+            </p>
+          )}
+          <PolicyContent locale={locale} />
         </article>
 
-        {/* Footer */}
         <footer className="text-center mt-12 pb-6 text-text-muted text-xs">
           {dict.footer.copyright}
         </footer>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale } from "@/i18n/config";
+import { isLocale, localizedPathMap } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { FloatingParticles } from "@/components/FloatingParticles";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -21,11 +21,7 @@ export async function generateMetadata({
     description: dict.metadata.deleteAccountDescription,
     alternates: {
       canonical: `/${locale}/delete-account`,
-      languages: {
-        en: "/en/delete-account",
-        tr: "/tr/delete-account",
-        "x-default": "/en/delete-account",
-      },
+      languages: localizedPathMap("/delete-account"),
     },
   };
 }

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Bientôt disponible",
+    "comingSoonDescription": "Quelque chose de grand arrive. Es-tu prêt·e pour la chasse ?",
+    "deleteAccountTitle": "Supprimer le compte — ScoreHunter",
+    "deleteAccountDescription": "Demande la suppression de ton compte ScoreHunter et de toutes les données associées.",
+    "privacyPolicyTitle": "Politique de confidentialité — ScoreHunter",
+    "privacyPolicyDescription": "Découvre comment ScoreHunter collecte, utilise et protège tes données personnelles.",
+    "termsOfUseTitle": "Conditions d'utilisation — ScoreHunter",
+    "termsOfUseDescription": "Consulte les conditions qui régissent ton accès à ScoreHunter et son utilisation.",
+    "supportTitle": "Assistance — ScoreHunter",
+    "supportDescription": "Besoin d'aide avec ScoreHunter ? Contacte notre équipe d'assistance par e-mail."
+  },
+  "nav": {
+    "backToHome": "Retour à l'accueil"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Tous droits réservés."
+  },
+  "legalNote": "Ce document est fourni dans plusieurs langues pour ta commodité. En cas de conflit ou de divergence entre les versions linguistiques, la version anglaise prévaudra.",
+  "landing": {
+    "tagline": "Quelque chose de grand arrive.",
+    "subtagline": "Es-tu prêt·e pour la chasse ?",
+    "countdown": {
+      "days": "Jours",
+      "hours": "Heures",
+      "min": "Min",
+      "sec": "Sec"
+    },
+    "comingSoon": "Bientôt",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Supprimer le compte",
+    "description": "Pour demander la suppression de ton compte et de toutes les données associées, remplis le formulaire ci-dessous. Cela ouvrira ton client de messagerie avec un message pré-rempli adressé à notre équipe d'assistance.",
+    "username": "Nom d'utilisateur",
+    "usernamePlaceholder": "Saisis ton nom d'utilisateur",
+    "confirmCode": "Code de confirmation",
+    "confirmCodePlaceholder": "Saisis ton code de confirmation",
+    "confirmCodeNote": "Tu peux obtenir ton code de confirmation dans les paramètres de l'application.",
+    "submit": "Envoyer la demande",
+    "errorEmpty": "Veuillez remplir tous les champs.",
+    "info": "Ta demande sera traitée sous 30 jours. Tu recevras un e-mail de confirmation une fois ton compte supprimé.",
+    "emailSubject": "Demande de suppression de compte",
+    "emailBodyHeader": "Demande de suppression de compte",
+    "emailBodyUsernameLabel": "Nom d'utilisateur",
+    "emailBodyConfirmCodeLabel": "Code de confirmation",
+    "emailBodyMessage": "Je demande la suppression de mon compte et de toutes les données associées."
+  },
+  "privacyPolicy": {
+    "title": "Politique de confidentialité",
+    "lastUpdatedLabel": "Dernière mise à jour",
+    "lastUpdatedValue": "27 avril 2026",
+    "applicationLabel": "Application",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Développeur",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Assistance",
+    "intro": "Nous sommes là pour t'aider. Choisis un sujet ci-dessous et nous ouvrirons un e-mail avec l'objet pré-rempli pour te répondre plus rapidement.",
+    "topics": {
+      "accountLabel": "Compte & Connexion",
+      "accountDescription": "Problèmes de connexion, nom d'utilisateur, modifications de profil",
+      "accountSubject": "Assistance — Compte & Connexion",
+      "billingLabel": "Abonnement & Paiement",
+      "billingDescription": "Adhésion Pro, paiements, remboursements",
+      "billingSubject": "Assistance — Abonnement & Paiement",
+      "bugLabel": "Signaler un bug",
+      "bugDescription": "Quelque chose ne fonctionne pas comme prévu",
+      "bugSubject": "Rapport de bug",
+      "feedbackLabel": "Avis & Idées",
+      "feedbackDescription": "Demandes de fonctionnalités et retours généraux",
+      "feedbackSubject": "Avis / Demande de fonctionnalité"
+    },
+    "directContact": "Ou écris-nous directement à",
+    "responseNote": "Nous répondons généralement sous 2 jours ouvrés. Pour les demandes de suppression de compte, utilise plutôt notre",
+    "deletionLink": "formulaire dédié",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Conditions d'utilisation",
+    "lastUpdatedLabel": "Dernière mise à jour",
+    "lastUpdatedValue": "27 avril 2026",
+    "applicationLabel": "Application",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Développeur",
+    "developerValue": "iCat Studios"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Próximamente",
+    "comingSoonDescription": "Algo grande está por llegar. ¿Estás listo para la caza?",
+    "deleteAccountTitle": "Eliminar cuenta — ScoreHunter",
+    "deleteAccountDescription": "Solicita la eliminación de tu cuenta de ScoreHunter y de todos los datos asociados.",
+    "privacyPolicyTitle": "Política de privacidad — ScoreHunter",
+    "privacyPolicyDescription": "Descubre cómo ScoreHunter recopila, utiliza y protege tus datos personales.",
+    "termsOfUseTitle": "Términos de uso — ScoreHunter",
+    "termsOfUseDescription": "Consulta los Términos de uso que rigen tu acceso y uso de la aplicación ScoreHunter.",
+    "supportTitle": "Soporte — ScoreHunter",
+    "supportDescription": "¿Necesitas ayuda con ScoreHunter? Contacta a nuestro equipo de soporte por correo electrónico."
+  },
+  "nav": {
+    "backToHome": "Volver al inicio"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Todos los derechos reservados."
+  },
+  "legalNote": "Este documento se proporciona en varios idiomas para tu comodidad. En caso de conflicto o discrepancia entre versiones lingüísticas, prevalecerá la versión en inglés.",
+  "landing": {
+    "tagline": "Algo grande está por llegar.",
+    "subtagline": "¿Estás listo para la caza?",
+    "countdown": {
+      "days": "Días",
+      "hours": "Horas",
+      "min": "Min",
+      "sec": "Seg"
+    },
+    "comingSoon": "Próximamente",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Eliminar cuenta",
+    "description": "Para solicitar la eliminación de tu cuenta y de todos los datos asociados, completa el formulario a continuación. Esto abrirá tu cliente de correo con un mensaje predefinido para nuestro equipo de soporte.",
+    "username": "Nombre de usuario",
+    "usernamePlaceholder": "Introduce tu nombre de usuario",
+    "confirmCode": "Código de confirmación",
+    "confirmCodePlaceholder": "Introduce tu código de confirmación",
+    "confirmCodeNote": "Puedes obtener tu código de confirmación en los ajustes de la aplicación.",
+    "submit": "Enviar solicitud",
+    "errorEmpty": "Por favor, completa todos los campos.",
+    "info": "Tu solicitud se procesará en un plazo de 30 días. Recibirás un correo de confirmación cuando tu cuenta haya sido eliminada.",
+    "emailSubject": "Solicitud de eliminación de cuenta",
+    "emailBodyHeader": "Solicitud de eliminación de cuenta",
+    "emailBodyUsernameLabel": "Nombre de usuario",
+    "emailBodyConfirmCodeLabel": "Código de confirmación",
+    "emailBodyMessage": "Solicito la eliminación de mi cuenta y de todos los datos asociados."
+  },
+  "privacyPolicy": {
+    "title": "Política de privacidad",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdatedValue": "27 de abril de 2026",
+    "applicationLabel": "Aplicación",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Desarrollador",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Soporte",
+    "intro": "Estamos aquí para ayudarte. Elige un tema abajo y abriremos un correo con el asunto predefinido para responderte más rápido.",
+    "topics": {
+      "accountLabel": "Cuenta e inicio de sesión",
+      "accountDescription": "Problemas de acceso, nombre de usuario, cambios de perfil",
+      "accountSubject": "Soporte — Cuenta e inicio de sesión",
+      "billingLabel": "Suscripción y pagos",
+      "billingDescription": "Membresía Pro, pagos, reembolsos",
+      "billingSubject": "Soporte — Suscripción y pagos",
+      "bugLabel": "Reportar un error",
+      "bugDescription": "Algo no funciona como esperado",
+      "bugSubject": "Reporte de error",
+      "feedbackLabel": "Sugerencias e ideas",
+      "feedbackDescription": "Solicitudes de funciones y comentarios generales",
+      "feedbackSubject": "Sugerencia / Solicitud de función"
+    },
+    "directContact": "O escríbenos directamente a",
+    "responseNote": "Solemos responder en un plazo de 2 días laborables. Para solicitudes de eliminación de cuenta, utiliza nuestro",
+    "deletionLink": "formulario específico",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Términos de uso",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdatedValue": "27 de abril de 2026",
+    "applicationLabel": "Aplicación",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Desarrollador",
+    "developerValue": "iCat Studios"
+  }
+}

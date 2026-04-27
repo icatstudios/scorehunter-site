@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { isLocale } from "@/i18n/config";
+import { isLocale, localizedPathMap } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { FloatingParticles } from "@/components/FloatingParticles";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -23,11 +23,7 @@ export async function generateMetadata({
     description: dict.metadata.supportDescription,
     alternates: {
       canonical: `/${locale}/support`,
-      languages: {
-        en: "/en/support",
-        tr: "/tr/support",
-        "x-default": "/en/support",
-      },
+      languages: localizedPathMap("/support"),
     },
   };
 }

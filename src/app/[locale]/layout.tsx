@@ -1,7 +1,23 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { locales, isLocale, type Locale } from "@/i18n/config";
+import {
+  locales,
+  isLocale,
+  htmlLang,
+  localizedPathMap,
+} from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
+
+const ogLocale: Record<string, string> = {
+  en: "en_US",
+  tr: "tr_TR",
+  de: "de_DE",
+  fr: "fr_FR",
+  es: "es_ES",
+  it: "it_IT",
+  "pt-br": "pt_BR",
+  "pt-pt": "pt_PT",
+};
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -22,11 +38,7 @@ export async function generateMetadata({
     description: dict.metadata.comingSoonDescription,
     alternates: {
       canonical: `/${locale}`,
-      languages: {
-        en: "/en",
-        tr: "/tr",
-        "x-default": "/en",
-      },
+      languages: localizedPathMap("/"),
     },
     openGraph: {
       title: dict.metadata.comingSoonTitle,
@@ -34,7 +46,7 @@ export async function generateMetadata({
       url: `https://scorehunter.app/${locale}`,
       siteName: dict.metadata.siteName,
       type: "website",
-      locale: locale === "tr" ? "tr_TR" : "en_US",
+      locale: ogLocale[locale],
     },
     twitter: {
       card: "summary_large_image",
@@ -55,7 +67,7 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
 
   return (
-    <html lang={locale as Locale}>
+    <html lang={htmlLang[locale]}>
       <body className="antialiased">{children}</body>
     </html>
   );
