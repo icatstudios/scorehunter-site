@@ -66,6 +66,10 @@ export function PolicyContentEn() {
               <Strong>Gender</Strong> (optional — &quot;prefer not to
               say&quot; option available)
             </>,
+            <>
+              <Strong>Pro subscription status</Strong> — whether you have an
+              active Pro membership and its expiration date
+            </>,
           ]}
         />
 
@@ -89,7 +93,7 @@ export function PolicyContentEn() {
           ]}
         />
 
-        <SubHeading>1.4 Device Information</SubHeading>
+        <SubHeading>1.4 Device and App Information</SubHeading>
         <List
           items={[
             <>
@@ -99,19 +103,66 @@ export function PolicyContentEn() {
               <Strong>Operating system</Strong> (iOS/Android version)
             </>,
             <>
-              <Strong>App version</Strong>
+              <Strong>App version and platform</Strong> (version code,
+              version name, and whether you are on iOS or Android) — used to
+              provide version-specific support and identify compatibility
+              issues
+            </>,
+            <>
+              <Strong>Push notification token</Strong> — a unique token
+              issued by Apple Push Notification service (APNs) or Firebase
+              Cloud Messaging (FCM) so we can deliver match reminders, prize
+              notifications, and important announcements. You can disable
+              push notifications at any time from your device settings.
             </>,
           ]}
         />
 
-        <SubHeading>1.5 Automatically Collected Data</SubHeading>
+        <SubHeading>1.5 Advertising Identifier</SubHeading>
+        <p>
+          The App may collect your <Strong>Advertising Identifier</Strong>{" "}
+          (IDFA on iOS, GAID/Advertising ID on Android){" "}
+          <Strong>only with your explicit consent</Strong>:
+        </p>
         <List
           items={[
             <>
-              <Strong>IP address</Strong> (for security and regional content)
+              On <Strong>iOS</Strong>, you will see an{" "}
+              <Strong>App Tracking Transparency (ATT)</Strong> prompt the
+              first time you launch the App. If you choose &quot;Ask App Not
+              to Track,&quot; the IDFA is not collected and our advertising
+              partners receive only privacy-preserving information via
+              Apple&apos;s SKAdNetwork.
             </>,
             <>
-              <Strong>Error and crash reports</Strong> (for app stability)
+              On <Strong>Android</Strong>, the GAID is collected unless you
+              opt out via{" "}
+              <Strong>
+                Settings → Google → Ads → Delete advertising ID
+              </Strong>
+              .
+            </>,
+            <>
+              When collected, the Advertising Identifier is shared with our
+              advertising partners listed in section 3.4 for ad attribution
+              and frequency capping.
+            </>,
+          ]}
+        />
+
+        <SubHeading>1.6 Automatically Collected Data</SubHeading>
+        <List
+          items={[
+            <>
+              <Strong>IP address</Strong> — used for security purposes,
+              including rate limiting on authentication endpoints (e.g. up to
+              15 sign-in attempts per minute per IP) and abuse prevention. We
+              do not use IP addresses to build advertising profiles.
+            </>,
+            <>
+              <Strong>Error and crash reports</Strong> — used to monitor app
+              stability. Reports are filtered to exclude personally
+              identifiable information.
             </>,
           ]}
         />
@@ -128,16 +179,21 @@ export function PolicyContentEn() {
               sign in and use the App
             </>,
             <>
-              <Strong>Game experience</Strong>: To save your prediction lists,
-              calculate your scores, and build leaderboards
+              <Strong>Game experience</Strong>: To save your prediction
+              lists, calculate your scores, and build leaderboards
             </>,
             <>
               <Strong>Personalization</Strong>: To display your favorite team
               and country in leaderboards
             </>,
             <>
+              <Strong>Pro subscription management</Strong>: To verify your
+              subscription status and grant access to Pro features
+            </>,
+            <>
               <Strong>Communication</Strong>: To send important updates,
-              announcements, and prize notifications
+              announcements, prize notifications, and push notifications
+              about the App
             </>,
             <>
               <Strong>Prize delivery</Strong>: To send physical or digital
@@ -145,7 +201,13 @@ export function PolicyContentEn() {
             </>,
             <>
               <Strong>Account security</Strong>: To prevent fraudulent
-              accounts and verify user identity
+              accounts, verify user identity, and rate-limit suspicious
+              activity
+            </>,
+            <>
+              <Strong>Advertising</Strong>: To display advertisements within
+              the App and measure their performance — see section 8 for
+              details
             </>,
             <>
               <Strong>Analytics and improvement</Strong>: To analyze usage
@@ -161,19 +223,19 @@ export function PolicyContentEn() {
         <p>
           ScoreHunter{" "}
           <Strong>
-            does not sell, rent, or share your data with third parties for
-            commercial purposes
+            does not sell or rent your personal data to third parties
           </Strong>
-          .
+          . We share data only with the trusted service providers and
+          advertising partners listed below, and only to the extent necessary
+          to operate the App.
         </p>
-        <p>We only share your data in the following limited cases:</p>
 
         <SubHeading>3.1 Service Providers</SubHeading>
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — Server and database
-              hosting (Frankfurt, Germany)
+              <Strong>Amazon Web Services (AWS)</Strong> — Server and
+              database hosting (Frankfurt, Germany)
             </>,
             <>
               <Strong>API-Football</Strong> — Third-party service for match
@@ -183,7 +245,21 @@ export function PolicyContentEn() {
               <Strong>Apple</Strong> — Apple Sign-In authentication
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In authentication
+              <Strong>Google</Strong> — Google Sign-In authentication and
+              Firebase Cloud Messaging (push notifications on Android)
+            </>,
+            <>
+              <Strong>Apple StoreKit</Strong> — Processes Pro subscription
+              purchases and renewals on iOS
+            </>,
+            <>
+              <Strong>Google Play Billing</Strong> — Processes Pro
+              subscription purchases and renewals on Android
+            </>,
+            <>
+              <Strong>Sentry</Strong> — Backend error and exception
+              monitoring. Personally identifiable information filtering is
+              enabled (no email, name, or user content is sent to Sentry).
             </>,
           ]}
         />
@@ -211,11 +287,12 @@ export function PolicyContentEn() {
             "Your favorite team",
             "Trophies you've earned",
             "Your prediction scores and statistics",
+            "A Pro membership badge if you have an active subscription",
           ]}
         />
         <p>
-          The following information is <Strong>never shown in the App</Strong>
-          :
+          The following information is{" "}
+          <Strong>never shown in the App</Strong>:
         </p>
         <List
           items={[
@@ -224,6 +301,64 @@ export function PolicyContentEn() {
             "Your date of birth",
             "Your gender",
             "Your device information",
+            "Your advertising identifier",
+            "Your subscription expiration date",
+          ]}
+        />
+
+        <SubHeading>3.4 Advertising Partners</SubHeading>
+        <p>
+          The App displays advertisements through several advertising networks
+          (sometimes called <em>mediation</em>). When you have consented to
+          tracking, your Advertising Identifier and limited technical data may
+          be shared with the partners below for ad delivery, attribution, and
+          frequency capping. Each partner has its own privacy policy:
+        </p>
+        <List
+          items={[
+            <>
+              <Strong>Google AdMob</Strong> &amp; Google User Messaging
+              Platform —{" "}
+              <Anchor href="https://policies.google.com/privacy">
+                policies.google.com/privacy
+              </Anchor>
+            </>,
+            <>
+              <Strong>AppLovin</Strong> —{" "}
+              <Anchor href="https://www.applovin.com/privacy/">
+                applovin.com/privacy
+              </Anchor>
+            </>,
+            <>
+              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Anchor href="https://liftoff.io/privacy-policy/">
+                liftoff.io/privacy-policy
+              </Anchor>
+            </>,
+            <>
+              <Strong>IronSource</Strong> —{" "}
+              <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
+                developers.is.com/ironsource-mobile/general/privacy-information
+              </Anchor>
+            </>,
+            <>
+              <Strong>Unity Ads</Strong> —{" "}
+              <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
+                unity.com/legal/game-player-and-app-user-privacy-policy
+              </Anchor>
+            </>,
+            <>
+              <Strong>Meta Audience Network</Strong> —{" "}
+              <Anchor href="https://www.facebook.com/about/privacy">
+                facebook.com/about/privacy
+              </Anchor>
+            </>,
+            <>
+              <Strong>InMobi</Strong> —{" "}
+              <Anchor href="https://www.inmobi.com/privacy-policy">
+                inmobi.com/privacy-policy
+              </Anchor>
+            </>,
           ]}
         />
       </Section>
@@ -252,9 +387,9 @@ export function PolicyContentEn() {
               signed in for 2 years are automatically deleted
             </>,
             <>
-              <Strong>Deleted accounts</Strong>: When you delete your account,
-              your personal data is permanently deleted within 30 days
-              (including backups)
+              <Strong>Deleted accounts</Strong>: When you delete your
+              account, your personal data is permanently deleted within 30
+              days (including backups)
             </>,
             <>
               <Strong>Anonymous statistics</Strong>: Anonymous aggregate
@@ -293,11 +428,17 @@ export function PolicyContentEn() {
               your data is processed
             </>,
             <>
-              <Strong>Right to data portability</Strong>: Receive your data in
-              a machine-readable format
+              <Strong>Right to data portability</Strong>: Receive your data
+              in a machine-readable format
             </>,
             <>
               <Strong>Right to object</Strong>: Object to data processing
+            </>,
+            <>
+              <Strong>Right to withdraw consent</Strong> (advertising
+              tracking): You may revoke ATT permission on iOS via{" "}
+              <Strong>Settings → Privacy &amp; Security → Tracking</Strong>,
+              or reset/delete your advertising ID on Android at any time
             </>,
           ]}
         />
@@ -331,8 +472,15 @@ export function PolicyContentEn() {
           ScoreHunter is{" "}
           <Strong>not intended for users under the age of 13</Strong>. We do
           not knowingly collect personal data from children under 13. If we
-          become aware that we have collected personal data from a child under
-          13, we will delete that data as soon as possible.
+          become aware that we have collected personal data from a child
+          under 13, we will delete that data as soon as possible.
+        </p>
+        <p>
+          For users between 13 and 18, we recommend reviewing this Privacy
+          Policy together with a parent or guardian. Advertising shown in the
+          App is configured with{" "}
+          <Strong>non-personalized / family-safe settings</Strong> for users
+          who appear to be minors based on the date of birth provided.
         </p>
         <p>
           Parents or guardians who believe their child is using the App can
@@ -361,6 +509,11 @@ export function PolicyContentEn() {
               managed with secure, temporary tokens
             </>,
             <>
+              <Strong>Rate limiting</Strong>: Authentication and sensitive
+              endpoints are rate-limited per IP to prevent brute-force and
+              abuse
+            </>,
+            <>
               <Strong>Access control</Strong>: Database access is limited to
               authorized system accounts only
             </>,
@@ -378,11 +531,64 @@ export function PolicyContentEn() {
 
       <Divider />
 
-      <Section title="8. Cookies and Tracking Technologies">
+      <Section title="8. Advertising and Tracking">
+        <SubHeading>8.1 Advertising in the App</SubHeading>
+        <p>
+          ScoreHunter is supported in part by advertising. The App displays
+          ads through <Strong>Google AdMob</Strong> and additional networks
+          via mediation (AppLovin, Liftoff/Vungle, IronSource, Unity Ads,
+          Meta Audience Network, InMobi). See section 3.4 for the full
+          partner list.
+        </p>
+        <p>
+          Ads may include banner, interstitial, and rewarded formats. Pro
+          members may experience a reduced-ad or ad-free experience depending
+          on the subscription tier.
+        </p>
+
+        <SubHeading>8.2 App Tracking Transparency (iOS)</SubHeading>
+        <p>
+          On iOS 14.5 and later, Apple requires us to ask for your permission
+          before tracking you across apps and websites. The first time you
+          launch the App you will see an{" "}
+          <Strong>App Tracking Transparency</Strong> prompt:
+        </p>
+        <List
+          items={[
+            <>
+              If you select <Strong>&quot;Allow&quot;</Strong>, your IDFA may
+              be shared with our advertising partners for personalized ads,
+              attribution, and frequency capping.
+            </>,
+            <>
+              If you select{" "}
+              <Strong>&quot;Ask App Not to Track&quot;</Strong>, your IDFA is
+              not collected. We use Apple&apos;s privacy-preserving{" "}
+              <Strong>SKAdNetwork</Strong> framework for attribution, and ads
+              you see will be non-personalized.
+            </>,
+          ]}
+        />
+        <p>
+          You can change your decision at any time in{" "}
+          <Strong>Settings → Privacy &amp; Security → Tracking</Strong>.
+        </p>
+
+        <SubHeading>8.3 Android Advertising ID</SubHeading>
+        <p>
+          On Android, your Google Advertising ID (GAID) may be used by our
+          advertising partners. You can <Strong>reset</Strong> or{" "}
+          <Strong>delete</Strong> your advertising ID at any time via{" "}
+          <Strong>Settings → Google → Ads</Strong>. When deleted, ads will be
+          non-personalized.
+        </p>
+
+        <SubHeading>8.4 Cookies</SubHeading>
         <p>
           The ScoreHunter mobile application{" "}
-          <Strong>does not use cookies</Strong>. No third-party analytics or
-          advertising SDKs are integrated for user tracking.
+          <Strong>does not use browser cookies</Strong>. Tracking on mobile
+          is governed by the platform-level mechanisms described above, not
+          cookies.
         </p>
       </Section>
 
@@ -391,8 +597,10 @@ export function PolicyContentEn() {
       <Section title="9. International Data Transfers">
         <p>
           Your data may be processed outside of your home country (AWS
-          Frankfurt — European Union). These transfers comply with the
-          security standards required by GDPR and KVKK.
+          Frankfurt — European Union, and the data centers of our advertising
+          partners listed in section 3.4, which may be located outside the
+          EU). These transfers comply with the security standards required by
+          GDPR and KVKK.
         </p>
       </Section>
 
@@ -401,9 +609,9 @@ export function PolicyContentEn() {
       <Section title="10. Changes to This Policy">
         <p>
           We may update this Privacy Policy from time to time. Changes take
-          effect once published on this page, and the &quot;Last updated&quot;
-          date at the top will be refreshed. Significant changes will be
-          announced via in-app notification.
+          effect once published on this page, and the &quot;Last
+          updated&quot; date at the top will be refreshed. Significant
+          changes will be announced via in-app notification.
         </p>
       </Section>
 
@@ -411,7 +619,8 @@ export function PolicyContentEn() {
 
       <Section title="11. Contact">
         <p>
-          For questions about this Privacy Policy or data processing requests:
+          For questions about this Privacy Policy or data processing
+          requests:
         </p>
         <div className="space-y-1">
           <p>

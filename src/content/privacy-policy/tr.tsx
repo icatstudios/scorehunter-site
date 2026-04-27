@@ -16,10 +16,13 @@ export function PolicyContentTr() {
         olarak, ScoreHunter mobil uygulamasını (&quot;Uygulama&quot;)
         kullanan kullanıcılarımızın (&quot;siz&quot;, &quot;sizin&quot;)
         gizliliğine önem veriyoruz. Bu Gizlilik Politikası, uygulamayı
-        kullanırken hangi kişisel verileri topladığımızı, nasıl kullandığımızı,
-        kiminle paylaştığımızı ve haklarınızı açıklar.
+        kullanırken hangi kişisel verileri topladığımızı, nasıl
+        kullandığımızı, kiminle paylaştığımızı ve haklarınızı açıklar.
       </p>
-      <p>Uygulamayı kullanarak bu Gizlilik Politikası&apos;nı kabul etmiş olursunuz.</p>
+      <p>
+        Uygulamayı kullanarak bu Gizlilik Politikası&apos;nı kabul etmiş
+        olursunuz.
+      </p>
 
       <Divider />
 
@@ -27,7 +30,8 @@ export function PolicyContentTr() {
         <SubHeading>1.1 Hesap Bilgileri</SubHeading>
         <p>
           Apple ile Giriş Yap veya Google ile Giriş Yap özelliklerini
-          kullandığınızda, aşağıdaki bilgileri Apple veya Google&apos;dan alırız:
+          kullandığınızda, aşağıdaki bilgileri Apple veya Google&apos;dan
+          alırız:
         </p>
         <List
           items={[
@@ -40,8 +44,8 @@ export function PolicyContentTr() {
               sırasında, Google her giriş sırasında sağlar)
             </>,
             <>
-              <Strong>Benzersiz kimlik (Provider User ID)</Strong> — hesabınızı
-              tanımlamak için
+              <Strong>Benzersiz kimlik (Provider User ID)</Strong> —
+              hesabınızı tanımlamak için
             </>,
           ]}
         />
@@ -67,6 +71,10 @@ export function PolicyContentTr() {
               <Strong>Cinsiyet</Strong> (opsiyonel — &quot;belirtmek
               istemiyorum&quot; seçeneği mevcuttur)
             </>,
+            <>
+              <Strong>Pro abonelik durumu</Strong> — aktif bir Pro
+              üyeliğinizin olup olmadığı ve son kullanma tarihi
+            </>,
           ]}
         />
 
@@ -90,7 +98,7 @@ export function PolicyContentTr() {
           ]}
         />
 
-        <SubHeading>1.4 Cihaz Bilgileri</SubHeading>
+        <SubHeading>1.4 Cihaz ve Uygulama Bilgileri</SubHeading>
         <List
           items={[
             <>
@@ -101,20 +109,65 @@ export function PolicyContentTr() {
               <Strong>İşletim sistemi bilgisi</Strong> (iOS/Android sürümü)
             </>,
             <>
-              <Strong>Uygulama sürümü</Strong>
+              <Strong>Uygulama sürümü ve platform</Strong> (sürüm kodu, sürüm
+              adı ve iOS mu Android mi olduğu) — sürüme özel destek sağlamak
+              ve uyumluluk sorunlarını tespit etmek için kullanılır
+            </>,
+            <>
+              <Strong>Push bildirim tokenı</Strong> — Apple Push Notification
+              service (APNs) veya Firebase Cloud Messaging (FCM) tarafından
+              verilen benzersiz bir token; maç hatırlatmaları, ödül
+              bildirimleri ve önemli duyuruları size iletmek için
+              kullanılır. Push bildirimlerini cihaz ayarlarınızdan dilediğiniz
+              zaman kapatabilirsiniz.
             </>,
           ]}
         />
 
-        <SubHeading>1.5 Otomatik Toplanan Veriler</SubHeading>
+        <SubHeading>1.5 Reklam Tanımlayıcısı</SubHeading>
+        <p>
+          Uygulama, <Strong>yalnızca açık rızanızla</Strong>{" "}
+          <Strong>Reklam Tanımlayıcınızı</Strong> (iOS&apos;ta IDFA,
+          Android&apos;de GAID/Reklam Kimliği) toplayabilir:
+        </p>
         <List
           items={[
             <>
-              <Strong>IP adresi</Strong> (güvenlik ve bölgesel içerik için)
+              <Strong>iOS</Strong>&apos;ta, Uygulamayı ilk kez başlattığınızda{" "}
+              <Strong>App Tracking Transparency (ATT)</Strong> izin penceresi
+              gösterilir. &quot;Uygulamanın İzlememesini İste&quot; seçeneğini
+              seçerseniz IDFA toplanmaz ve reklam ortaklarımız yalnızca
+              Apple&apos;ın gizliliği koruyan SKAdNetwork bilgisini alır.
             </>,
             <>
-              <Strong>Hata ve çökme raporları</Strong> (uygulama stabilitesi
-              için)
+              <Strong>Android</Strong>&apos;de, GAID&apos;i{" "}
+              <Strong>
+                Ayarlar → Google → Reklamlar → Reklam kimliğini sil
+              </Strong>{" "}
+              yolundan kaldırmadığınız sürece toplanır.
+            </>,
+            <>
+              Toplandığında, Reklam Tanımlayıcısı reklam atıfı ve frekans
+              sınırlandırma için 3.4 numaralı bölümde listelenen reklam
+              ortaklarımızla paylaşılır.
+            </>,
+          ]}
+        />
+
+        <SubHeading>1.6 Otomatik Toplanan Veriler</SubHeading>
+        <List
+          items={[
+            <>
+              <Strong>IP adresi</Strong> — kimlik doğrulama uç noktalarında
+              hız sınırlandırması (örn. IP başına dakikada en fazla 15 giriş
+              denemesi) ve kötüye kullanım önleme dahil güvenlik amaçlarıyla
+              kullanılır. IP adreslerini reklam profili oluşturmak için
+              kullanmıyoruz.
+            </>,
+            <>
+              <Strong>Hata ve çökme raporları</Strong> — uygulama
+              stabilitesini izlemek için kullanılır. Raporlar, kişisel
+              tanımlayıcı bilgileri içermeyecek şekilde filtrelenir.
             </>,
           ]}
         />
@@ -139,20 +192,31 @@ export function PolicyContentTr() {
               sıralamalarda göstermek
             </>,
             <>
-              <Strong>İletişim</Strong>: Önemli güncellemeler, duyurular ve
-              ödül bildirimleri göndermek
+              <Strong>Pro abonelik yönetimi</Strong>: Abonelik durumunuzu
+              doğrulamak ve Pro özelliklerine erişiminizi sağlamak
+            </>,
+            <>
+              <Strong>İletişim</Strong>: Önemli güncellemeler, duyurular,
+              ödül bildirimleri ve uygulama hakkında push bildirimleri
+              göndermek
             </>,
             <>
               <Strong>Ödül teslimi</Strong>: Yarışma kazananlarına fiziksel
               veya dijital ödül göndermek (ad-soyad ve e-posta gerektirir)
             </>,
             <>
-              <Strong>Hesap güvenliği</Strong>: Sahte hesapları önlemek ve
-              kullanıcı kimliğini doğrulamak
+              <Strong>Hesap güvenliği</Strong>: Sahte hesapları önlemek,
+              kullanıcı kimliğini doğrulamak ve şüpheli aktivitelere hız
+              sınırı uygulamak
             </>,
             <>
-              <Strong>Analitik ve iyileştirme</Strong>: Kullanım istatistiklerini
-              anonim olarak analiz etmek ve uygulamayı geliştirmek
+              <Strong>Reklamcılık</Strong>: Uygulama içinde reklam göstermek
+              ve performansını ölçmek — ayrıntılar için 8. bölüme bakın
+            </>,
+            <>
+              <Strong>Analitik ve iyileştirme</Strong>: Kullanım
+              istatistiklerini anonim olarak analiz etmek ve uygulamayı
+              geliştirmek
             </>,
           ]}
         />
@@ -162,13 +226,14 @@ export function PolicyContentTr() {
 
       <Section title="3. Verilerinizi Kimlerle Paylaşıyoruz?">
         <p>
-          ScoreHunter kullanıcı verilerini{" "}
+          ScoreHunter,{" "}
           <Strong>
-            satmaz, kiralamaz veya ticari amaçla üçüncü taraflarla paylaşmaz
+            kişisel verilerinizi üçüncü taraflara satmaz veya kiralamaz
           </Strong>
-          .
+          . Verilerinizi yalnızca aşağıda listelenen güvenilir hizmet
+          sağlayıcılar ve reklam ortakları ile, yalnızca uygulamanın
+          işletilmesi için gerekli olduğu ölçüde paylaşırız.
         </p>
-        <p>Verilerinizi yalnızca aşağıdaki sınırlı durumlarda paylaşırız:</p>
 
         <SubHeading>3.1 Hizmet Sağlayıcılar</SubHeading>
         <List
@@ -185,7 +250,22 @@ export function PolicyContentTr() {
               <Strong>Apple</Strong> — Apple Sign-In kimlik doğrulama
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In kimlik doğrulama
+              <Strong>Google</Strong> — Google Sign-In kimlik doğrulama ve
+              Firebase Cloud Messaging (Android&apos;de push bildirimleri)
+            </>,
+            <>
+              <Strong>Apple StoreKit</Strong> — iOS&apos;ta Pro abonelik
+              satın alımlarını ve yenilemelerini işler
+            </>,
+            <>
+              <Strong>Google Play Billing</Strong> — Android&apos;de Pro
+              abonelik satın alımlarını ve yenilemelerini işler
+            </>,
+            <>
+              <Strong>Sentry</Strong> — Backend hata ve istisna izleme
+              servisi. Kişisel tanımlayıcı bilgi filtreleme aktiftir
+              (Sentry&apos;ye e-posta, isim veya kullanıcı içeriği
+              gönderilmez).
             </>,
           ]}
         />
@@ -212,6 +292,7 @@ export function PolicyContentTr() {
             "Favori takımınız",
             "Kazandığınız kupalar",
             "Tahmin puanlarınız ve istatistikleriniz",
+            "Aktif bir aboneliğiniz varsa Pro üyelik rozeti",
           ]}
         />
         <p>
@@ -225,6 +306,65 @@ export function PolicyContentTr() {
             "Doğum tarihiniz",
             "Cinsiyetiniz",
             "Cihaz bilgileriniz",
+            "Reklam tanımlayıcınız",
+            "Aboneliğinizin son kullanma tarihi",
+          ]}
+        />
+
+        <SubHeading>3.4 Reklam Ortakları</SubHeading>
+        <p>
+          Uygulama, çeşitli reklam ağları üzerinden (zaman zaman{" "}
+          <em>mediation</em> olarak adlandırılan yöntemle) reklam
+          göstermektedir. Takip edilmeye onay verdiğinizde, Reklam
+          Tanımlayıcınız ve sınırlı teknik veri reklam sunumu, atıf ve
+          frekans sınırlandırma amacıyla aşağıdaki ortaklarla paylaşılabilir.
+          Her ortağın kendi gizlilik politikası vardır:
+        </p>
+        <List
+          items={[
+            <>
+              <Strong>Google AdMob</Strong> &amp; Google User Messaging
+              Platform —{" "}
+              <Anchor href="https://policies.google.com/privacy">
+                policies.google.com/privacy
+              </Anchor>
+            </>,
+            <>
+              <Strong>AppLovin</Strong> —{" "}
+              <Anchor href="https://www.applovin.com/privacy/">
+                applovin.com/privacy
+              </Anchor>
+            </>,
+            <>
+              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Anchor href="https://liftoff.io/privacy-policy/">
+                liftoff.io/privacy-policy
+              </Anchor>
+            </>,
+            <>
+              <Strong>IronSource</Strong> —{" "}
+              <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
+                developers.is.com/ironsource-mobile/general/privacy-information
+              </Anchor>
+            </>,
+            <>
+              <Strong>Unity Ads</Strong> —{" "}
+              <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
+                unity.com/legal/game-player-and-app-user-privacy-policy
+              </Anchor>
+            </>,
+            <>
+              <Strong>Meta Audience Network</Strong> —{" "}
+              <Anchor href="https://www.facebook.com/about/privacy">
+                facebook.com/about/privacy
+              </Anchor>
+            </>,
+            <>
+              <Strong>InMobi</Strong> —{" "}
+              <Anchor href="https://www.inmobi.com/privacy-policy">
+                inmobi.com/privacy-policy
+              </Anchor>
+            </>,
           ]}
         />
       </Section>
@@ -284,10 +424,8 @@ export function PolicyContentTr() {
               düzeltilmesini isteme
             </>,
             <>
-              <Strong>
-                Silme hakkı (&quot;unutulma hakkı&quot;)
-              </Strong>
-              : Verilerinizin silinmesini talep etme
+              <Strong>Silme hakkı (&quot;unutulma hakkı&quot;)</Strong>:
+              Verilerinizin silinmesini talep etme
             </>,
             <>
               <Strong>İşlemeyi kısıtlama hakkı</Strong>: Verilerinizin belirli
@@ -299,6 +437,15 @@ export function PolicyContentTr() {
             </>,
             <>
               <Strong>İtiraz hakkı</Strong>: Veri işlemeye itiraz etme
+            </>,
+            <>
+              <Strong>Onayı geri çekme hakkı</Strong> (reklam takibi):
+              iOS&apos;ta ATT iznini{" "}
+              <Strong>
+                Ayarlar → Gizlilik ve Güvenlik → İzleme
+              </Strong>{" "}
+              yolundan dilediğiniz zaman geri alabilir veya
+              Android&apos;de reklam kimliğinizi sıfırlayıp silebilirsiniz
             </>,
           ]}
         />
@@ -336,6 +483,16 @@ export function PolicyContentTr() {
           mümkün olan en kısa sürede sileriz.
         </p>
         <p>
+          13 ile 18 yaş arası kullanıcılara, bu Gizlilik Politikası&apos;nı
+          ebeveyn veya vasileri ile birlikte gözden geçirmelerini öneririz.
+          Doğum tarihi bilgisine göre küçük yaşta görünen kullanıcılara
+          uygulama içinde gösterilen reklamlar{" "}
+          <Strong>
+            kişiselleştirilmemiş / aile dostu ayarlarla
+          </Strong>{" "}
+          yapılandırılır.
+        </p>
+        <p>
           Ebeveynler veya velayet sahipleri, çocuklarının bu uygulamayı
           kullandığını düşünüyorlarsa bizimle iletişime geçebilirler.
         </p>
@@ -363,6 +520,11 @@ export function PolicyContentTr() {
               ve geçici token&apos;larla yönetilir
             </>,
             <>
+              <Strong>Hız sınırlandırma</Strong>: Kimlik doğrulama ve hassas
+              uç noktalar, brute-force ve kötüye kullanımı önlemek için IP
+              başına hız sınırlandırılır
+            </>,
+            <>
               <Strong>Erişim kontrolü</Strong>: Veritabanı erişimi yalnızca
               yetkilendirilmiş sistem hesaplarıyla yapılır
             </>,
@@ -380,11 +542,68 @@ export function PolicyContentTr() {
 
       <Divider />
 
-      <Section title="8. Çerezler ve Takip Teknolojileri">
+      <Section title="8. Reklamcılık ve İzleme">
+        <SubHeading>8.1 Uygulama İçi Reklamlar</SubHeading>
         <p>
-          ScoreHunter mobil uygulaması <Strong>çerez kullanmaz</Strong>.
-          Kullanıcı takibi için hiçbir üçüncü taraf analitik veya reklam
-          SDK&apos;sı entegre edilmemiştir.
+          ScoreHunter, kısmen reklam gelirleri ile desteklenmektedir. Uygulama{" "}
+          <Strong>Google AdMob</Strong> ve mediation üzerinden ek ağlar
+          aracılığıyla reklam gösterir (AppLovin, Liftoff/Vungle, IronSource,
+          Unity Ads, Meta Audience Network, InMobi). Tam ortak listesi için
+          3.4 numaralı bölüme bakın.
+        </p>
+        <p>
+          Reklamlar banner, geçiş (interstitial) ve ödüllü (rewarded)
+          formatlarında olabilir. Pro üyeler, abonelik kademesine bağlı
+          olarak azaltılmış reklam veya reklamsız bir deneyim yaşayabilir.
+        </p>
+
+        <SubHeading>8.2 App Tracking Transparency (iOS)</SubHeading>
+        <p>
+          iOS 14.5 ve sonrası sürümlerde Apple, sizi uygulamalar ve web
+          siteleri arasında izleyebilmemiz için izninizi istemekle bizi
+          yükümlü tutar. Uygulamayı ilk kez başlattığınızda{" "}
+          <Strong>App Tracking Transparency</Strong> izin penceresi
+          gösterilir:
+        </p>
+        <List
+          items={[
+            <>
+              <Strong>&quot;İzin Ver&quot;</Strong> seçerseniz, IDFA&apos;nız
+              kişiselleştirilmiş reklamlar, atıf ve frekans sınırlandırma
+              için reklam ortaklarımızla paylaşılabilir.
+            </>,
+            <>
+              <Strong>&quot;Uygulamanın İzlememesini İste&quot;</Strong>{" "}
+              seçerseniz, IDFA toplanmaz. Atıf için Apple&apos;ın gizliliği
+              koruyan <Strong>SKAdNetwork</Strong> çerçevesini kullanırız ve
+              gördüğünüz reklamlar kişiselleştirilmemiş olur.
+            </>,
+          ]}
+        />
+        <p>
+          Kararınızı dilediğiniz zaman{" "}
+          <Strong>
+            Ayarlar → Gizlilik ve Güvenlik → İzleme
+          </Strong>{" "}
+          yolundan değiştirebilirsiniz.
+        </p>
+
+        <SubHeading>8.3 Android Reklam Kimliği</SubHeading>
+        <p>
+          Android&apos;de, Google Reklam Kimliğiniz (GAID) reklam ortaklarımız
+          tarafından kullanılabilir. Reklam kimliğinizi dilediğiniz zaman{" "}
+          <Strong>Ayarlar → Google → Reklamlar</Strong> yolundan{" "}
+          <Strong>sıfırlayabilir</Strong> veya{" "}
+          <Strong>silebilirsiniz</Strong>. Silindiğinde, gösterilen reklamlar
+          kişiselleştirilmemiş olur.
+        </p>
+
+        <SubHeading>8.4 Çerezler</SubHeading>
+        <p>
+          ScoreHunter mobil uygulaması{" "}
+          <Strong>tarayıcı çerezi kullanmaz</Strong>. Mobilde izleme,
+          çerezler değil yukarıda açıklanan platform düzeyindeki
+          mekanizmalarla yönetilir.
         </p>
       </Section>
 
@@ -392,9 +611,10 @@ export function PolicyContentTr() {
 
       <Section title="9. Uluslararası Veri Aktarımı">
         <p>
-          Verileriniz Türkiye dışında (AWS Frankfurt — Avrupa Birliği)
-          işlenebilir. Bu aktarımlar, GDPR ve KVKK&apos;nın gerekli güvenlik
-          standartlarına uygundur.
+          Verileriniz Türkiye dışında (AWS Frankfurt — Avrupa Birliği ve 3.4
+          bölümünde listelenen, AB dışında bulunabilen reklam ortaklarımızın
+          veri merkezleri) işlenebilir. Bu aktarımlar, GDPR ve KVKK&apos;nın
+          gerekli güvenlik standartlarına uygundur.
         </p>
       </Section>
 
