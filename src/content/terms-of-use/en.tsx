@@ -279,12 +279,57 @@ export function TermsContentEn() {
           ]}
         />
 
-        <SubHeading>5.2 Third-Party Content</SubHeading>
+        <SubHeading>5.2 Third-Party Content and Trademarks</SubHeading>
         <p>
-          Football team logos, player photos, league names, and match data
-          displayed in the App belong to the respective clubs, leagues, and
-          the API-Football service. This content is used for educational and
-          entertainment purposes.
+          The App displays third-party content, including but not limited to
+          football match data, team and league names, player names, and
+          visual assets such as team and league logos. This content is
+          provided through our data partner, API-Football, and is the
+          property of its respective owners — including football clubs,
+          leagues, federations, and other rights holders. ScoreHunter does
+          not claim ownership of any third-party trademarks, logos, or
+          copyrighted material displayed in the App.
+        </p>
+        <p>
+          ScoreHunter is{" "}
+          <Strong>
+            not affiliated with, endorsed by, sponsored by, or in any way
+            officially connected to
+          </Strong>{" "}
+          any league, federation, club, competition, or organization
+          referenced or displayed in the App. All third-party names, logos,
+          and trademarks are used solely for identification and descriptive
+          purposes under the principle of nominative fair use.
+        </p>
+        <p>You agree that:</p>
+        <List
+          items={[
+            <>
+              You will <Strong>not</Strong> extract, copy, redistribute, or
+              otherwise reuse third-party content displayed in the App
+              outside of normal personal use;
+            </>,
+            <>
+              You will <Strong>not</Strong> use the App to infringe on the
+              intellectual property rights of any third party;
+            </>,
+            <>
+              Any <Strong>commercial use</Strong> of third-party content
+              displayed in the App requires you to obtain your own license
+              or authorization directly from the relevant rights holder.
+            </>,
+          ]}
+        />
+        <p>
+          If you are a rights holder and wish to report unauthorized use of
+          your trademark or copyrighted material within the App, please
+          contact us at{" "}
+          <Anchor href="mailto:support@scorehunter.app">
+            support@scorehunter.app
+          </Anchor>
+          . We will respond to legitimate takedown requests within{" "}
+          <Strong>thirty (30) days</Strong> and remove or replace the
+          disputed content where appropriate.
         </p>
 
         <SubHeading>5.3 User Content</SubHeading>
@@ -322,15 +367,25 @@ export function TermsContentEn() {
           ]}
         />
 
-        <SubHeading>6.2 Match Data</SubHeading>
+        <SubHeading>6.2 Match Data and Third-Party Content</SubHeading>
         <p>
           Match data, scores, lineups, minutes, and statistics are obtained
           from a{" "}
           <Strong>third-party API service (API-Football)</Strong>. The
           Developer <Strong>cannot be held responsible</Strong> for the
-          accuracy, currency, or completeness of this data. By using the App,
-          the user accepts that delays, errors, or omissions may occur in the
-          data.
+          accuracy, currency, or completeness of this data. By using the
+          App, the user accepts that delays, errors, or omissions may occur
+          in the data.
+        </p>
+        <p>
+          To the maximum extent permitted by law, ScoreHunter and iCat
+          Studios make <Strong>no warranty</Strong> regarding the accuracy,
+          completeness, or timeliness of match data, team information,
+          statistics, or any other third-party content displayed within the
+          App. All such content is provided &quot;
+          <Strong>as is</Strong>&quot; through our data partners, and
+          ScoreHunter shall not be liable for any errors, omissions, or
+          delays in such data.
         </p>
 
         <SubHeading>6.3 Limitation of Liability</SubHeading>

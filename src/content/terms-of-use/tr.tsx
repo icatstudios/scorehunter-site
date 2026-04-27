@@ -284,12 +284,60 @@ export function TermsContentTr() {
           ]}
         />
 
-        <SubHeading>5.2 Üçüncü Taraf İçerikleri</SubHeading>
+        <SubHeading>5.2 Üçüncü Taraf İçerikleri ve Markalar</SubHeading>
         <p>
-          Uygulamada gösterilen futbol takım logoları, oyuncu fotoğrafları, lig
-          isimleri ve maç verileri ilgili kulüplere, liglere ve API-Football
-          hizmetine aittir. Bu içerikler eğitim ve eğlence amaçlı
-          kullanılmaktadır.
+          Uygulama; futbol maç verileri, takım ve lig isimleri, oyuncu
+          isimleri ve takım/lig logoları gibi görsel materyaller dahil
+          ancak bunlarla sınırlı olmamak üzere üçüncü taraf içerikleri
+          göstermektedir. Bu içerik, veri ortağımız API-Football
+          aracılığıyla sağlanmakta olup futbol kulüpleri, ligler,
+          federasyonlar ve diğer hak sahipleri dahil ilgili sahiplerinin
+          mülkiyetindedir. ScoreHunter, Uygulamada gösterilen hiçbir üçüncü
+          taraf markası, logosu veya telif hakkıyla korunan materyali
+          üzerinde mülkiyet iddiasında bulunmaz.
+        </p>
+        <p>
+          ScoreHunter, Uygulamada referans verilen veya gösterilen herhangi
+          bir lig, federasyon, kulüp, turnuva veya organizasyon ile{" "}
+          <Strong>
+            bağlantılı, tarafından onaylanan, sponsorluğu altında veya
+            resmi olarak ilişkili değildir
+          </Strong>
+          . Tüm üçüncü taraf isimleri, logoları ve markaları yalnızca
+          tanımlama ve betimleme amacıyla, nominative fair use ilkesi
+          çerçevesinde kullanılmaktadır.
+        </p>
+        <p>Aşağıdakileri kabul edersiniz:</p>
+        <List
+          items={[
+            <>
+              Uygulamada gösterilen üçüncü taraf içeriğini olağan kişisel
+              kullanım dışında <Strong>çıkarmayacak</Strong>,
+              kopyalamayacak, yeniden dağıtmayacak veya başka şekilde
+              yeniden kullanmayacaksınız;
+            </>,
+            <>
+              Uygulamayı, herhangi bir üçüncü tarafın fikri mülkiyet
+              haklarını <Strong>ihlal etmek için kullanmayacaksınız</Strong>;
+            </>,
+            <>
+              Uygulamada gösterilen üçüncü taraf içeriğinin herhangi bir{" "}
+              <Strong>ticari kullanımı</Strong>, doğrudan ilgili hak
+              sahibinden lisans veya yetki almanızı gerektirir.
+            </>,
+          ]}
+        />
+        <p>
+          Bir hak sahibiyseniz ve Uygulama içinde markanızın veya telif
+          hakkıyla korunan materyalinizin yetkisiz kullanımını bildirmek
+          isterseniz, lütfen{" "}
+          <Anchor href="mailto:support@scorehunter.app">
+            support@scorehunter.app
+          </Anchor>{" "}
+          adresinden bizimle iletişime geçin. Meşru kaldırma taleplerine{" "}
+          <Strong>otuz (30) gün</Strong> içinde yanıt verecek ve uygun
+          olduğu durumlarda söz konusu içeriği kaldıracak veya
+          değiştireceğiz.
         </p>
 
         <SubHeading>5.3 Kullanıcı İçeriği</SubHeading>
@@ -331,7 +379,7 @@ export function TermsContentTr() {
           ]}
         />
 
-        <SubHeading>6.2 Maç Verileri</SubHeading>
+        <SubHeading>6.2 Maç Verileri ve Üçüncü Taraf İçerikleri</SubHeading>
         <p>
           Maç verileri, skorlar, kadrolar, dakika ve istatistikler{" "}
           <Strong>üçüncü taraf bir API hizmetinden (API-Football)</Strong>{" "}
@@ -339,6 +387,16 @@ export function TermsContentTr() {
           güncelliğinden veya eksiksizliğinden{" "}
           <Strong>sorumlu tutulamaz</Strong>. Verilerde gecikme, hata veya
           eksiklik olması durumunda kullanıcı bunu kabul etmiş sayılır.
+        </p>
+        <p>
+          Yasanın izin verdiği azami ölçüde, ScoreHunter ve iCat Studios;
+          Uygulama içinde gösterilen maç verileri, takım bilgileri,
+          istatistikler veya diğer üçüncü taraf içeriklerinin doğruluğu,
+          eksiksizliği veya güncelliği konusunda{" "}
+          <Strong>hiçbir garanti vermez</Strong>. Tüm bu içerikler, veri
+          ortaklarımız aracılığıyla &quot;<Strong>olduğu gibi</Strong>
+          &quot; sunulmaktadır ve ScoreHunter, söz konusu verilerdeki
+          hatalar, eksiklikler veya gecikmelerden sorumlu tutulamaz.
         </p>
 
         <SubHeading>6.3 Sorumluluk Sınırı</SubHeading>

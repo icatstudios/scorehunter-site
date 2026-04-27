@@ -238,8 +238,15 @@ export function PolicyContentEn() {
               database hosting (Frankfurt, Germany)
             </>,
             <>
-              <Strong>API-Football</Strong> — Third-party service for match
-              data (no personal data is shared)
+              <Strong>API-Football</Strong> (
+              <Anchor href="https://www.api-football.com">
+                api-football.com
+              </Anchor>
+              ) — Third-party service that provides match data, team and
+              league information, and associated visual assets (logos and
+              images). No personal data is shared with API-Football.
+              ScoreHunter does not own the rights to logos or trademarks
+              delivered through this service; see Section 11 for details.
             </>,
             <>
               <Strong>Apple</Strong> — Apple Sign-In authentication
@@ -617,7 +624,42 @@ export function PolicyContentEn() {
 
       <Divider />
 
-      <Section title="11. Contact">
+      <Section title="11. Third-Party Content and Trademarks">
+        <p>
+          ScoreHunter displays football match data, team names, league names,
+          player names, and visual assets (such as team and league logos)
+          sourced from our data provider, API-Football. These names, logos,
+          and trademarks are the property of their respective owners —
+          including football clubs, leagues, federations, and other rights
+          holders.
+        </p>
+        <p>
+          ScoreHunter is{" "}
+          <Strong>
+            not affiliated with, endorsed by, sponsored by, or in any way
+            officially connected to
+          </Strong>{" "}
+          any sports league, federation, club, organization, or competition
+          featured in the App. All third-party names, logos, and trademarks
+          are used solely for identification and descriptive purposes
+          (nominative fair use), to help users recognize the matches and
+          teams they wish to follow.
+        </p>
+        <p>
+          If you are a rights holder and believe that your trademark or
+          copyrighted material is being used incorrectly within the App,
+          please contact us at{" "}
+          <Anchor href="mailto:support@scorehunter.app">
+            support@scorehunter.app
+          </Anchor>
+          . We will review the request and respond promptly, removing or
+          replacing the content where appropriate.
+        </p>
+      </Section>
+
+      <Divider />
+
+      <Section title="12. Contact">
         <p>
           For questions about this Privacy Policy or data processing
           requests:

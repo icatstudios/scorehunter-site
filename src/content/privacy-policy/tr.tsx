@@ -243,8 +243,16 @@ export function PolicyContentTr() {
               veritabanı barındırma (Frankfurt, Almanya)
             </>,
             <>
-              <Strong>API-Football</Strong> — Maç verileri için üçüncü taraf
-              servisi (kişisel verileriniz paylaşılmaz)
+              <Strong>API-Football</Strong> (
+              <Anchor href="https://www.api-football.com">
+                api-football.com
+              </Anchor>
+              ) — Maç verileri, takım ve lig bilgileri ile bunlara ait
+              görsel materyalleri (logolar ve görseller) sağlayan üçüncü
+              taraf servis. API-Football ile kişisel verileriniz
+              paylaşılmaz. ScoreHunter, bu hizmet üzerinden gelen logolar
+              veya markalar üzerinde mülkiyet hakkına sahip değildir;
+              ayrıntılar için 11. bölüme bakın.
             </>,
             <>
               <Strong>Apple</Strong> — Apple Sign-In kimlik doğrulama
@@ -631,7 +639,43 @@ export function PolicyContentTr() {
 
       <Divider />
 
-      <Section title="11. İletişim">
+      <Section title="11. Üçüncü Taraf İçerikleri ve Markalar">
+        <p>
+          ScoreHunter, futbol maç verilerini, takım isimlerini, lig
+          isimlerini, oyuncu isimlerini ve görsel materyalleri (takım ve
+          lig logoları gibi) veri sağlayıcımız API-Football aracılığıyla
+          göstermektedir. Bu isimler, logolar ve markalar; futbol kulüpleri,
+          ligler, federasyonlar ve diğer hak sahipleri dahil olmak üzere
+          ilgili sahiplerinin mülkiyetindedir.
+        </p>
+        <p>
+          ScoreHunter, uygulamada yer alan herhangi bir spor ligi,
+          federasyon, kulüp, organizasyon veya turnuva ile{" "}
+          <Strong>
+            bağlantılı, tarafından onaylanan, sponsorluğu altında veya
+            resmi olarak ilişkili değildir
+          </Strong>
+          . Tüm üçüncü taraf isimleri, logoları ve markaları yalnızca
+          tanımlama ve betimleme amacıyla (nominative fair use)
+          kullanılmaktadır; kullanıcıların takip etmek istedikleri maçları
+          ve takımları tanımalarına yardımcı olmak için.
+        </p>
+        <p>
+          Bir hak sahibiyseniz ve markanızın veya telif hakkıyla korunan
+          materyalinizin uygulama içinde yanlış kullanıldığını
+          düşünüyorsanız, lütfen{" "}
+          <Anchor href="mailto:support@scorehunter.app">
+            support@scorehunter.app
+          </Anchor>{" "}
+          adresinden bizimle iletişime geçin. Talebinizi inceleyeceğiz,
+          yanıtlayacağız ve uygun olduğu durumlarda içeriği kaldıracak veya
+          değiştireceğiz.
+        </p>
+      </Section>
+
+      <Divider />
+
+      <Section title="12. İletişim">
         <p>
           Gizlilik politikamız hakkında sorularınız veya veri işleme
           talepleriniz için:
