@@ -5,9 +5,10 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import {
   locales,
-  localeDisplayName,
+  localeNativeName,
   type Locale,
 } from "@/i18n/config";
+import { LocaleFlag } from "./LocaleFlag";
 
 export function LanguageSwitcher({
   currentLocale,
@@ -49,23 +50,12 @@ export function LanguageSwitcher({
         onClick={() => setOpen((o) => !o)}
         aria-haspopup="listbox"
         aria-expanded={open}
-        className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg glass-card text-xs font-semibold text-primary hover:bg-primary/10 transition-colors cursor-pointer"
+        aria-label={localeNativeName[currentLocale]}
+        className="flex items-center gap-2 px-2.5 py-1.5 rounded-lg glass-card hover:bg-primary/10 transition-colors cursor-pointer"
       >
+        <LocaleFlag locale={currentLocale} className="w-6 h-4" />
         <svg
-          className="w-3.5 h-3.5 opacity-80"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <circle cx="12" cy="12" r="9" />
-          <path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18" />
-        </svg>
-        <span className="uppercase tracking-wider">
-          {localeDisplayName[currentLocale]}
-        </span>
-        <svg
-          className={`w-3 h-3 opacity-70 transition-transform ${open ? "rotate-180" : ""}`}
+          className={`w-3 h-3 text-text-secondary transition-transform ${open ? "rotate-180" : ""}`}
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -82,24 +72,30 @@ export function LanguageSwitcher({
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 mt-2 min-w-[8rem] glass-card py-1 overflow-hidden text-xs font-semibold z-30"
+          className="absolute right-0 mt-2 min-w-[14rem] glass-card py-1 overflow-hidden text-sm z-30"
         >
-          {locales.map((locale) => (
-            <li key={locale}>
-              <Link
-                href={`/${locale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`}
-                onClick={() => setOpen(false)}
-                className={`block px-3 py-2 uppercase tracking-wider transition-colors ${
-                  locale === currentLocale
-                    ? "text-primary bg-primary/10"
-                    : "text-text-secondary hover:text-text-primary hover:bg-white/5"
-                }`}
-                aria-current={locale === currentLocale ? "page" : undefined}
-              >
-                {localeDisplayName[locale]}
-              </Link>
-            </li>
-          ))}
+          {locales.map((locale) => {
+            const isActive = locale === currentLocale;
+            return (
+              <li key={locale}>
+                <Link
+                  href={`/${locale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`}
+                  onClick={() => setOpen(false)}
+                  className={`flex items-center gap-3 px-3 py-2 transition-colors ${
+                    isActive
+                      ? "text-primary bg-primary/10"
+                      : "text-text-secondary hover:text-text-primary hover:bg-white/5"
+                  }`}
+                  aria-current={isActive ? "page" : undefined}
+                >
+                  <LocaleFlag locale={locale} className="w-6 h-4" />
+                  <span className="font-medium">
+                    {localeNativeName[locale]}
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>

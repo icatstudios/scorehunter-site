@@ -40,7 +40,7 @@ export function localizedPathMap(path: string): Record<string, string> {
   return out;
 }
 
-// Display label used in the language switcher.
+// Short label (compact contexts where a flag is also shown).
 export const localeDisplayName: Record<Locale, string> = {
   en: "EN",
   tr: "TR",
@@ -50,4 +50,32 @@ export const localeDisplayName: Record<Locale, string> = {
   it: "IT",
   "pt-br": "PT-BR",
   "pt-pt": "PT-PT",
+};
+
+// Endonym — how each language calls itself. Used in the language switcher
+// dropdown so users see their own language in their own writing.
+export const localeNativeName: Record<Locale, string> = {
+  en: "English",
+  tr: "Türkçe",
+  de: "Deutsch",
+  fr: "Français",
+  es: "Español",
+  it: "Italiano",
+  "pt-br": "Português (Brasil)",
+  "pt-pt": "Português (Portugal)",
+};
+
+// ISO 3166-1 alpha-2 country code used to render the flag SVG. English
+// → GB (Union Jack) is a deliberate choice for ScoreHunter's footballer
+// audience; English-speaking users from other regions still recognise it
+// as the English-language flag.
+export const localeCountryCode: Record<Locale, string> = {
+  en: "GB",
+  tr: "TR",
+  de: "DE",
+  fr: "FR",
+  es: "ES",
+  it: "IT",
+  "pt-br": "BR",
+  "pt-pt": "PT",
 };
