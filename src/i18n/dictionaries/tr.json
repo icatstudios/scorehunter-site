@@ -8,7 +8,9 @@
     "privacyPolicyTitle": "Gizlilik Politikası — ScoreHunter",
     "privacyPolicyDescription": "ScoreHunter'ın kişisel verilerinizi nasıl topladığını, kullandığını ve koruduğunu öğrenin.",
     "termsOfUseTitle": "Kullanım Koşulları — ScoreHunter",
-    "termsOfUseDescription": "ScoreHunter uygulamasına erişiminizi ve kullanımınızı düzenleyen Kullanım Koşullarını okuyun."
+    "termsOfUseDescription": "ScoreHunter uygulamasına erişiminizi ve kullanımınızı düzenleyen Kullanım Koşullarını okuyun.",
+    "supportTitle": "Destek — ScoreHunter",
+    "supportDescription": "ScoreHunter ile ilgili yardıma mı ihtiyacınız var? Destek ekibimize e-posta ile ulaşın."
   },
   "nav": {
     "backToHome": "Ana Sayfaya Dön"
@@ -54,6 +56,28 @@
     "applicationValue": "ScoreHunter",
     "developerLabel": "Geliştirici",
     "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Destek",
+    "intro": "Yardım için buradayız. Aşağıdan bir konu seçin; doğru konu satırıyla önceden doldurulmuş bir e-posta açacağız, böylece size daha hızlı dönebiliriz.",
+    "topics": {
+      "accountLabel": "Hesap ve Giriş",
+      "accountDescription": "Giriş sorunları, kullanıcı adı, profil değişiklikleri",
+      "accountSubject": "Destek — Hesap ve Giriş",
+      "billingLabel": "Abonelik ve Ödeme",
+      "billingDescription": "Pro üyelik, ödemeler, iadeler",
+      "billingSubject": "Destek — Abonelik ve Ödeme",
+      "bugLabel": "Hata Bildir",
+      "bugDescription": "Bir şey beklendiği gibi çalışmıyor",
+      "bugSubject": "Hata Bildirimi",
+      "feedbackLabel": "Geri Bildirim ve Öneri",
+      "feedbackDescription": "Özellik istekleri ve genel geri bildirim",
+      "feedbackSubject": "Geri Bildirim / Özellik İsteği"
+    },
+    "directContact": "Veya doğrudan bize yazın:",
+    "responseNote": "Genellikle 2 iş günü içinde yanıt veriyoruz. Hesap silme talepleri için lütfen",
+    "deletionLink": "özel formumuzu",
+    "deletionLinkSuffix": " kullanın."
   },
   "termsOfUse": {
     "title": "Kullanım Koşulları",

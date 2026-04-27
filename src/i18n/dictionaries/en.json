@@ -8,7 +8,9 @@
     "privacyPolicyTitle": "Privacy Policy — ScoreHunter",
     "privacyPolicyDescription": "Learn how ScoreHunter collects, uses, and protects your personal data.",
     "termsOfUseTitle": "Terms of Use — ScoreHunter",
-    "termsOfUseDescription": "Read the Terms of Use that govern your access to and use of the ScoreHunter application."
+    "termsOfUseDescription": "Read the Terms of Use that govern your access to and use of the ScoreHunter application.",
+    "supportTitle": "Support — ScoreHunter",
+    "supportDescription": "Need help with ScoreHunter? Reach our support team by email."
   },
   "nav": {
     "backToHome": "Back to Home"
@@ -54,6 +56,28 @@
     "applicationValue": "ScoreHunter",
     "developerLabel": "Developer",
     "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Support",
+    "intro": "We're here to help. Pick a topic below and we'll open an email pre-filled with the right subject so we can get back to you faster.",
+    "topics": {
+      "accountLabel": "Account & Login",
+      "accountDescription": "Sign-in problems, username, profile changes",
+      "accountSubject": "Support — Account & Login",
+      "billingLabel": "Subscription & Billing",
+      "billingDescription": "Pro membership, payments, refunds",
+      "billingSubject": "Support — Subscription & Billing",
+      "bugLabel": "Report a Bug",
+      "bugDescription": "Something isn't working as expected",
+      "bugSubject": "Bug Report",
+      "feedbackLabel": "Feedback & Ideas",
+      "feedbackDescription": "Feature requests and general feedback",
+      "feedbackSubject": "Feedback / Feature Request"
+    },
+    "directContact": "Or write to us directly at",
+    "responseNote": "We aim to reply within 2 business days. For account deletion requests, please use our",
+    "deletionLink": "dedicated form",
+    "deletionLinkSuffix": "."
   },
   "termsOfUse": {
     "title": "Terms of Use",
