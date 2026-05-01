@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Binnenkort",
+    "comingSoonDescription": "Er komt iets groots aan. Klaar voor de jacht?",
+    "deleteAccountTitle": "Account verwijderen — ScoreHunter",
+    "deleteAccountDescription": "Vraag de verwijdering aan van je ScoreHunter-account en alle bijbehorende gegevens.",
+    "privacyPolicyTitle": "Privacybeleid — ScoreHunter",
+    "privacyPolicyDescription": "Lees hoe ScoreHunter je persoonlijke gegevens verzamelt, gebruikt en beschermt.",
+    "termsOfUseTitle": "Gebruiksvoorwaarden — ScoreHunter",
+    "termsOfUseDescription": "Lees de Gebruiksvoorwaarden die je toegang tot en gebruik van de ScoreHunter-applicatie regelen.",
+    "supportTitle": "Ondersteuning — ScoreHunter",
+    "supportDescription": "Hulp nodig met ScoreHunter? Neem per e-mail contact op met ons supportteam."
+  },
+  "nav": {
+    "backToHome": "Terug naar startpagina"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Alle rechten voorbehouden."
+  },
+  "legalNote": "Dit document wordt voor je gemak in meerdere talen aangeboden. Bij conflict of afwijking tussen taalversies prevaleert de Engelse versie.",
+  "landing": {
+    "tagline": "Er komt iets groots aan.",
+    "subtagline": "Klaar voor de jacht?",
+    "countdown": {
+      "days": "Dagen",
+      "hours": "Uren",
+      "min": "Min",
+      "sec": "Sec"
+    },
+    "comingSoon": "Binnenkort",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Account verwijderen",
+    "description": "Om de verwijdering van je account en alle bijbehorende gegevens aan te vragen, vul je hieronder het formulier in. Hiermee opent je e-mailclient met een vooraf ingevuld bericht aan ons supportteam.",
+    "username": "Gebruikersnaam",
+    "usernamePlaceholder": "Voer je gebruikersnaam in",
+    "confirmCode": "Bevestigingscode",
+    "confirmCodePlaceholder": "Voer je bevestigingscode in",
+    "confirmCodeNote": "Je vindt je bevestigingscode in de app-instellingen.",
+    "submit": "Verzoek verzenden",
+    "errorEmpty": "Vul alle velden in.",
+    "info": "Je verzoek wordt binnen 30 dagen verwerkt. Je ontvangt een bevestigings­e-mail zodra je account is verwijderd.",
+    "emailSubject": "Verzoek tot accountverwijdering",
+    "emailBodyHeader": "Verzoek tot accountverwijdering",
+    "emailBodyUsernameLabel": "Gebruikersnaam",
+    "emailBodyConfirmCodeLabel": "Bevestigingscode",
+    "emailBodyMessage": "Ik verzoek de verwijdering van mijn account en alle bijbehorende gegevens."
+  },
+  "privacyPolicy": {
+    "title": "Privacybeleid",
+    "lastUpdatedLabel": "Laatst bijgewerkt",
+    "lastUpdatedValue": "29 april 2026",
+    "applicationLabel": "Applicatie",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Ontwikkelaar",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Ondersteuning",
+    "intro": "We helpen je graag. Kies hieronder een onderwerp en we openen een e-mail met het juiste onderwerp ingevuld, zodat we je sneller kunnen antwoorden.",
+    "topics": {
+      "accountLabel": "Account & Inloggen",
+      "accountDescription": "Aanmeldproblemen, gebruikersnaam, profielwijzigingen",
+      "accountSubject": "Ondersteuning — Account & Inloggen",
+      "billingLabel": "Abonnement & Betaling",
+      "billingDescription": "Pro-lidmaatschap, betalingen, terugbetalingen",
+      "billingSubject": "Ondersteuning — Abonnement & Betaling",
+      "bugLabel": "Bug melden",
+      "bugDescription": "Iets werkt niet zoals verwacht",
+      "bugSubject": "Bugmelding",
+      "feedbackLabel": "Feedback & Ideeën",
+      "feedbackDescription": "Functieverzoeken en algemene feedback",
+      "feedbackSubject": "Feedback / Functieverzoek"
+    },
+    "directContact": "Of mail ons direct op",
+    "responseNote": "We reageren meestal binnen 2 werkdagen. Voor verzoeken tot accountverwijdering, gebruik ons",
+    "deletionLink": "speciale formulier",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Gebruiksvoorwaarden",
+    "lastUpdatedLabel": "Laatst bijgewerkt",
+    "lastUpdatedValue": "29 april 2026",
+    "applicationLabel": "Applicatie",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Ontwikkelaar",
+    "developerValue": "iCat Studios"
+  }
+}

@@ -4,6 +4,7 @@ import {
   locales,
   isLocale,
   htmlLang,
+  localeDirection,
   localizedPathMap,
 } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
@@ -21,6 +22,12 @@ const ogLocale: Record<string, string> = {
   ja: "ja_JP",
   ko: "ko_KR",
   "zh-cn": "zh_CN",
+  nl: "nl_NL",
+  da: "da_DK",
+  sv: "sv_SE",
+  pl: "pl_PL",
+  ru: "ru_RU",
+  ar: "ar_SA",
 };
 
 export async function generateStaticParams() {
@@ -71,7 +78,7 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
 
   return (
-    <html lang={htmlLang[locale]}>
+    <html lang={htmlLang[locale]} dir={localeDirection[locale]}>
       <body className="antialiased">{children}</body>
     </html>
   );

@@ -12,6 +12,12 @@ import { TermsContentNo } from "./no";
 import { TermsContentJa } from "./ja";
 import { TermsContentKo } from "./ko";
 import { TermsContentZhCn } from "./zh-cn";
+import { TermsContentNl } from "./nl";
+import { TermsContentDa } from "./da";
+import { TermsContentSv } from "./sv";
+import { TermsContentPl } from "./pl";
+import { TermsContentRu } from "./ru";
+import { TermsContentAr } from "./ar";
 
 const map: Record<Locale, ComponentType> = {
   en: TermsContentEn,
@@ -26,6 +32,12 @@ const map: Record<Locale, ComponentType> = {
   ja: TermsContentJa,
   ko: TermsContentKo,
   "zh-cn": TermsContentZhCn,
+  nl: TermsContentNl,
+  da: TermsContentDa,
+  sv: TermsContentSv,
+  pl: TermsContentPl,
+  ru: TermsContentRu,
+  ar: TermsContentAr,
 };
 
 export function TermsContent({ locale }: { locale: Locale }) {

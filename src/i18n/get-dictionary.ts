@@ -14,6 +14,12 @@ const dictionaries = {
   ja: () => import("./dictionaries/ja.json").then((m) => m.default),
   ko: () => import("./dictionaries/ko.json").then((m) => m.default),
   "zh-cn": () => import("./dictionaries/zh-cn.json").then((m) => m.default),
+  nl: () => import("./dictionaries/nl.json").then((m) => m.default),
+  da: () => import("./dictionaries/da.json").then((m) => m.default),
+  sv: () => import("./dictionaries/sv.json").then((m) => m.default),
+  pl: () => import("./dictionaries/pl.json").then((m) => m.default),
+  ru: () => import("./dictionaries/ru.json").then((m) => m.default),
+  ar: () => import("./dictionaries/ar.json").then((m) => m.default),
 } as const;
 
 export type Dictionary = Awaited<ReturnType<(typeof dictionaries)["en"]>>;

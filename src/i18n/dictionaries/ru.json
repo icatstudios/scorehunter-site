@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Скоро",
+    "comingSoonDescription": "Грядёт нечто большое. Готов к охоте?",
+    "deleteAccountTitle": "Удалить аккаунт — ScoreHunter",
+    "deleteAccountDescription": "Запросите удаление аккаунта ScoreHunter и всех связанных данных.",
+    "privacyPolicyTitle": "Политика конфиденциальности — ScoreHunter",
+    "privacyPolicyDescription": "Узнайте, как ScoreHunter собирает, использует и защищает ваши персональные данные.",
+    "termsOfUseTitle": "Условия использования — ScoreHunter",
+    "termsOfUseDescription": "Прочтите условия использования, регулирующие доступ и использование приложения ScoreHunter.",
+    "supportTitle": "Поддержка — ScoreHunter",
+    "supportDescription": "Нужна помощь со ScoreHunter? Свяжитесь с нашей службой поддержки по электронной почте."
+  },
+  "nav": {
+    "backToHome": "Вернуться на главную"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Все права защищены."
+  },
+  "legalNote": "Этот документ предоставлен на нескольких языках для вашего удобства. В случае любого конфликта или расхождения между языковыми версиями преимущественную силу имеет английская версия.",
+  "landing": {
+    "tagline": "Грядёт нечто большое.",
+    "subtagline": "Готов к охоте?",
+    "countdown": {
+      "days": "Дни",
+      "hours": "Часы",
+      "min": "Мин",
+      "sec": "Сек"
+    },
+    "comingSoon": "Скоро",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Удалить аккаунт",
+    "description": "Чтобы запросить удаление вашего аккаунта и всех связанных данных, заполните форму ниже. Откроется ваш почтовый клиент с заранее заполненным письмом нашей команде поддержки.",
+    "username": "Имя пользователя",
+    "usernamePlaceholder": "Введите имя пользователя",
+    "confirmCode": "Код подтверждения",
+    "confirmCodePlaceholder": "Введите код подтверждения",
+    "confirmCodeNote": "Код подтверждения можно получить в настройках приложения.",
+    "submit": "Отправить запрос",
+    "errorEmpty": "Пожалуйста, заполните все поля.",
+    "info": "Ваш запрос будет обработан в течение 30 дней. Когда аккаунт будет удалён, вы получите подтверждающее письмо.",
+    "emailSubject": "Запрос на удаление аккаунта",
+    "emailBodyHeader": "Запрос на удаление аккаунта",
+    "emailBodyUsernameLabel": "Имя пользователя",
+    "emailBodyConfirmCodeLabel": "Код подтверждения",
+    "emailBodyMessage": "Прошу удалить мой аккаунт и все связанные с ним данные."
+  },
+  "privacyPolicy": {
+    "title": "Политика конфиденциальности",
+    "lastUpdatedLabel": "Последнее обновление",
+    "lastUpdatedValue": "29 апреля 2026 г.",
+    "applicationLabel": "Приложение",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Разработчик",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Поддержка",
+    "intro": "Мы здесь, чтобы помочь. Выберите тему ниже, и мы откроем письмо с подходящей темой, чтобы быстрее вам ответить.",
+    "topics": {
+      "accountLabel": "Аккаунт и вход",
+      "accountDescription": "Проблемы со входом, имя пользователя, изменения профиля",
+      "accountSubject": "Поддержка — Аккаунт и вход",
+      "billingLabel": "Подписка и оплата",
+      "billingDescription": "Pro-подписка, оплата, возвраты",
+      "billingSubject": "Поддержка — Подписка и оплата",
+      "bugLabel": "Сообщить об ошибке",
+      "bugDescription": "Что-то работает не так, как ожидалось",
+      "bugSubject": "Сообщение об ошибке",
+      "feedbackLabel": "Отзывы и идеи",
+      "feedbackDescription": "Предложения функций и общие отзывы",
+      "feedbackSubject": "Отзыв / Предложение функции"
+    },
+    "directContact": "Или напишите нам напрямую на",
+    "responseNote": "Обычно мы отвечаем в течение 2 рабочих дней. Для запросов на удаление аккаунта используйте нашу",
+    "deletionLink": "специальную форму",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Условия использования",
+    "lastUpdatedLabel": "Последнее обновление",
+    "lastUpdatedValue": "29 апреля 2026 г.",
+    "applicationLabel": "Приложение",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Разработчик",
+    "developerValue": "iCat Studios"
+  }
+}
