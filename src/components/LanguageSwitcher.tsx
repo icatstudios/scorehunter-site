@@ -72,7 +72,7 @@ export function LanguageSwitcher({
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 mt-2 min-w-[14rem] glass-card py-1 overflow-hidden text-sm z-30"
+          className="absolute right-0 mt-2 min-w-[14rem] rounded-2xl py-1 overflow-hidden text-sm z-30 bg-[rgba(18,18,26,0.98)] backdrop-blur-2xl border border-white/10 shadow-2xl shadow-black/60"
         >
           {locales.map((locale) => {
             const isActive = locale === currentLocale;

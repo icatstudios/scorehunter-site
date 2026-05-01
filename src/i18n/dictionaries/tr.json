@@ -3,6 +3,8 @@
     "siteName": "ScoreHunter",
     "comingSoonTitle": "ScoreHunter — Yakında",
     "comingSoonDescription": "Büyük bir şey geliyor. Ava hazır mısın?",
+    "homeTitle": "ScoreHunter — Futbol tahmin oyunu",
+    "homeDescription": "Futbolu tahmin et. Arkadaşlarınla yarış. Sıralamada yüksel. iCat Studios'un beceri tabanlı futbol tahmin oyunu.",
     "deleteAccountTitle": "Hesabı Sil — ScoreHunter",
     "deleteAccountDescription": "ScoreHunter hesabınızın ve ilişkili tüm verilerin silinmesini talep edin.",
     "privacyPolicyTitle": "Gizlilik Politikası — ScoreHunter",
@@ -10,13 +12,41 @@
     "termsOfUseTitle": "Kullanım Koşulları — ScoreHunter",
     "termsOfUseDescription": "ScoreHunter uygulamasına erişiminizi ve kullanımınızı düzenleyen Kullanım Koşullarını okuyun.",
     "supportTitle": "Destek — ScoreHunter",
-    "supportDescription": "ScoreHunter ile ilgili yardıma mı ihtiyacınız var? Destek ekibimize e-posta ile ulaşın."
+    "supportDescription": "ScoreHunter ile ilgili yardıma mı ihtiyacınız var? Destek ekibimize e-posta ile ulaşın.",
+    "featuresTitle": "Özellikler — ScoreHunter",
+    "featuresDescription": "ScoreHunter'ın sunduğu her şey: haftalık tahminler, mini oyunlar, ligler, kupalar, Pro üyelik ve canlı takip.",
+    "faqTitle": "SSS — ScoreHunter",
+    "faqDescription": "ScoreHunter hakkında en sık sorulan sorulara cevaplar — oyun, ligler, Pro üyelik, hesap ve daha fazlası."
   },
   "nav": {
     "backToHome": "Ana Sayfaya Dön"
   },
   "footer": {
-    "copyright": "© 2026 iCat Studios. Tüm hakları saklıdır."
+    "copyright": "© 2026 iCat Studios. Tüm hakları saklıdır.",
+    "tagline": "Beceri tabanlı futbol tahmin oyunu.",
+    "columns": {
+      "product": {
+        "title": "Ürün",
+        "links": {
+          "features": "Özellikler",
+          "faq": "SSS"
+        }
+      },
+      "legal": {
+        "title": "Hukuki",
+        "links": {
+          "privacy": "Gizlilik Politikası",
+          "terms": "Kullanım Koşulları"
+        }
+      },
+      "support": {
+        "title": "Destek",
+        "links": {
+          "contact": "İletişim",
+          "deleteAccount": "Hesap silme"
+        }
+      }
+    }
   },
   "legalNote": "Bu belge size kolaylık sağlamak amacıyla birden fazla dilde sunulmaktadır. Dil sürümleri arasında herhangi bir çelişki veya farklılık olması durumunda İngilizce metin esas alınır.",
   "landing": {
@@ -31,6 +61,173 @@
     "comingSoon": "Yakında",
     "appStore": "App Store",
     "googlePlay": "Google Play"
+  },
+  "home": {
+    "nav": {
+      "features": "Özellikler",
+      "faq": "SSS",
+      "support": "Destek"
+    },
+    "hero": {
+      "eyebrow": "iCat Studios sunar",
+      "tagline": "Futbolu tahmin et.",
+      "taglineAccent": "Skoru avla.",
+      "subtitle": "ScoreHunter, beceri tabanlı futbol tahmin oyunudur. Maçları seç, skorları belirle, küresel sıralamada her hafta yüksel.",
+      "freeBadge": "Ücretsiz oyna",
+      "appStoreLabel": "İndir",
+      "appStoreName": "App Store",
+      "googlePlayLabel": "Yükle",
+      "googlePlayName": "Google Play"
+    },
+    "howItWorks": {
+      "eyebrow": "Nasıl çalışır",
+      "title": "Ava başlamak için üç adım",
+      "subtitle": "Bahis yok. Kupon yok. Sadece senin futbol bilgin, başkalarına karşı.",
+      "steps": [
+        {
+          "title": "Maçları seç",
+          "description": "Senin için önemli liglerden haftanın en büyük maçlarını sıralıyoruz."
+        },
+        {
+          "title": "Skorları belirle",
+          "description": "Sonucu, kesin skoru ve gol atacakları tahmin et. Maç başlamadan kilitle."
+        },
+        {
+          "title": "Sıralamaya tırman",
+          "description": "Maçlar oynanırken puanların canlı düşer. Kupalar kazan, haftalık zirveye yerleş."
+        }
+      ]
+    },
+    "rules": {
+      "eyebrow": "Nasıl oynanır",
+      "title": "Tasarım gereği beceriye dayalı",
+      "howTitle": "Nasıl oynanır",
+      "howIntro": "ScoreHunter futbol bilgisini ödüllendirir, şansı değil. Her maç eşit değerde, her oyuncu aynı şansla başlar.",
+      "howItems": [
+        "Her hafta seçilmiş bir maç seti tahmin için açılır.",
+        "Maçın sonucunu (1, X, 2), kesin skoru ve gol atacakları tahmin et.",
+        "Maç günleri arasında hızlı tahmin turları için mini oyunlar gelir.",
+        "Tüm maçlar eşit değerde — oran yok, çarpan yok, ödeme yok.",
+        "Pro üyeler ekstra avantajlar elde eder ama asla haksız bir üstünlük değil."
+      ],
+      "rewardsTitle": "Puanlama ve ödüller",
+      "scoringTitle": "Şunlar için puan kazan",
+      "scoringItems": [
+        "Maçın sonucunu (1X2) doğru bilmek",
+        "Kesin skoru tutturmak",
+        "Doğru gol atanları seçmek",
+        "Haftalık mini oyunlardaki bonus tahminler"
+      ],
+      "rewardsLabel": "Ödüller",
+      "rewardsItems": [
+        "Kupalar ve sezonluk başarımlar",
+        "Haftalık ve sezonluk sıralamalarda zirve yerleri",
+        "Zaman zaman promosyon ödülleri — formalar, futbol topları, dijital hediye kartları (nakit yok, kumar yok)",
+        "Pro üyelik avantajları: daha az reklam ve özel kupalar"
+      ]
+    },
+    "features": {
+      "eyebrow": "Özellikler",
+      "title": "Tahmin etmek, yarışmak ve kazanmak için ihtiyacın olan her şey",
+      "subtitle": "Bilgilerinin değerini bilmek isteyen futbol severler için tasarlandı.",
+      "viewAll": "Tüm özellikleri keşfet",
+      "items": [
+        {
+          "title": "Score Hunt",
+          "description": "Ana haftalık mod. En büyük maçları tahmin et, puanların canlı işlerken keyfini sür."
+        },
+        {
+          "title": "Mini oyunlar",
+          "description": "Maç günleri arası hızlı tahmin turları. Farklı kurallar, aynı beceri, anlık eğlence."
+        },
+        {
+          "title": "Ligler",
+          "description": "Dünya geneli halka açık tablolar veya sadece sen ve arkadaşların için özel ligler."
+        },
+        {
+          "title": "Kupalar",
+          "description": "Peşinden gidilecek yüzlerce haftalık, sezonluk ve ömür boyu başarım."
+        },
+        {
+          "title": "Pro Üyelik",
+          "description": "Daha az reklam ve Pro'ya özel kupalarla daha akıcı bir deneyim. Opsiyonel, asla zorunlu değil."
+        },
+        {
+          "title": "Canlı takip",
+          "description": "Maçlar ilerlerken puanlarının dakika dakika tırmanışını izle."
+        }
+      ]
+    },
+    "screenshots": {
+      "eyebrow": "Uygulamadan",
+      "title": "Çalışmak için değil, oynamak için tasarlandı",
+      "subtitle": "Hızlı kavranır, derinlemesine ustalaşılır.",
+      "mocks": [
+        {
+          "label": "Score Hunt",
+          "title": "Bu haftanın avı",
+          "subtitle": "12 maç · 3 mini oyun"
+        },
+        {
+          "label": "Canlı maç",
+          "title": "Galatasaray vs. Fenerbahçe",
+          "subtitle": "Canlı · 67' · Sen: 2–1"
+        },
+        {
+          "label": "Sıralama",
+          "title": "Haftalık zirve",
+          "subtitle": "14 sıra yükseldin ↑"
+        }
+      ]
+    },
+    "faqPreview": {
+      "eyebrow": "Sorular",
+      "title": "Hızlı cevaplar",
+      "subtitle": "İndirmeden önce temel bilgiler.",
+      "viewAll": "Tüm SSS'leri görüntüle",
+      "items": [
+        {
+          "q": "ScoreHunter ücretsiz mi?",
+          "a": "Evet — indirmesi ve oynaması tamamen ücretsiz. Daha az reklam gibi ekstralar için opsiyonel bir Pro üyelik var ama ana oyun herkese ücretsiz."
+        },
+        {
+          "q": "Bu kumar mı?",
+          "a": "Hayır. ScoreHunter'da bahis yok, oran yok, para girişi/çıkışı yok. Tüm maçlar eşit değerde ve ödüller yalnızca promosyon amaçlı — asla nakit değil."
+        },
+        {
+          "q": "Hesap açmam gerekiyor mu?",
+          "a": "Evet. Apple veya Google ile saniyeler içinde giriş yap — şifre yok, e-posta doğrulama yok."
+        },
+        {
+          "q": "Arkadaşlarımla oynayabilir miyim?",
+          "a": "Tabii ki. Özel bir lig oluştur, davet bağlantısını paylaş, atışmalar başlasın."
+        },
+        {
+          "q": "Hangi cihazlar destekleniyor?",
+          "a": "iPhone (iOS 14+) ve Android (Android 8+). Tek hesap her iki platformda da çalışır."
+        }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Hazır mısın?",
+      "title": "Bu hafta sonu skoru avla",
+      "subtitle": "ScoreHunter'ı indir, hesabını saniyeler içinde bağla ve maç başlamadan ilk tahminlerini kilitle.",
+      "freeBadge": "%100 ücretsiz · Kredi kartı yok · Apple ve Google ile giriş"
+    }
+  },
+  "features": {
+    "eyebrow": "İçeride neler var",
+    "title": "Özellikler",
+    "subtitle": "ScoreHunter'ın yaptığı her şeye dair eksiksiz bir rehber — haftalık avlardan Pro avantajlara.",
+    "ctaTitle": "Ava hazır mısın?",
+    "ctaSubtitle": "Uygulamayı indir ve bu haftanın tahminlerini kilitle."
+  },
+  "faq": {
+    "eyebrow": "Sorular",
+    "title": "Sıkça sorulan sorular",
+    "subtitle": "İnsanların en çok sorduğu şeylere cevaplar. Cevabını bulamadıysan?",
+    "contactPrompt": "Cevabını bulamadın mı?",
+    "contactCta": "Destek ile iletişime geç"
   },
   "deleteAccount": {
     "title": "Hesabı Sil",

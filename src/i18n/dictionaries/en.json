@@ -3,6 +3,8 @@
     "siteName": "ScoreHunter",
     "comingSoonTitle": "ScoreHunter — Coming Soon",
     "comingSoonDescription": "Something big is coming. Are you ready to hunt?",
+    "homeTitle": "ScoreHunter — Football prediction game",
+    "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
     "deleteAccountTitle": "Delete Account — ScoreHunter",
     "deleteAccountDescription": "Request the deletion of your ScoreHunter account and all associated data.",
     "privacyPolicyTitle": "Privacy Policy — ScoreHunter",
@@ -10,13 +12,41 @@
     "termsOfUseTitle": "Terms of Use — ScoreHunter",
     "termsOfUseDescription": "Read the Terms of Use that govern your access to and use of the ScoreHunter application.",
     "supportTitle": "Support — ScoreHunter",
-    "supportDescription": "Need help with ScoreHunter? Reach our support team by email."
+    "supportDescription": "Need help with ScoreHunter? Reach our support team by email.",
+    "featuresTitle": "Features — ScoreHunter",
+    "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
+    "faqTitle": "FAQ — ScoreHunter",
+    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
   },
   "nav": {
     "backToHome": "Back to Home"
   },
   "footer": {
-    "copyright": "© 2026 iCat Studios. All rights reserved."
+    "copyright": "© 2026 iCat Studios. All rights reserved.",
+    "tagline": "The skill-based football prediction game.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "features": "Features",
+          "faq": "FAQ"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacy Policy",
+          "terms": "Terms of Use"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "contact": "Contact",
+          "deleteAccount": "Delete account"
+        }
+      }
+    }
   },
   "legalNote": "This document is provided in multiple languages for your convenience. In case of any conflict or discrepancy between language versions, the English version shall prevail.",
   "landing": {
@@ -31,6 +61,173 @@
     "comingSoon": "Coming Soon",
     "appStore": "App Store",
     "googlePlay": "Google Play"
+  },
+  "home": {
+    "nav": {
+      "features": "Features",
+      "faq": "FAQ",
+      "support": "Support"
+    },
+    "hero": {
+      "eyebrow": "iCat Studios presents",
+      "tagline": "Predict football.",
+      "taglineAccent": "Hunt the score.",
+      "subtitle": "ScoreHunter is the skill-based football prediction game. Pick the matches, call the scores, and climb the global leaderboards — week after week.",
+      "freeBadge": "Free to play",
+      "appStoreLabel": "Download on the",
+      "appStoreName": "App Store",
+      "googlePlayLabel": "Get it on",
+      "googlePlayName": "Google Play"
+    },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "Three steps to start hunting",
+      "subtitle": "No betting. No coupons. Just your football brain against everyone else's.",
+      "steps": [
+        {
+          "title": "Pick the matches",
+          "description": "We line up the week's biggest fixtures from the leagues you care about."
+        },
+        {
+          "title": "Call the scores",
+          "description": "Predict the outcome, the exact score, and who finds the net. Lock it in before kickoff."
+        },
+        {
+          "title": "Climb the board",
+          "description": "Live points roll in as the matches play. Win trophies, top weekly tables, repeat."
+        }
+      ]
+    },
+    "rules": {
+      "eyebrow": "How to play",
+      "title": "Skill-based, by design",
+      "howTitle": "How to play",
+      "howIntro": "ScoreHunter rewards football knowledge, not luck. Every match is worth the same, every player has the same shot.",
+      "howItems": [
+        "Each week, a curated set of fixtures unlocks for predictions.",
+        "Pick the result (1, X, 2), the exact score, and goal scorers.",
+        "Mini games drop between match days for quick prediction rounds.",
+        "All matches are equal value — no odds, no multipliers, no payouts.",
+        "Pro members get extra perks but never an unfair advantage."
+      ],
+      "rewardsTitle": "Scoring & rewards",
+      "scoringTitle": "Earn points for",
+      "scoringItems": [
+        "Calling the correct outcome (1X2)",
+        "Nailing the exact score",
+        "Picking the right goal scorers",
+        "Bonus picks across weekly mini games"
+      ],
+      "rewardsLabel": "Rewards",
+      "rewardsItems": [
+        "Trophies and seasonal achievements",
+        "Top spots on weekly and seasonal leaderboards",
+        "Promotional prizes from time to time — jerseys, footballs, digital gift cards (no cash, no gambling)",
+        "Pro membership perks like reduced ads and exclusive trophies"
+      ]
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Everything you need to predict, compete, and win",
+      "subtitle": "Built for football fans who want their knowledge to count.",
+      "viewAll": "Explore all features",
+      "items": [
+        {
+          "title": "Score Hunt",
+          "description": "The core weekly mode. Predict the biggest fixtures and ride the live points as they happen."
+        },
+        {
+          "title": "Mini games",
+          "description": "Quick prediction rounds between match days. Different rules, same skill, instant fun."
+        },
+        {
+          "title": "Leagues",
+          "description": "Public boards for the world or private leagues just for you and your friends."
+        },
+        {
+          "title": "Trophies",
+          "description": "Hundreds of weekly, seasonal, and lifetime achievements to chase."
+        },
+        {
+          "title": "Pro Membership",
+          "description": "A smoother experience with fewer ads and Pro-only trophies. Optional, never required."
+        },
+        {
+          "title": "Live tracking",
+          "description": "Watch your score climb minute by minute as the matches unfold."
+        }
+      ]
+    },
+    "screenshots": {
+      "eyebrow": "Inside the app",
+      "title": "Designed to be played, not studied",
+      "subtitle": "Quick to pick up, deep to master.",
+      "mocks": [
+        {
+          "label": "Score Hunt",
+          "title": "This week's hunt",
+          "subtitle": "12 matches · 3 mini games"
+        },
+        {
+          "label": "Live match",
+          "title": "Arsenal vs. Chelsea",
+          "subtitle": "Live · 67' · You: 2–1"
+        },
+        {
+          "label": "Leaderboard",
+          "title": "Weekly top",
+          "subtitle": "You moved up 14 spots ↑"
+        }
+      ]
+    },
+    "faqPreview": {
+      "eyebrow": "Questions",
+      "title": "Quick answers",
+      "subtitle": "The basics before you download.",
+      "viewAll": "Browse all FAQs",
+      "items": [
+        {
+          "q": "Is ScoreHunter free?",
+          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+        },
+        {
+          "q": "Is this gambling?",
+          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+        },
+        {
+          "q": "Can I play with friends?",
+          "a": "Of course. Create a private league, share the invite link, and let the bragging rights begin."
+        },
+        {
+          "q": "What devices are supported?",
+          "a": "iPhone (iOS 14+) and Android (Android 8+). One account works across both."
+        }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Ready?",
+      "title": "Hunt the score this weekend",
+      "subtitle": "Download ScoreHunter, link your account in seconds, and lock in your first predictions before kickoff.",
+      "freeBadge": "100% free · No credit card · Apple & Google sign-in"
+    }
+  },
+  "features": {
+    "eyebrow": "What's inside",
+    "title": "Features",
+    "subtitle": "A complete guide to everything ScoreHunter does — from weekly hunts to Pro perks.",
+    "ctaTitle": "Ready to hunt?",
+    "ctaSubtitle": "Download the app and lock in this week's predictions."
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Frequently asked questions",
+    "subtitle": "Answers to the things people ask most. Can't find yours?",
+    "contactPrompt": "Can't find your answer?",
+    "contactCta": "Contact support"
   },
   "deleteAccount": {
     "title": "Delete Account",
