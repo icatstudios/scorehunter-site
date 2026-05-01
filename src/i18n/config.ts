@@ -61,8 +61,8 @@ export const localeNativeName: Record<Locale, string> = {
   fr: "Français",
   es: "Español",
   it: "Italiano",
-  "pt-br": "Português (Brasil)",
-  "pt-pt": "Português (Portugal)",
+  "pt-br": "Português (BR)",
+  "pt-pt": "Português (PT)",
 };
 
 // ISO 3166-1 alpha-2 country code used to render the flag SVG. English
