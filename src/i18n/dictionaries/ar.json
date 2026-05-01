@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — قريبًا",
+    "comingSoonDescription": "شيء كبير قادم. هل أنت مستعد للصيد؟",
+    "deleteAccountTitle": "حذف الحساب — ScoreHunter",
+    "deleteAccountDescription": "اطلب حذف حسابك في ScoreHunter وجميع البيانات المرتبطة به.",
+    "privacyPolicyTitle": "سياسة الخصوصية — ScoreHunter",
+    "privacyPolicyDescription": "تعرّف على كيفية جمع ScoreHunter لبياناتك الشخصية واستخدامها وحمايتها.",
+    "termsOfUseTitle": "شروط الاستخدام — ScoreHunter",
+    "termsOfUseDescription": "اقرأ شروط الاستخدام التي تحكم وصولك إلى تطبيق ScoreHunter واستخدامك له.",
+    "supportTitle": "الدعم — ScoreHunter",
+    "supportDescription": "هل تحتاج إلى مساعدة بخصوص ScoreHunter؟ تواصل مع فريق الدعم لدينا عبر البريد الإلكتروني."
+  },
+  "nav": {
+    "backToHome": "العودة إلى الصفحة الرئيسية"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. جميع الحقوق محفوظة."
+  },
+  "legalNote": "تُقدَّم هذه الوثيقة بعدة لغات لراحتك. في حال وجود أي تعارض أو اختلاف بين النسخ اللغوية، تكون النسخة الإنجليزية هي المعتمدة.",
+  "landing": {
+    "tagline": "شيء كبير قادم.",
+    "subtagline": "هل أنت مستعد للصيد؟",
+    "countdown": {
+      "days": "أيام",
+      "hours": "ساعات",
+      "min": "دقيقة",
+      "sec": "ثانية"
+    },
+    "comingSoon": "قريبًا",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "حذف الحساب",
+    "description": "لطلب حذف حسابك وجميع البيانات المرتبطة به، يُرجى تعبئة النموذج أدناه. سيؤدي ذلك إلى فتح برنامج البريد الإلكتروني لديك برسالة جاهزة موجهة إلى فريق الدعم.",
+    "username": "اسم المستخدم",
+    "usernamePlaceholder": "أدخل اسم المستخدم",
+    "confirmCode": "رمز التأكيد",
+    "confirmCodePlaceholder": "أدخل رمز التأكيد",
+    "confirmCodeNote": "يمكنك الحصول على رمز التأكيد من إعدادات التطبيق.",
+    "submit": "إرسال الطلب",
+    "errorEmpty": "يُرجى تعبئة جميع الحقول.",
+    "info": "ستتم معالجة طلبك خلال 30 يومًا. ستتلقى رسالة تأكيد عبر البريد الإلكتروني بعد حذف حسابك.",
+    "emailSubject": "طلب حذف حساب",
+    "emailBodyHeader": "طلب حذف حساب",
+    "emailBodyUsernameLabel": "اسم المستخدم",
+    "emailBodyConfirmCodeLabel": "رمز التأكيد",
+    "emailBodyMessage": "أرغب في طلب حذف حسابي وجميع البيانات المرتبطة به."
+  },
+  "privacyPolicy": {
+    "title": "سياسة الخصوصية",
+    "lastUpdatedLabel": "آخر تحديث",
+    "lastUpdatedValue": "29 أبريل 2026",
+    "applicationLabel": "التطبيق",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "المطوّر",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "الدعم",
+    "intro": "نحن هنا للمساعدة. اختر موضوعًا أدناه وسنفتح رسالة بريد إلكتروني بعنوان مناسب جاهز، لنتمكن من الرد عليك بشكل أسرع.",
+    "topics": {
+      "accountLabel": "الحساب وتسجيل الدخول",
+      "accountDescription": "مشاكل تسجيل الدخول، اسم المستخدم، تغييرات الملف الشخصي",
+      "accountSubject": "الدعم — الحساب وتسجيل الدخول",
+      "billingLabel": "الاشتراك والدفع",
+      "billingDescription": "اشتراك Pro، المدفوعات، استرداد المبالغ",
+      "billingSubject": "الدعم — الاشتراك والدفع",
+      "bugLabel": "الإبلاغ عن خلل",
+      "bugDescription": "هناك شيء لا يعمل كما ينبغي",
+      "bugSubject": "تقرير خلل",
+      "feedbackLabel": "ملاحظات وأفكار",
+      "feedbackDescription": "اقتراحات الميزات والملاحظات العامة",
+      "feedbackSubject": "ملاحظات / اقتراح ميزة"
+    },
+    "directContact": "أو اكتب إلينا مباشرة على",
+    "responseNote": "نسعى للرد خلال يومَي عمل. لطلبات حذف الحساب، يُرجى استخدام",
+    "deletionLink": "النموذج المخصص",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "شروط الاستخدام",
+    "lastUpdatedLabel": "آخر تحديث",
+    "lastUpdatedValue": "29 أبريل 2026",
+    "applicationLabel": "التطبيق",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "المطوّر",
+    "developerValue": "iCat Studios"
+  }
+}

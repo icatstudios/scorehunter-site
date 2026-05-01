@@ -12,6 +12,12 @@ import { PolicyContentNo } from "./no";
 import { PolicyContentJa } from "./ja";
 import { PolicyContentKo } from "./ko";
 import { PolicyContentZhCn } from "./zh-cn";
+import { PolicyContentNl } from "./nl";
+import { PolicyContentDa } from "./da";
+import { PolicyContentSv } from "./sv";
+import { PolicyContentPl } from "./pl";
+import { PolicyContentRu } from "./ru";
+import { PolicyContentAr } from "./ar";
 
 const map: Record<Locale, ComponentType> = {
   en: PolicyContentEn,
@@ -26,6 +32,12 @@ const map: Record<Locale, ComponentType> = {
   ja: PolicyContentJa,
   ko: PolicyContentKo,
   "zh-cn": PolicyContentZhCn,
+  nl: PolicyContentNl,
+  da: PolicyContentDa,
+  sv: PolicyContentSv,
+  pl: PolicyContentPl,
+  ru: PolicyContentRu,
+  ar: PolicyContentAr,
 };
 
 export function PolicyContent({ locale }: { locale: Locale }) {

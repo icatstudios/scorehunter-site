@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Kommer snart",
+    "comingSoonDescription": "Något stort är på väg. Redo för jakten?",
+    "deleteAccountTitle": "Radera konto — ScoreHunter",
+    "deleteAccountDescription": "Begär radering av ditt ScoreHunter-konto och all tillhörande data.",
+    "privacyPolicyTitle": "Integritetspolicy — ScoreHunter",
+    "privacyPolicyDescription": "Lär dig hur ScoreHunter samlar in, använder och skyddar dina personuppgifter.",
+    "termsOfUseTitle": "Användarvillkor — ScoreHunter",
+    "termsOfUseDescription": "Läs användarvillkoren som styr din åtkomst till och användning av ScoreHunter-applikationen.",
+    "supportTitle": "Support — ScoreHunter",
+    "supportDescription": "Behöver du hjälp med ScoreHunter? Kontakta vårt supportteam via e-post."
+  },
+  "nav": {
+    "backToHome": "Tillbaka till startsidan"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Alla rättigheter förbehållna."
+  },
+  "legalNote": "Detta dokument tillhandahålls på flera språk för din bekvämlighet. Vid konflikt eller avvikelse mellan språkversionerna ska den engelska versionen ha företräde.",
+  "landing": {
+    "tagline": "Något stort är på väg.",
+    "subtagline": "Redo för jakten?",
+    "countdown": {
+      "days": "Dagar",
+      "hours": "Timmar",
+      "min": "Min",
+      "sec": "Sek"
+    },
+    "comingSoon": "Kommer snart",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Radera konto",
+    "description": "För att begära radering av ditt konto och all tillhörande data, fyll i formuläret nedan. Det öppnar din e-postklient med ett förifyllt meddelande till vårt supportteam.",
+    "username": "Användarnamn",
+    "usernamePlaceholder": "Ange ditt användarnamn",
+    "confirmCode": "Bekräftelsekod",
+    "confirmCodePlaceholder": "Ange din bekräftelsekod",
+    "confirmCodeNote": "Du hittar din bekräftelsekod i appens inställningar.",
+    "submit": "Skicka begäran",
+    "errorEmpty": "Vänligen fyll i alla fält.",
+    "info": "Din begäran behandlas inom 30 dagar. Du får ett bekräftelsemejl när ditt konto har raderats.",
+    "emailSubject": "Begäran om radering av konto",
+    "emailBodyHeader": "Begäran om radering av konto",
+    "emailBodyUsernameLabel": "Användarnamn",
+    "emailBodyConfirmCodeLabel": "Bekräftelsekod",
+    "emailBodyMessage": "Jag begär radering av mitt konto och all tillhörande data."
+  },
+  "privacyPolicy": {
+    "title": "Integritetspolicy",
+    "lastUpdatedLabel": "Senast uppdaterad",
+    "lastUpdatedValue": "29 april 2026",
+    "applicationLabel": "Applikation",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Utvecklare",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Support",
+    "intro": "Vi finns här för att hjälpa till. Välj ett ämne nedan så öppnar vi ett e-postmeddelande med rätt ämnesrad förifylld, så att vi kan svara dig snabbare.",
+    "topics": {
+      "accountLabel": "Konto & Inloggning",
+      "accountDescription": "Inloggningsproblem, användarnamn, profilförändringar",
+      "accountSubject": "Support — Konto & Inloggning",
+      "billingLabel": "Prenumeration & Betalning",
+      "billingDescription": "Pro-medlemskap, betalningar, återbetalningar",
+      "billingSubject": "Support — Prenumeration & Betalning",
+      "bugLabel": "Rapportera ett fel",
+      "bugDescription": "Något fungerar inte som förväntat",
+      "bugSubject": "Felrapport",
+      "feedbackLabel": "Feedback & Idéer",
+      "feedbackDescription": "Funktionsförslag och allmän feedback",
+      "feedbackSubject": "Feedback / Funktionsförslag"
+    },
+    "directContact": "Eller skriv direkt till oss på",
+    "responseNote": "Vi svarar oftast inom 2 arbetsdagar. För begäran om kontoradering, använd vårt",
+    "deletionLink": "särskilda formulär",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Användarvillkor",
+    "lastUpdatedLabel": "Senast uppdaterad",
+    "lastUpdatedValue": "29 april 2026",
+    "applicationLabel": "Applikation",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Utvecklare",
+    "developerValue": "iCat Studios"
+  }
+}

@@ -11,6 +11,12 @@ export const locales = [
   "ja",
   "ko",
   "zh-cn",
+  "nl",
+  "da",
+  "sv",
+  "pl",
+  "ru",
+  "ar",
 ] as const;
 export const defaultLocale = "en" as const;
 
@@ -36,6 +42,12 @@ export const htmlLang: Record<Locale, string> = {
   ja: "ja",
   ko: "ko",
   "zh-cn": "zh-CN",
+  nl: "nl",
+  da: "da",
+  sv: "sv",
+  pl: "pl",
+  ru: "ru",
+  ar: "ar",
 };
 
 // Build a hreflang map for metadata.alternates.languages. x-default → en.
@@ -62,6 +74,12 @@ export const localeDisplayName: Record<Locale, string> = {
   ja: "JA",
   ko: "KO",
   "zh-cn": "ZH-CN",
+  nl: "NL",
+  da: "DA",
+  sv: "SV",
+  pl: "PL",
+  ru: "RU",
+  ar: "AR",
 };
 
 // Endonym — how each language calls itself. Used in the language switcher
@@ -79,12 +97,20 @@ export const localeNativeName: Record<Locale, string> = {
   ja: "日本語",
   ko: "한국어",
   "zh-cn": "简体中文",
+  nl: "Nederlands",
+  da: "Dansk",
+  sv: "Svenska",
+  pl: "Polski",
+  ru: "Русский",
+  ar: "العربية",
 };
 
 // ISO 3166-1 alpha-2 country code used to render the flag SVG. English
 // → GB (Union Jack) is a deliberate choice for ScoreHunter's footballer
 // audience; English-speaking users from other regions still recognise it
-// as the English-language flag.
+// as the English-language flag. Arabic uses Saudi Arabia (SA) as a
+// neutral, widely recognised representation; the language itself, not
+// any single country, is what we mean.
 export const localeCountryCode: Record<Locale, string> = {
   en: "GB",
   tr: "TR",
@@ -98,4 +124,32 @@ export const localeCountryCode: Record<Locale, string> = {
   ja: "JP",
   ko: "KR",
   "zh-cn": "CN",
+  nl: "NL",
+  da: "DK",
+  sv: "SE",
+  pl: "PL",
+  ru: "RU",
+  ar: "SA",
+};
+
+// Text direction. Arabic is right-to-left; everything else is LTR.
+export const localeDirection: Record<Locale, "ltr" | "rtl"> = {
+  en: "ltr",
+  tr: "ltr",
+  de: "ltr",
+  fr: "ltr",
+  es: "ltr",
+  it: "ltr",
+  "pt-br": "ltr",
+  "pt-pt": "ltr",
+  no: "ltr",
+  ja: "ltr",
+  ko: "ltr",
+  "zh-cn": "ltr",
+  nl: "ltr",
+  da: "ltr",
+  sv: "ltr",
+  pl: "ltr",
+  ru: "ltr",
+  ar: "rtl",
 };
