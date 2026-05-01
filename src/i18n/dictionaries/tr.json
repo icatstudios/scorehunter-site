@@ -70,9 +70,9 @@
     },
     "hero": {
       "eyebrow": "iCat Studios sunar",
-      "tagline": "Futbolu tahmin et.",
-      "taglineAccent": "Skoru avla.",
-      "subtitle": "ScoreHunter, beceri tabanlı futbol tahmin oyunudur. Maçları seç, skorları belirle, küresel sıralamada her hafta yüksel.",
+      "tagline": "Bahis değil!",
+      "taglineAccent": "Futbol tahmin oyunu.",
+      "subtitle": "Score Hunter, (türkçe dilinde Skor Avcısı) ücretsiz bir futbol tahmin oyunudur. Tahminlerini yap, futbol bilgini göster, rakiplerini geç ve şampiyon sen ol. Para yatırma yok, risk yok, sadece eğlence var.",
       "freeBadge": "Ücretsiz oyna",
       "appStoreLabel": "İndir",
       "appStoreName": "App Store",
@@ -81,26 +81,26 @@
     },
     "howItWorks": {
       "eyebrow": "Nasıl çalışır",
-      "title": "Ava başlamak için üç adım",
+      "title": "Oyuna başlamak için üç adım",
       "subtitle": "Bahis yok. Kupon yok. Sadece senin futbol bilgin, başkalarına karşı.",
       "steps": [
         {
           "title": "Maçları seç",
-          "description": "Senin için önemli liglerden haftanın en büyük maçlarını sıralıyoruz."
+          "description": "Her oyun haftasında belirlenen ligler arasından favori maçlarını seç"
         },
         {
-          "title": "Skorları belirle",
-          "description": "Sonucu, kesin skoru ve gol atacakları tahmin et. Maç başlamadan kilitle."
+          "title": "Tahminlerini yap",
+          "description": "Skor Avı (Score Hunt) ve Mini Oyunlar modlarında tahminlerini yap."
         },
         {
-          "title": "Sıralamaya tırman",
-          "description": "Maçlar oynanırken puanların canlı düşer. Kupalar kazan, haftalık zirveye yerleş."
+          "title": "Sıralamada yüksel",
+          "description": "Topladığın puanlarla rakiplerini geçerek zirveye tırman"
         }
       ]
     },
     "rules": {
       "eyebrow": "Nasıl oynanır",
-      "title": "Tasarım gereği beceriye dayalı",
+      "title": "İhtiyacın olan tek şey futbol tutkusu",
       "howTitle": "Nasıl oynanır",
       "howIntro": "ScoreHunter futbol bilgisini ödüllendirir, şansı değil. Her maç eşit değerde, her oyuncu aynı şansla başlar.",
       "howItems": [

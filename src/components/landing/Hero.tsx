@@ -20,7 +20,7 @@ export function Hero({ dict }: { dict: HeroDict }) {
         {/* Left: text */}
         <div className="flex flex-col items-start text-left">
           <div className="animate-slide-up">
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-[11px] font-semibold uppercase tracking-[0.2em] ring-1 ring-primary/20">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-[11px] font-semibold tracking-[0.2em] ring-1 ring-primary/20">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse-glow" />
               {dict.eyebrow}
             </span>
