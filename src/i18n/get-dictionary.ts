@@ -17,6 +17,7 @@ const dictionaries = {
   nl: () => import("./dictionaries/nl.json").then((m) => m.default),
   da: () => import("./dictionaries/da.json").then((m) => m.default),
   sv: () => import("./dictionaries/sv.json").then((m) => m.default),
+  cs: () => import("./dictionaries/cs.json").then((m) => m.default),
   pl: () => import("./dictionaries/pl.json").then((m) => m.default),
   ru: () => import("./dictionaries/ru.json").then((m) => m.default),
   ar: () => import("./dictionaries/ar.json").then((m) => m.default),

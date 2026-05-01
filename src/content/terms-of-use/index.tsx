@@ -15,6 +15,7 @@ import { TermsContentZhCn } from "./zh-cn";
 import { TermsContentNl } from "./nl";
 import { TermsContentDa } from "./da";
 import { TermsContentSv } from "./sv";
+import { TermsContentCs } from "./cs";
 import { TermsContentPl } from "./pl";
 import { TermsContentRu } from "./ru";
 import { TermsContentAr } from "./ar";
@@ -35,6 +36,7 @@ const map: Record<Locale, ComponentType> = {
   nl: TermsContentNl,
   da: TermsContentDa,
   sv: TermsContentSv,
+  cs: TermsContentCs,
   pl: TermsContentPl,
   ru: TermsContentRu,
   ar: TermsContentAr,

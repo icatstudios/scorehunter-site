@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Brzy v provozu",
+    "comingSoonDescription": "Něco velkého se blíží. Jste připraveni na lov?",
+    "deleteAccountTitle": "Smazat účet — ScoreHunter",
+    "deleteAccountDescription": "Požádejte o smazání svého účtu ScoreHunter a všech souvisejících údajů.",
+    "privacyPolicyTitle": "Zásady ochrany osobních údajů — ScoreHunter",
+    "privacyPolicyDescription": "Zjistěte, jak ScoreHunter shromažďuje, používá a chrání vaše osobní údaje.",
+    "termsOfUseTitle": "Podmínky použití — ScoreHunter",
+    "termsOfUseDescription": "Přečtěte si podmínky použití, kterými se řídí váš přístup k aplikaci ScoreHunter a její používání.",
+    "supportTitle": "Podpora — ScoreHunter",
+    "supportDescription": "Potřebujete pomoc se ScoreHunterem? Kontaktujte náš tým podpory e-mailem."
+  },
+  "nav": {
+    "backToHome": "Zpět na hlavní stránku"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Všechna práva vyhrazena."
+  },
+  "legalNote": "Tento dokument je pro vaše pohodlí poskytován v několika jazycích. V případě jakéhokoli rozporu nebo nesrovnalosti mezi jazykovými verzemi má přednost anglická verze.",
+  "landing": {
+    "tagline": "Něco velkého se blíží.",
+    "subtagline": "Jste připraveni na lov?",
+    "countdown": {
+      "days": "Dny",
+      "hours": "Hodiny",
+      "min": "Min",
+      "sec": "Sek"
+    },
+    "comingSoon": "Brzy v provozu",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Smazat účet",
+    "description": "Chcete-li požádat o smazání svého účtu a všech souvisejících údajů, vyplňte prosím níže uvedený formulář. Otevře se váš e-mailový klient s předvyplněnou zprávou pro náš tým podpory.",
+    "username": "Uživatelské jméno",
+    "usernamePlaceholder": "Zadejte své uživatelské jméno",
+    "confirmCode": "Potvrzovací kód",
+    "confirmCodePlaceholder": "Zadejte svůj potvrzovací kód",
+    "confirmCodeNote": "Potvrzovací kód najdete v nastavení aplikace.",
+    "submit": "Odeslat žádost",
+    "errorEmpty": "Vyplňte prosím všechna pole.",
+    "info": "Vaše žádost bude zpracována do 30 dnů. Po smazání účtu obdržíte potvrzovací e-mail.",
+    "emailSubject": "Žádost o smazání účtu",
+    "emailBodyHeader": "Žádost o smazání účtu",
+    "emailBodyUsernameLabel": "Uživatelské jméno",
+    "emailBodyConfirmCodeLabel": "Potvrzovací kód",
+    "emailBodyMessage": "Žádám o smazání svého účtu a všech souvisejících údajů."
+  },
+  "privacyPolicy": {
+    "title": "Zásady ochrany osobních údajů",
+    "lastUpdatedLabel": "Naposledy aktualizováno",
+    "lastUpdatedValue": "29. dubna 2026",
+    "applicationLabel": "Aplikace",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Vývojář",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Podpora",
+    "intro": "Jsme tu, abychom vám pomohli. Vyberte níže téma a otevřeme e-mail s předvyplněným správným předmětem, abychom vám mohli rychleji odpovědět.",
+    "topics": {
+      "accountLabel": "Účet a přihlášení",
+      "accountDescription": "Problémy s přihlášením, uživatelské jméno, změny profilu",
+      "accountSubject": "Podpora — Účet a přihlášení",
+      "billingLabel": "Předplatné a platby",
+      "billingDescription": "Pro členství, platby, vrácení peněz",
+      "billingSubject": "Podpora — Předplatné a platby",
+      "bugLabel": "Nahlásit chybu",
+      "bugDescription": "Něco nefunguje podle očekávání",
+      "bugSubject": "Hlášení chyby",
+      "feedbackLabel": "Zpětná vazba a nápady",
+      "feedbackDescription": "Návrhy funkcí a obecná zpětná vazba",
+      "feedbackSubject": "Zpětná vazba / Návrh funkce"
+    },
+    "directContact": "Nebo nám napište přímo na",
+    "responseNote": "Snažíme se odpovědět do 2 pracovních dnů. Pro žádosti o smazání účtu použijte prosím náš",
+    "deletionLink": "vyhrazený formulář",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Podmínky použití",
+    "lastUpdatedLabel": "Naposledy aktualizováno",
+    "lastUpdatedValue": "29. dubna 2026",
+    "applicationLabel": "Aplikace",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Vývojář",
+    "developerValue": "iCat Studios"
+  }
+}
