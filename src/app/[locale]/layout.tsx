@@ -25,6 +25,7 @@ const ogLocale: Record<string, string> = {
   nl: "nl_NL",
   da: "da_DK",
   sv: "sv_SE",
+  cs: "cs_CZ",
   pl: "pl_PL",
   ru: "ru_RU",
   ar: "ar_SA",

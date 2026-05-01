@@ -13,6 +13,7 @@ import CN from "country-flag-icons/react/3x2/CN";
 import NL from "country-flag-icons/react/3x2/NL";
 import DK from "country-flag-icons/react/3x2/DK";
 import SE from "country-flag-icons/react/3x2/SE";
+import CZ from "country-flag-icons/react/3x2/CZ";
 import PL from "country-flag-icons/react/3x2/PL";
 import RU from "country-flag-icons/react/3x2/RU";
 import SA from "country-flag-icons/react/3x2/SA";
@@ -38,6 +39,7 @@ const flagComponents = {
   NL,
   DK,
   SE,
+  CZ,
   PL,
   RU,
   SA,

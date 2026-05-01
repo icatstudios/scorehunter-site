@@ -15,6 +15,7 @@ import { PolicyContentZhCn } from "./zh-cn";
 import { PolicyContentNl } from "./nl";
 import { PolicyContentDa } from "./da";
 import { PolicyContentSv } from "./sv";
+import { PolicyContentCs } from "./cs";
 import { PolicyContentPl } from "./pl";
 import { PolicyContentRu } from "./ru";
 import { PolicyContentAr } from "./ar";
@@ -35,6 +36,7 @@ const map: Record<Locale, ComponentType> = {
   nl: PolicyContentNl,
   da: PolicyContentDa,
   sv: PolicyContentSv,
+  cs: PolicyContentCs,
   pl: PolicyContentPl,
   ru: PolicyContentRu,
   ar: PolicyContentAr,
