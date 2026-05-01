@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — 即将推出",
+    "comingSoonDescription": "重磅来袭。准备好开启狩猎了吗？",
+    "deleteAccountTitle": "删除账户 — ScoreHunter",
+    "deleteAccountDescription": "申请删除您的 ScoreHunter 账户及所有相关数据。",
+    "privacyPolicyTitle": "隐私政策 — ScoreHunter",
+    "privacyPolicyDescription": "了解 ScoreHunter 如何收集、使用和保护您的个人数据。",
+    "termsOfUseTitle": "使用条款 — ScoreHunter",
+    "termsOfUseDescription": "查看规范您访问和使用 ScoreHunter 应用程序的使用条款。",
+    "supportTitle": "客户支持 — ScoreHunter",
+    "supportDescription": "需要帮助吗？通过电子邮件联系我们的客户支持团队。"
+  },
+  "nav": {
+    "backToHome": "返回首页"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. 保留所有权利。"
+  },
+  "legalNote": "本文档以多种语言提供，方便您使用。如各语言版本之间存在冲突或差异，以英文版本为准。",
+  "landing": {
+    "tagline": "重磅来袭。",
+    "subtagline": "准备好开启狩猎了吗？",
+    "countdown": {
+      "days": "天",
+      "hours": "小时",
+      "min": "分",
+      "sec": "秒"
+    },
+    "comingSoon": "即将推出",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "删除账户",
+    "description": "如需申请删除您的账户及所有相关数据，请填写下方表单。系统将打开您的电子邮件客户端，并自动填好发送给我们客户支持团队的消息。",
+    "username": "用户名",
+    "usernamePlaceholder": "请输入您的用户名",
+    "confirmCode": "确认代码",
+    "confirmCodePlaceholder": "请输入您的确认代码",
+    "confirmCodeNote": "您可以在应用设置中获取确认代码。",
+    "submit": "提交请求",
+    "errorEmpty": "请填写所有字段。",
+    "info": "您的请求将在 30 天内处理完毕。账户删除后将收到确认邮件。",
+    "emailSubject": "账户删除请求",
+    "emailBodyHeader": "账户删除请求",
+    "emailBodyUsernameLabel": "用户名",
+    "emailBodyConfirmCodeLabel": "确认代码",
+    "emailBodyMessage": "我申请删除我的账户及所有相关数据。"
+  },
+  "privacyPolicy": {
+    "title": "隐私政策",
+    "lastUpdatedLabel": "最后更新",
+    "lastUpdatedValue": "2026 年 4 月 29 日",
+    "applicationLabel": "应用程序",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "开发者",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "客户支持",
+    "intro": "我们随时为您提供帮助。请在下方选择一个主题，我们将打开预先填好相关主题的电子邮件，以便更快回复您。",
+    "topics": {
+      "accountLabel": "账户与登录",
+      "accountDescription": "登录问题、用户名、个人资料更改",
+      "accountSubject": "客户支持 — 账户与登录",
+      "billingLabel": "订阅与付款",
+      "billingDescription": "Pro 会员、付款、退款",
+      "billingSubject": "客户支持 — 订阅与付款",
+      "bugLabel": "报告问题",
+      "bugDescription": "某项功能未按预期工作",
+      "bugSubject": "问题报告",
+      "feedbackLabel": "反馈与建议",
+      "feedbackDescription": "功能建议和一般反馈",
+      "feedbackSubject": "反馈 / 功能建议"
+    },
+    "directContact": "或直接发送邮件至",
+    "responseNote": "我们通常会在 2 个工作日内回复。账户删除请求请使用",
+    "deletionLink": "专用表单",
+    "deletionLinkSuffix": "。"
+  },
+  "termsOfUse": {
+    "title": "使用条款",
+    "lastUpdatedLabel": "最后更新",
+    "lastUpdatedValue": "2026 年 4 月 29 日",
+    "applicationLabel": "应用程序",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "开发者",
+    "developerValue": "iCat Studios"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — Kommer snart",
+    "comingSoonDescription": "Noe stort er på vei. Er du klar for jakten?",
+    "deleteAccountTitle": "Slett konto — ScoreHunter",
+    "deleteAccountDescription": "Be om å få slettet ScoreHunter-kontoen din og alle tilknyttede data.",
+    "privacyPolicyTitle": "Personvernerklæring — ScoreHunter",
+    "privacyPolicyDescription": "Lær hvordan ScoreHunter samler inn, bruker og beskytter personopplysningene dine.",
+    "termsOfUseTitle": "Bruksvilkår — ScoreHunter",
+    "termsOfUseDescription": "Les bruksvilkårene som regulerer din tilgang til og bruk av ScoreHunter-applikasjonen.",
+    "supportTitle": "Kundestøtte — ScoreHunter",
+    "supportDescription": "Trenger du hjelp med ScoreHunter? Kontakt kundestøtten vår på e-post."
+  },
+  "nav": {
+    "backToHome": "Tilbake til forsiden"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. Alle rettigheter forbeholdt."
+  },
+  "legalNote": "Dette dokumentet er tilgjengelig på flere språk for din bekvemmelighet. Ved konflikt eller avvik mellom språkversjonene skal den engelske versjonen være gjeldende.",
+  "landing": {
+    "tagline": "Noe stort er på vei.",
+    "subtagline": "Er du klar for jakten?",
+    "countdown": {
+      "days": "Dager",
+      "hours": "Timer",
+      "min": "Min",
+      "sec": "Sek"
+    },
+    "comingSoon": "Kommer snart",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "Slett konto",
+    "description": "For å be om sletting av kontoen din og alle tilknyttede data, fyll ut skjemaet nedenfor. Det åpner e-postprogrammet ditt med en ferdig utfylt melding til kundestøtten vår.",
+    "username": "Brukernavn",
+    "usernamePlaceholder": "Skriv inn brukernavnet ditt",
+    "confirmCode": "Bekreftelseskode",
+    "confirmCodePlaceholder": "Skriv inn bekreftelseskoden din",
+    "confirmCodeNote": "Du finner bekreftelseskoden i app-innstillingene.",
+    "submit": "Send forespørsel",
+    "errorEmpty": "Vennligst fyll ut alle feltene.",
+    "info": "Forespørselen din behandles innen 30 dager. Du får en bekreftelses-e-post når kontoen er slettet.",
+    "emailSubject": "Forespørsel om sletting av konto",
+    "emailBodyHeader": "Forespørsel om sletting av konto",
+    "emailBodyUsernameLabel": "Brukernavn",
+    "emailBodyConfirmCodeLabel": "Bekreftelseskode",
+    "emailBodyMessage": "Jeg ber om å få slettet kontoen min og alle tilknyttede data."
+  },
+  "privacyPolicy": {
+    "title": "Personvernerklæring",
+    "lastUpdatedLabel": "Sist oppdatert",
+    "lastUpdatedValue": "29. april 2026",
+    "applicationLabel": "Applikasjon",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Utvikler",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "Kundestøtte",
+    "intro": "Vi er her for å hjelpe. Velg et tema nedenfor, så åpner vi en e-post med riktig emnefelt slik at vi kan svare deg raskere.",
+    "topics": {
+      "accountLabel": "Konto og innlogging",
+      "accountDescription": "Innloggingsproblemer, brukernavn, profilendringer",
+      "accountSubject": "Kundestøtte — Konto og innlogging",
+      "billingLabel": "Abonnement og betaling",
+      "billingDescription": "Pro-medlemskap, betalinger, refusjoner",
+      "billingSubject": "Kundestøtte — Abonnement og betaling",
+      "bugLabel": "Rapporter en feil",
+      "bugDescription": "Noe fungerer ikke som forventet",
+      "bugSubject": "Feilrapport",
+      "feedbackLabel": "Tilbakemelding og ideer",
+      "feedbackDescription": "Forslag til funksjoner og generell tilbakemelding",
+      "feedbackSubject": "Tilbakemelding / Funksjonsforslag"
+    },
+    "directContact": "Eller skriv direkte til oss på",
+    "responseNote": "Vi svarer som regel innen 2 virkedager. For forespørsler om kontosletting, vennligst bruk vårt",
+    "deletionLink": "egne skjema",
+    "deletionLinkSuffix": "."
+  },
+  "termsOfUse": {
+    "title": "Bruksvilkår",
+    "lastUpdatedLabel": "Sist oppdatert",
+    "lastUpdatedValue": "29. april 2026",
+    "applicationLabel": "Applikasjon",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "Utvikler",
+    "developerValue": "iCat Studios"
+  }
+}

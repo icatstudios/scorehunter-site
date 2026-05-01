@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — 곧 출시",
+    "comingSoonDescription": "큰 무언가가 다가오고 있습니다. 사냥할 준비 되셨나요?",
+    "deleteAccountTitle": "계정 삭제 — ScoreHunter",
+    "deleteAccountDescription": "ScoreHunter 계정과 관련된 모든 데이터의 삭제를 요청합니다.",
+    "privacyPolicyTitle": "개인정보 처리방침 — ScoreHunter",
+    "privacyPolicyDescription": "ScoreHunter가 개인정보를 수집, 이용, 보호하는 방식을 알아보세요.",
+    "termsOfUseTitle": "이용약관 — ScoreHunter",
+    "termsOfUseDescription": "ScoreHunter 애플리케이션에 대한 접근 및 사용을 규정하는 이용약관을 확인하세요.",
+    "supportTitle": "고객지원 — ScoreHunter",
+    "supportDescription": "ScoreHunter에 대한 도움이 필요하신가요? 이메일로 지원팀에 문의하세요."
+  },
+  "nav": {
+    "backToHome": "홈으로 돌아가기"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. All rights reserved."
+  },
+  "legalNote": "본 문서는 편의를 위해 여러 언어로 제공됩니다. 언어 버전 간에 충돌이나 차이가 있는 경우 영문판이 우선합니다.",
+  "landing": {
+    "tagline": "큰 무언가가 다가오고 있습니다.",
+    "subtagline": "사냥할 준비 되셨나요?",
+    "countdown": {
+      "days": "일",
+      "hours": "시간",
+      "min": "분",
+      "sec": "초"
+    },
+    "comingSoon": "출시 예정",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "계정 삭제",
+    "description": "계정과 관련된 모든 데이터의 삭제를 요청하려면 아래 양식을 작성해 주세요. 지원팀에 보낼 메시지가 미리 입력된 상태로 이메일 클라이언트가 열립니다.",
+    "username": "사용자명",
+    "usernamePlaceholder": "사용자명을 입력하세요",
+    "confirmCode": "확인 코드",
+    "confirmCodePlaceholder": "확인 코드를 입력하세요",
+    "confirmCodeNote": "확인 코드는 앱 설정에서 확인할 수 있습니다.",
+    "submit": "요청 전송",
+    "errorEmpty": "모든 항목을 입력해 주세요.",
+    "info": "요청은 30일 이내에 처리됩니다. 계정이 삭제되면 확인 이메일을 받게 됩니다.",
+    "emailSubject": "계정 삭제 요청",
+    "emailBodyHeader": "계정 삭제 요청",
+    "emailBodyUsernameLabel": "사용자명",
+    "emailBodyConfirmCodeLabel": "확인 코드",
+    "emailBodyMessage": "본인의 계정과 관련된 모든 데이터의 삭제를 요청합니다."
+  },
+  "privacyPolicy": {
+    "title": "개인정보 처리방침",
+    "lastUpdatedLabel": "최종 업데이트",
+    "lastUpdatedValue": "2026년 4월 29일",
+    "applicationLabel": "애플리케이션",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "개발자",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "고객지원",
+    "intro": "도와드리기 위해 여기 있습니다. 아래에서 주제를 선택하시면 적절한 제목이 미리 입력된 이메일이 열려 더 빠르게 답변드릴 수 있습니다.",
+    "topics": {
+      "accountLabel": "계정 및 로그인",
+      "accountDescription": "로그인 문제, 사용자명, 프로필 변경",
+      "accountSubject": "고객지원 — 계정 및 로그인",
+      "billingLabel": "구독 및 결제",
+      "billingDescription": "Pro 멤버십, 결제, 환불",
+      "billingSubject": "고객지원 — 구독 및 결제",
+      "bugLabel": "버그 신고",
+      "bugDescription": "예상대로 동작하지 않습니다",
+      "bugSubject": "버그 신고",
+      "feedbackLabel": "피드백 및 아이디어",
+      "feedbackDescription": "기능 요청 및 일반적인 의견",
+      "feedbackSubject": "피드백 / 기능 요청"
+    },
+    "directContact": "또는 직접 연락하기",
+    "responseNote": "보통 영업일 기준 2일 이내에 답변드립니다. 계정 삭제 요청은",
+    "deletionLink": "전용 양식",
+    "deletionLinkSuffix": "을 이용해 주세요."
+  },
+  "termsOfUse": {
+    "title": "이용약관",
+    "lastUpdatedLabel": "최종 업데이트",
+    "lastUpdatedValue": "2026년 4월 29일",
+    "applicationLabel": "애플리케이션",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "개발자",
+    "developerValue": "iCat Studios"
+  }
+}

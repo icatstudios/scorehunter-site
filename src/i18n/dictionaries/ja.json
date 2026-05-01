@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "siteName": "ScoreHunter",
+    "comingSoonTitle": "ScoreHunter — まもなく公開",
+    "comingSoonDescription": "大きな何かがやってくる。狩りの準備はできていますか？",
+    "deleteAccountTitle": "アカウント削除 — ScoreHunter",
+    "deleteAccountDescription": "ScoreHunter アカウントとすべての関連データの削除をリクエストします。",
+    "privacyPolicyTitle": "プライバシーポリシー — ScoreHunter",
+    "privacyPolicyDescription": "ScoreHunter が個人情報をどのように収集・使用・保護しているかをご確認ください。",
+    "termsOfUseTitle": "利用規約 — ScoreHunter",
+    "termsOfUseDescription": "ScoreHunter アプリへのアクセスおよび使用を規定する利用規約をご確認ください。",
+    "supportTitle": "サポート — ScoreHunter",
+    "supportDescription": "ScoreHunter についてお困りですか？メールでサポートチームにお問い合わせください。"
+  },
+  "nav": {
+    "backToHome": "ホームに戻る"
+  },
+  "footer": {
+    "copyright": "© 2026 iCat Studios. All rights reserved."
+  },
+  "legalNote": "本書類は便宜上、複数の言語で提供されています。各言語版の間に矛盾または相違がある場合、英語版が優先されます。",
+  "landing": {
+    "tagline": "大きな何かがやってくる。",
+    "subtagline": "狩りの準備はできていますか？",
+    "countdown": {
+      "days": "日",
+      "hours": "時間",
+      "min": "分",
+      "sec": "秒"
+    },
+    "comingSoon": "近日公開",
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "deleteAccount": {
+    "title": "アカウント削除",
+    "description": "アカウントとすべての関連データの削除をリクエストするには、以下のフォームに入力してください。サポートチーム宛のメッセージがあらかじめ入力された状態で、お使いのメールクライアントが開きます。",
+    "username": "ユーザー名",
+    "usernamePlaceholder": "ユーザー名を入力してください",
+    "confirmCode": "確認コード",
+    "confirmCodePlaceholder": "確認コードを入力してください",
+    "confirmCodeNote": "確認コードはアプリの設定から取得できます。",
+    "submit": "リクエストを送信",
+    "errorEmpty": "すべての項目を入力してください。",
+    "info": "リクエストは 30 日以内に処理されます。アカウントが削除されると確認メールが送信されます。",
+    "emailSubject": "アカウント削除リクエスト",
+    "emailBodyHeader": "アカウント削除リクエスト",
+    "emailBodyUsernameLabel": "ユーザー名",
+    "emailBodyConfirmCodeLabel": "確認コード",
+    "emailBodyMessage": "私のアカウントとすべての関連データの削除をリクエストします。"
+  },
+  "privacyPolicy": {
+    "title": "プライバシーポリシー",
+    "lastUpdatedLabel": "最終更新日",
+    "lastUpdatedValue": "2026年4月29日",
+    "applicationLabel": "アプリケーション",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "開発者",
+    "developerValue": "iCat Studios"
+  },
+  "support": {
+    "title": "サポート",
+    "intro": "お手伝いします。下記からトピックを選んでいただくと、適切な件名があらかじめ入力されたメールが開き、より迅速にご返信できます。",
+    "topics": {
+      "accountLabel": "アカウントとログイン",
+      "accountDescription": "ログインの問題、ユーザー名、プロフィールの変更",
+      "accountSubject": "サポート — アカウントとログイン",
+      "billingLabel": "サブスクリプションと決済",
+      "billingDescription": "Pro メンバーシップ、支払い、返金",
+      "billingSubject": "サポート — サブスクリプションと決済",
+      "bugLabel": "バグを報告",
+      "bugDescription": "想定どおりに動作しない",
+      "bugSubject": "バグ報告",
+      "feedbackLabel": "フィードバックとアイデア",
+      "feedbackDescription": "機能リクエストや一般的なご意見",
+      "feedbackSubject": "フィードバック / 機能リクエスト"
+    },
+    "directContact": "または直接こちらまで",
+    "responseNote": "通常 2 営業日以内にご返信します。アカウント削除のご依頼は、",
+    "deletionLink": "専用フォーム",
+    "deletionLinkSuffix": "をご利用ください。"
+  },
+  "termsOfUse": {
+    "title": "利用規約",
+    "lastUpdatedLabel": "最終更新日",
+    "lastUpdatedValue": "2026年4月29日",
+    "applicationLabel": "アプリケーション",
+    "applicationValue": "ScoreHunter",
+    "developerLabel": "開発者",
+    "developerValue": "iCat Studios"
+  }
+}

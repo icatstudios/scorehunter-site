@@ -6,6 +6,10 @@ import ES from "country-flag-icons/react/3x2/ES";
 import IT from "country-flag-icons/react/3x2/IT";
 import BR from "country-flag-icons/react/3x2/BR";
 import PT from "country-flag-icons/react/3x2/PT";
+import NO from "country-flag-icons/react/3x2/NO";
+import JP from "country-flag-icons/react/3x2/JP";
+import KR from "country-flag-icons/react/3x2/KR";
+import CN from "country-flag-icons/react/3x2/CN";
 import {
   localeCountryCode,
   localeNativeName,
@@ -21,6 +25,10 @@ const flagComponents = {
   IT,
   BR,
   PT,
+  NO,
+  JP,
+  KR,
+  CN,
 } as const;
 
 export function LocaleFlag({

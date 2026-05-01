@@ -7,6 +7,10 @@ export const locales = [
   "it",
   "pt-br",
   "pt-pt",
+  "no",
+  "ja",
+  "ko",
+  "zh-cn",
 ] as const;
 export const defaultLocale = "en" as const;
 
@@ -28,6 +32,10 @@ export const htmlLang: Record<Locale, string> = {
   it: "it",
   "pt-br": "pt-BR",
   "pt-pt": "pt-PT",
+  no: "no",
+  ja: "ja",
+  ko: "ko",
+  "zh-cn": "zh-CN",
 };
 
 // Build a hreflang map for metadata.alternates.languages. x-default → en.
@@ -50,6 +58,10 @@ export const localeDisplayName: Record<Locale, string> = {
   it: "IT",
   "pt-br": "PT-BR",
   "pt-pt": "PT-PT",
+  no: "NO",
+  ja: "JA",
+  ko: "KO",
+  "zh-cn": "ZH-CN",
 };
 
 // Endonym — how each language calls itself. Used in the language switcher
@@ -63,6 +75,10 @@ export const localeNativeName: Record<Locale, string> = {
   it: "Italiano",
   "pt-br": "Português (BR)",
   "pt-pt": "Português (PT)",
+  no: "Norsk",
+  ja: "日本語",
+  ko: "한국어",
+  "zh-cn": "简体中文",
 };
 
 // ISO 3166-1 alpha-2 country code used to render the flag SVG. English
@@ -78,4 +94,8 @@ export const localeCountryCode: Record<Locale, string> = {
   it: "IT",
   "pt-br": "BR",
   "pt-pt": "PT",
+  no: "NO",
+  ja: "JP",
+  ko: "KR",
+  "zh-cn": "CN",
 };
