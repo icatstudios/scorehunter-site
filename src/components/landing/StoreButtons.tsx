@@ -5,6 +5,12 @@ interface StoreLabels {
   appStoreName: string;
   googlePlayLabel: string;
   googlePlayName: string;
+  /**
+   * Localised "Coming soon" label, shown as a corner badge on a store
+   * button when its store URL hasn't gone live yet. Re-uses the existing
+   * `landing.comingSoon` translation that already exists in every locale.
+   */
+  comingSoon: string;
 }
 
 export function StoreButtons({
@@ -21,48 +27,130 @@ export function StoreButtons({
   const iconSize = size === "lg" ? "w-7 h-7" : "w-6 h-6";
   const labelSize = size === "lg" ? "text-[10px]" : "text-[10px]";
   const nameSize = size === "lg" ? "text-base" : "text-sm";
+  // Fixed minimum width so the App Store and Google Play badges always
+  // render at the same width regardless of label length differences across
+  // locales (e.g. TR "İNDİR / App Store" vs "YÜKLE / Google Play").
+  const minWidth = size === "lg" ? "min-w-[210px]" : "min-w-[180px]";
+
+  const appStoreLive = isStoreLive(STORE_LINKS.appStore);
+  const googlePlayLive = isStoreLive(STORE_LINKS.googlePlay);
 
   return (
     <div className={`flex flex-wrap gap-3 ${className}`}>
-      <a
+      <StoreButton
         href={STORE_LINKS.appStore}
-        aria-disabled={!isStoreLive(STORE_LINKS.appStore)}
-        className={`group inline-flex items-center gap-3 ${padX} ${padY} rounded-2xl bg-white text-bg-dark hover:bg-white/90 transition-all hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(255,255,255,0.15)]`}
-      >
-        <svg className={iconSize} viewBox="0 0 24 24" fill="currentColor">
-          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
-        </svg>
-        <span className="text-left leading-tight">
-          <span
-            className={`block ${labelSize} text-bg-dark/60 uppercase tracking-wider font-medium`}
-          >
-            {labels.appStoreLabel}
-          </span>
-          <span className={`block ${nameSize} font-bold`}>
-            {labels.appStoreName}
-          </span>
-        </span>
-      </a>
+        live={appStoreLive}
+        comingSoonLabel={labels.comingSoon}
+        label={labels.appStoreLabel}
+        name={labels.appStoreName}
+        padX={padX}
+        padY={padY}
+        iconSize={iconSize}
+        labelSize={labelSize}
+        nameSize={nameSize}
+        minWidth={minWidth}
+        icon={
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+          </svg>
+        }
+      />
 
-      <a
+      <StoreButton
         href={STORE_LINKS.googlePlay}
-        aria-disabled={!isStoreLive(STORE_LINKS.googlePlay)}
-        className={`group inline-flex items-center gap-3 ${padX} ${padY} rounded-2xl bg-white text-bg-dark hover:bg-white/90 transition-all hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(255,255,255,0.15)]`}
-      >
-        <svg className={iconSize} viewBox="0 0 24 24" fill="currentColor">
-          <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 0 1 0 1.732l-2.808 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.3 2.3-8.636-8.632z" />
-        </svg>
-        <span className="text-left leading-tight">
-          <span
-            className={`block ${labelSize} text-bg-dark/60 uppercase tracking-wider font-medium`}
-          >
-            {labels.googlePlayLabel}
-          </span>
-          <span className={`block ${nameSize} font-bold`}>
-            {labels.googlePlayName}
-          </span>
-        </span>
-      </a>
+        live={googlePlayLive}
+        comingSoonLabel={labels.comingSoon}
+        label={labels.googlePlayLabel}
+        name={labels.googlePlayName}
+        padX={padX}
+        padY={padY}
+        iconSize={iconSize}
+        labelSize={labelSize}
+        nameSize={nameSize}
+        minWidth={minWidth}
+        icon={
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 0 1 0 1.732l-2.808 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.3 2.3-8.636-8.632z" />
+          </svg>
+        }
+      />
     </div>
+  );
+}
+
+function StoreButton({
+  href,
+  live,
+  comingSoonLabel,
+  icon,
+  label,
+  name,
+  padX,
+  padY,
+  iconSize,
+  labelSize,
+  nameSize,
+  minWidth,
+}: {
+  href: string;
+  live: boolean;
+  comingSoonLabel: string;
+  icon: React.ReactNode;
+  label: string;
+  name: string;
+  padX: string;
+  padY: string;
+  iconSize: string;
+  labelSize: string;
+  nameSize: string;
+  minWidth: string;
+}) {
+  // When the store link isn't live, we still render the button (so users
+  // see the app is coming to that platform) but disable navigation, dim
+  // the chrome, and stamp a "Soon" badge in the corner.
+  const baseClass = `group relative inline-flex items-center gap-3 ${padX} ${padY} ${minWidth} rounded-2xl bg-white text-bg-dark`;
+  const liveClass =
+    "hover:bg-white/90 transition-all hover:scale-[1.03] hover:shadow-[0_0_30px_rgba(255,255,255,0.15)]";
+  const dimClass =
+    "opacity-60 cursor-not-allowed pointer-events-none select-none";
+
+  const inner = (
+    <>
+      <span className={`${iconSize} shrink-0`}>{icon}</span>
+      <span className="text-left leading-tight">
+        <span
+          className={`block ${labelSize} text-bg-dark/60 uppercase tracking-wider font-medium`}
+        >
+          {label}
+        </span>
+        <span className={`block ${nameSize} font-bold`}>{name}</span>
+      </span>
+      {!live && (
+        <span
+          aria-hidden
+          className="absolute -top-2 -right-2 px-2 py-0.5 rounded-full bg-primary text-bg-dark text-[10px] font-bold uppercase tracking-wider shadow-lg shadow-primary/30 ring-1 ring-bg-dark/10"
+        >
+          {comingSoonLabel}
+        </span>
+      )}
+    </>
+  );
+
+  if (live) {
+    return (
+      <a href={href} className={`${baseClass} ${liveClass}`}>
+        {inner}
+      </a>
+    );
+  }
+  return (
+    <span
+      role="button"
+      aria-disabled="true"
+      aria-label={`${label} ${name} — ${comingSoonLabel}`}
+      className={`${baseClass} ${dimClass}`}
+    >
+      {inner}
+    </span>
   );
 }

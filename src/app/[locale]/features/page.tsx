@@ -41,6 +41,7 @@ export default async function FeaturesPage({
     appStoreName: dict.home.hero.appStoreName,
     googlePlayLabel: dict.home.hero.googlePlayLabel,
     googlePlayName: dict.home.hero.googlePlayName,
+    comingSoon: dict.landing.comingSoon,
   };
 
   return (
@@ -57,9 +58,9 @@ export default async function FeaturesPage({
             align="left"
           />
 
-          <article className="mt-12 glass-card p-6 sm:p-10 space-y-8 text-text-secondary text-[15px] leading-relaxed">
+          <div className="mt-12">
             <FeaturesContent locale={locale} />
-          </article>
+          </div>
         </div>
 
         <FinalCta

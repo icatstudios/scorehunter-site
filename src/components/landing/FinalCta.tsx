@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { StoreButtons } from "./StoreButtons";
 
 interface FinalCtaDict {
@@ -12,6 +13,7 @@ interface StoreLabels {
   appStoreName: string;
   googlePlayLabel: string;
   googlePlayName: string;
+  comingSoon: string;
 }
 
 export function FinalCta({
@@ -30,6 +32,13 @@ export function FinalCta({
           <div className="absolute -bottom-32 -left-24 w-96 h-96 rounded-full bg-secondary/15 blur-[120px] pointer-events-none" />
 
           <div className="relative">
+            <Image
+              src="/scorehunter-icon.svg"
+              alt=""
+              width={72}
+              height={72}
+              className="mx-auto mb-6 rounded-2xl shadow-lg shadow-primary/20"
+            />
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-[11px] font-semibold uppercase tracking-[0.2em] ring-1 ring-primary/20">
               {dict.eyebrow}
             </span>

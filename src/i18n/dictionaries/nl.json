@@ -9,48 +9,48 @@
     "privacyPolicyDescription": "Lees hoe ScoreHunter je persoonlijke gegevens verzamelt, gebruikt en beschermt.",
     "termsOfUseTitle": "Gebruiksvoorwaarden — ScoreHunter",
     "termsOfUseDescription": "Lees de Gebruiksvoorwaarden die je toegang tot en gebruik van de ScoreHunter-applicatie regelen.",
-    "supportTitle": "Ondersteuning — ScoreHunter",
+    "supportTitle": "Support — ScoreHunter",
     "supportDescription": "Hulp nodig met ScoreHunter? Neem per e-mail contact op met ons supportteam.",
-    "homeTitle": "ScoreHunter — Football prediction game",
-    "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
-    "featuresTitle": "Features — ScoreHunter",
-    "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
+    "homeTitle": "ScoreHunter — Voetbalvoorspellingsspel",
+    "homeDescription": "Voorspel voetbal. Speel tegen vrienden. Klim op de ranglijst. Het op vaardigheid gebaseerde voetbalvoorspellingsspel van iCat Studios.",
+    "featuresTitle": "Functies — ScoreHunter",
+    "featuresDescription": "Alles wat ScoreHunter biedt: weekvoorspellingen, minispelen, competities, trofeeën, Pro-lidmaatschap en live volgen.",
     "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
+    "faqDescription": "Antwoorden op de meest gestelde vragen over ScoreHunter — gameplay, competities, Pro-lidmaatschap, account en meer."
   },
   "nav": {
     "backToHome": "Terug naar startpagina"
   },
   "footer": {
     "copyright": "© 2026 iCat Studios. Alle rechten voorbehouden.",
-    "tagline": "The skill-based football prediction game.",
+    "tagline": "Het op vaardigheid gebaseerde voetbalvoorspellingsspel.",
     "columns": {
       "product": {
         "title": "Product",
         "links": {
-          "features": "Features",
+          "features": "Functies",
           "faq": "FAQ"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridisch",
         "links": {
-          "privacy": "Privacy Policy",
-          "terms": "Terms of Use"
+          "privacy": "Privacybeleid",
+          "terms": "Gebruiksvoorwaarden"
         }
       },
       "support": {
         "title": "Support",
         "links": {
           "contact": "Contact",
-          "deleteAccount": "Delete account"
+          "deleteAccount": "Account verwijderen"
         }
       }
     }
   },
   "legalNote": "Dit document wordt voor je gemak in meerdere talen aangeboden. Bij conflict of afwijking tussen taalversies prevaleert de Engelse versie.",
   "landing": {
-    "tagline": "Er komt iets groots aan.",
+    "tagline": "Iets groots komt eraan.",
     "subtagline": "Klaar voor de jacht?",
     "countdown": {
       "days": "Dagen",
@@ -121,169 +121,272 @@
   },
   "home": {
     "nav": {
-      "features": "Features",
+      "howToPlay": "Hoe te spelen",
+      "features": "Functies",
       "faq": "FAQ",
       "support": "Support"
     },
     "hero": {
-      "eyebrow": "iCat Studios presents",
-      "tagline": "Predict football.",
-      "taglineAccent": "Hunt the score.",
-      "subtitle": "ScoreHunter is the skill-based football prediction game. Pick the matches, call the scores, and climb the global leaderboards — week after week.",
-      "freeBadge": "Free to play",
-      "appStoreLabel": "Download on the",
+      "eyebrow": "iCat Studios presenteert",
+      "tagline": "Geen wedden",
+      "taglineAccent": "Voetbalvoorspellingsspel",
+      "subtitle": "ScoreHunter is een gratis voetbalvoorspellingsspel. Doe je voorspellingen, laat je voetbalkennis zien, klop je rivalen en word kampioen. Geen stortingen, geen risico — gewoon plezier.",
+      "freeBadge": "Gratis",
+      "appStoreLabel": "Download in de",
       "appStoreName": "App Store",
-      "googlePlayLabel": "Get it on",
+      "googlePlayLabel": "Verkrijgbaar via",
       "googlePlayName": "Google Play"
     },
     "howItWorks": {
-      "eyebrow": "How it works",
-      "title": "Three steps to start hunting",
-      "subtitle": "No betting. No coupons. Just your football brain against everyone else's.",
+      "eyebrow": "Hoe het werkt",
+      "title": "Het spelconcept in het kort",
+      "subtitle": "Geen wedden. Geen tickets. Gewoon jouw voetbalverstand tegen dat van de rest.",
       "steps": [
         {
-          "title": "Pick the matches",
-          "description": "We line up the week's biggest fixtures from the leagues you care about."
+          "title": "Kies de wedstrijden",
+          "description": "Kies je favoriete wedstrijden uit de competities die elke speelweek opengaan."
         },
         {
-          "title": "Call the scores",
-          "description": "Predict the outcome, the exact score, and who finds the net. Lock it in before kickoff."
+          "title": "Doe je voorspellingen",
+          "description": "Doe je voorspellingen in de modi Score Hunt en Minispelen."
         },
         {
-          "title": "Climb the board",
-          "description": "Live points roll in as the matches play. Win trophies, top weekly tables, repeat."
+          "title": "Klim op de ranglijst",
+          "description": "Klop je rivalen met de verzamelde punten, win trofeeën en bereik de top."
         }
       ]
     },
     "rules": {
-      "eyebrow": "How to play",
-      "title": "Skill-based, by design",
-      "howTitle": "How to play",
-      "howIntro": "ScoreHunter rewards football knowledge, not luck. Every match is worth the same, every player has the same shot.",
+      "eyebrow": "Hoe te spelen",
+      "title": "Het enige wat je nodig hebt is een passie voor voetbal",
+      "howTitle": "Hoe te spelen",
+      "howIntro": "ScoreHunter beloont voetbalkennis. Geen tickets, geen handicaps, geen quoteringen — geen weddenschapsjargon. Elke competitie, elke wedstrijd, elk team heeft dezelfde waarde en hetzelfde belang. Elke speler begint met dezelfde kansen.",
       "howItems": [
-        "Each week, a curated set of fixtures unlocks for predictions.",
-        "Pick the result (1, X, 2), the exact score, and goal scorers.",
-        "Mini games drop between match days for quick prediction rounds.",
-        "All matches are equal value — no odds, no multipliers, no payouts.",
-        "Pro members get extra perks but never an unfair advantage."
+        "Elke week wordt een geselecteerde reeks wedstrijden opengesteld voor voorspellingen.",
+        "Spelers worden geacht op deze wedstrijden voorspellingen te doen in de Score Hunt- en Minispelen-modus.",
+        "Spelers verdienen punten op basis van de uitkomsten van hun voorspellingen.",
+        "Er zijn drie aparte ranglijsten — Algemeen, Score Hunt en Minispelen. Elke week ontvangen de spelers op de 1e, 2e en 3e plaats trofeeën.",
+        "De Algemene ranglijst van elke week wordt berekend als de som van de in Score Hunt en Minispelen behaalde punten.",
+        "In seizoenen met prijzen worden prijzen verdeeld op basis van de prestaties op de Algemene ranglijst.",
+        "In Score Hunt moeten spelers de scores van in totaal 12 wedstrijden voorspellen — 10 hoofd- en 2 bonuswedstrijden.",
+        "Voorspellingen worden in detail beoordeeld op meerdere criteria: juiste uitslagrichting, juiste gelijkspel, juist aantal doelpunten, juist doelsaldo, exacte score en zeldzame voorspelling.",
+        "In Score Hunt kunnen spelers de 2X-joker toepassen op één van hun keuzes om de op die wedstrijd verdiende punten te verdubbelen.",
+        "Bonusvoorspellingen vervangen de laagstgewaardeerde keuzes onder de hoofdvoorspellingen.",
+        "Pro-gebruikers mogen één back-uplijst met voorspellingen aanmaken in Score Hunt.",
+        "Aan het einde van de week telt alleen de hoogstscorende lijst van de twee.",
+        "In Minispelen-modus worden voorspellingen gedaan op gebeurtenissen die tijdens wedstrijden plaatsvinden.",
+        "Spelers selecteren een aantal wedstrijden of teams zoals het concept van het spel vereist.",
+        "Elk minispel heeft zijn eigen concept en puntenwaarde.",
+        "Het aantal, de punten en de doelen van de minispelen kunnen variëren op basis van het wekelijkse aantal wedstrijden.",
+        "Spelers mogen 1 bonuswedstrijd of -team toevoegen per minispel.",
+        "Om een minispel te halen, moet je net zoveel correcte voorspellingen doen als het doel van het spel.",
+        "De bonusvoorspelling vervangt de eerste mislukte voorspelling.",
+        "Geslaagde minispelen geven een vaste beloning op basis van hun moeilijkheidsgraad.",
+        "Mislukte minispelen geven alleen het deelnamepunt."
       ],
-      "rewardsTitle": "Scoring & rewards",
-      "scoringTitle": "Earn points for",
-      "scoringItems": [
-        "Calling the correct outcome (1X2)",
-        "Nailing the exact score",
-        "Picking the right goal scorers",
-        "Bonus picks across weekly mini games"
+      "scoringTitle": "Puntentelling",
+      "scoringIntro": "In Score Hunt levert elk detail dat je goed hebt punten op. Je hoeft de exacte score niet te raken.",
+      "scoringLabel": "Score Hunt-puntentelling",
+      "scoringTable": {
+        "title": "SCORE HUNT",
+        "rows": [
+          {
+            "label": "Bonus voor Perfecte Voorspelling",
+            "points": 150
+          },
+          {
+            "label": "Juiste uitslagrichting",
+            "points": 200
+          },
+          {
+            "label": "Juist gelijkspel",
+            "points": 250
+          },
+          {
+            "label": "Bonus doelsaldo",
+            "points": 25
+          },
+          {
+            "label": "Bonus juist aantal doelpunten (per doelpunt)",
+            "points": 25
+          },
+          {
+            "label": "Juiste voorspelling van nul doelpunten",
+            "points": 25
+          }
+        ]
+      },
+      "rareTable": {
+        "title": "BONUS ZELDZAME VOORSPELLING",
+        "rows": [
+          {
+            "label": "Niveau 1 (≤20% van de gebruikers)",
+            "points": 150
+          },
+          {
+            "label": "Niveau 2 (≤15% van de gebruikers)",
+            "points": 200
+          },
+          {
+            "label": "Niveau 3 (≤10% van de gebruikers)",
+            "points": 250
+          }
+        ]
+      },
+      "scoringNote": "Wanneer je de Bonus voor Perfecte Voorspelling op een wedstrijd verdient, wordt de Bonus doelsaldo niet toegekend. De Bonus Zeldzame Voorspelling wordt berekend op basis van het percentage gebruikers dat dezelfde voorspelling deed voor die wedstrijd in die week.",
+      "miniGamesLabel": "Punten Minispelen",
+      "miniGamesIntro": "Elk minispel heeft zijn eigen concept en een vaste beloning op basis van moeilijkheidsgraad. Wanneer je slaagt verdien je de punten hieronder; ook als je faalt krijg je +25 deelnamepunten.",
+      "miniGames": [
+        {
+          "name": "Goal Match",
+          "rule": "De wedstrijd heeft 3 of meer doelpunten in totaal.",
+          "points": 500
+        },
+        {
+          "name": "Goal Scorer",
+          "rule": "Jouw gekozen team scoort 3 of meer doelpunten in de wedstrijd.",
+          "points": 500
+        },
+        {
+          "name": "Early Bird",
+          "rule": "Jouw gekozen team scoort het eerste doelpunt van de wedstrijd.",
+          "points": 500
+        },
+        {
+          "name": "Goal Duel",
+          "rule": "Beide teams scoren minstens 1 doelpunt.",
+          "points": 500
+        },
+        {
+          "name": "Clean Sheet",
+          "rule": "Jouw gekozen team eindigt de wedstrijd zonder tegendoelpunt.",
+          "points": 750
+        },
+        {
+          "name": "Goal Rain",
+          "rule": "De wedstrijd heeft 5 of meer doelpunten in totaal.",
+          "points": 750
+        },
+        {
+          "name": "Penalty Beast",
+          "rule": "Er wordt minstens 1 strafschop gescoord in de wedstrijd.",
+          "points": 750
+        },
+        {
+          "name": "Hard Man",
+          "rule": "Er wordt minstens 1 rode kaart getoond in de wedstrijd.",
+          "points": 750
+        },
+        {
+          "name": "Silent Night",
+          "rule": "De wedstrijd eindigt zonder doelpunten (0-0).",
+          "points": 1000
+        },
+        {
+          "name": "Friendly Fire",
+          "rule": "Er wordt minstens 1 eigen doelpunt gemaakt in de wedstrijd.",
+          "points": 1000
+        }
       ],
-      "rewardsLabel": "Rewards",
-      "rewardsItems": [
-        "Trophies and seasonal achievements",
-        "Top spots on weekly and seasonal leaderboards",
-        "Promotional prizes from time to time — jerseys, footballs, digital gift cards (no cash, no gambling)",
-        "Pro membership perks like reduced ads and exclusive trophies"
-      ]
+      "generalRulesTitle": "Regels",
+      "generalRulesItems": [
+        "Je doet pas mee aan de competitie wanneer je je voorspellingenlijst bevestigt. Niet-bevestigde lijsten worden niet beoordeeld.",
+        "Vergeet niet te bevestigen voordat de eerste wedstrijd op je lijst aftrapt. Zodra een wedstrijd is begonnen kan de lijst niet meer worden gewijzigd.",
+        "Voorspellingen worden alleen op de reguliere speeltijd (90 minuten) beoordeeld. Verlenging en strafschoppenseries tellen niet mee.",
+        "Voor uitgestelde, geannuleerde of geschorste wedstrijden worden geen punten toegekend.",
+        "De Algemene ranglijst wordt wekelijks berekend: Score Hunt + Minispelen gecombineerd.",
+        "Resultaten worden automatisch berekend wanneer de week eindigt. Wedstrijdscores worden live bijgewerkt — je kunt het in realtime volgen.",
+        "Bij gelijke punten in de stand wordt de gelijkstand verbroken in deze volgorde: eerst op totaal seizoenspunten, daarna op aantal gewonnen gouden, zilveren en bronzen trofeeën — van hoog naar laag.",
+        "Tijdens het scoren draait een door AI aangedreven anomaliedetectie. Alle lijsten van gebruikers die worden betrapt op valsspelen worden ongeldig verklaard.",
+        "Je moet 13 jaar of ouder zijn om mee te doen."
+      ],
+      "rewardsTitle": "Prijzen",
+      "rewardsPlaceholder": "Omdat onze lancering valt in de slotweken van het seizoen 2025-2026 is een eerlijke competitieve omgeving niet mogelijk — daarom hebben we de rest van het seizoen het \"Training Season\" genoemd.\n\nGebruik dit seizoen om het spel te ontdekken, ons je gevonden bugs te melden en je suggesties met ons te delen, en bereid je voor op het WK-seizoen.\n\nOnze beloonde seizoenen beginnen met het WK. Tot dan, blijf op de hoogte en blijf bij ons."
     },
     "features": {
-      "eyebrow": "Features",
-      "title": "Everything you need to predict, compete, and win",
-      "subtitle": "Built for football fans who want their knowledge to count.",
-      "viewAll": "Explore all features",
+      "eyebrow": "Functies",
+      "title": "We werken eraan om je meer te bieden dan alleen een spel",
+      "subtitle": "Gourmetfuncties voor de elite voetbalfan",
+      "viewAll": "Alle functies bekijken",
       "items": [
         {
           "title": "Score Hunt",
-          "description": "The core weekly mode. Predict the biggest fixtures and ride the live points as they happen."
+          "description": "Onze hoofdmodus. Voorspel wedstrijduitslagen. Verdien punten voor elke juiste keuze. Je hoeft niet perfect te zijn."
         },
         {
-          "title": "Mini games",
-          "description": "Quick prediction rounds between match days. Different rules, same skill, instant fun."
+          "title": "Minispelen",
+          "description": "Onze tweede modus. Soms gaat voetbal verder dan de score. Voorspel de gebeurtenissen. Heb plezier en verdien extra punten."
         },
         {
-          "title": "Leagues",
-          "description": "Public boards for the world or private leagues just for you and your friends."
+          "title": "Competities",
+          "description": "Strijd op een aparte ranglijst met je vrienden, familie of een community waar je bij hoort. En jullie bepalen zelf de regels van die competities."
         },
         {
-          "title": "Trophies",
-          "description": "Hundreds of weekly, seasonal, and lifetime achievements to chase."
+          "title": "Trofeeën",
+          "description": "Top 3-finishers in de week- en seizoensrankings voegen een trofee toe aan hun kast — en kwalificeren zich het volgende seizoen voor de Champions League."
         },
         {
-          "title": "Pro Membership",
-          "description": "A smoother experience with fewer ads and Pro-only trophies. Optional, never required."
+          "title": "Pro-lidmaatschap",
+          "description": "Een speciaal lidmaatschap voor gebruikers die een advertentievrije ervaring en wat optionele extra's willen."
         },
         {
-          "title": "Live tracking",
-          "description": "Watch your score climb minute by minute as the matches unfold."
+          "title": "Live scores",
+          "description": "Een live-scoreapp worden is niet onze prioriteit, maar we hebben een schone en functionele interface gebouwd om wedstrijden in realtime te volgen."
         }
       ]
     },
     "screenshots": {
-      "eyebrow": "Inside the app",
-      "title": "Designed to be played, not studied",
-      "subtitle": "Quick to pick up, deep to master.",
-      "mocks": [
-        {
-          "label": "Score Hunt",
-          "title": "This week's hunt",
-          "subtitle": "12 matches · 3 mini games"
-        },
-        {
-          "label": "Live match",
-          "title": "Arsenal vs. Chelsea",
-          "subtitle": "Live · 67' · You: 2–1"
-        },
-        {
-          "label": "Leaderboard",
-          "title": "Weekly top",
-          "subtitle": "You moved up 14 spots ↑"
-        }
-      ]
+      "eyebrow": "In de app",
+      "title": "We mikten op plezier en functionaliteit in gelijke mate",
+      "subtitle": "Heldere, intuïtieve menu's"
     },
     "faqPreview": {
-      "eyebrow": "Questions",
-      "title": "Quick answers",
-      "subtitle": "The basics before you download.",
-      "viewAll": "Browse all FAQs",
+      "eyebrow": "Vragen",
+      "title": "Snelle antwoorden",
+      "subtitle": "De basis voordat je downloadt.",
+      "viewAll": "Alle FAQs bekijken",
       "items": [
         {
-          "q": "Is ScoreHunter free?",
-          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+          "q": "Is ScoreHunter gratis?",
+          "a": "Ja — volledig gratis te downloaden en te spelen. Er is een optioneel Pro-lidmaatschap voor extra's zoals minder advertenties, maar het hoofdspel is voor iedereen gratis."
         },
         {
-          "q": "Is this gambling?",
-          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+          "q": "Is dit gokken?",
+          "a": "Nee. ScoreHunter heeft geen weddenschappen, geen quoteringen en er gaat geen geld in of uit. Alle wedstrijden hebben dezelfde waarde en prijzen zijn alleen promotioneel — nooit in geld."
         },
         {
-          "q": "Do I need an account?",
-          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+          "q": "Heb ik een account nodig?",
+          "a": "Ja. Log binnen enkele seconden in met Apple of Google — geen wachtwoorden, geen e-mailverificatie."
         },
         {
-          "q": "Can I play with friends?",
-          "a": "Of course. Create a private league, share the invite link, and let the bragging rights begin."
+          "q": "Kan ik met vrienden spelen?",
+          "a": "Natuurlijk. Maak een privé-competitie aan, deel de uitnodigingslink en laat het opscheppen beginnen."
         },
         {
-          "q": "What devices are supported?",
-          "a": "iPhone (iOS 14+) and Android (Android 8+). One account works across both."
+          "q": "Welke apparaten worden ondersteund?",
+          "a": "iPhone (iOS 14+) en Android (Android 8+). Eén account werkt op beide."
         }
       ]
     },
     "finalCta": {
-      "eyebrow": "Ready?",
-      "title": "Hunt the score this weekend",
-      "subtitle": "Download ScoreHunter, link your account in seconds, and lock in your first predictions before kickoff.",
-      "freeBadge": "100% free · No credit card · Apple & Google sign-in"
+      "eyebrow": "Klaar?",
+      "title": "Doe ook met ons mee",
+      "subtitle": "Download ScoreHunter, doe je voorspellingen, laat je voetbalkennis zien. Geen risico! Alleen plezier.",
+      "freeBadge": "100% gratis · Geen creditcard · Inloggen met Apple & Google"
     }
   },
   "features": {
-    "eyebrow": "What's inside",
-    "title": "Features",
-    "subtitle": "A complete guide to everything ScoreHunter does — from weekly hunts to Pro perks.",
-    "ctaTitle": "Ready to hunt?",
-    "ctaSubtitle": "Download the app and lock in this week's predictions."
+    "eyebrow": "Wat zit erin",
+    "title": "Functies",
+    "subtitle": "Wat zit er in ScoreHunter? Hier een korte samenvatting.",
+    "ctaTitle": "Klaar?",
+    "ctaSubtitle": "Download ScoreHunter, doe je voorspellingen en laat je voetbalkennis zien."
   },
   "faq": {
-    "eyebrow": "Questions",
-    "title": "Frequently asked questions",
-    "subtitle": "Answers to the things people ask most. Can't find yours?",
-    "contactPrompt": "Can't find your answer?",
-    "contactCta": "Contact support"
+    "eyebrow": "Vragen",
+    "title": "Veelgestelde vragen",
+    "subtitle": "Antwoorden op de meest gestelde vragen. Staat de jouwe er niet bij?",
+    "contactPrompt": "Vind je je antwoord niet?",
+    "contactCta": "Neem contact op met support"
   }
 }

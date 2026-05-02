@@ -11,46 +11,46 @@
     "termsOfUseDescription": "Прочтите условия использования, регулирующие доступ и использование приложения ScoreHunter.",
     "supportTitle": "Поддержка — ScoreHunter",
     "supportDescription": "Нужна помощь со ScoreHunter? Свяжитесь с нашей службой поддержки по электронной почте.",
-    "homeTitle": "ScoreHunter — Football prediction game",
-    "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
-    "featuresTitle": "Features — ScoreHunter",
-    "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
+    "homeTitle": "ScoreHunter — Игра по предсказанию футбола",
+    "homeDescription": "Предсказывай футбол. Соревнуйся с друзьями. Поднимайся в рейтингах. Игра по предсказанию футбола, основанная на навыке, от iCat Studios.",
+    "featuresTitle": "Возможности — ScoreHunter",
+    "featuresDescription": "Всё, что предлагает ScoreHunter: еженедельные прогнозы, мини-игры, лиги, трофеи, Pro Подписка и живое отслеживание.",
     "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
+    "faqDescription": "Ответы на самые частые вопросы о ScoreHunter — игровой процесс, лиги, Pro Подписка, аккаунт и многое другое."
   },
   "nav": {
     "backToHome": "Вернуться на главную"
   },
   "footer": {
     "copyright": "© 2026 iCat Studios. Все права защищены.",
-    "tagline": "The skill-based football prediction game.",
+    "tagline": "Игра по предсказанию футбола, основанная на навыке.",
     "columns": {
       "product": {
-        "title": "Product",
+        "title": "Продукт",
         "links": {
-          "features": "Features",
+          "features": "Возможности",
           "faq": "FAQ"
         }
       },
       "legal": {
         "title": "Legal",
         "links": {
-          "privacy": "Privacy Policy",
-          "terms": "Terms of Use"
+          "privacy": "Политика конфиденциальности",
+          "terms": "Условия использования"
         }
       },
       "support": {
-        "title": "Support",
+        "title": "Поддержка",
         "links": {
-          "contact": "Contact",
-          "deleteAccount": "Delete account"
+          "contact": "Связаться",
+          "deleteAccount": "Удалить аккаунт"
         }
       }
     }
   },
   "legalNote": "Этот документ предоставлен на нескольких языках для вашего удобства. В случае любого конфликта или расхождения между языковыми версиями преимущественную силу имеет английская версия.",
   "landing": {
-    "tagline": "Грядёт нечто большое.",
+    "tagline": "Что-то большое приближается.",
     "subtagline": "Готов к охоте?",
     "countdown": {
       "days": "Дни",
@@ -121,169 +121,272 @@
   },
   "home": {
     "nav": {
-      "features": "Features",
+      "howToPlay": "Как играть",
+      "features": "Возможности",
       "faq": "FAQ",
-      "support": "Support"
+      "support": "Поддержка"
     },
     "hero": {
-      "eyebrow": "iCat Studios presents",
-      "tagline": "Predict football.",
-      "taglineAccent": "Hunt the score.",
-      "subtitle": "ScoreHunter is the skill-based football prediction game. Pick the matches, call the scores, and climb the global leaderboards — week after week.",
-      "freeBadge": "Free to play",
-      "appStoreLabel": "Download on the",
+      "eyebrow": "iCat Studios представляет",
+      "tagline": "Никаких ставок",
+      "taglineAccent": "Игра по предсказанию футбола",
+      "subtitle": "ScoreHunter — это бесплатная игра по предсказанию футбола. Делай прогнозы, покажи свои футбольные знания, обойди соперников и стань чемпионом. Никаких депозитов, никакого риска — только удовольствие.",
+      "freeBadge": "Бесплатно",
+      "appStoreLabel": "Скачать в",
       "appStoreName": "App Store",
-      "googlePlayLabel": "Get it on",
+      "googlePlayLabel": "Доступно в",
       "googlePlayName": "Google Play"
     },
     "howItWorks": {
-      "eyebrow": "How it works",
-      "title": "Three steps to start hunting",
-      "subtitle": "No betting. No coupons. Just your football brain against everyone else's.",
+      "eyebrow": "Как это работает",
+      "title": "Концепция игры вкратце",
+      "subtitle": "Никаких ставок. Никаких купонов. Только твоя футбольная голова против всех остальных.",
       "steps": [
         {
-          "title": "Pick the matches",
-          "description": "We line up the week's biggest fixtures from the leagues you care about."
+          "title": "Выбери матчи",
+          "description": "Выбирай любимые матчи из лиг, которые открываются каждую игровую неделю."
         },
         {
-          "title": "Call the scores",
-          "description": "Predict the outcome, the exact score, and who finds the net. Lock it in before kickoff."
+          "title": "Делай прогнозы",
+          "description": "Делай прогнозы в режимах Score Hunt и Мини-Игры."
         },
         {
-          "title": "Climb the board",
-          "description": "Live points roll in as the matches play. Win trophies, top weekly tables, repeat."
+          "title": "Поднимайся в рейтинге",
+          "description": "Обходи соперников набранными очками, выигрывай трофеи и поднимайся на вершину."
         }
       ]
     },
     "rules": {
-      "eyebrow": "How to play",
-      "title": "Skill-based, by design",
-      "howTitle": "How to play",
-      "howIntro": "ScoreHunter rewards football knowledge, not luck. Every match is worth the same, every player has the same shot.",
+      "eyebrow": "Как играть",
+      "title": "Всё, что тебе нужно — это страсть к футболу",
+      "howTitle": "Как играть",
+      "howIntro": "ScoreHunter вознаграждает футбольные знания. Никаких купонов, никаких гандикапов, никаких коэффициентов — никакого жаргона ставок. Каждая лига, каждый матч, каждая команда имеют одинаковую ценность и значимость. Каждый игрок начинает с одинаковыми шансами.",
       "howItems": [
-        "Each week, a curated set of fixtures unlocks for predictions.",
-        "Pick the result (1, X, 2), the exact score, and goal scorers.",
-        "Mini games drop between match days for quick prediction rounds.",
-        "All matches are equal value — no odds, no multipliers, no payouts.",
-        "Pro members get extra perks but never an unfair advantage."
+        "Каждую неделю открывается отобранный набор матчей для прогнозов.",
+        "Игроки должны делать прогнозы на эти матчи в режимах Score Hunt и Мини-Игры.",
+        "Игроки получают очки на основе результатов сделанных прогнозов.",
+        "Существует три отдельных рейтинга — Общий, Score Hunt и Мини-Игры. Каждую неделю игроки на 1, 2 и 3 местах получают трофеи.",
+        "Общий рейтинг каждой недели рассчитывается как сумма очков, полученных в Score Hunt и Мини-Игры.",
+        "В сезонах с призами призы распределяются на основе достижений в Общем рейтинге.",
+        "В Score Hunt игроки должны предсказать счёт 12 матчей в общей сложности — 10 основных и 2 бонусных.",
+        "Прогнозы оцениваются подробно по нескольким критериям: правильное направление исхода, правильная ничья, правильное количество голов, правильная разница голов, точный счёт и редкий прогноз.",
+        "В Score Hunt игроки могут применить джокер 2X к одному из своих выборов, чтобы удвоить очки за этот матч.",
+        "Бонусные прогнозы заменяют выборы с наименьшими очками среди основных прогнозов.",
+        "Pro-пользователи имеют право создать одну запасную таблицу прогнозов в Score Hunt.",
+        "В конце недели засчитывается только список прогнозов с большим количеством очков из двух.",
+        "В режиме Мини-Игры прогнозы делаются на события, происходящие во время матчей.",
+        "Игроки выбирают количество матчей или команд в соответствии с концепцией игры.",
+        "У каждой мини-игры своя концепция и своя ценность в очках.",
+        "Количество, очки и цели мини-игр могут меняться в зависимости от количества матчей в неделю.",
+        "Игроки имеют право добавить 1 бонусный матч или команду на каждую мини-игру.",
+        "Чтобы пройти мини-игру, нужно сделать столько правильных прогнозов, сколько указано в цели игры.",
+        "Бонусный прогноз заменяет первый неудачный прогноз.",
+        "Успешные мини-игры дают фиксированную награду в зависимости от их сложности.",
+        "Неудачные мини-игры дают только очко за участие."
       ],
-      "rewardsTitle": "Scoring & rewards",
-      "scoringTitle": "Earn points for",
-      "scoringItems": [
-        "Calling the correct outcome (1X2)",
-        "Nailing the exact score",
-        "Picking the right goal scorers",
-        "Bonus picks across weekly mini games"
+      "scoringTitle": "Подсчёт очков",
+      "scoringIntro": "В Score Hunt каждая угаданная деталь приносит очки. Не обязательно угадывать точный счёт.",
+      "scoringLabel": "Подсчёт очков Score Hunt",
+      "scoringTable": {
+        "title": "SCORE HUNT",
+        "rows": [
+          {
+            "label": "Бонус за Идеальный Прогноз",
+            "points": 150
+          },
+          {
+            "label": "Правильное направление исхода",
+            "points": 200
+          },
+          {
+            "label": "Правильная ничья",
+            "points": 250
+          },
+          {
+            "label": "Бонус за разницу голов",
+            "points": 25
+          },
+          {
+            "label": "Бонус за правильное количество голов (за гол)",
+            "points": 25
+          },
+          {
+            "label": "Правильный прогноз нуля голов",
+            "points": 25
+          }
+        ]
+      },
+      "rareTable": {
+        "title": "БОНУС ЗА РЕДКИЙ ПРОГНОЗ",
+        "rows": [
+          {
+            "label": "Уровень 1 (≤20% пользователей)",
+            "points": 150
+          },
+          {
+            "label": "Уровень 2 (≤15% пользователей)",
+            "points": 200
+          },
+          {
+            "label": "Уровень 3 (≤10% пользователей)",
+            "points": 250
+          }
+        ]
+      },
+      "scoringNote": "Когда ты получаешь Бонус за Идеальный Прогноз на матче, Бонус за разницу голов не начисляется. Бонус за Редкий Прогноз рассчитывается из процента пользователей, сделавших такой же прогноз на этот матч на той неделе.",
+      "miniGamesLabel": "Очки Мини-игр",
+      "miniGamesIntro": "У каждой мини-игры своя концепция и фиксированная награда в зависимости от сложности. Когда ты выигрываешь, получаешь очки ниже; даже если проигрываешь, ты получаешь +25 очков за участие.",
+      "miniGames": [
+        {
+          "name": "Goal Match",
+          "rule": "В матче забито 3 или больше голов в общей сложности.",
+          "points": 500
+        },
+        {
+          "name": "Goal Scorer",
+          "rule": "Выбранная тобой команда забивает 3 или больше голов в матче.",
+          "points": 500
+        },
+        {
+          "name": "Early Bird",
+          "rule": "Выбранная тобой команда забивает первый гол матча.",
+          "points": 500
+        },
+        {
+          "name": "Goal Duel",
+          "rule": "Обе команды забивают как минимум 1 гол.",
+          "points": 500
+        },
+        {
+          "name": "Clean Sheet",
+          "rule": "Выбранная тобой команда заканчивает матч без пропущенных голов.",
+          "points": 750
+        },
+        {
+          "name": "Goal Rain",
+          "rule": "В матче забито 5 или больше голов в общей сложности.",
+          "points": 750
+        },
+        {
+          "name": "Penalty Beast",
+          "rule": "В матче забит как минимум 1 гол с пенальти.",
+          "points": 750
+        },
+        {
+          "name": "Hard Man",
+          "rule": "В матче показана как минимум 1 красная карточка.",
+          "points": 750
+        },
+        {
+          "name": "Silent Night",
+          "rule": "Матч заканчивается без голов (0-0).",
+          "points": 1000
+        },
+        {
+          "name": "Friendly Fire",
+          "rule": "В матче забит как минимум 1 автогол.",
+          "points": 1000
+        }
       ],
-      "rewardsLabel": "Rewards",
-      "rewardsItems": [
-        "Trophies and seasonal achievements",
-        "Top spots on weekly and seasonal leaderboards",
-        "Promotional prizes from time to time — jerseys, footballs, digital gift cards (no cash, no gambling)",
-        "Pro membership perks like reduced ads and exclusive trophies"
-      ]
+      "generalRulesTitle": "Правила",
+      "generalRulesItems": [
+        "Ты входишь в соревнование только когда подтверждаешь свой список прогнозов. Неподтверждённые списки не учитываются.",
+        "Не забудь подтвердить до стартового свистка первого матча из твоего списка. После начала матча список нельзя редактировать.",
+        "Прогнозы оцениваются только в основное время (90 минут). Дополнительное время и серии пенальти не считаются.",
+        "За отложенные, отменённые или приостановленные матчи очки не начисляются.",
+        "Общий рейтинг рассчитывается еженедельно: Score Hunt + Мини-Игры суммарно.",
+        "Результаты рассчитываются автоматически в конце недели. Счёт матчей обновляется вживую — ты можешь следить в реальном времени.",
+        "При равенстве очков в таблице первенство определяется в таком порядке: сначала по общим очкам сезона, затем по количеству выигранных золотых, серебряных и бронзовых трофеев — от большего к меньшему.",
+        "Во время начисления очков работает обнаружение аномалий на основе ИИ. Все списки пользователей, уличённых в мошенничестве, аннулируются.",
+        "Чтобы участвовать, тебе должно быть 13 лет или больше."
+      ],
+      "rewardsTitle": "Награды",
+      "rewardsPlaceholder": "Поскольку наш запуск выпадает на последние недели сезона 2025-2026, честная конкурентная среда невозможна — поэтому мы назвали остаток сезона \"Training Season\".\n\nИспользуй этот сезон, чтобы изучить игру, рассказать нам об ошибках, которые ты найдёшь, и поделиться предложениями, и подготовься к сезону Чемпионата мира.\n\nНаши сезоны с наградами начинаются с Чемпионата мира. До тех пор оставайся на связи и оставайся с нами."
     },
     "features": {
-      "eyebrow": "Features",
-      "title": "Everything you need to predict, compete, and win",
-      "subtitle": "Built for football fans who want their knowledge to count.",
-      "viewAll": "Explore all features",
+      "eyebrow": "Возможности",
+      "title": "Мы работаем, чтобы дать тебе больше, чем просто игру",
+      "subtitle": "Премиальные функции для элитного футбольного болельщика",
+      "viewAll": "Посмотреть все возможности",
       "items": [
         {
           "title": "Score Hunt",
-          "description": "The core weekly mode. Predict the biggest fixtures and ride the live points as they happen."
+          "description": "Наш основной игровой режим. Предсказывай результаты матчей. Получай очки за каждый верный ход. Не обязательно быть идеальным."
         },
         {
-          "title": "Mini games",
-          "description": "Quick prediction rounds between match days. Different rules, same skill, instant fun."
+          "title": "Мини-Игры",
+          "description": "Наш второй игровой режим. Иногда футбол — это больше, чем счёт. Предсказывай события. Развлекайся и получай дополнительные очки."
         },
         {
-          "title": "Leagues",
-          "description": "Public boards for the world or private leagues just for you and your friends."
+          "title": "Лиги",
+          "description": "Соревнуйся в отдельной таблице с друзьями, семьёй или сообществом, к которому ты принадлежишь. И правила этих лиг устанавливаете вы сами."
         },
         {
-          "title": "Trophies",
-          "description": "Hundreds of weekly, seasonal, and lifetime achievements to chase."
+          "title": "Трофеи",
+          "description": "Топ-3 в недельных и сезонных рейтингах добавляют трофей в свою коллекцию — и квалифицируются в Лигу чемпионов на следующий сезон."
         },
         {
-          "title": "Pro Membership",
-          "description": "A smoother experience with fewer ads and Pro-only trophies. Optional, never required."
+          "title": "Pro Подписка",
+          "description": "Специальный уровень подписки для пользователей, которые хотят опыт без рекламы и несколько необязательных преимуществ."
         },
         {
-          "title": "Live tracking",
-          "description": "Watch your score climb minute by minute as the matches unfold."
+          "title": "Живые счета",
+          "description": "Стать приложением живых счетов не наш приоритет, но мы создали чистый и функциональный интерфейс, чтобы следить за матчами в реальном времени."
         }
       ]
     },
     "screenshots": {
-      "eyebrow": "Inside the app",
-      "title": "Designed to be played, not studied",
-      "subtitle": "Quick to pick up, deep to master.",
-      "mocks": [
-        {
-          "label": "Score Hunt",
-          "title": "This week's hunt",
-          "subtitle": "12 matches · 3 mini games"
-        },
-        {
-          "label": "Live match",
-          "title": "Arsenal vs. Chelsea",
-          "subtitle": "Live · 67' · You: 2–1"
-        },
-        {
-          "label": "Leaderboard",
-          "title": "Weekly top",
-          "subtitle": "You moved up 14 spots ↑"
-        }
-      ]
+      "eyebrow": "Внутри приложения",
+      "title": "Мы стремились к веселью и функциональности в равной мере",
+      "subtitle": "Чистые, интуитивные меню"
     },
     "faqPreview": {
-      "eyebrow": "Questions",
-      "title": "Quick answers",
-      "subtitle": "The basics before you download.",
-      "viewAll": "Browse all FAQs",
+      "eyebrow": "Вопросы",
+      "title": "Быстрые ответы",
+      "subtitle": "Основа перед скачиванием.",
+      "viewAll": "Посмотреть все FAQ",
       "items": [
         {
-          "q": "Is ScoreHunter free?",
-          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+          "q": "ScoreHunter бесплатный?",
+          "a": "Да — полностью бесплатно скачать и играть. Есть необязательная Pro подписка для дополнений, таких как меньше рекламы, но основная игра бесплатна для всех."
         },
         {
-          "q": "Is this gambling?",
-          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+          "q": "Это азартная игра?",
+          "a": "Нет. В ScoreHunter нет ставок, нет коэффициентов, нет денег ни на вход, ни на выход. Все матчи имеют одинаковую ценность, а призы только рекламные — никогда не наличные."
         },
         {
-          "q": "Do I need an account?",
-          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+          "q": "Нужен ли мне аккаунт?",
+          "a": "Да. Войди через Apple или Google за секунды — без паролей, без проверки по e-mail."
         },
         {
-          "q": "Can I play with friends?",
-          "a": "Of course. Create a private league, share the invite link, and let the bragging rights begin."
+          "q": "Могу я играть с друзьями?",
+          "a": "Конечно. Создай приватную лигу, поделись ссылкой-приглашением, и пусть начнётся соревнование."
         },
         {
-          "q": "What devices are supported?",
-          "a": "iPhone (iOS 14+) and Android (Android 8+). One account works across both."
+          "q": "Какие устройства поддерживаются?",
+          "a": "iPhone (iOS 14+) и Android (Android 8+). Один аккаунт работает на обоих."
         }
       ]
     },
     "finalCta": {
-      "eyebrow": "Ready?",
-      "title": "Hunt the score this weekend",
-      "subtitle": "Download ScoreHunter, link your account in seconds, and lock in your first predictions before kickoff.",
-      "freeBadge": "100% free · No credit card · Apple & Google sign-in"
+      "eyebrow": "Готов?",
+      "title": "Присоединяйся к нам",
+      "subtitle": "Скачай ScoreHunter, делай прогнозы, покажи свои футбольные знания. Никакого риска! Только удовольствие.",
+      "freeBadge": "100% бесплатно · Без кредитной карты · Вход через Apple и Google"
     }
   },
   "features": {
-    "eyebrow": "What's inside",
-    "title": "Features",
-    "subtitle": "A complete guide to everything ScoreHunter does — from weekly hunts to Pro perks.",
-    "ctaTitle": "Ready to hunt?",
-    "ctaSubtitle": "Download the app and lock in this week's predictions."
+    "eyebrow": "Что внутри",
+    "title": "Возможности",
+    "subtitle": "Что есть в ScoreHunter? Расскажем кратко.",
+    "ctaTitle": "Готов?",
+    "ctaSubtitle": "Скачай ScoreHunter, делай прогнозы и покажи свои футбольные знания."
   },
   "faq": {
-    "eyebrow": "Questions",
-    "title": "Frequently asked questions",
-    "subtitle": "Answers to the things people ask most. Can't find yours?",
-    "contactPrompt": "Can't find your answer?",
-    "contactCta": "Contact support"
+    "eyebrow": "Вопросы",
+    "title": "Часто задаваемые вопросы",
+    "subtitle": "Ответы на самые частые вопросы. Не нашёл своего?",
+    "contactPrompt": "Не нашёл свой ответ?",
+    "contactCta": "Связаться с поддержкой"
   }
 }

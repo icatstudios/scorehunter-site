@@ -1,15 +1,25 @@
+import Image from "next/image";
 import type { ReactNode } from "react";
 
+export interface PhoneImage {
+  src: string;
+  alt: string;
+}
+
 export function PhoneMockup({
+  image,
   label,
   title,
   subtitle,
   variant = "scoreHunt",
   className = "",
 }: {
-  label: string;
-  title: string;
-  subtitle: string;
+  /** When provided, the phone screen renders this real screenshot. */
+  image?: PhoneImage;
+  /** Legacy fake-UI props (used when `image` is not provided). */
+  label?: string;
+  title?: string;
+  subtitle?: string;
   variant?: "scoreHunt" | "liveMatch" | "leaderboard";
   className?: string;
 }) {
@@ -30,45 +40,64 @@ export function PhoneMockup({
 
         {/* Screen */}
         <div className="relative w-full h-full rounded-[2rem] overflow-hidden bg-bg-dark">
-          {/* Status bar simulation */}
-          <div className="h-9 flex items-center justify-between px-6 pt-2 text-[10px] text-text-muted">
-            <span className="font-semibold">9:41</span>
-            <div className="flex items-center gap-1">
-              <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M2 17l5-5 4 4 7-7v3l-7 7-4-4-5 5z" />
-              </svg>
-              <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M2 12c5-3 15-3 20 0v4c-5-3-15-3-20 0v-4z" />
-              </svg>
-              <span>100</span>
-            </div>
-          </div>
+          {image ? (
+            // Real screenshot mode — image fills the screen, preserving aspect.
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              sizes="280px"
+              className="object-cover"
+              priority={false}
+            />
+          ) : (
+            // Legacy fake-UI mode (kept for backward compatibility).
+            <>
+              <div className="h-9 flex items-center justify-between px-6 pt-2 text-[10px] text-text-muted">
+                <span className="font-semibold">9:41</span>
+                <div className="flex items-center gap-1">
+                  <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2 17l5-5 4 4 7-7v3l-7 7-4-4-5 5z" />
+                  </svg>
+                  <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2 12c5-3 15-3 20 0v4c-5-3-15-3-20 0v-4z" />
+                  </svg>
+                  <span>100</span>
+                </div>
+              </div>
 
-          {/* Top bar / brand */}
-          <div className="px-5 pt-2 pb-3 flex items-center justify-between">
-            <span className="text-xs font-bold">
-              <span className="text-primary">Score</span>
-              <span className="text-text-primary">Hunter</span>
-            </span>
-            <span className="text-[10px] text-text-muted uppercase tracking-wider">
-              {label}
-            </span>
-          </div>
+              <div className="px-5 pt-2 pb-3 flex items-center justify-between">
+                <span className="text-xs font-bold">
+                  <span className="text-primary">Score</span>
+                  <span className="text-text-primary">Hunter</span>
+                </span>
+                {label && (
+                  <span className="text-[10px] text-text-muted uppercase tracking-wider">
+                    {label}
+                  </span>
+                )}
+              </div>
 
-          {/* Hero card on the screen */}
-          <div className="mx-4 rounded-2xl p-4 bg-gradient-to-br from-primary/15 to-secondary/10 ring-1 ring-primary/30">
-            <div className="text-text-primary text-base font-semibold leading-tight">
-              {title}
-            </div>
-            <div className="text-text-muted text-[11px] mt-1">{subtitle}</div>
-          </div>
+              {(title || subtitle) && (
+                <div className="mx-4 rounded-2xl p-4 bg-gradient-to-br from-primary/15 to-secondary/10 ring-1 ring-primary/30">
+                  {title && (
+                    <div className="text-text-primary text-base font-semibold leading-tight">
+                      {title}
+                    </div>
+                  )}
+                  {subtitle && (
+                    <div className="text-text-muted text-[11px] mt-1">{subtitle}</div>
+                  )}
+                </div>
+              )}
 
-          {/* Variant content */}
-          <div className="mt-4 px-4 space-y-3">
-            {variant === "scoreHunt" && <ScoreHuntList />}
-            {variant === "liveMatch" && <LiveMatch />}
-            {variant === "leaderboard" && <Leaderboard />}
-          </div>
+              <div className="mt-4 px-4 space-y-3">
+                {variant === "scoreHunt" && <ScoreHuntList />}
+                {variant === "liveMatch" && <LiveMatch />}
+                {variant === "leaderboard" && <Leaderboard />}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

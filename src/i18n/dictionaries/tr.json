@@ -64,15 +64,16 @@
   },
   "home": {
     "nav": {
+      "howToPlay": "Nasıl oynanır",
       "features": "Özellikler",
       "faq": "SSS",
       "support": "Destek"
     },
     "hero": {
       "eyebrow": "iCat Studios sunar",
-      "tagline": "Bahis değil!",
-      "taglineAccent": "Futbol tahmin oyunu.",
-      "subtitle": "Score Hunter, (türkçe dilinde Skor Avcısı) ücretsiz bir futbol tahmin oyunudur. Tahminlerini yap, futbol bilgini göster, rakiplerini geç ve şampiyon sen ol. Para yatırma yok, risk yok, sadece eğlence var.",
+      "tagline": "Bahis değil",
+      "taglineAccent": "Futbol tahmin oyunu",
+      "subtitle": "Skor Avcısı, ücretsiz bir futbol tahmin oyunudur. Tahminlerini yap, futbol bilgini göster, rakiplerini geç ve şampiyon sen ol. Para yatırma yok, risk yok, sadece eğlence var.",
       "freeBadge": "Ücretsiz oyna",
       "appStoreLabel": "İndir",
       "appStoreName": "App Store",
@@ -81,7 +82,7 @@
     },
     "howItWorks": {
       "eyebrow": "Nasıl çalışır",
-      "title": "Oyuna başlamak için üç adım",
+      "title": "Kısaca oyunun ana konsepti",
       "subtitle": "Bahis yok. Kupon yok. Sadece senin futbol bilgin, başkalarına karşı.",
       "steps": [
         {
@@ -90,95 +91,197 @@
         },
         {
           "title": "Tahminlerini yap",
-          "description": "Skor Avı (Score Hunt) ve Mini Oyunlar modlarında tahminlerini yap."
+          "description": "Skor Avı ve Mini Oyunlar modlarında tahminlerini yap"
         },
         {
           "title": "Sıralamada yüksel",
-          "description": "Topladığın puanlarla rakiplerini geçerek zirveye tırman"
+          "description": "Topladığın puanlarla rakiplerini geçerek kupalar kazan ve zirveye tırman"
         }
       ]
     },
     "rules": {
       "eyebrow": "Nasıl oynanır",
       "title": "İhtiyacın olan tek şey futbol tutkusu",
-      "howTitle": "Nasıl oynanır",
-      "howIntro": "ScoreHunter futbol bilgisini ödüllendirir, şansı değil. Her maç eşit değerde, her oyuncu aynı şansla başlar.",
+      "howTitle": "Nasıl oynanır?",
+      "howIntro": "Skor Avcısı futbol bilgisini ödüllendirir. Kupon, handikap, oran vb. bahis terimleri yok. Her lig, her maç, her takım eşit değerde ve önemde. Her oyuncu oyuna aynı şansla başlar.",
       "howItems": [
         "Her hafta seçilmiş bir maç seti tahmin için açılır.",
-        "Maçın sonucunu (1, X, 2), kesin skoru ve gol atacakları tahmin et.",
-        "Maç günleri arasında hızlı tahmin turları için mini oyunlar gelir.",
-        "Tüm maçlar eşit değerde — oran yok, çarpan yok, ödeme yok.",
-        "Pro üyeler ekstra avantajlar elde eder ama asla haksız bir üstünlük değil."
+        "Kullanıcılardan bu maçlar üzerinden Skor Avı ve Mini Oyunlar modlarında tahminler yapmaları beklenir.",
+        "Kullanıcılar yapmış oldukları tahminlerin sonuçlarına göre puan toplar.",
+        "Genel Sıralama, Skor Avı ve Mini Oyunlar olarak üç ayrı sıralamada, her hafta birinci, ikinci ve üçüncü sıralarda yer alan kullanıcılara kupa verilir.",
+        "Genel Sıralama her hafta için Skor Avı ve Mini Oyunlar modlarından alınan puanın toplamı üzerinden hesaplanır.",
+        "Ödüllü sezonlarda ödüller Genel Sıralama başarıları üzerinden dağıtılır.",
+        "Skor Avı oyun modunda kullanıcılardan 10 adet ana, 2 de bonus olmak üzere toplam 12 maç için skor tahmini yapmaları beklenir.",
+        "Yapılan tahminler; doğru galibiyet yönü tahmini, doğru beraberlik tahmini, doğru gol sayısı tahmini, doğru gol averajı tahmini, doğru tam skor tahmini ve doğru nadir tahmin gibi çeşitli kriterler üzerinden ayrıntılı puanlanır.",
+        "Skor Avı modunda kullanıcılar 2X jokeri kullanarak seçtikleri bir maçtan kazandıkları puanı iki katına çıkarabilirler.",
+        "Bonus tahminler ana tahminler arasından en düşük puanı olan tahminlerin yerini alır.",
+        "Skor Avı oyun modunda Pro kullanıcılara bir adet yedek tahmin listesi oluşturma hakkı verilir.",
+        "Hafta sonunda iki adet tahmin listesinden en yüksek puanlı olan tahmin listesi hesaplamaya katılır.",
+        "Mini Oyunlar modunda maçların içerisinde gerçekleşen olaylar üzerine tahmin yapılır.",
+        "Kullanıcılar konsepte göre belirlenen sayıda maç veya takım seçerler.",
+        "Her mini oyunun ayrı konsepti ve puanı vardır.",
+        "Mini oyunların sayıları, puanları ve hedefleri haftalık maç sayıları gözetilerek değişiklik gösterebilir.",
+        "Kullanıcılara her mini oyun için 1 adet bonus maç veya takım ekleme hakkı verilmiştir.",
+        "Mini oyunlarda başarılı olabilmek için oyun hedefindeki maç sayısınca başarılı tahmin yapmış olmak gerekir.",
+        "Bonus tahmin başarısız olan ilk tahminin yerine geçer.",
+        "Başarılı olunan mini oyunlardan zorluk derecelerine göre sabit puan alınır.",
+        "Başarısız olunan mini oyunlardan sadece katılım puanı alınır."
       ],
-      "rewardsTitle": "Puanlama ve ödüller",
-      "scoringTitle": "Şunlar için puan kazan",
-      "scoringItems": [
-        "Maçın sonucunu (1X2) doğru bilmek",
-        "Kesin skoru tutturmak",
-        "Doğru gol atanları seçmek",
-        "Haftalık mini oyunlardaki bonus tahminler"
+      "scoringTitle": "Puanlama",
+      "scoringIntro": "Skor Avı'nda doğru bildiğin her detay puan kazandırır. Tüm skoru tutturmak zorunda değilsin.",
+      "scoringTable": {
+        "title": "SKOR AVI",
+        "rows": [
+          {
+            "label": "Mükemmel Tahmin Bonusu",
+            "points": 150
+          },
+          {
+            "label": "Doğru Galibiyet Yönü Tahmini",
+            "points": 200
+          },
+          {
+            "label": "Doğru Beraberlik Tahmini",
+            "points": 250
+          },
+          {
+            "label": "Skor Farkı (Averaj) Bonusu",
+            "points": 25
+          },
+          {
+            "label": "Doğru Gol Sayısı Bonusu (her gol için)",
+            "points": 25
+          },
+          {
+            "label": "Doğru Sıfır Gol Tahmini",
+            "points": 25
+          }
+        ]
+      },
+      "rareTable": {
+        "title": "NADİR TAHMİN BONUSU",
+        "rows": [
+          {
+            "label": "1. Kademe (≤%20 kullanıcı)",
+            "points": 150
+          },
+          {
+            "label": "2. Kademe (≤%15 kullanıcı)",
+            "points": 200
+          },
+          {
+            "label": "3. Kademe (≤%10 kullanıcı)",
+            "points": 250
+          }
+        ]
+      },
+      "scoringLabel": "Skor Avı Puanlaması",
+      "scoringNote": "Mükemmel Tahmin Bonusu kazanılan maçlarda Skor Farkı (Averaj) Bonusu verilmez. Nadir Tahmin Bonusu, o hafta bir maç için kullanıcıların yaptığı tahmin yüzdeleri üzerinden hesaplanır.",
+      "miniGamesLabel": "Mini Oyun Puanları",
+      "miniGamesIntro": "Her mini oyunun ayrı bir konsepti ve zorluk derecesine göre belirlenmiş ödül puanı vardır. Başarılı olduğunda aşağıdaki puanları kazanırsın; başarısız olsan bile sabit +25 katılım puanı alırsın.",
+      "miniGames": [
+        {
+          "name": "Gollü Maç",
+          "rule": "Maçta toplam 3 veya daha fazla gol atılır.",
+          "points": 500
+        },
+        {
+          "name": "Golcü Takım",
+          "rule": "Seçtiğin takım maçta 3 veya daha fazla gol atar.",
+          "points": 500
+        },
+        {
+          "name": "İlk Darbe",
+          "rule": "Seçtiğin takım maçın ilk golünü atar.",
+          "points": 500
+        },
+        {
+          "name": "Düello",
+          "rule": "İki takım da en az 1 gol atar.",
+          "points": 500
+        },
+        {
+          "name": "Gol Yemez",
+          "rule": "Seçtiğin takım maçı kalesinde gol görmeden tamamlar.",
+          "points": 750
+        },
+        {
+          "name": "Gol Yağmuru",
+          "rule": "Maçta toplam 5 veya daha fazla gol atılır.",
+          "points": 750
+        },
+        {
+          "name": "Penaltı Canavarı",
+          "rule": "Maçta en az 1 penaltı golü atılır.",
+          "points": 750
+        },
+        {
+          "name": "Sert Çocuk",
+          "rule": "Maçta en az 1 kırmızı kart gösterilir.",
+          "points": 750
+        },
+        {
+          "name": "Sessiz Gece",
+          "rule": "Maç golsüz biter (0-0).",
+          "points": 1000
+        },
+        {
+          "name": "Dost Ateşi",
+          "rule": "Maçta en az 1 kendi kalesine gol atılır.",
+          "points": 1000
+        }
       ],
-      "rewardsLabel": "Ödüller",
-      "rewardsItems": [
-        "Kupalar ve sezonluk başarımlar",
-        "Haftalık ve sezonluk sıralamalarda zirve yerleri",
-        "Zaman zaman promosyon ödülleri — formalar, futbol topları, dijital hediye kartları (nakit yok, kumar yok)",
-        "Pro üyelik avantajları: daha az reklam ve özel kupalar"
-      ]
+      "generalRulesTitle": "Kurallar",
+      "generalRulesItems": [
+        "Tahmin listeni onayladığında yarışmaya katılırsın. Onaylanmamış listeler değerlendirilmez.",
+        "Listendeki ilk maç başlamadan önce onaylamayı unutma. Maç başladıktan sonra liste düzenlenemez.",
+        "Tahminler sadece normal süre (90 dakika) üzerinden değerlendirilir. Uzatma ve penaltı atışları sayılmaz.",
+        "Ertelenen, iptal edilen veya askıya alınan maçlardan puan kazanılamaz.",
+        "Genel Sıralama haftalık hesaplanır: Skor Avı + Mini Oyunlar toplamı.",
+        "Hafta bittiğinde sonuçlar otomatik hesaplanır. Maç skorları canlı olarak güncellenir — beklemeden takip edebilirsin.",
+        "Sıralamada puan eşitliği olduğunda eşitlik şu sıraya göre bozulur: önce sezon toplam puanı, sonra kazanılan altın, gümüş ve bronz kupa sayıları — yüksekten düşüğe.",
+        "Puan hesaplaması sırasında yapay zeka destekli anomali tespiti yapılır. Hile yaptığı tespit edilen kullanıcıların bütün listeleri geçersiz sayılır.",
+        "Oyunlara katılım için 13 yaş ve üzeri olmak gerekir."
+      ],
+      "rewardsTitle": "Ödüller",
+      "rewardsPlaceholder": "Oyunumuzun yayın tarihi 2025-2026 sezonunun son haftalarına denk geldiği için adil bir rekabet ortamı oluşmayacağından dolayı sezonun geri kalan kısmını \"Isınma Sezonu\" olarak adlandırdık.\n\nBu sezonu lütfen oyunu keşfetmek, bulduğunuz hataları veya önerilerinizi bizimle paylaşmak için değerlendirin ve Dünya Kupası Sezonu'na hazır olun.\n\nDünya Kupası ile beraber ödüllü sezonlarımız başlayacak. O zamana kadar bizi takipte kalın, bizimle kalın."
     },
     "features": {
       "eyebrow": "Özellikler",
-      "title": "Tahmin etmek, yarışmak ve kazanmak için ihtiyacın olan her şey",
-      "subtitle": "Bilgilerinin değerini bilmek isteyen futbol severler için tasarlandı.",
+      "title": "Sizlere bir oyundan daha fazlasını sunabilmek için çalışıyoruz",
+      "subtitle": "Elit futbol severlere gurme özellikler",
       "viewAll": "Tüm özellikleri keşfet",
       "items": [
         {
           "title": "Score Hunt",
-          "description": "Ana haftalık mod. En büyük maçları tahmin et, puanların canlı işlerken keyfini sür."
+          "description": "Ana oyun modumuz. Maç sonuçlarını tahmin et. Her doğru hareketin için puan kazan. Mükemmel olmak zorunda değilsin."
         },
         {
-          "title": "Mini oyunlar",
-          "description": "Maç günleri arası hızlı tahmin turları. Farklı kurallar, aynı beceri, anlık eğlence."
+          "title": "Mini Oyunlar",
+          "description": "İkinci oyun modumuz. Bazen futbol maçlarında skordan çok daha fazlası olur. Olayları tahmin et. Hem eğlen hem ekstra puanlar kazan."
         },
         {
           "title": "Ligler",
-          "description": "Dünya geneli halka açık tablolar veya sadece sen ve arkadaşların için özel ligler."
+          "description": "Arkadaşlarınla, ailenle veya kendini ait hissettiğin bir topluluk ile ayrı sıralama tablosunda yarış. Üstelik bu liglerin kurallarını siz belirliyorsunuz."
         },
         {
           "title": "Kupalar",
-          "description": "Peşinden gidilecek yüzlerce haftalık, sezonluk ve ömür boyu başarım."
+          "description": "Haftalık ve sezonluk sıralamalarda ilk 3'e girenler hem müzelerine kupa ekleyecek hem de bir sonraki sezonda Şampiyonlar Ligi'nde yer alacak."
         },
         {
           "title": "Pro Üyelik",
-          "description": "Daha az reklam ve Pro'ya özel kupalarla daha akıcı bir deneyim. Opsiyonel, asla zorunlu değil."
+          "description": "Reklam görmek istemeyen, bazı opsiyonel avantajlara sahip olmak isteyen kullanıcılarımıza özel bir üyelik modu sunmak istedik."
         },
         {
-          "title": "Canlı takip",
-          "description": "Maçlar ilerlerken puanlarının dakika dakika tırmanışını izle."
+          "title": "Canlı Skorlar",
+          "description": "Her ne kadar önceliğimiz canlı skor takibi uygulaması olmak olmasa da sizler için oldukça sade ama işlevsel bir arayüz hazırladık."
         }
       ]
     },
     "screenshots": {
       "eyebrow": "Uygulamadan",
-      "title": "Çalışmak için değil, oynamak için tasarlandı",
-      "subtitle": "Hızlı kavranır, derinlemesine ustalaşılır.",
-      "mocks": [
-        {
-          "label": "Score Hunt",
-          "title": "Bu haftanın avı",
-          "subtitle": "12 maç · 3 mini oyun"
-        },
-        {
-          "label": "Canlı maç",
-          "title": "Galatasaray vs. Fenerbahçe",
-          "subtitle": "Canlı · 67' · Sen: 2–1"
-        },
-        {
-          "label": "Sıralama",
-          "title": "Haftalık zirve",
-          "subtitle": "14 sıra yükseldin ↑"
-        }
-      ]
+      "title": "Hem eğlenceli hem de işlevsel olmaya çalıştık",
+      "subtitle": "Sade ve anlaşılır menüler"
     },
     "faqPreview": {
       "eyebrow": "Sorular",
@@ -210,17 +313,17 @@
     },
     "finalCta": {
       "eyebrow": "Hazır mısın?",
-      "title": "Bu hafta sonu skoru avla",
-      "subtitle": "ScoreHunter'ı indir, hesabını saniyeler içinde bağla ve maç başlamadan ilk tahminlerini kilitle.",
+      "title": "Hadi sen de aramıza katıl",
+      "subtitle": "Skor Avı'nı indir, tahminlerini yap, futbol bilgini göster. Risk yok! Sadece eğlence var.",
       "freeBadge": "%100 ücretsiz · Kredi kartı yok · Apple ve Google ile giriş"
     }
   },
   "features": {
     "eyebrow": "İçeride neler var",
     "title": "Özellikler",
-    "subtitle": "ScoreHunter'ın yaptığı her şeye dair eksiksiz bir rehber — haftalık avlardan Pro avantajlara.",
-    "ctaTitle": "Ava hazır mısın?",
-    "ctaSubtitle": "Uygulamayı indir ve bu haftanın tahminlerini kilitle."
+    "subtitle": "Skor Avcısı'nda neler var? Kısaca bahsetmek istiyoruz.",
+    "ctaTitle": "Hazır mısın?",
+    "ctaSubtitle": "Skor Avcısı'nı indir, tahminlerini yap, futbol bilgini göster."
   },
   "faq": {
     "eyebrow": "Sorular",

@@ -69,10 +69,13 @@ export function HowItWorks({ dict }: { dict: HowItWorksDict }) {
               key={i}
               className="relative glass-card p-6 sm:p-7 group hover:bg-primary/5 transition-colors"
             >
-              {/* Step number, big & faded behind */}
+              {/* Step number, big & faded behind. Pinned to the end edge
+                  (right in LTR, left in RTL) so it never overlaps the icon
+                  which sits on the start edge. */}
               <span
                 aria-hidden
-                className="absolute top-3 right-4 text-[5rem] leading-none font-bold text-primary/10 select-none"
+                dir="ltr"
+                className="absolute top-3 end-4 text-[5rem] leading-none font-bold text-primary/10 select-none"
               >
                 {String(i + 1).padStart(2, "0")}
               </span>

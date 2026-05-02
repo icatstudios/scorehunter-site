@@ -3,7 +3,8 @@
 // navigate; on launch day flip these two strings and redeploy.
 export const STORE_LINKS = {
   appStore: "#",
-  googlePlay: "#",
+  googlePlay:
+    "https://play.google.com/store/apps/details?id=com.icatstudios.scorehunter",
 } as const;
 
 export const isStoreLive = (url: string) => url !== "#" && url.length > 0;

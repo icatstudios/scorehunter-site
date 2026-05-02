@@ -13,7 +13,15 @@ interface HeroDict {
   googlePlayName: string;
 }
 
-export function Hero({ dict }: { dict: HeroDict }) {
+export function Hero({
+  dict,
+  comingSoonLabel,
+}: {
+  dict: HeroDict;
+  /** Localised "Coming soon" label, used for store buttons whose URL
+      isn't live yet. Pass `dict.landing.comingSoon`. */
+  comingSoonLabel: string;
+}) {
   return (
     <section className="relative pt-28 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -42,6 +50,7 @@ export function Hero({ dict }: { dict: HeroDict }) {
                 appStoreName: dict.appStoreName,
                 googlePlayLabel: dict.googlePlayLabel,
                 googlePlayName: dict.googlePlayName,
+                comingSoon: comingSoonLabel,
               }}
               size="md"
             />

@@ -1,11 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Locale } from "@/i18n/config";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 interface HeaderLabels {
+  howToPlay: string;
   features: string;
   faq: string;
   support: string;
@@ -29,6 +31,7 @@ export function Header({
   }, []);
 
   const navLinks = [
+    { href: `/${locale}#how-to-play`, label: labels.howToPlay },
     { href: `/${locale}/features`, label: labels.features },
     { href: `/${locale}/faq`, label: labels.faq },
     { href: `/${locale}/support`, label: labels.support },
@@ -46,11 +49,21 @@ export function Header({
         {/* Brand */}
         <Link
           href={`/${locale}`}
-          className="text-lg font-bold tracking-tight"
+          className="flex items-center gap-2.5 text-lg font-bold tracking-tight"
           onClick={() => setOpen(false)}
         >
-          <span className="animate-shimmer">Score</span>
-          <span className="text-text-primary">Hunter</span>
+          <Image
+            src="/scorehunter-icon.svg"
+            alt=""
+            width={32}
+            height={32}
+            priority
+            className="rounded-lg"
+          />
+          <span>
+            <span className="animate-shimmer">Score</span>
+            <span className="text-text-primary">Hunter</span>
+          </span>
         </Link>
 
         {/* Desktop nav */}

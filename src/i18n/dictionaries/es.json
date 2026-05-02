@@ -11,39 +11,39 @@
     "termsOfUseDescription": "Consulta los Términos de uso que rigen tu acceso y uso de la aplicación ScoreHunter.",
     "supportTitle": "Soporte — ScoreHunter",
     "supportDescription": "¿Necesitas ayuda con ScoreHunter? Contacta a nuestro equipo de soporte por correo electrónico.",
-    "homeTitle": "ScoreHunter — Football prediction game",
-    "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
-    "featuresTitle": "Features — ScoreHunter",
-    "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
+    "homeTitle": "ScoreHunter — Juego de pronósticos de fútbol",
+    "homeDescription": "Pronostica fútbol. Compite con amigos. Escala en las clasificaciones. El juego de pronósticos de fútbol basado en la habilidad de iCat Studios.",
+    "featuresTitle": "Funciones — ScoreHunter",
+    "featuresDescription": "Todo lo que ofrece ScoreHunter: pronósticos semanales, minijuegos, ligas, trofeos, membresía Pro y seguimiento en directo.",
     "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
+    "faqDescription": "Respuestas a las preguntas más comunes sobre ScoreHunter — jugabilidad, ligas, membresía Pro, cuenta y más."
   },
   "nav": {
     "backToHome": "Volver al inicio"
   },
   "footer": {
     "copyright": "© 2026 iCat Studios. Todos los derechos reservados.",
-    "tagline": "The skill-based football prediction game.",
+    "tagline": "El juego de pronósticos de fútbol basado en la habilidad.",
     "columns": {
       "product": {
-        "title": "Product",
+        "title": "Producto",
         "links": {
-          "features": "Features",
+          "features": "Funciones",
           "faq": "FAQ"
         }
       },
       "legal": {
         "title": "Legal",
         "links": {
-          "privacy": "Privacy Policy",
-          "terms": "Terms of Use"
+          "privacy": "Política de privacidad",
+          "terms": "Condiciones de uso"
         }
       },
       "support": {
-        "title": "Support",
+        "title": "Soporte",
         "links": {
-          "contact": "Contact",
-          "deleteAccount": "Delete account"
+          "contact": "Contacto",
+          "deleteAccount": "Eliminar cuenta"
         }
       }
     }
@@ -51,7 +51,7 @@
   "legalNote": "Este documento se proporciona en varios idiomas para tu comodidad. En caso de conflicto o discrepancia entre versiones lingüísticas, prevalecerá la versión en inglés.",
   "landing": {
     "tagline": "Algo grande está por llegar.",
-    "subtagline": "¿Estás listo para la caza?",
+    "subtagline": "¿Listo para cazar?",
     "countdown": {
       "days": "Días",
       "hours": "Horas",
@@ -121,169 +121,272 @@
   },
   "home": {
     "nav": {
-      "features": "Features",
+      "howToPlay": "Cómo jugar",
+      "features": "Funciones",
       "faq": "FAQ",
-      "support": "Support"
+      "support": "Soporte"
     },
     "hero": {
-      "eyebrow": "iCat Studios presents",
-      "tagline": "Predict football.",
-      "taglineAccent": "Hunt the score.",
-      "subtitle": "ScoreHunter is the skill-based football prediction game. Pick the matches, call the scores, and climb the global leaderboards — week after week.",
-      "freeBadge": "Free to play",
-      "appStoreLabel": "Download on the",
+      "eyebrow": "iCat Studios presenta",
+      "tagline": "Sin apuestas",
+      "taglineAccent": "Juego de pronósticos de fútbol",
+      "subtitle": "ScoreHunter es un juego de pronósticos de fútbol gratuito. Haz tus pronósticos, demuestra tu conocimiento, supera a tus rivales y conviértete en campeón. Sin depósitos, sin riesgo — solo diversión.",
+      "freeBadge": "Gratis",
+      "appStoreLabel": "Descargar en",
       "appStoreName": "App Store",
-      "googlePlayLabel": "Get it on",
+      "googlePlayLabel": "Disponible en",
       "googlePlayName": "Google Play"
     },
     "howItWorks": {
-      "eyebrow": "How it works",
-      "title": "Three steps to start hunting",
-      "subtitle": "No betting. No coupons. Just your football brain against everyone else's.",
+      "eyebrow": "Cómo funciona",
+      "title": "El concepto del juego, en resumen",
+      "subtitle": "Sin apuestas. Sin boletos. Solo tu cabeza futbolera contra la de los demás.",
       "steps": [
         {
-          "title": "Pick the matches",
-          "description": "We line up the week's biggest fixtures from the leagues you care about."
+          "title": "Elige los partidos",
+          "description": "Elige tus partidos favoritos entre las ligas que se abren cada semana de juego."
         },
         {
-          "title": "Call the scores",
-          "description": "Predict the outcome, the exact score, and who finds the net. Lock it in before kickoff."
+          "title": "Haz tus pronósticos",
+          "description": "Haz tus pronósticos en los modos Score Hunt y Minijuegos."
         },
         {
-          "title": "Climb the board",
-          "description": "Live points roll in as the matches play. Win trophies, top weekly tables, repeat."
+          "title": "Sube en la clasificación",
+          "description": "Supera a tus rivales con los puntos que acumulas, gana trofeos y llega a la cima."
         }
       ]
     },
     "rules": {
-      "eyebrow": "How to play",
-      "title": "Skill-based, by design",
-      "howTitle": "How to play",
-      "howIntro": "ScoreHunter rewards football knowledge, not luck. Every match is worth the same, every player has the same shot.",
+      "eyebrow": "Cómo jugar",
+      "title": "Lo único que necesitas es pasión por el fútbol",
+      "howTitle": "Cómo jugar",
+      "howIntro": "ScoreHunter premia el conocimiento del fútbol. Sin boletos, sin hándicaps, sin cuotas — nada de jerga de apuestas. Cada liga, cada partido, cada equipo tienen el mismo valor e importancia. Cada jugador empieza con las mismas opciones.",
       "howItems": [
-        "Each week, a curated set of fixtures unlocks for predictions.",
-        "Pick the result (1, X, 2), the exact score, and goal scorers.",
-        "Mini games drop between match days for quick prediction rounds.",
-        "All matches are equal value — no odds, no multipliers, no payouts.",
-        "Pro members get extra perks but never an unfair advantage."
+        "Cada semana se abre un conjunto seleccionado de partidos para predecir.",
+        "Los jugadores deben hacer sus predicciones sobre esos partidos en los modos Score Hunt y Minijuegos.",
+        "Los jugadores ganan puntos según los resultados de las predicciones que realizan.",
+        "Hay tres clasificaciones distintas — General, Score Hunt y Minijuegos. Cada semana, los jugadores en 1.º, 2.º y 3.er puesto reciben trofeos.",
+        "La clasificación General de cada semana se calcula como la suma de los puntos obtenidos en Score Hunt y Minijuegos.",
+        "En las temporadas con premios, los premios se reparten en función de los logros de la clasificación General.",
+        "En Score Hunt, los jugadores deben predecir los marcadores de 12 partidos en total — 10 principales y 2 bonus.",
+        "Las predicciones se puntúan en detalle según varios criterios: dirección correcta del resultado, empate correcto, número correcto de goles, diferencia de goles correcta, marcador exacto y predicción rara.",
+        "En Score Hunt, los jugadores pueden aplicar el comodín 2X a una de sus elecciones para duplicar los puntos obtenidos en ese partido.",
+        "Las predicciones bonus reemplazan a las elecciones con menos puntos entre las predicciones principales.",
+        "Los usuarios Pro pueden crear una lista de predicciones de respaldo en Score Hunt.",
+        "Al final de la semana, solo cuenta la lista de predicciones con la puntuación más alta.",
+        "En el modo Minijuegos, las predicciones se hacen sobre eventos que ocurren durante los partidos.",
+        "Los jugadores eligen un número de partidos o equipos según el concepto del juego.",
+        "Cada mini juego tiene su propio concepto y valor en puntos.",
+        "El número, los puntos y los objetivos de los mini juegos pueden variar según el número de partidos de la semana.",
+        "Los jugadores pueden añadir 1 partido o equipo bonus por cada mini juego.",
+        "Para superar un mini juego, hay que hacer tantas predicciones correctas como indique el objetivo del juego.",
+        "La predicción bonus reemplaza a la primera predicción fallida.",
+        "Los mini juegos superados otorgan una recompensa fija según su dificultad.",
+        "Los mini juegos fallidos otorgan solo el punto de participación."
       ],
-      "rewardsTitle": "Scoring & rewards",
-      "scoringTitle": "Earn points for",
-      "scoringItems": [
-        "Calling the correct outcome (1X2)",
-        "Nailing the exact score",
-        "Picking the right goal scorers",
-        "Bonus picks across weekly mini games"
+      "scoringTitle": "Puntuación",
+      "scoringIntro": "En Score Hunt, cada detalle que aciertas suma puntos. No tienes que clavar el marcador exacto.",
+      "scoringLabel": "Puntuación de Score Hunt",
+      "scoringTable": {
+        "title": "SCORE HUNT",
+        "rows": [
+          {
+            "label": "Bonus de Predicción Perfecta",
+            "points": 150
+          },
+          {
+            "label": "Dirección correcta del resultado",
+            "points": 200
+          },
+          {
+            "label": "Empate correcto",
+            "points": 250
+          },
+          {
+            "label": "Bonus de diferencia de goles",
+            "points": 25
+          },
+          {
+            "label": "Bonus de número correcto de goles (por gol)",
+            "points": 25
+          },
+          {
+            "label": "Predicción correcta de cero goles",
+            "points": 25
+          }
+        ]
+      },
+      "rareTable": {
+        "title": "BONUS DE PREDICCIÓN RARA",
+        "rows": [
+          {
+            "label": "Nivel 1 (≤20% de los usuarios)",
+            "points": 150
+          },
+          {
+            "label": "Nivel 2 (≤15% de los usuarios)",
+            "points": 200
+          },
+          {
+            "label": "Nivel 3 (≤10% de los usuarios)",
+            "points": 250
+          }
+        ]
+      },
+      "scoringNote": "Cuando consigues el Bonus de Predicción Perfecta en un partido, no se otorga el Bonus de diferencia de goles. El Bonus de Predicción Rara se calcula a partir del porcentaje de usuarios que hicieron la misma predicción para ese partido esa semana.",
+      "miniGamesLabel": "Puntos de Mini Juegos",
+      "miniGamesIntro": "Cada mini juego tiene su propio concepto y una recompensa fija según su dificultad. Cuando lo superas ganas los puntos de abajo; aunque falles, recibes +25 puntos de participación.",
+      "miniGames": [
+        {
+          "name": "Goal Match",
+          "rule": "El partido tiene 3 o más goles en total.",
+          "points": 500
+        },
+        {
+          "name": "Goal Scorer",
+          "rule": "Tu equipo elegido marca 3 o más goles en el partido.",
+          "points": 500
+        },
+        {
+          "name": "Early Bird",
+          "rule": "Tu equipo elegido marca el primer gol del partido.",
+          "points": 500
+        },
+        {
+          "name": "Goal Duel",
+          "rule": "Ambos equipos marcan al menos 1 gol.",
+          "points": 500
+        },
+        {
+          "name": "Clean Sheet",
+          "rule": "Tu equipo elegido termina el partido sin encajar goles.",
+          "points": 750
+        },
+        {
+          "name": "Goal Rain",
+          "rule": "El partido tiene 5 o más goles en total.",
+          "points": 750
+        },
+        {
+          "name": "Penalty Beast",
+          "rule": "Se marca al menos 1 gol de penalti en el partido.",
+          "points": 750
+        },
+        {
+          "name": "Hard Man",
+          "rule": "Se muestra al menos 1 tarjeta roja en el partido.",
+          "points": 750
+        },
+        {
+          "name": "Silent Night",
+          "rule": "El partido termina sin goles (0-0).",
+          "points": 1000
+        },
+        {
+          "name": "Friendly Fire",
+          "rule": "Se marca al menos 1 gol en propia puerta en el partido.",
+          "points": 1000
+        }
       ],
-      "rewardsLabel": "Rewards",
-      "rewardsItems": [
-        "Trophies and seasonal achievements",
-        "Top spots on weekly and seasonal leaderboards",
-        "Promotional prizes from time to time — jerseys, footballs, digital gift cards (no cash, no gambling)",
-        "Pro membership perks like reduced ads and exclusive trophies"
-      ]
+      "generalRulesTitle": "Reglas",
+      "generalRulesItems": [
+        "Solo entras en la competición cuando confirmas tu lista de predicciones. Las listas no confirmadas no se puntúan.",
+        "No olvides confirmar antes del pitido inicial del primer partido de tu lista. Una vez que un partido empieza, la lista no se puede editar.",
+        "Las predicciones se puntúan solo sobre el tiempo reglamentario (90 minutos). Las prórrogas y tandas de penaltis no cuentan.",
+        "No se otorgan puntos por partidos aplazados, cancelados o suspendidos.",
+        "La clasificación General se calcula semanalmente: Score Hunt + Minijuegos combinados.",
+        "Los resultados se calculan automáticamente al final de la semana. Los marcadores se actualizan en directo — puedes seguirlos en tiempo real.",
+        "Cuando hay empate de puntos en la clasificación, el desempate se hace en este orden: primero por puntos totales de la temporada, luego por número de trofeos de oro, plata y bronce conseguidos — de más a menos.",
+        "Durante la puntuación se ejecuta una detección de anomalías impulsada por IA. Todas las listas de los usuarios sorprendidos haciendo trampas son anuladas.",
+        "Debes tener 13 años o más para participar."
+      ],
+      "rewardsTitle": "Premios",
+      "rewardsPlaceholder": "Como nuestro lanzamiento cae en las últimas semanas de la temporada 2025-2026, no es posible un entorno competitivo justo — así que hemos llamado al resto de la temporada la \"Training Season\".\n\nAprovecha esta temporada para explorar el juego, contarnos los bugs que encuentres y compartir tus sugerencias con nosotros, y prepárate para la temporada del Mundial.\n\nNuestras temporadas con premios empiezan con el Mundial. Hasta entonces, mantente atento y quédate con nosotros."
     },
     "features": {
-      "eyebrow": "Features",
-      "title": "Everything you need to predict, compete, and win",
-      "subtitle": "Built for football fans who want their knowledge to count.",
-      "viewAll": "Explore all features",
+      "eyebrow": "Funciones",
+      "title": "Trabajamos para ofrecerte más que un simple juego",
+      "subtitle": "Funciones gourmet para el aficionado al fútbol de élite",
+      "viewAll": "Explora todas las funciones",
       "items": [
         {
           "title": "Score Hunt",
-          "description": "The core weekly mode. Predict the biggest fixtures and ride the live points as they happen."
+          "description": "Nuestro modo de juego principal. Predice los resultados de los partidos. Gana puntos por cada acierto. No tienes que ser perfecto."
         },
         {
-          "title": "Mini games",
-          "description": "Quick prediction rounds between match days. Different rules, same skill, instant fun."
+          "title": "Minijuegos",
+          "description": "Nuestro segundo modo de juego. A veces el fútbol va más allá del marcador. Predice los eventos. Diviértete y gana puntos extra."
         },
         {
-          "title": "Leagues",
-          "description": "Public boards for the world or private leagues just for you and your friends."
+          "title": "Ligas",
+          "description": "Compite en una clasificación aparte con tus amigos, tu familia o cualquier comunidad a la que pertenezcas. Y vosotros mismos ponéis las reglas de esas ligas."
         },
         {
-          "title": "Trophies",
-          "description": "Hundreds of weekly, seasonal, and lifetime achievements to chase."
+          "title": "Trofeos",
+          "description": "Los 3 primeros de las clasificaciones semanales y de temporada añaden un trofeo a su vitrina — y se clasifican para la Champions League la siguiente temporada."
         },
         {
-          "title": "Pro Membership",
-          "description": "A smoother experience with fewer ads and Pro-only trophies. Optional, never required."
+          "title": "Membresía Pro",
+          "description": "Un nivel de membresía dedicado a los usuarios que quieren una experiencia sin anuncios y algunas ventajas opcionales."
         },
         {
-          "title": "Live tracking",
-          "description": "Watch your score climb minute by minute as the matches unfold."
+          "title": "Marcadores en directo",
+          "description": "Convertirnos en una app de marcadores en directo no es nuestra prioridad, pero hemos creado una interfaz limpia y funcional para seguir los partidos en tiempo real."
         }
       ]
     },
     "screenshots": {
-      "eyebrow": "Inside the app",
-      "title": "Designed to be played, not studied",
-      "subtitle": "Quick to pick up, deep to master.",
-      "mocks": [
-        {
-          "label": "Score Hunt",
-          "title": "This week's hunt",
-          "subtitle": "12 matches · 3 mini games"
-        },
-        {
-          "label": "Live match",
-          "title": "Arsenal vs. Chelsea",
-          "subtitle": "Live · 67' · You: 2–1"
-        },
-        {
-          "label": "Leaderboard",
-          "title": "Weekly top",
-          "subtitle": "You moved up 14 spots ↑"
-        }
-      ]
+      "eyebrow": "Dentro de la app",
+      "title": "Buscamos diversión y funcionalidad a partes iguales",
+      "subtitle": "Menús limpios e intuitivos"
     },
     "faqPreview": {
-      "eyebrow": "Questions",
-      "title": "Quick answers",
-      "subtitle": "The basics before you download.",
-      "viewAll": "Browse all FAQs",
+      "eyebrow": "Preguntas",
+      "title": "Respuestas rápidas",
+      "subtitle": "Lo básico antes de descargar.",
+      "viewAll": "Ver todas las FAQ",
       "items": [
         {
-          "q": "Is ScoreHunter free?",
-          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+          "q": "¿ScoreHunter es gratis?",
+          "a": "Sí — completamente gratis para descargar y jugar. Hay una membresía Pro opcional para extras como menos anuncios, pero el juego principal es gratis para todos."
         },
         {
-          "q": "Is this gambling?",
-          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+          "q": "¿Esto es apuestas?",
+          "a": "No. ScoreHunter no tiene apuestas, ni cuotas, ni dinero entrando o saliendo. Todos los partidos tienen el mismo valor y los premios son solo promocionales — nunca en metálico."
         },
         {
-          "q": "Do I need an account?",
-          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+          "q": "¿Necesito una cuenta?",
+          "a": "Sí. Inicia sesión con Apple o Google en segundos — sin contraseñas, sin verificación de correo."
         },
         {
-          "q": "Can I play with friends?",
-          "a": "Of course. Create a private league, share the invite link, and let the bragging rights begin."
+          "q": "¿Puedo jugar con amigos?",
+          "a": "Por supuesto. Crea una liga privada, comparte el enlace de invitación y que empiecen las pullas."
         },
         {
-          "q": "What devices are supported?",
-          "a": "iPhone (iOS 14+) and Android (Android 8+). One account works across both."
+          "q": "¿Qué dispositivos están soportados?",
+          "a": "iPhone (iOS 14+) y Android (Android 8+). Una sola cuenta funciona en ambos."
         }
       ]
     },
     "finalCta": {
-      "eyebrow": "Ready?",
-      "title": "Hunt the score this weekend",
-      "subtitle": "Download ScoreHunter, link your account in seconds, and lock in your first predictions before kickoff.",
-      "freeBadge": "100% free · No credit card · Apple & Google sign-in"
+      "eyebrow": "¿Listo?",
+      "title": "Únete a nosotros",
+      "subtitle": "Descarga ScoreHunter, haz tus predicciones, demuestra tus conocimientos de fútbol. ¡Sin riesgo! Solo diversión.",
+      "freeBadge": "100% gratis · Sin tarjeta de crédito · Inicio con Apple y Google"
     }
   },
   "features": {
-    "eyebrow": "What's inside",
-    "title": "Features",
-    "subtitle": "A complete guide to everything ScoreHunter does — from weekly hunts to Pro perks.",
-    "ctaTitle": "Ready to hunt?",
-    "ctaSubtitle": "Download the app and lock in this week's predictions."
+    "eyebrow": "Qué hay dentro",
+    "title": "Funciones",
+    "subtitle": "¿Qué hay en ScoreHunter? Te lo contamos en breve.",
+    "ctaTitle": "¿Listo?",
+    "ctaSubtitle": "Descarga ScoreHunter, haz tus predicciones, demuestra tus conocimientos de fútbol."
   },
   "faq": {
-    "eyebrow": "Questions",
-    "title": "Frequently asked questions",
-    "subtitle": "Answers to the things people ask most. Can't find yours?",
-    "contactPrompt": "Can't find your answer?",
-    "contactCta": "Contact support"
+    "eyebrow": "Preguntas",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Respuestas a lo que más se pregunta. ¿No encuentras la tuya?",
+    "contactPrompt": "¿No encuentras tu respuesta?",
+    "contactCta": "Contactar con soporte"
   }
 }

@@ -48,6 +48,7 @@ export default async function Home({
     appStoreName: home.hero.appStoreName,
     googlePlayLabel: home.hero.googlePlayLabel,
     googlePlayName: home.hero.googlePlayName,
+    comingSoon: dict.landing.comingSoon,
   };
 
   return (
@@ -56,11 +57,11 @@ export default async function Home({
       <Header locale={locale} labels={home.nav} />
 
       <main className="relative">
-        <Hero dict={home.hero} />
+        <Hero dict={home.hero} comingSoonLabel={dict.landing.comingSoon} />
         <HowItWorks dict={home.howItWorks} />
         <RulesSection dict={home.rules} />
         <FeaturesGrid dict={home.features} locale={locale} />
-        <Screenshots dict={home.screenshots} />
+        <Screenshots dict={home.screenshots} locale={locale} />
 
         {/* FAQ Preview */}
         <section className="relative py-20 sm:py-28 px-4 sm:px-6">

@@ -8,7 +8,7 @@ import { Header } from "@/components/landing/Header";
 import { Footer } from "@/components/landing/Footer";
 import { SectionHeading } from "@/components/landing/SectionHeading";
 import { FAQAccordion } from "@/components/landing/FAQAccordion";
-import { FAQ_CONTENT } from "@/content/faq/data";
+import { getFaqContent } from "@/content/faq/data";
 
 export async function generateMetadata({
   params,
@@ -36,7 +36,7 @@ export default async function FAQPage({
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
-  const categories = locale === "tr" ? FAQ_CONTENT.tr : FAQ_CONTENT.en;
+  const categories = getFaqContent(locale);
 
   return (
     <>

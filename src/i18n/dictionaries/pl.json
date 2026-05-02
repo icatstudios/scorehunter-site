@@ -9,56 +9,56 @@
     "privacyPolicyDescription": "Dowiedz się, jak ScoreHunter zbiera, wykorzystuje i chroni Twoje dane osobowe.",
     "termsOfUseTitle": "Warunki użytkowania — ScoreHunter",
     "termsOfUseDescription": "Zapoznaj się z warunkami użytkowania regulującymi dostęp do aplikacji ScoreHunter i korzystanie z niej.",
-    "supportTitle": "Pomoc — ScoreHunter",
+    "supportTitle": "Wsparcie — ScoreHunter",
     "supportDescription": "Potrzebujesz pomocy z aplikacją ScoreHunter? Skontaktuj się z naszym zespołem wsparcia mailowo.",
-    "homeTitle": "ScoreHunter — Football prediction game",
-    "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
-    "featuresTitle": "Features — ScoreHunter",
-    "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
+    "homeTitle": "ScoreHunter — Gra w typowanie meczów piłkarskich",
+    "homeDescription": "Typuj piłkę nożną. Rywalizuj ze znajomymi. Wspinaj się w rankingach. Oparta na umiejętnościach gra w typowanie meczów piłkarskich od iCat Studios.",
+    "featuresTitle": "Funkcje — ScoreHunter",
+    "featuresDescription": "Wszystko, co oferuje ScoreHunter: tygodniowe typy, mini gry, ligi, trofea, członkostwo Pro i śledzenie na żywo.",
     "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
+    "faqDescription": "Odpowiedzi na najczęściej zadawane pytania o ScoreHunter — rozgrywka, ligi, członkostwo Pro, konto i więcej."
   },
   "nav": {
     "backToHome": "Powrót do strony głównej"
   },
   "footer": {
     "copyright": "© 2026 iCat Studios. Wszelkie prawa zastrzeżone.",
-    "tagline": "The skill-based football prediction game.",
+    "tagline": "Oparta na umiejętnościach gra w typowanie meczów piłkarskich.",
     "columns": {
       "product": {
-        "title": "Product",
+        "title": "Produkt",
         "links": {
-          "features": "Features",
+          "features": "Funkcje",
           "faq": "FAQ"
         }
       },
       "legal": {
         "title": "Legal",
         "links": {
-          "privacy": "Privacy Policy",
-          "terms": "Terms of Use"
+          "privacy": "Polityka prywatności",
+          "terms": "Warunki użytkowania"
         }
       },
       "support": {
-        "title": "Support",
+        "title": "Wsparcie",
         "links": {
-          "contact": "Contact",
-          "deleteAccount": "Delete account"
+          "contact": "Kontakt",
+          "deleteAccount": "Usuń konto"
         }
       }
     }
   },
   "legalNote": "Niniejszy dokument udostępniany jest w wielu językach dla Twojej wygody. W przypadku konfliktu lub rozbieżności między wersjami językowymi rozstrzygająca jest wersja angielska.",
   "landing": {
-    "tagline": "Nadchodzi coś wielkiego.",
-    "subtagline": "Gotowy/-a na łowy?",
+    "tagline": "Coś wielkiego nadchodzi.",
+    "subtagline": "Gotowy na polowanie?",
     "countdown": {
       "days": "Dni",
       "hours": "Godz.",
       "min": "Min",
       "sec": "Sek"
     },
-    "comingSoon": "Już wkrótce",
+    "comingSoon": "Wkrótce",
     "appStore": "App Store",
     "googlePlay": "Google Play"
   },
@@ -121,169 +121,272 @@
   },
   "home": {
     "nav": {
-      "features": "Features",
+      "howToPlay": "Jak grać",
+      "features": "Funkcje",
       "faq": "FAQ",
-      "support": "Support"
+      "support": "Wsparcie"
     },
     "hero": {
-      "eyebrow": "iCat Studios presents",
-      "tagline": "Predict football.",
-      "taglineAccent": "Hunt the score.",
-      "subtitle": "ScoreHunter is the skill-based football prediction game. Pick the matches, call the scores, and climb the global leaderboards — week after week.",
-      "freeBadge": "Free to play",
-      "appStoreLabel": "Download on the",
+      "eyebrow": "iCat Studios przedstawia",
+      "tagline": "Bez zakładów",
+      "taglineAccent": "Gra w typowanie meczów piłkarskich",
+      "subtitle": "ScoreHunter to darmowa gra w typowanie meczów piłkarskich. Postaw swoje typy, pokaż wiedzę o piłce, pokonaj rywali i zostań mistrzem. Bez wpłat, bez ryzyka — tylko zabawa.",
+      "freeBadge": "Za darmo",
+      "appStoreLabel": "Pobierz w",
       "appStoreName": "App Store",
-      "googlePlayLabel": "Get it on",
+      "googlePlayLabel": "Dostępne w",
       "googlePlayName": "Google Play"
     },
     "howItWorks": {
-      "eyebrow": "How it works",
-      "title": "Three steps to start hunting",
-      "subtitle": "No betting. No coupons. Just your football brain against everyone else's.",
+      "eyebrow": "Jak to działa",
+      "title": "Koncept gry w skrócie",
+      "subtitle": "Żadnych zakładów. Żadnych kuponów. Tylko twój piłkarski rozum przeciwko innym.",
       "steps": [
         {
-          "title": "Pick the matches",
-          "description": "We line up the week's biggest fixtures from the leagues you care about."
+          "title": "Wybierz mecze",
+          "description": "Wybierz ulubione mecze z lig otwieranych w każdym tygodniu gry."
         },
         {
-          "title": "Call the scores",
-          "description": "Predict the outcome, the exact score, and who finds the net. Lock it in before kickoff."
+          "title": "Postaw swoje typy",
+          "description": "Postaw typy w trybach Score Hunt i Mini Gry."
         },
         {
-          "title": "Climb the board",
-          "description": "Live points roll in as the matches play. Win trophies, top weekly tables, repeat."
+          "title": "Wspinaj się w rankingu",
+          "description": "Pokonaj rywali punktami, które zdobywasz, wygrywaj trofea i sięgnij szczytu."
         }
       ]
     },
     "rules": {
-      "eyebrow": "How to play",
-      "title": "Skill-based, by design",
-      "howTitle": "How to play",
-      "howIntro": "ScoreHunter rewards football knowledge, not luck. Every match is worth the same, every player has the same shot.",
+      "eyebrow": "Jak grać",
+      "title": "Wszystko, czego potrzebujesz, to pasja do piłki nożnej",
+      "howTitle": "Jak grać",
+      "howIntro": "ScoreHunter nagradza znajomość piłki nożnej. Żadnych kuponów, żadnych handicapów, żadnych kursów — żadnego żargonu bukmacherskiego. Każda liga, każdy mecz, każda drużyna mają tę samą wartość i znaczenie. Każdy gracz zaczyna z taką samą szansą.",
       "howItems": [
-        "Each week, a curated set of fixtures unlocks for predictions.",
-        "Pick the result (1, X, 2), the exact score, and goal scorers.",
-        "Mini games drop between match days for quick prediction rounds.",
-        "All matches are equal value — no odds, no multipliers, no payouts.",
-        "Pro members get extra perks but never an unfair advantage."
+        "Co tydzień otwierany jest wybrany zestaw meczów do typowania.",
+        "Gracze mają typować te mecze w trybach Score Hunt i Mini Gry.",
+        "Gracze zdobywają punkty na podstawie wyników swoich typów.",
+        "Są trzy oddzielne rankingi — Ogólny, Score Hunt i Mini Gry. Co tydzień gracze na 1., 2. i 3. miejscu otrzymują trofea.",
+        "Ranking Ogólny w każdym tygodniu jest sumą punktów zdobytych w Score Hunt i Mini Gry.",
+        "W sezonach z nagrodami nagrody są przyznawane na podstawie osiągnięć w rankingu Ogólnym.",
+        "W Score Hunt gracze mają typować wyniki łącznie 12 meczów — 10 głównych i 2 bonusowych.",
+        "Typy są punktowane szczegółowo według wielu kryteriów: poprawny kierunek wyniku, poprawny remis, poprawna liczba bramek, poprawna różnica bramek, dokładny wynik i typ rzadki.",
+        "W Score Hunt gracze mogą użyć jokera 2X na jednym ze swoich typów, aby podwoić punkty zdobyte w tym meczu.",
+        "Typy bonusowe zastępują najniżej punktowane wybory wśród typów głównych.",
+        "Użytkownicy Pro mogą utworzyć jedną zapasową listę typów w Score Hunt.",
+        "Pod koniec tygodnia liczy się tylko lista typów z wyższym wynikiem.",
+        "W trybie Mini Gry typy dotyczą zdarzeń, które dzieją się podczas meczów.",
+        "Gracze wybierają liczbę meczów lub drużyn zgodnie z koncepcją gry.",
+        "Każda mini gra ma własną koncepcję i wartość punktową.",
+        "Liczba, punkty i cele mini gier mogą się zmieniać w zależności od liczby meczów w tygodniu.",
+        "Gracze mogą dodać 1 mecz lub drużynę bonusową do każdej mini gry.",
+        "Aby wygrać mini grę, musisz wytypować poprawnie tyle wyborów, ile wynosi cel gry.",
+        "Typ bonusowy zastępuje pierwszy nieudany typ.",
+        "Wygrane mini gry przyznają stałą nagrodę zależną od trudności.",
+        "Przegrane mini gry przyznają tylko punkt za uczestnictwo."
       ],
-      "rewardsTitle": "Scoring & rewards",
-      "scoringTitle": "Earn points for",
-      "scoringItems": [
-        "Calling the correct outcome (1X2)",
-        "Nailing the exact score",
-        "Picking the right goal scorers",
-        "Bonus picks across weekly mini games"
+      "scoringTitle": "Punktacja",
+      "scoringIntro": "W Score Hunt każdy szczegół, który trafisz, daje punkty. Nie musisz trafić dokładnego wyniku.",
+      "scoringLabel": "Punktacja Score Hunt",
+      "scoringTable": {
+        "title": "SCORE HUNT",
+        "rows": [
+          {
+            "label": "Bonus za Idealny Typ",
+            "points": 150
+          },
+          {
+            "label": "Poprawny kierunek wyniku",
+            "points": 200
+          },
+          {
+            "label": "Poprawny remis",
+            "points": 250
+          },
+          {
+            "label": "Bonus za różnicę bramek",
+            "points": 25
+          },
+          {
+            "label": "Bonus za poprawną liczbę bramek (za bramkę)",
+            "points": 25
+          },
+          {
+            "label": "Poprawny typ zera bramek",
+            "points": 25
+          }
+        ]
+      },
+      "rareTable": {
+        "title": "BONUS ZA RZADKI TYP",
+        "rows": [
+          {
+            "label": "Poziom 1 (≤20% użytkowników)",
+            "points": 150
+          },
+          {
+            "label": "Poziom 2 (≤15% użytkowników)",
+            "points": 200
+          },
+          {
+            "label": "Poziom 3 (≤10% użytkowników)",
+            "points": 250
+          }
+        ]
+      },
+      "scoringNote": "Gdy zdobędziesz Bonus za Idealny Typ na meczu, Bonus za różnicę bramek nie jest przyznawany. Bonus za Rzadki Typ jest obliczany z procenta użytkowników, którzy postawili ten sam typ na ten mecz w danym tygodniu.",
+      "miniGamesLabel": "Punkty Mini Gier",
+      "miniGamesIntro": "Każda mini gra ma własną koncepcję i stałą nagrodę zależną od trudności. Gdy wygrasz, zdobywasz punkty poniżej; nawet jeśli przegrasz, otrzymujesz +25 punktów za uczestnictwo.",
+      "miniGames": [
+        {
+          "name": "Goal Match",
+          "rule": "W meczu pada łącznie 3 lub więcej bramek.",
+          "points": 500
+        },
+        {
+          "name": "Goal Scorer",
+          "rule": "Wybrana przez ciebie drużyna strzela 3 lub więcej bramek w meczu.",
+          "points": 500
+        },
+        {
+          "name": "Early Bird",
+          "rule": "Wybrana przez ciebie drużyna strzela pierwszą bramkę meczu.",
+          "points": 500
+        },
+        {
+          "name": "Goal Duel",
+          "rule": "Obie drużyny strzelają co najmniej 1 bramkę.",
+          "points": 500
+        },
+        {
+          "name": "Clean Sheet",
+          "rule": "Wybrana przez ciebie drużyna kończy mecz bez straty bramki.",
+          "points": 750
+        },
+        {
+          "name": "Goal Rain",
+          "rule": "W meczu pada łącznie 5 lub więcej bramek.",
+          "points": 750
+        },
+        {
+          "name": "Penalty Beast",
+          "rule": "W meczu pada co najmniej 1 bramka z rzutu karnego.",
+          "points": 750
+        },
+        {
+          "name": "Hard Man",
+          "rule": "W meczu pokazana jest co najmniej 1 czerwona kartka.",
+          "points": 750
+        },
+        {
+          "name": "Silent Night",
+          "rule": "Mecz kończy się bez bramek (0-0).",
+          "points": 1000
+        },
+        {
+          "name": "Friendly Fire",
+          "rule": "W meczu pada co najmniej 1 bramka samobójcza.",
+          "points": 1000
+        }
       ],
-      "rewardsLabel": "Rewards",
-      "rewardsItems": [
-        "Trophies and seasonal achievements",
-        "Top spots on weekly and seasonal leaderboards",
-        "Promotional prizes from time to time — jerseys, footballs, digital gift cards (no cash, no gambling)",
-        "Pro membership perks like reduced ads and exclusive trophies"
-      ]
+      "generalRulesTitle": "Zasady",
+      "generalRulesItems": [
+        "Wchodzisz do rywalizacji dopiero po zatwierdzeniu listy typów. Niezatwierdzone listy nie są punktowane.",
+        "Nie zapomnij zatwierdzić przed gwizdkiem początkowym pierwszego meczu z twojej listy. Po rozpoczęciu meczu lista nie może być edytowana.",
+        "Typy są punktowane tylko w regulaminowym czasie gry (90 minut). Dogrywki i serie rzutów karnych się nie liczą.",
+        "Za mecze przełożone, odwołane lub zawieszone nie są przyznawane punkty.",
+        "Ranking Ogólny jest obliczany co tydzień: Score Hunt + Mini Gry razem.",
+        "Wyniki są obliczane automatycznie po zakończeniu tygodnia. Wyniki meczów są aktualizowane na żywo — możesz śledzić w czasie rzeczywistym.",
+        "W przypadku remisu punktowego w tabeli rozstrzygnięcie następuje w tej kolejności: najpierw po sumie punktów sezonu, potem po liczbie zdobytych trofeów złotych, srebrnych i brązowych — od najwyższego do najniższego.",
+        "Podczas punktowania działa wykrywanie anomalii oparte na AI. Wszystkie listy użytkowników przyłapanych na oszustwie zostają unieważnione.",
+        "Aby wziąć udział, musisz mieć 13 lat lub więcej."
+      ],
+      "rewardsTitle": "Nagrody",
+      "rewardsPlaceholder": "Ponieważ nasz start przypada na ostatnie tygodnie sezonu 2025-2026, sprawiedliwa rywalizacja nie jest możliwa — dlatego nazwaliśmy resztę sezonu \"Training Season\".\n\nWykorzystaj ten sezon, aby poznać grę, zgłaszać znalezione błędy i dzielić się z nami sugestiami, oraz przygotuj się na sezon Mistrzostw Świata.\n\nNasze sezony z nagrodami zaczynają się wraz z Mistrzostwami Świata. Do tego czasu bądź na bieżąco i zostań z nami."
     },
     "features": {
-      "eyebrow": "Features",
-      "title": "Everything you need to predict, compete, and win",
-      "subtitle": "Built for football fans who want their knowledge to count.",
-      "viewAll": "Explore all features",
+      "eyebrow": "Funkcje",
+      "title": "Pracujemy, by dać ci więcej niż tylko grę",
+      "subtitle": "Wykwintne funkcje dla elitarnego fana piłki nożnej",
+      "viewAll": "Poznaj wszystkie funkcje",
       "items": [
         {
           "title": "Score Hunt",
-          "description": "The core weekly mode. Predict the biggest fixtures and ride the live points as they happen."
+          "description": "Nasz główny tryb gry. Przewiduj wyniki meczów. Zdobywaj punkty za każdy trafny ruch. Nie musisz być perfekcyjny."
         },
         {
-          "title": "Mini games",
-          "description": "Quick prediction rounds between match days. Different rules, same skill, instant fun."
+          "title": "Mini Gry",
+          "description": "Nasz drugi tryb gry. Czasem piłka nożna to coś więcej niż wynik. Przewiduj zdarzenia. Baw się i zdobywaj dodatkowe punkty."
         },
         {
-          "title": "Leagues",
-          "description": "Public boards for the world or private leagues just for you and your friends."
+          "title": "Ligi",
+          "description": "Rywalizuj w osobnej tabeli z przyjaciółmi, rodziną lub społecznością, do której należysz. A zasady tych lig wy ustalacie sami."
         },
         {
-          "title": "Trophies",
-          "description": "Hundreds of weekly, seasonal, and lifetime achievements to chase."
+          "title": "Trofea",
+          "description": "Trójka najlepszych w rankingach tygodniowych i sezonowych dorzuca trofeum do gabloty — i kwalifikuje się do Ligi Mistrzów w następnym sezonie."
         },
         {
-          "title": "Pro Membership",
-          "description": "A smoother experience with fewer ads and Pro-only trophies. Optional, never required."
+          "title": "Członkostwo Pro",
+          "description": "Dedykowany poziom członkostwa dla użytkowników, którzy chcą doświadczenia bez reklam i kilku opcjonalnych korzyści."
         },
         {
-          "title": "Live tracking",
-          "description": "Watch your score climb minute by minute as the matches unfold."
+          "title": "Wyniki na żywo",
+          "description": "Stanie się aplikacją wyników na żywo nie jest naszym priorytetem, ale zbudowaliśmy czysty i funkcjonalny interfejs do śledzenia meczów w czasie rzeczywistym."
         }
       ]
     },
     "screenshots": {
-      "eyebrow": "Inside the app",
-      "title": "Designed to be played, not studied",
-      "subtitle": "Quick to pick up, deep to master.",
-      "mocks": [
-        {
-          "label": "Score Hunt",
-          "title": "This week's hunt",
-          "subtitle": "12 matches · 3 mini games"
-        },
-        {
-          "label": "Live match",
-          "title": "Arsenal vs. Chelsea",
-          "subtitle": "Live · 67' · You: 2–1"
-        },
-        {
-          "label": "Leaderboard",
-          "title": "Weekly top",
-          "subtitle": "You moved up 14 spots ↑"
-        }
-      ]
+      "eyebrow": "Wewnątrz aplikacji",
+      "title": "Celowaliśmy w równym stopniu w zabawę i funkcjonalność",
+      "subtitle": "Czyste, intuicyjne menu"
     },
     "faqPreview": {
-      "eyebrow": "Questions",
-      "title": "Quick answers",
-      "subtitle": "The basics before you download.",
-      "viewAll": "Browse all FAQs",
+      "eyebrow": "Pytania",
+      "title": "Szybkie odpowiedzi",
+      "subtitle": "Podstawy zanim pobierzesz.",
+      "viewAll": "Przeglądaj wszystkie FAQ",
       "items": [
         {
-          "q": "Is ScoreHunter free?",
-          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+          "q": "Czy ScoreHunter jest darmowy?",
+          "a": "Tak — całkowicie darmowy do pobrania i grania. Istnieje opcjonalne członkostwo Pro za dodatki, takie jak mniej reklam, ale główna gra jest darmowa dla wszystkich."
         },
         {
-          "q": "Is this gambling?",
-          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+          "q": "Czy to hazard?",
+          "a": "Nie. ScoreHunter nie ma zakładów, kursów ani pieniędzy wchodzących lub wychodzących. Wszystkie mecze mają tę samą wartość, a nagrody są wyłącznie promocyjne — nigdy gotówkowe."
         },
         {
-          "q": "Do I need an account?",
-          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+          "q": "Czy potrzebuję konta?",
+          "a": "Tak. Zaloguj się przez Apple lub Google w kilka sekund — bez haseł, bez weryfikacji e-mail."
         },
         {
-          "q": "Can I play with friends?",
-          "a": "Of course. Create a private league, share the invite link, and let the bragging rights begin."
+          "q": "Czy mogę grać z przyjaciółmi?",
+          "a": "Oczywiście. Stwórz prywatną ligę, podziel się linkiem zaproszenia i niech rozpocznie się rywalizacja."
         },
         {
-          "q": "What devices are supported?",
-          "a": "iPhone (iOS 14+) and Android (Android 8+). One account works across both."
+          "q": "Jakie urządzenia są obsługiwane?",
+          "a": "iPhone (iOS 14+) i Android (Android 8+). Jedno konto działa na obu."
         }
       ]
     },
     "finalCta": {
-      "eyebrow": "Ready?",
-      "title": "Hunt the score this weekend",
-      "subtitle": "Download ScoreHunter, link your account in seconds, and lock in your first predictions before kickoff.",
-      "freeBadge": "100% free · No credit card · Apple & Google sign-in"
+      "eyebrow": "Gotowy?",
+      "title": "Dołącz do nas",
+      "subtitle": "Pobierz ScoreHunter, postaw swoje typy, pokaż swoją wiedzę o piłce nożnej. Bez ryzyka! Tylko zabawa.",
+      "freeBadge": "100% za darmo · Bez karty kredytowej · Logowanie Apple i Google"
     }
   },
   "features": {
-    "eyebrow": "What's inside",
-    "title": "Features",
-    "subtitle": "A complete guide to everything ScoreHunter does — from weekly hunts to Pro perks.",
-    "ctaTitle": "Ready to hunt?",
-    "ctaSubtitle": "Download the app and lock in this week's predictions."
+    "eyebrow": "Co znajdziesz w środku",
+    "title": "Funkcje",
+    "subtitle": "Co jest w ScoreHunter? Krótko ci opowiemy.",
+    "ctaTitle": "Gotowy?",
+    "ctaSubtitle": "Pobierz ScoreHunter, postaw swoje typy i pokaż swoją wiedzę o piłce nożnej."
   },
   "faq": {
-    "eyebrow": "Questions",
-    "title": "Frequently asked questions",
-    "subtitle": "Answers to the things people ask most. Can't find yours?",
-    "contactPrompt": "Can't find your answer?",
-    "contactCta": "Contact support"
+    "eyebrow": "Pytania",
+    "title": "Często zadawane pytania",
+    "subtitle": "Odpowiedzi na to, o co najczęściej pytają. Nie ma twojego pytania?",
+    "contactPrompt": "Nie znajdujesz swojej odpowiedzi?",
+    "contactCta": "Skontaktuj się ze wsparciem"
   }
 }

@@ -9,56 +9,56 @@
     "privacyPolicyDescription": "ScoreHunter가 개인정보를 수집, 이용, 보호하는 방식을 알아보세요.",
     "termsOfUseTitle": "이용약관 — ScoreHunter",
     "termsOfUseDescription": "ScoreHunter 애플리케이션에 대한 접근 및 사용을 규정하는 이용약관을 확인하세요.",
-    "supportTitle": "고객지원 — ScoreHunter",
+    "supportTitle": "지원 — ScoreHunter",
     "supportDescription": "ScoreHunter에 대한 도움이 필요하신가요? 이메일로 지원팀에 문의하세요.",
-    "homeTitle": "ScoreHunter — Football prediction game",
-    "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
-    "featuresTitle": "Features — ScoreHunter",
-    "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
+    "homeTitle": "ScoreHunter — 축구 예측 게임",
+    "homeDescription": "축구를 예측하세요. 친구와 경쟁하세요. 랭킹을 올라가세요. iCat Studios의 실력 기반 축구 예측 게임.",
+    "featuresTitle": "기능 — ScoreHunter",
+    "featuresDescription": "ScoreHunter가 제공하는 모든 것: 주간 예측, 미니게임, 리그, 트로피, Pro 멤버십, 라이브 추적.",
     "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
+    "faqDescription": "ScoreHunter에 대한 가장 흔한 질문들의 답변 — 게임플레이, 리그, Pro 멤버십, 계정 등."
   },
   "nav": {
     "backToHome": "홈으로 돌아가기"
   },
   "footer": {
     "copyright": "© 2026 iCat Studios. All rights reserved.",
-    "tagline": "The skill-based football prediction game.",
+    "tagline": "실력 기반 축구 예측 게임.",
     "columns": {
       "product": {
-        "title": "Product",
+        "title": "제품",
         "links": {
-          "features": "Features",
+          "features": "기능",
           "faq": "FAQ"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "법적",
         "links": {
-          "privacy": "Privacy Policy",
-          "terms": "Terms of Use"
+          "privacy": "개인정보 처리방침",
+          "terms": "이용약관"
         }
       },
       "support": {
-        "title": "Support",
+        "title": "지원",
         "links": {
-          "contact": "Contact",
-          "deleteAccount": "Delete account"
+          "contact": "문의",
+          "deleteAccount": "계정 삭제"
         }
       }
     }
   },
   "legalNote": "본 문서는 편의를 위해 여러 언어로 제공됩니다. 언어 버전 간에 충돌이나 차이가 있는 경우 영문판이 우선합니다.",
   "landing": {
-    "tagline": "큰 무언가가 다가오고 있습니다.",
-    "subtagline": "사냥할 준비 되셨나요?",
+    "tagline": "큰 무언가가 오고 있어요.",
+    "subtagline": "사냥 준비됐나요?",
     "countdown": {
       "days": "일",
-      "hours": "시간",
+      "hours": "시",
       "min": "분",
       "sec": "초"
     },
-    "comingSoon": "출시 예정",
+    "comingSoon": "곧 출시",
     "appStore": "App Store",
     "googlePlay": "Google Play"
   },
@@ -121,169 +121,272 @@
   },
   "home": {
     "nav": {
-      "features": "Features",
+      "howToPlay": "플레이 방법",
+      "features": "기능",
       "faq": "FAQ",
-      "support": "Support"
+      "support": "지원"
     },
     "hero": {
-      "eyebrow": "iCat Studios presents",
-      "tagline": "Predict football.",
-      "taglineAccent": "Hunt the score.",
-      "subtitle": "ScoreHunter is the skill-based football prediction game. Pick the matches, call the scores, and climb the global leaderboards — week after week.",
-      "freeBadge": "Free to play",
-      "appStoreLabel": "Download on the",
+      "eyebrow": "iCat Studios 제공",
+      "tagline": "베팅이 아닙니다",
+      "taglineAccent": "축구 예측 게임",
+      "subtitle": "ScoreHunter는 무료 축구 예측 게임입니다. 예측을 만들고, 축구 지식을 뽐내고, 라이벌을 제치고 챔피언이 되세요. 입금도, 위험도 없습니다 — 오직 재미뿐.",
+      "freeBadge": "무료 플레이",
+      "appStoreLabel": "다운로드",
       "appStoreName": "App Store",
-      "googlePlayLabel": "Get it on",
+      "googlePlayLabel": "받기",
       "googlePlayName": "Google Play"
     },
     "howItWorks": {
-      "eyebrow": "How it works",
-      "title": "Three steps to start hunting",
-      "subtitle": "No betting. No coupons. Just your football brain against everyone else's.",
+      "eyebrow": "작동 방식",
+      "title": "게임 콘셉트 한눈에",
+      "subtitle": "베팅 없음. 쿠폰 없음. 오로지 당신의 축구 두뇌 대 모두의 두뇌.",
       "steps": [
         {
-          "title": "Pick the matches",
-          "description": "We line up the week's biggest fixtures from the leagues you care about."
+          "title": "경기를 고르세요",
+          "description": "매주 게임 주에 열리는 리그에서 좋아하는 경기를 고르세요."
         },
         {
-          "title": "Call the scores",
-          "description": "Predict the outcome, the exact score, and who finds the net. Lock it in before kickoff."
+          "title": "예측을 만드세요",
+          "description": "Score Hunt와 미니게임 모드에서 예측하세요."
         },
         {
-          "title": "Climb the board",
-          "description": "Live points roll in as the matches play. Win trophies, top weekly tables, repeat."
+          "title": "랭킹을 올라가세요",
+          "description": "쌓은 포인트로 라이벌을 제치고 트로피를 차지하며 정상에 오르세요."
         }
       ]
     },
     "rules": {
-      "eyebrow": "How to play",
-      "title": "Skill-based, by design",
-      "howTitle": "How to play",
-      "howIntro": "ScoreHunter rewards football knowledge, not luck. Every match is worth the same, every player has the same shot.",
+      "eyebrow": "플레이 방법",
+      "title": "필요한 건 축구에 대한 열정뿐",
+      "howTitle": "플레이 방법",
+      "howIntro": "ScoreHunter는 축구 지식을 보상합니다. 쿠폰도, 핸디캡도, 배당률도 없습니다 — 도박 용어는 일절 없습니다. 모든 리그, 모든 경기, 모든 팀이 같은 가치와 중요성을 가집니다. 모든 플레이어가 같은 기회로 시작합니다.",
       "howItems": [
-        "Each week, a curated set of fixtures unlocks for predictions.",
-        "Pick the result (1, X, 2), the exact score, and goal scorers.",
-        "Mini games drop between match days for quick prediction rounds.",
-        "All matches are equal value — no odds, no multipliers, no payouts.",
-        "Pro members get extra perks but never an unfair advantage."
+        "매주 엄선된 경기 세트가 예측용으로 열립니다.",
+        "플레이어는 Score Hunt와 미니게임 모드에서 이 경기들에 예측을 합니다.",
+        "플레이어는 자신의 예측 결과에 따라 포인트를 획득합니다.",
+        "랭킹은 종합, Score Hunt, Mini Games의 세 가지로 분리되어 있습니다. 매주 1, 2, 3위 플레이어에게 트로피가 수여됩니다.",
+        "매주 종합 랭킹은 Score Hunt와 Mini Games에서 얻은 포인트의 합으로 계산됩니다.",
+        "보상이 있는 시즌에서는 종합 랭킹 성과에 따라 상품이 분배됩니다.",
+        "Score Hunt에서 플레이어는 총 12경기의 스코어를 예측합니다 — 메인 10경기와 보너스 2경기.",
+        "예측은 여러 기준에 따라 세부적으로 채점됩니다: 올바른 결과 방향, 올바른 무승부, 올바른 골 수, 올바른 득실차, 정확한 스코어, 희귀 예측.",
+        "Score Hunt에서 플레이어는 자신의 선택 중 하나에 2X 조커를 적용해 그 경기의 포인트를 두 배로 만들 수 있습니다.",
+        "보너스 예측은 메인 예측 중 가장 낮은 점수의 선택을 대체합니다.",
+        "Pro 사용자는 Score Hunt에서 백업 예측 리스트를 1개 만들 수 있습니다.",
+        "주말에는 두 예측 리스트 중 더 높은 점수의 리스트만 카운트됩니다.",
+        "미니게임 모드에서는 경기 중 발생하는 이벤트에 대해 예측합니다.",
+        "플레이어는 게임의 컨셉에 따라 정해진 수의 경기 또는 팀을 선택합니다.",
+        "각 미니게임은 자체 컨셉과 포인트 값을 가집니다.",
+        "미니게임의 수, 포인트, 목표는 주간 경기 수에 따라 달라질 수 있습니다.",
+        "플레이어는 미니게임마다 보너스 경기 또는 팀 1개를 추가할 수 있습니다.",
+        "미니게임에서 성공하려면 게임의 목표만큼 정확한 예측을 해야 합니다.",
+        "보너스 예측은 첫 번째 실패한 예측을 대체합니다.",
+        "성공한 미니게임은 난이도에 따라 고정 보상을 줍니다.",
+        "실패한 미니게임은 참여 포인트만 줍니다."
       ],
-      "rewardsTitle": "Scoring & rewards",
-      "scoringTitle": "Earn points for",
-      "scoringItems": [
-        "Calling the correct outcome (1X2)",
-        "Nailing the exact score",
-        "Picking the right goal scorers",
-        "Bonus picks across weekly mini games"
+      "scoringTitle": "채점",
+      "scoringIntro": "Score Hunt에서는 맞히는 모든 디테일이 포인트가 됩니다. 정확한 스코어를 맞힐 필요는 없습니다.",
+      "scoringLabel": "Score Hunt 채점",
+      "scoringTable": {
+        "title": "SCORE HUNT",
+        "rows": [
+          {
+            "label": "퍼펙트 예측 보너스",
+            "points": 150
+          },
+          {
+            "label": "올바른 결과 방향",
+            "points": 200
+          },
+          {
+            "label": "올바른 무승부",
+            "points": 250
+          },
+          {
+            "label": "득실차 보너스",
+            "points": 25
+          },
+          {
+            "label": "올바른 골 수 보너스 (골당)",
+            "points": 25
+          },
+          {
+            "label": "올바른 0골 예측",
+            "points": 25
+          }
+        ]
+      },
+      "rareTable": {
+        "title": "희귀 예측 보너스",
+        "rows": [
+          {
+            "label": "Tier 1 (사용자 ≤20%)",
+            "points": 150
+          },
+          {
+            "label": "Tier 2 (사용자 ≤15%)",
+            "points": 200
+          },
+          {
+            "label": "Tier 3 (사용자 ≤10%)",
+            "points": 250
+          }
+        ]
+      },
+      "scoringNote": "특정 경기에서 퍼펙트 예측 보너스를 받으면 해당 경기의 득실차 보너스는 적용되지 않습니다. 희귀 예측 보너스는 그 주에 그 경기에 대해 같은 예측을 한 사용자의 비율로 계산됩니다.",
+      "miniGamesLabel": "미니게임 포인트",
+      "miniGamesIntro": "각 미니게임에는 자체 컨셉과 난이도에 따른 고정 보상이 있습니다. 성공하면 아래 포인트를 받고, 실패해도 +25 참여 포인트를 받습니다.",
+      "miniGames": [
+        {
+          "name": "Goal Match",
+          "rule": "경기에서 총 3골 이상이 나옵니다.",
+          "points": 500
+        },
+        {
+          "name": "Goal Scorer",
+          "rule": "선택한 팀이 경기에서 3골 이상을 넣습니다.",
+          "points": 500
+        },
+        {
+          "name": "Early Bird",
+          "rule": "선택한 팀이 경기의 첫 골을 넣습니다.",
+          "points": 500
+        },
+        {
+          "name": "Goal Duel",
+          "rule": "두 팀 모두 최소 1골을 넣습니다.",
+          "points": 500
+        },
+        {
+          "name": "Clean Sheet",
+          "rule": "선택한 팀이 무실점으로 경기를 마칩니다.",
+          "points": 750
+        },
+        {
+          "name": "Goal Rain",
+          "rule": "경기에서 총 5골 이상이 나옵니다.",
+          "points": 750
+        },
+        {
+          "name": "Penalty Beast",
+          "rule": "경기에서 PK 골이 최소 1개 나옵니다.",
+          "points": 750
+        },
+        {
+          "name": "Hard Man",
+          "rule": "경기에서 레드카드가 최소 1장 나옵니다.",
+          "points": 750
+        },
+        {
+          "name": "Silent Night",
+          "rule": "경기가 무득점(0-0)으로 끝납니다.",
+          "points": 1000
+        },
+        {
+          "name": "Friendly Fire",
+          "rule": "경기에서 자책골이 최소 1개 나옵니다.",
+          "points": 1000
+        }
       ],
-      "rewardsLabel": "Rewards",
-      "rewardsItems": [
-        "Trophies and seasonal achievements",
-        "Top spots on weekly and seasonal leaderboards",
-        "Promotional prizes from time to time — jerseys, footballs, digital gift cards (no cash, no gambling)",
-        "Pro membership perks like reduced ads and exclusive trophies"
-      ]
+      "generalRulesTitle": "규칙",
+      "generalRulesItems": [
+        "예측 리스트를 확정해야만 대회에 참가할 수 있습니다. 확정되지 않은 리스트는 채점되지 않습니다.",
+        "리스트의 첫 경기가 시작되기 전에 확정하는 것을 잊지 마세요. 경기가 시작되면 리스트는 편집할 수 없습니다.",
+        "예측은 정규 시간(90분)에만 채점됩니다. 연장전과 승부차기는 포함되지 않습니다.",
+        "연기, 취소, 또는 중단된 경기에는 포인트가 부여되지 않습니다.",
+        "종합 랭킹은 매주 계산됩니다: Score Hunt + 미니게임 합산.",
+        "결과는 주말에 자동 계산됩니다. 경기 스코어는 라이브로 업데이트되어 실시간으로 따라갈 수 있습니다.",
+        "순위에서 포인트가 동점일 때, 다음 순서로 타이브레이크됩니다: 시즌 총 포인트, 그다음 획득한 금, 은, 동 트로피 수 — 높은 순에서 낮은 순.",
+        "채점 중에 AI 기반 이상 감지가 실행됩니다. 부정 행위가 감지된 사용자의 모든 리스트는 무효화됩니다.",
+        "참가하려면 13세 이상이어야 합니다."
+      ],
+      "rewardsTitle": "보상",
+      "rewardsPlaceholder": "출시 시점이 2025-2026 시즌 마지막 몇 주에 해당하기 때문에 공정한 경쟁 환경이 불가능합니다 — 그래서 시즌 나머지를 \"Training Season\"이라고 명명했습니다.\n\n이 시즌을 사용해 게임을 탐색하고, 발견한 버그나 제안을 공유해 주시고, 월드컵 시즌을 준비해 주세요.\n\n보상이 있는 시즌은 월드컵과 함께 시작됩니다. 그때까지 우리와 함께 머물러 주세요."
     },
     "features": {
-      "eyebrow": "Features",
-      "title": "Everything you need to predict, compete, and win",
-      "subtitle": "Built for football fans who want their knowledge to count.",
-      "viewAll": "Explore all features",
+      "eyebrow": "기능",
+      "title": "단순한 게임 그 이상을 드리기 위해 노력하고 있습니다",
+      "subtitle": "엘리트 축구 팬을 위한 고급 기능",
+      "viewAll": "모든 기능 살펴보기",
       "items": [
         {
           "title": "Score Hunt",
-          "description": "The core weekly mode. Predict the biggest fixtures and ride the live points as they happen."
+          "description": "메인 게임 모드. 경기 결과를 예측하세요. 올바른 한 수마다 포인트를 얻으세요. 완벽할 필요는 없습니다."
         },
         {
-          "title": "Mini games",
-          "description": "Quick prediction rounds between match days. Different rules, same skill, instant fun."
+          "title": "미니게임",
+          "description": "두 번째 게임 모드. 때때로 축구는 스코어 그 이상입니다. 이벤트를 예측하고 즐기면서 추가 포인트를 얻으세요."
         },
         {
-          "title": "Leagues",
-          "description": "Public boards for the world or private leagues just for you and your friends."
+          "title": "리그",
+          "description": "친구, 가족, 또는 소속된 커뮤니티와 별도의 랭킹 테이블에서 경쟁하세요. 게다가 이 리그의 규칙은 여러분이 직접 정합니다."
         },
         {
-          "title": "Trophies",
-          "description": "Hundreds of weekly, seasonal, and lifetime achievements to chase."
+          "title": "트로피",
+          "description": "주간 및 시즌 랭킹의 톱 3는 진열장에 트로피를 추가하고 — 다음 시즌 챔피언스리그에 진출합니다."
         },
         {
-          "title": "Pro Membership",
-          "description": "A smoother experience with fewer ads and Pro-only trophies. Optional, never required."
+          "title": "Pro 멤버십",
+          "description": "광고 없는 경험과 몇 가지 선택적 혜택을 원하는 사용자를 위한 전용 멤버십 등급."
         },
         {
-          "title": "Live tracking",
-          "description": "Watch your score climb minute by minute as the matches unfold."
+          "title": "라이브 스코어",
+          "description": "라이브 스코어 앱이 되는 것은 우리의 우선순위가 아니지만, 실시간으로 경기를 따라갈 수 있는 깔끔하고 기능적인 인터페이스를 만들었습니다."
         }
       ]
     },
     "screenshots": {
-      "eyebrow": "Inside the app",
-      "title": "Designed to be played, not studied",
-      "subtitle": "Quick to pick up, deep to master.",
-      "mocks": [
-        {
-          "label": "Score Hunt",
-          "title": "This week's hunt",
-          "subtitle": "12 matches · 3 mini games"
-        },
-        {
-          "label": "Live match",
-          "title": "Arsenal vs. Chelsea",
-          "subtitle": "Live · 67' · You: 2–1"
-        },
-        {
-          "label": "Leaderboard",
-          "title": "Weekly top",
-          "subtitle": "You moved up 14 spots ↑"
-        }
-      ]
+      "eyebrow": "앱 안에서",
+      "title": "재미와 기능성을 동등하게 추구했습니다",
+      "subtitle": "깔끔하고 직관적인 메뉴"
     },
     "faqPreview": {
-      "eyebrow": "Questions",
-      "title": "Quick answers",
-      "subtitle": "The basics before you download.",
-      "viewAll": "Browse all FAQs",
+      "eyebrow": "질문",
+      "title": "빠른 답변",
+      "subtitle": "다운로드 전 기본 사항.",
+      "viewAll": "모든 FAQ 보기",
       "items": [
         {
-          "q": "Is ScoreHunter free?",
-          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+          "q": "ScoreHunter는 무료인가요?",
+          "a": "네 — 다운로드와 플레이는 완전 무료입니다. 광고 감소 같은 추가 기능을 위한 선택적 Pro 멤버십이 있지만, 코어 게임은 모두에게 무료입니다."
         },
         {
-          "q": "Is this gambling?",
-          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+          "q": "이건 도박인가요?",
+          "a": "아니요. ScoreHunter에는 베팅도, 배당률도, 돈의 입출금도 없습니다. 모든 경기는 같은 가치를 가지고 상품은 프로모션 전용입니다 — 현금은 절대 없습니다."
         },
         {
-          "q": "Do I need an account?",
-          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+          "q": "계정이 필요한가요?",
+          "a": "네. Apple 또는 Google로 몇 초 만에 로그인 — 비밀번호도, 이메일 인증도 없습니다."
         },
         {
-          "q": "Can I play with friends?",
-          "a": "Of course. Create a private league, share the invite link, and let the bragging rights begin."
+          "q": "친구와 함께 플레이할 수 있나요?",
+          "a": "물론입니다. 비공개 리그를 만들고 초대 링크를 공유한 다음 자랑 대회를 시작하세요."
         },
         {
-          "q": "What devices are supported?",
-          "a": "iPhone (iOS 14+) and Android (Android 8+). One account works across both."
+          "q": "어떤 기기가 지원되나요?",
+          "a": "iPhone (iOS 14+) 및 Android (Android 8+). 하나의 계정으로 둘 다에서 사용할 수 있습니다."
         }
       ]
     },
     "finalCta": {
-      "eyebrow": "Ready?",
-      "title": "Hunt the score this weekend",
-      "subtitle": "Download ScoreHunter, link your account in seconds, and lock in your first predictions before kickoff.",
-      "freeBadge": "100% free · No credit card · Apple & Google sign-in"
+      "eyebrow": "준비됐나요?",
+      "title": "함께해요",
+      "subtitle": "ScoreHunter를 다운로드하고, 예측을 만들고, 축구 지식을 뽐내세요. 위험 없음! 재미만!",
+      "freeBadge": "100% 무료 · 신용카드 없음 · Apple & Google 로그인"
     }
   },
   "features": {
-    "eyebrow": "What's inside",
-    "title": "Features",
-    "subtitle": "A complete guide to everything ScoreHunter does — from weekly hunts to Pro perks.",
-    "ctaTitle": "Ready to hunt?",
-    "ctaSubtitle": "Download the app and lock in this week's predictions."
+    "eyebrow": "안에 무엇이 있나",
+    "title": "기능",
+    "subtitle": "ScoreHunter에는 무엇이 있을까요? 간단히 소개해 드립니다.",
+    "ctaTitle": "준비됐나요?",
+    "ctaSubtitle": "ScoreHunter를 다운로드하고, 예측을 만들고, 축구 지식을 뽐내세요."
   },
   "faq": {
-    "eyebrow": "Questions",
-    "title": "Frequently asked questions",
-    "subtitle": "Answers to the things people ask most. Can't find yours?",
-    "contactPrompt": "Can't find your answer?",
-    "contactCta": "Contact support"
+    "eyebrow": "질문",
+    "title": "자주 묻는 질문",
+    "subtitle": "가장 많이 묻는 질문에 대한 답변. 찾으시는 게 없나요?",
+    "contactPrompt": "답을 찾지 못하셨나요?",
+    "contactCta": "지원에 문의"
   }
 }

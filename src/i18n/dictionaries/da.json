@@ -11,39 +11,39 @@
     "termsOfUseDescription": "Læs brugsbetingelserne, der regulerer din adgang til og brug af ScoreHunter-applikationen.",
     "supportTitle": "Support — ScoreHunter",
     "supportDescription": "Brug for hjælp med ScoreHunter? Kontakt vores supportteam via e-mail.",
-    "homeTitle": "ScoreHunter — Football prediction game",
-    "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
-    "featuresTitle": "Features — ScoreHunter",
-    "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
+    "homeTitle": "ScoreHunter — Fodboldforudsigelsesspil",
+    "homeDescription": "Forudsig fodbold. Konkurrer med venner. Klatr på topplisterne. Det færdighedsbaserede fodboldforudsigelsesspil fra iCat Studios.",
+    "featuresTitle": "Funktioner — ScoreHunter",
+    "featuresDescription": "Alt ScoreHunter tilbyder: ugentlige forudsigelser, minispil, ligaer, trofæer, Pro-medlemskab og live-opfølgning.",
     "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
+    "faqDescription": "Svar på de mest almindelige spørgsmål om ScoreHunter — spilfunktion, ligaer, Pro-medlemskab, konto og mere."
   },
   "nav": {
     "backToHome": "Tilbage til forsiden"
   },
   "footer": {
     "copyright": "© 2026 iCat Studios. Alle rettigheder forbeholdes.",
-    "tagline": "The skill-based football prediction game.",
+    "tagline": "Det færdighedsbaserede fodboldforudsigelsesspil.",
     "columns": {
       "product": {
-        "title": "Product",
+        "title": "Produkt",
         "links": {
-          "features": "Features",
+          "features": "Funktioner",
           "faq": "FAQ"
         }
       },
       "legal": {
-        "title": "Legal",
+        "title": "Juridisk",
         "links": {
-          "privacy": "Privacy Policy",
-          "terms": "Terms of Use"
+          "privacy": "Privatlivspolitik",
+          "terms": "Brugsbetingelser"
         }
       },
       "support": {
         "title": "Support",
         "links": {
-          "contact": "Contact",
-          "deleteAccount": "Delete account"
+          "contact": "Kontakt",
+          "deleteAccount": "Slet konto"
         }
       }
     }
@@ -121,169 +121,272 @@
   },
   "home": {
     "nav": {
-      "features": "Features",
+      "howToPlay": "Sådan spiller du",
+      "features": "Funktioner",
       "faq": "FAQ",
       "support": "Support"
     },
     "hero": {
-      "eyebrow": "iCat Studios presents",
-      "tagline": "Predict football.",
-      "taglineAccent": "Hunt the score.",
-      "subtitle": "ScoreHunter is the skill-based football prediction game. Pick the matches, call the scores, and climb the global leaderboards — week after week.",
-      "freeBadge": "Free to play",
-      "appStoreLabel": "Download on the",
+      "eyebrow": "iCat Studios præsenterer",
+      "tagline": "Ingen væddemål",
+      "taglineAccent": "Fodboldforudsigelsesspil",
+      "subtitle": "ScoreHunter er et gratis fodboldforudsigelsesspil. Lav dine forudsigelser, vis din fodboldviden, slå dine rivaler og bliv mester. Ingen indbetalinger, ingen risiko — kun sjov.",
+      "freeBadge": "Gratis",
+      "appStoreLabel": "Hent i",
       "appStoreName": "App Store",
-      "googlePlayLabel": "Get it on",
+      "googlePlayLabel": "Hent på",
       "googlePlayName": "Google Play"
     },
     "howItWorks": {
-      "eyebrow": "How it works",
-      "title": "Three steps to start hunting",
-      "subtitle": "No betting. No coupons. Just your football brain against everyone else's.",
+      "eyebrow": "Sådan fungerer det",
+      "title": "Spillets koncept kort fortalt",
+      "subtitle": "Ingen væddemål. Ingen kuponer. Bare din fodboldhjerne mod alle andres.",
       "steps": [
         {
-          "title": "Pick the matches",
-          "description": "We line up the week's biggest fixtures from the leagues you care about."
+          "title": "Vælg kampene",
+          "description": "Vælg dine yndlingskampe blandt de ligaer, der åbnes hver spilleuge."
         },
         {
-          "title": "Call the scores",
-          "description": "Predict the outcome, the exact score, and who finds the net. Lock it in before kickoff."
+          "title": "Lav dine forudsigelser",
+          "description": "Lav dine forudsigelser i Score Hunt- og Minispil-tilstandene."
         },
         {
-          "title": "Climb the board",
-          "description": "Live points roll in as the matches play. Win trophies, top weekly tables, repeat."
+          "title": "Kravl op på listen",
+          "description": "Slå dine rivaler med de point, du samler, vind trofæer og nå toppen."
         }
       ]
     },
     "rules": {
-      "eyebrow": "How to play",
-      "title": "Skill-based, by design",
-      "howTitle": "How to play",
-      "howIntro": "ScoreHunter rewards football knowledge, not luck. Every match is worth the same, every player has the same shot.",
+      "eyebrow": "Sådan spiller du",
+      "title": "Alt du behøver er en passion for fodbold",
+      "howTitle": "Sådan spiller du",
+      "howIntro": "ScoreHunter belønner fodboldviden. Ingen kuponer, ingen handicap, ingen odds — ingen væddemålsjargon. Hver liga, hver kamp, hvert hold har samme værdi og betydning. Hver spiller starter med samme chance.",
       "howItems": [
-        "Each week, a curated set of fixtures unlocks for predictions.",
-        "Pick the result (1, X, 2), the exact score, and goal scorers.",
-        "Mini games drop between match days for quick prediction rounds.",
-        "All matches are equal value — no odds, no multipliers, no payouts.",
-        "Pro members get extra perks but never an unfair advantage."
+        "Hver uge åbnes et udvalgt sæt kampe til forudsigelser.",
+        "Spillerne forventes at lave forudsigelser på disse kampe i Score Hunt- og Minispil-tilstandene.",
+        "Spillerne tjener point baseret på resultaterne af de forudsigelser, de laver.",
+        "Der er tre separate ranglister — Samlet, Score Hunt og Minispil. Hver uge tildeles spillerne på 1., 2. og 3. plads trofæer.",
+        "Den samlede rangliste hver uge beregnes som summen af point opnået i Score Hunt og Minispil.",
+        "I præmie-sæsoner uddeles præmier baseret på resultater på den samlede rangliste.",
+        "I Score Hunt forventes spillerne at forudsige resultater for 12 kampe i alt — 10 hoved og 2 bonus.",
+        "Forudsigelser scores i detaljer på flere kriterier: korrekt udfaldsretning, korrekt uafgjort, korrekt antal mål, korrekt målforskel, præcist resultat og sjælden forudsigelse.",
+        "I Score Hunt kan spillerne anvende 2X-jokeren på et af deres valg for at fordoble pointene fra den kamp.",
+        "Bonusforudsigelser erstatter de lavest scorende valg blandt hovedforudsigelserne.",
+        "Pro-brugere kan oprette én reserveliste med forudsigelser i Score Hunt.",
+        "Ved ugens slutning tæller kun den højest scorende af de to lister.",
+        "I Minispil-tilstand laves forudsigelser på begivenheder, der sker under kampene.",
+        "Spillerne vælger et antal kampe eller hold som krævet af spillets koncept.",
+        "Hvert minispil har sit eget koncept og sin egen pointværdi.",
+        "Antallet, pointene og målene for minispillene kan variere ud fra ugens kampantal.",
+        "Spillerne kan tilføje 1 bonuskamp eller -hold pr. minispil.",
+        "For at lykkes i et minispil skal du lave lige så mange korrekte forudsigelser som spillets mål.",
+        "Bonusforudsigelsen erstatter den første mislykkede forudsigelse.",
+        "Vellykkede minispil giver en fast belønning baseret på sværhedsgrad.",
+        "Mislykkede minispil giver kun deltagelsespointet."
       ],
-      "rewardsTitle": "Scoring & rewards",
-      "scoringTitle": "Earn points for",
-      "scoringItems": [
-        "Calling the correct outcome (1X2)",
-        "Nailing the exact score",
-        "Picking the right goal scorers",
-        "Bonus picks across weekly mini games"
+      "scoringTitle": "Pointgivning",
+      "scoringIntro": "I Score Hunt giver hver detalje, du rammer rigtigt, point. Du behøver ikke at ramme det præcise resultat.",
+      "scoringLabel": "Score Hunt-pointgivning",
+      "scoringTable": {
+        "title": "SCORE HUNT",
+        "rows": [
+          {
+            "label": "Bonus for Perfekt Forudsigelse",
+            "points": 150
+          },
+          {
+            "label": "Korrekt udfaldsretning",
+            "points": 200
+          },
+          {
+            "label": "Korrekt uafgjort",
+            "points": 250
+          },
+          {
+            "label": "Bonus for målforskel",
+            "points": 25
+          },
+          {
+            "label": "Bonus for korrekt antal mål (pr. mål)",
+            "points": 25
+          },
+          {
+            "label": "Korrekt forudsigelse af nul mål",
+            "points": 25
+          }
+        ]
+      },
+      "rareTable": {
+        "title": "BONUS FOR SJÆLDEN FORUDSIGELSE",
+        "rows": [
+          {
+            "label": "Niveau 1 (≤20% af brugerne)",
+            "points": 150
+          },
+          {
+            "label": "Niveau 2 (≤15% af brugerne)",
+            "points": 200
+          },
+          {
+            "label": "Niveau 3 (≤10% af brugerne)",
+            "points": 250
+          }
+        ]
+      },
+      "scoringNote": "Når du opnår Bonussen for Perfekt Forudsigelse på en kamp, gives Bonussen for målforskel ikke. Bonussen for Sjælden Forudsigelse beregnes ud fra procentdelen af brugere, der lavede samme forudsigelse for den kamp den uge.",
+      "miniGamesLabel": "Minispils-point",
+      "miniGamesIntro": "Hvert minispil har sit eget koncept og en fast belønning baseret på sværhedsgrad. Når du lykkes, tjener du pointene nedenfor; selv hvis du fejler, får du +25 deltagelsespoint.",
+      "miniGames": [
+        {
+          "name": "Goal Match",
+          "rule": "Kampen har 3 eller flere mål i alt.",
+          "points": 500
+        },
+        {
+          "name": "Goal Scorer",
+          "rule": "Det hold du valgte scorer 3 eller flere mål i kampen.",
+          "points": 500
+        },
+        {
+          "name": "Early Bird",
+          "rule": "Det hold du valgte scorer kampens første mål.",
+          "points": 500
+        },
+        {
+          "name": "Goal Duel",
+          "rule": "Begge hold scorer mindst 1 mål.",
+          "points": 500
+        },
+        {
+          "name": "Clean Sheet",
+          "rule": "Det hold du valgte slutter kampen uden at lukke mål ind.",
+          "points": 750
+        },
+        {
+          "name": "Goal Rain",
+          "rule": "Kampen har 5 eller flere mål i alt.",
+          "points": 750
+        },
+        {
+          "name": "Penalty Beast",
+          "rule": "Mindst 1 straffespark scores i kampen.",
+          "points": 750
+        },
+        {
+          "name": "Hard Man",
+          "rule": "Mindst 1 rødt kort vises i kampen.",
+          "points": 750
+        },
+        {
+          "name": "Silent Night",
+          "rule": "Kampen ender målløs (0-0).",
+          "points": 1000
+        },
+        {
+          "name": "Friendly Fire",
+          "rule": "Mindst 1 selvmål scores i kampen.",
+          "points": 1000
+        }
       ],
-      "rewardsLabel": "Rewards",
-      "rewardsItems": [
-        "Trophies and seasonal achievements",
-        "Top spots on weekly and seasonal leaderboards",
-        "Promotional prizes from time to time — jerseys, footballs, digital gift cards (no cash, no gambling)",
-        "Pro membership perks like reduced ads and exclusive trophies"
-      ]
+      "generalRulesTitle": "Regler",
+      "generalRulesItems": [
+        "Du deltager først i konkurrencen, når du bekræfter din forudsigelsesliste. Ubekræftede lister scores ikke.",
+        "Glem ikke at bekræfte, før den første kamp på din liste starter. Listen kan ikke redigeres, når en kamp er startet.",
+        "Forudsigelser scores kun på ordinær spilletid (90 minutter). Forlænget spilletid og straffesparkskonkurrencer tæller ikke.",
+        "Der gives ingen point for udsatte, aflyste eller suspenderede kampe.",
+        "Den samlede rangliste beregnes ugentligt: Score Hunt + Minispil kombineret.",
+        "Resultaterne beregnes automatisk, når ugen slutter. Kampresultater opdateres live — du kan følge med i realtid.",
+        "Ved pointlighed i tabellen brydes ligheden i denne rækkefølge: først på samlede sæsonpoint, derefter på antallet af vundne guld-, sølv- og bronzetrofæer — fra højest til lavest.",
+        "AI-drevet anomalidetektion kører under pointgivning. Alle lister fra brugere, der tages i snyd, annulleres.",
+        "Du skal være 13 år eller derover for at deltage."
+      ],
+      "rewardsTitle": "Præmier",
+      "rewardsPlaceholder": "Fordi vores lancering falder i de sidste uger af sæsonen 2025-2026, er et fair konkurrencemiljø ikke muligt — derfor har vi navngivet resten af sæsonen \"Training Season\".\n\nBrug denne sæson til at udforske spillet, fortælle os om bugs du finder og dele dine forslag, og gør dig klar til VM-sæsonen.\n\nVores præmie-sæsoner starter med VM. Indtil da, hold dig opdateret og bliv hos os."
     },
     "features": {
-      "eyebrow": "Features",
-      "title": "Everything you need to predict, compete, and win",
-      "subtitle": "Built for football fans who want their knowledge to count.",
-      "viewAll": "Explore all features",
+      "eyebrow": "Funktioner",
+      "title": "Vi arbejder på at give dig mere end bare et spil",
+      "subtitle": "Gourmet-funktioner til den elitære fodboldfan",
+      "viewAll": "Udforsk alle funktioner",
       "items": [
         {
           "title": "Score Hunt",
-          "description": "The core weekly mode. Predict the biggest fixtures and ride the live points as they happen."
+          "description": "Vores primære spiltilstand. Forudsig kampresultater. Tjen point for hvert rigtigt valg. Du behøver ikke være perfekt."
         },
         {
-          "title": "Mini games",
-          "description": "Quick prediction rounds between match days. Different rules, same skill, instant fun."
+          "title": "Minispil",
+          "description": "Vores anden spiltilstand. Nogle gange handler fodbold om mere end resultatet. Forudsig begivenhederne. Hav det sjovt og tjen ekstra point."
         },
         {
-          "title": "Leagues",
-          "description": "Public boards for the world or private leagues just for you and your friends."
+          "title": "Ligaer",
+          "description": "Konkurrer på en separat tabel med dine venner, din familie eller et fællesskab du tilhører. Og I bestemmer selv reglerne for disse ligaer."
         },
         {
-          "title": "Trophies",
-          "description": "Hundreds of weekly, seasonal, and lifetime achievements to chase."
+          "title": "Trofæer",
+          "description": "Top 3 i ugens og sæsonens rangeringer føjer et trofæ til samlingen — og kvalificerer sig til Champions League næste sæson."
         },
         {
-          "title": "Pro Membership",
-          "description": "A smoother experience with fewer ads and Pro-only trophies. Optional, never required."
+          "title": "Pro-medlemskab",
+          "description": "Et dedikeret medlemskab til brugere, der vil have en reklamefri oplevelse og nogle valgfrie fordele."
         },
         {
-          "title": "Live tracking",
-          "description": "Watch your score climb minute by minute as the matches unfold."
+          "title": "Live-resultater",
+          "description": "At blive en live-resultat-app er ikke vores prioritet, men vi har bygget en ren og funktionel grænseflade til at følge kampe i realtid."
         }
       ]
     },
     "screenshots": {
-      "eyebrow": "Inside the app",
-      "title": "Designed to be played, not studied",
-      "subtitle": "Quick to pick up, deep to master.",
-      "mocks": [
-        {
-          "label": "Score Hunt",
-          "title": "This week's hunt",
-          "subtitle": "12 matches · 3 mini games"
-        },
-        {
-          "label": "Live match",
-          "title": "Arsenal vs. Chelsea",
-          "subtitle": "Live · 67' · You: 2–1"
-        },
-        {
-          "label": "Leaderboard",
-          "title": "Weekly top",
-          "subtitle": "You moved up 14 spots ↑"
-        }
-      ]
+      "eyebrow": "Inde i appen",
+      "title": "Vi sigtede mod sjov og funktionalitet i lige stort omfang",
+      "subtitle": "Rene, intuitive menuer"
     },
     "faqPreview": {
-      "eyebrow": "Questions",
-      "title": "Quick answers",
-      "subtitle": "The basics before you download.",
-      "viewAll": "Browse all FAQs",
+      "eyebrow": "Spørgsmål",
+      "title": "Hurtige svar",
+      "subtitle": "Det grundlæggende inden du henter.",
+      "viewAll": "Gennemse alle FAQ",
       "items": [
         {
-          "q": "Is ScoreHunter free?",
-          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+          "q": "Er ScoreHunter gratis?",
+          "a": "Ja — helt gratis at hente og spille. Der findes et valgfrit Pro-medlemskab for ekstra som færre annoncer, men hovedspillet er gratis for alle."
         },
         {
-          "q": "Is this gambling?",
-          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+          "q": "Er det her hasardspil?",
+          "a": "Nej. ScoreHunter har ingen væddemål, ingen odds og ingen penge ind eller ud. Alle kampe har samme værdi og præmier er kun reklamemæssige — aldrig kontanter."
         },
         {
-          "q": "Do I need an account?",
-          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+          "q": "Skal jeg bruge en konto?",
+          "a": "Ja. Log ind med Apple eller Google på sekunder — ingen adgangskoder, ingen e-mailbekræftelse."
         },
         {
-          "q": "Can I play with friends?",
-          "a": "Of course. Create a private league, share the invite link, and let the bragging rights begin."
+          "q": "Kan jeg spille med venner?",
+          "a": "Selvfølgelig. Opret en privat liga, del invitationslinket og lad praleriet begynde."
         },
         {
-          "q": "What devices are supported?",
-          "a": "iPhone (iOS 14+) and Android (Android 8+). One account works across both."
+          "q": "Hvilke enheder understøttes?",
+          "a": "iPhone (iOS 14+) og Android (Android 8+). Én konto virker på begge."
         }
       ]
     },
     "finalCta": {
-      "eyebrow": "Ready?",
-      "title": "Hunt the score this weekend",
-      "subtitle": "Download ScoreHunter, link your account in seconds, and lock in your first predictions before kickoff.",
-      "freeBadge": "100% free · No credit card · Apple & Google sign-in"
+      "eyebrow": "Klar?",
+      "title": "Kom og vær med",
+      "subtitle": "Hent ScoreHunter, lav dine forudsigelser, vis din fodboldviden frem. Ingen risiko! Kun sjov.",
+      "freeBadge": "100% gratis · Intet kreditkort · Apple- og Google-login"
     }
   },
   "features": {
-    "eyebrow": "What's inside",
-    "title": "Features",
-    "subtitle": "A complete guide to everything ScoreHunter does — from weekly hunts to Pro perks.",
-    "ctaTitle": "Ready to hunt?",
-    "ctaSubtitle": "Download the app and lock in this week's predictions."
+    "eyebrow": "Hvad er der indeni",
+    "title": "Funktioner",
+    "subtitle": "Hvad har ScoreHunter? Her er et hurtigt overblik.",
+    "ctaTitle": "Klar?",
+    "ctaSubtitle": "Hent ScoreHunter, lav dine forudsigelser og vis din fodboldviden frem."
   },
   "faq": {
-    "eyebrow": "Questions",
-    "title": "Frequently asked questions",
-    "subtitle": "Answers to the things people ask most. Can't find yours?",
-    "contactPrompt": "Can't find your answer?",
-    "contactCta": "Contact support"
+    "eyebrow": "Spørgsmål",
+    "title": "Ofte stillede spørgsmål",
+    "subtitle": "Svar på det folk spørger mest om. Kan du ikke finde dit?",
+    "contactPrompt": "Kan du ikke finde dit svar?",
+    "contactCta": "Kontakt support"
   }
 }
