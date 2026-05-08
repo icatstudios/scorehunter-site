@@ -169,7 +169,7 @@ function ProCrown() {
 function GroupLogo({ entry }: { entry: LeaderboardEntry }) {
   if (!entry.groupLogoUrl) {
     return (
-      <div className="shrink-0 w-10 h-10 rounded-full ring-1 ring-white/10 bg-white/5 flex items-center justify-center text-text-muted text-xs font-semibold">
+      <div className="shrink-0 w-10 h-10 rounded-lg ring-1 ring-white/10 bg-white/5 flex items-center justify-center text-text-muted text-xs font-semibold">
         {(entry.groupName ?? entry.displayName)[0]}
       </div>
     );
@@ -177,16 +177,23 @@ function GroupLogo({ entry }: { entry: LeaderboardEntry }) {
   // Country logos point at /sh/images/flag/64/ — bump to /128/ for retina.
   // Club logos come from api-sports CDN at native (already high) res.
   const src = flagUrlAtSize(entry.groupLogoUrl, 128);
+  // Wrap the image in a fixed-size frame so EVERY row has the same logo
+  // footprint regardless of how much internal whitespace each club's PNG
+  // happens to have. Without the frame, contain-fitted images of
+  // varying aspect ratios produced different visual sizes and made the
+  // row heights look inconsistent.
   return (
-    <Image
-      src={src}
-      alt=""
-      width={40}
-      height={40}
-      sizes="40px"
-      className="shrink-0 rounded-full ring-1 ring-white/10 bg-white/5 object-contain"
-      unoptimized
-    />
+    <div className="shrink-0 w-10 h-10 rounded-lg ring-1 ring-white/10 bg-white/5 p-0.5 flex items-center justify-center">
+      <Image
+        src={src}
+        alt=""
+        width={36}
+        height={36}
+        sizes="36px"
+        className="w-full h-full object-contain"
+        unoptimized
+      />
+    </div>
   );
 }
 
