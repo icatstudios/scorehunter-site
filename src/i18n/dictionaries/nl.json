@@ -391,26 +391,26 @@
     "contactCta": "Neem contact op met support"
   },
   "leaderboards": {
-    "eyebrow": "Leaderboards",
-    "title": "Live leaderboards",
-    "subtitle": "Who's ahead this season? ScoreHunter's live rankings, right here.",
-    "seasonContext": "Season",
-    "points": "pts",
-    "members": "members",
-    "empty": "No entries for this ranking yet.",
-    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
-    "previewTitle": "Season leaderboard",
-    "previewSubtitle": "Top 10 overall",
-    "previewViewAll": "See all leaderboards",
-    "types": {
-      "general": "Overall Rankings",
-      "scorehunt": "Score Hunt",
-      "minigames": "Mini Games",
-      "trophyking": "Trophies",
-      "clubranking": "Club Rankings",
-      "countryranking": "Country Rankings"
-    },
+    "eyebrow": "Ranglijsten",
+    "title": "Live-ranglijsten",
+    "subtitle": "Wie staat dit seizoen aan kop? De live-ranglijsten van ScoreHunter, hier meteen.",
+    "seasonContext": "Seizoen",
+    "points": "ptn",
+    "members": "leden",
+    "empty": "Nog geen vermeldingen voor deze ranglijst.",
+    "footnote": "Ranglijsten worden aan het eind van elke week bijgewerkt. Scores komen live uit de app.",
+    "previewTitle": "Seizoensranglijst",
+    "previewSubtitle": "Top 10 totaal",
+    "previewViewAll": "Alle ranglijsten bekijken",
     "topN": "Top 100",
-    "participants": "participants"
+    "participants": "",
+    "types": {
+      "general": "Totaalranglijst",
+      "scorehunt": "Score Hunt",
+      "minigames": "Minispelen",
+      "trophyking": "Trofeeën",
+      "clubranking": "Clubranglijst",
+      "countryranking": "Landranglijst"
+    }
   }
 }

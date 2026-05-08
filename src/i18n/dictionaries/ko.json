@@ -391,26 +391,26 @@
     "contactCta": "지원에 문의"
   },
   "leaderboards": {
-    "eyebrow": "Leaderboards",
-    "title": "Live leaderboards",
-    "subtitle": "Who's ahead this season? ScoreHunter's live rankings, right here.",
-    "seasonContext": "Season",
-    "points": "pts",
-    "members": "members",
-    "empty": "No entries for this ranking yet.",
-    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
-    "previewTitle": "Season leaderboard",
-    "previewSubtitle": "Top 10 overall",
-    "previewViewAll": "See all leaderboards",
-    "types": {
-      "general": "Overall Rankings",
-      "scorehunt": "Score Hunt",
-      "minigames": "Mini Games",
-      "trophyking": "Trophies",
-      "clubranking": "Club Rankings",
-      "countryranking": "Country Rankings"
-    },
+    "eyebrow": "랭킹",
+    "title": "실시간 랭킹",
+    "subtitle": "이번 시즌 누가 앞서 있을까요? ScoreHunter의 실시간 랭킹입니다.",
+    "seasonContext": "시즌",
+    "points": "점",
+    "members": "명",
+    "empty": "아직 이 랭킹에 항목이 없습니다.",
+    "footnote": "랭킹은 매주 말에 갱신됩니다. 점수는 앱에서 실시간으로 가져옵니다.",
+    "previewTitle": "시즌 랭킹",
+    "previewSubtitle": "전체 랭킹 Top 10",
+    "previewViewAll": "모든 랭킹 보기",
     "topN": "Top 100",
-    "participants": "participants"
+    "participants": "",
+    "types": {
+      "general": "전체 랭킹",
+      "scorehunt": "Score Hunt",
+      "minigames": "미니게임",
+      "trophyking": "트로피",
+      "clubranking": "클럽 랭킹",
+      "countryranking": "국가 랭킹"
+    }
   }
 }

@@ -391,26 +391,26 @@
     "contactCta": "サポートに連絡"
   },
   "leaderboards": {
-    "eyebrow": "Leaderboards",
-    "title": "Live leaderboards",
-    "subtitle": "Who's ahead this season? ScoreHunter's live rankings, right here.",
-    "seasonContext": "Season",
-    "points": "pts",
-    "members": "members",
-    "empty": "No entries for this ranking yet.",
-    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
-    "previewTitle": "Season leaderboard",
-    "previewSubtitle": "Top 10 overall",
-    "previewViewAll": "See all leaderboards",
+    "eyebrow": "ランキング",
+    "title": "ライブランキング",
+    "subtitle": "今シーズンのトップは誰? ScoreHunter のライブランキングをここで。",
+    "seasonContext": "シーズン",
+    "points": "pt",
+    "members": "メンバー",
+    "empty": "このランキングにはまだエントリーがありません。",
+    "footnote": "ランキングは毎週末に更新されます。スコアはアプリからライブで取得しています。",
+    "previewTitle": "シーズンランキング",
+    "previewSubtitle": "総合トップ10",
+    "previewViewAll": "すべてのランキングを見る",
+    "topN": "トップ100",
+    "participants": "",
     "types": {
-      "general": "Overall Rankings",
+      "general": "総合ランキング",
       "scorehunt": "Score Hunt",
-      "minigames": "Mini Games",
-      "trophyking": "Trophies",
-      "clubranking": "Club Rankings",
-      "countryranking": "Country Rankings"
-    },
-    "topN": "Top 100",
-    "participants": "participants"
+      "minigames": "ミニゲーム",
+      "trophyking": "トロフィー",
+      "clubranking": "クラブランキング",
+      "countryranking": "国別ランキング"
+    }
   }
 }

@@ -391,26 +391,26 @@
     "contactCta": "Contatta il supporto"
   },
   "leaderboards": {
-    "eyebrow": "Leaderboards",
-    "title": "Live leaderboards",
-    "subtitle": "Who's ahead this season? ScoreHunter's live rankings, right here.",
-    "seasonContext": "Season",
-    "points": "pts",
-    "members": "members",
-    "empty": "No entries for this ranking yet.",
-    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
-    "previewTitle": "Season leaderboard",
-    "previewSubtitle": "Top 10 overall",
-    "previewViewAll": "See all leaderboards",
-    "types": {
-      "general": "Overall Rankings",
-      "scorehunt": "Score Hunt",
-      "minigames": "Mini Games",
-      "trophyking": "Trophies",
-      "clubranking": "Club Rankings",
-      "countryranking": "Country Rankings"
-    },
+    "eyebrow": "Classifiche",
+    "title": "Classifiche in tempo reale",
+    "subtitle": "Chi è in testa questa stagione? Le classifiche in tempo reale di ScoreHunter, qui.",
+    "seasonContext": "Stagione",
+    "points": "pti",
+    "members": "membri",
+    "empty": "Ancora nessuna voce in questa classifica.",
+    "footnote": "Le classifiche si aggiornano alla fine di ogni settimana. I dati arrivano live dall'app.",
+    "previewTitle": "Classifica stagione",
+    "previewSubtitle": "Top 10 generale",
+    "previewViewAll": "Vedi tutte le classifiche",
     "topN": "Top 100",
-    "participants": "participants"
+    "participants": "",
+    "types": {
+      "general": "Classifica generale",
+      "scorehunt": "Score Hunt",
+      "minigames": "Mini Giochi",
+      "trophyking": "Trofei",
+      "clubranking": "Classifica club",
+      "countryranking": "Classifica paesi"
+    }
   }
 }

@@ -391,26 +391,26 @@
     "contactCta": "Kontakt støtte"
   },
   "leaderboards": {
-    "eyebrow": "Leaderboards",
-    "title": "Live leaderboards",
-    "subtitle": "Who's ahead this season? ScoreHunter's live rankings, right here.",
-    "seasonContext": "Season",
-    "points": "pts",
-    "members": "members",
-    "empty": "No entries for this ranking yet.",
-    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
-    "previewTitle": "Season leaderboard",
-    "previewSubtitle": "Top 10 overall",
-    "previewViewAll": "See all leaderboards",
+    "eyebrow": "Topplister",
+    "title": "Live topplister",
+    "subtitle": "Hvem leder denne sesongen? ScoreHunters live-topplister, rett her.",
+    "seasonContext": "Sesong",
+    "points": "pt",
+    "members": "medlemmer",
+    "empty": "Ingen oppføringer i denne topplista ennå.",
+    "footnote": "Topplistene oppdateres på slutten av hver uke. Resultater hentes live fra appen.",
+    "previewTitle": "Sesongtoppliste",
+    "previewSubtitle": "Topp 10 totalt",
+    "previewViewAll": "Se alle topplister",
+    "topN": "Topp 100",
+    "participants": "",
     "types": {
-      "general": "Overall Rankings",
+      "general": "Total rangering",
       "scorehunt": "Score Hunt",
-      "minigames": "Mini Games",
-      "trophyking": "Trophies",
-      "clubranking": "Club Rankings",
-      "countryranking": "Country Rankings"
-    },
-    "topN": "Top 100",
-    "participants": "participants"
+      "minigames": "Minispill",
+      "trophyking": "Troféer",
+      "clubranking": "Klubbrangering",
+      "countryranking": "Landsrangering"
+    }
   }
 }

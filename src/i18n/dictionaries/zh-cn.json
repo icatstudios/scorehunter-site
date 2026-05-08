@@ -391,26 +391,26 @@
     "contactCta": "联系支持"
   },
   "leaderboards": {
-    "eyebrow": "Leaderboards",
-    "title": "Live leaderboards",
-    "subtitle": "Who's ahead this season? ScoreHunter's live rankings, right here.",
-    "seasonContext": "Season",
-    "points": "pts",
-    "members": "members",
-    "empty": "No entries for this ranking yet.",
-    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
-    "previewTitle": "Season leaderboard",
-    "previewSubtitle": "Top 10 overall",
-    "previewViewAll": "See all leaderboards",
+    "eyebrow": "排行榜",
+    "title": "实时排行榜",
+    "subtitle": "本赛季谁领先?ScoreHunter 的实时排行榜,就在这里。",
+    "seasonContext": "赛季",
+    "points": "分",
+    "members": "成员",
+    "empty": "此排行榜暂无数据。",
+    "footnote": "排行榜会在每周结束时更新。比分实时从 App 同步。",
+    "previewTitle": "赛季排行榜",
+    "previewSubtitle": "总榜前 10",
+    "previewViewAll": "查看全部排行榜",
+    "topN": "前 100",
+    "participants": "",
     "types": {
-      "general": "Overall Rankings",
+      "general": "总排行榜",
       "scorehunt": "Score Hunt",
-      "minigames": "Mini Games",
-      "trophyking": "Trophies",
-      "clubranking": "Club Rankings",
-      "countryranking": "Country Rankings"
-    },
-    "topN": "Top 100",
-    "participants": "participants"
+      "minigames": "迷你游戏",
+      "trophyking": "奖杯",
+      "clubranking": "俱乐部排行榜",
+      "countryranking": "国家排行榜"
+    }
   }
 }

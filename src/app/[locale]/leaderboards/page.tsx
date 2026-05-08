@@ -97,7 +97,10 @@ export default async function LeaderboardsPage({
             />
           </div>
 
-          {/* Sub-header: season name + Top-100 / participant count */}
+          {/* Sub-header: Top 100 (left) + season name (right). Participant
+              count is hidden until the player base grows — sparse boards
+              read better without "X katılımcı" telling visitors how empty
+              the table is. */}
           {seasonLabel && (
             <div className="mt-7 flex items-baseline justify-between gap-3 px-1">
               <span className="text-primary text-sm font-bold uppercase tracking-[0.18em]">
@@ -108,15 +111,6 @@ export default async function LeaderboardsPage({
                   {lb.seasonContext}
                 </span>{" "}
                 <span className="font-semibold">{seasonLabel}</span>
-                {data && (
-                  <>
-                    {" · "}
-                    <span className="font-semibold">
-                      {data.totalParticipants}
-                    </span>{" "}
-                    <span className="text-text-muted">{lb.participants}</span>
-                  </>
-                )}
               </span>
             </div>
           )}
