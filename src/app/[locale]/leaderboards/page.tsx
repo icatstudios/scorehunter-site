@@ -97,19 +97,31 @@ export default async function LeaderboardsPage({
             />
           </div>
 
-          {/* Sub-header: which season is being shown */}
+          {/* Sub-header: season name + Top-100 / participant count */}
           {seasonLabel && (
-            <div className="mt-6 flex items-baseline justify-between gap-3">
-              <span className="text-text-muted text-xs uppercase tracking-[0.18em]">
-                {lb.seasonContext}
+            <div className="mt-7 flex items-baseline justify-between gap-3 px-1">
+              <span className="text-primary text-sm font-bold uppercase tracking-[0.18em]">
+                {lb.topN}
               </span>
-              <span className="text-text-secondary text-sm font-semibold">
-                {seasonLabel}
+              <span className="text-text-secondary text-xs">
+                <span className="uppercase tracking-[0.18em] text-text-muted">
+                  {lb.seasonContext}
+                </span>{" "}
+                <span className="font-semibold">{seasonLabel}</span>
+                {data && (
+                  <>
+                    {" · "}
+                    <span className="font-semibold">
+                      {data.totalParticipants}
+                    </span>{" "}
+                    <span className="text-text-muted">{lb.participants}</span>
+                  </>
+                )}
               </span>
             </div>
           )}
 
-          <div className="mt-4">
+          <div className="mt-3">
             {data && data.entries.length > 0 ? (
               <LeaderboardTable
                 entries={data.entries}

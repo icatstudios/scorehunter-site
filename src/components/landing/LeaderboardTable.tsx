@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { avatarUrl } from "@/lib/avatar";
+import { avatarUrl, flagUrlAtSize } from "@/lib/avatar";
 import {
   isGroupRanking,
   type LeaderboardEntry,
@@ -128,20 +128,41 @@ function Row({
 }
 
 function UserAvatar({ entry }: { entry: LeaderboardEntry }) {
-  // Pro users get a translucent gold ring (mirrors iOS BoolToGoldStrokeConverter
-  // which uses #59FFD700 — alpha 35% gold).
+  // Pro users get a gold ring + a small crown overlay at the top-right
+  // (mirrors iOS ProfileAvatarCrown — FontAwesome , gold, 30° tilt).
   const ring = entry.isPro
     ? "ring-2 ring-yellow-400/55 shadow-[0_0_10px_rgba(255,215,0,0.25)]"
     : "ring-1 ring-white/10";
   return (
-    <Image
-      src={avatarUrl(entry.avatarKey, 64)}
-      alt=""
-      width={40}
-      height={40}
-      className={`shrink-0 rounded-full bg-white/5 ${ring}`}
-      unoptimized
-    />
+    <div className="relative shrink-0 w-10 h-10">
+      <Image
+        src={avatarUrl(entry.avatarKey, 128)}
+        alt=""
+        width={40}
+        height={40}
+        sizes="40px"
+        className={`rounded-full bg-white/5 ${ring}`}
+        unoptimized
+      />
+      {entry.isPro && <ProCrown />}
+    </div>
+  );
+}
+
+/** Small gold crown SVG overlay, anchored to the top-right of the
+    Pro avatar. Slight rotation echoes the iOS profile page crown. */
+function ProCrown() {
+  return (
+    <svg
+      aria-hidden
+      viewBox="0 0 24 24"
+      className="absolute -top-1.5 -right-1.5 w-4 h-4 text-yellow-400 drop-shadow-[0_0_3px_rgba(255,215,0,0.55)]"
+      style={{ transform: "rotate(20deg)" }}
+      fill="currentColor"
+    >
+      {/* Solid crown — 5 spikes, base bar */}
+      <path d="M3 7.5l3.5 4 3-5 2.5 5 3-5 2.5 5L21 7.5l-1.6 9.3a1.5 1.5 0 0 1-1.5 1.2H6.1a1.5 1.5 0 0 1-1.5-1.2L3 7.5zm2.4 11.4h13.2v1.4a1.2 1.2 0 0 1-1.2 1.2H6.6a1.2 1.2 0 0 1-1.2-1.2v-1.4z" />
+    </svg>
   );
 }
 
@@ -153,12 +174,16 @@ function GroupLogo({ entry }: { entry: LeaderboardEntry }) {
       </div>
     );
   }
+  // Country logos point at /sh/images/flag/64/ — bump to /128/ for retina.
+  // Club logos come from api-sports CDN at native (already high) res.
+  const src = flagUrlAtSize(entry.groupLogoUrl, 128);
   return (
     <Image
-      src={entry.groupLogoUrl}
+      src={src}
       alt=""
       width={40}
       height={40}
+      sizes="40px"
       className="shrink-0 rounded-full ring-1 ring-white/10 bg-white/5 object-contain"
       unoptimized
     />
@@ -176,10 +201,14 @@ function UserMeta({
   entry: LeaderboardEntry;
   flagMap?: Map<string, string>;
 }) {
-  const flagSrc =
+  const flagBase =
     entry.countryCode && flagMap
       ? flagMap.get(entry.countryCode.toUpperCase())
       : undefined;
+  // Pull the 128px variant of the flag so it looks crisp at the rendered
+  // 22×16 size on retina; falls back to the original /64/ URL if the
+  // string didn't match the expected pattern.
+  const flagSrc = flagBase ? flagUrlAtSize(flagBase, 128) : undefined;
 
   return (
     <span className="inline-flex items-center gap-2">
@@ -187,9 +216,10 @@ function UserMeta({
         <Image
           src={flagSrc}
           alt=""
-          width={18}
-          height={12}
-          className="rounded-[2px] ring-1 ring-white/10"
+          width={22}
+          height={16}
+          sizes="22px"
+          className="rounded-[2px] ring-1 ring-white/10 object-cover"
           unoptimized
         />
       )}
@@ -197,8 +227,9 @@ function UserMeta({
         <Image
           src={entry.favoriteTeamLogo}
           alt=""
-          width={16}
-          height={16}
+          width={18}
+          height={18}
+          sizes="18px"
           className="rounded-full bg-white/10 object-contain p-[1px]"
           unoptimized
         />

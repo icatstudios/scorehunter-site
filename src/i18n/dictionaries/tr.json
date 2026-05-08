@@ -409,6 +409,8 @@
       "trophyking": "Kupa Krallığı",
       "clubranking": "Kulüp Sıralaması",
       "countryranking": "Ülke Sıralaması"
-    }
+    },
+    "topN": "İlk 100",
+    "participants": "katılımcı"
   }
 }

@@ -409,6 +409,8 @@
       "trophyking": "Trophies",
       "clubranking": "Club Rankings",
       "countryranking": "Country Rankings"
-    }
+    },
+    "topN": "Top 100",
+    "participants": "participants"
   }
 }

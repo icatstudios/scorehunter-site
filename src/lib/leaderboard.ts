@@ -32,8 +32,12 @@ export const ALL_TYPES: RankingType[] = [
   "countryranking",
 ];
 
+// Group rankings = clubs and countries (one row per club/country, with a
+// `groupKey` / `groupLogoUrl` / `memberCount`). trophyking is NOT a group
+// ranking — it's individual users sorted by trophy count, so each row has
+// avatarKey / userId / countryCode and renders like the other individual
+// rankings.
 const GROUP_SET = new Set<RankingType>([
-  "trophyking",
   "clubranking",
   "countryranking",
 ]);
