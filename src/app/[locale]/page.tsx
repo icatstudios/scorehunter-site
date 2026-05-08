@@ -10,6 +10,7 @@ import { RulesSection } from "@/components/landing/RulesSection";
 import { FeaturesGrid } from "@/components/landing/FeaturesGrid";
 import { Screenshots } from "@/components/landing/Screenshots";
 import { FAQAccordion } from "@/components/landing/FAQAccordion";
+import { RankingsPreview } from "@/components/landing/RankingsPreview";
 import { SectionHeading } from "@/components/landing/SectionHeading";
 import { FinalCta } from "@/components/landing/FinalCta";
 import { Footer } from "@/components/landing/Footer";
@@ -62,6 +63,18 @@ export default async function Home({
         <RulesSection dict={home.rules} />
         <FeaturesGrid dict={home.features} locale={locale} />
         <Screenshots dict={home.screenshots} locale={locale} />
+
+        <RankingsPreview
+          locale={locale}
+          labels={{
+            eyebrow: dict.leaderboards.eyebrow,
+            title: dict.leaderboards.previewTitle,
+            subtitle: dict.leaderboards.previewSubtitle,
+            points: dict.leaderboards.points,
+            members: dict.leaderboards.members,
+            viewAll: dict.leaderboards.previewViewAll,
+          }}
+        />
 
         {/* FAQ Preview */}
         <section className="relative py-20 sm:py-28 px-4 sm:px-6">

@@ -124,7 +124,8 @@
       "howToPlay": "遊び方",
       "features": "機能",
       "faq": "FAQ",
-      "support": "サポート"
+      "support": "サポート",
+      "leaderboards": "Leaderboards"
     },
     "hero": {
       "eyebrow": "iCat Studios プレゼンツ",
@@ -388,5 +389,30 @@
     "subtitle": "よく寄せられる質問への回答です。見つからない場合は?",
     "contactPrompt": "答えが見つかりませんか?",
     "contactCta": "サポートに連絡"
+  },
+  "leaderboards": {
+    "eyebrow": "Leaderboards",
+    "title": "Live leaderboards",
+    "subtitle": "Who's ahead this week and across the season? ScoreHunter's live rankings, right here.",
+    "periodWeekly": "Week",
+    "periodSeason": "Season",
+    "weeklyContext": "This week",
+    "seasonContext": "Season",
+    "points": "pts",
+    "members": "members",
+    "empty": "No entries for this ranking yet.",
+    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
+    "seasonOnlyHint": "Season only",
+    "previewTitle": "Season leaderboard",
+    "previewSubtitle": "Top 10 overall",
+    "previewViewAll": "See all leaderboards",
+    "types": {
+      "general": "Overall",
+      "scorehunt": "Score Hunt",
+      "minigames": "Mini Games",
+      "trophyking": "Trophy King",
+      "clubranking": "Clubs",
+      "countryranking": "Countries"
+    }
   }
 }

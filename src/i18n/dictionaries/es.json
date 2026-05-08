@@ -124,7 +124,8 @@
       "howToPlay": "Cómo jugar",
       "features": "Funciones",
       "faq": "FAQ",
-      "support": "Soporte"
+      "support": "Soporte",
+      "leaderboards": "Leaderboards"
     },
     "hero": {
       "eyebrow": "iCat Studios presenta",
@@ -388,5 +389,30 @@
     "subtitle": "Respuestas a lo que más se pregunta. ¿No encuentras la tuya?",
     "contactPrompt": "¿No encuentras tu respuesta?",
     "contactCta": "Contactar con soporte"
+  },
+  "leaderboards": {
+    "eyebrow": "Leaderboards",
+    "title": "Live leaderboards",
+    "subtitle": "Who's ahead this week and across the season? ScoreHunter's live rankings, right here.",
+    "periodWeekly": "Week",
+    "periodSeason": "Season",
+    "weeklyContext": "This week",
+    "seasonContext": "Season",
+    "points": "pts",
+    "members": "members",
+    "empty": "No entries for this ranking yet.",
+    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
+    "seasonOnlyHint": "Season only",
+    "previewTitle": "Season leaderboard",
+    "previewSubtitle": "Top 10 overall",
+    "previewViewAll": "See all leaderboards",
+    "types": {
+      "general": "Overall",
+      "scorehunt": "Score Hunt",
+      "minigames": "Mini Games",
+      "trophyking": "Trophy King",
+      "clubranking": "Clubs",
+      "countryranking": "Countries"
+    }
   }
 }

@@ -9,6 +9,7 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 interface HeaderLabels {
   howToPlay: string;
   features: string;
+  leaderboards: string;
   faq: string;
   support: string;
 }
@@ -33,6 +34,7 @@ export function Header({
   const navLinks = [
     { href: `/${locale}#how-to-play`, label: labels.howToPlay },
     { href: `/${locale}/features`, label: labels.features },
+    { href: `/${locale}/leaderboards`, label: labels.leaderboards },
     { href: `/${locale}/faq`, label: labels.faq },
     { href: `/${locale}/support`, label: labels.support },
   ];

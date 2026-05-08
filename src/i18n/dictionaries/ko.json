@@ -124,7 +124,8 @@
       "howToPlay": "플레이 방법",
       "features": "기능",
       "faq": "FAQ",
-      "support": "지원"
+      "support": "지원",
+      "leaderboards": "Leaderboards"
     },
     "hero": {
       "eyebrow": "iCat Studios 제공",
@@ -388,5 +389,30 @@
     "subtitle": "가장 많이 묻는 질문에 대한 답변. 찾으시는 게 없나요?",
     "contactPrompt": "답을 찾지 못하셨나요?",
     "contactCta": "지원에 문의"
+  },
+  "leaderboards": {
+    "eyebrow": "Leaderboards",
+    "title": "Live leaderboards",
+    "subtitle": "Who's ahead this week and across the season? ScoreHunter's live rankings, right here.",
+    "periodWeekly": "Week",
+    "periodSeason": "Season",
+    "weeklyContext": "This week",
+    "seasonContext": "Season",
+    "points": "pts",
+    "members": "members",
+    "empty": "No entries for this ranking yet.",
+    "footnote": "Rankings update at the end of each week. Scores are pulled live from the app.",
+    "seasonOnlyHint": "Season only",
+    "previewTitle": "Season leaderboard",
+    "previewSubtitle": "Top 10 overall",
+    "previewViewAll": "See all leaderboards",
+    "types": {
+      "general": "Overall",
+      "scorehunt": "Score Hunt",
+      "minigames": "Mini Games",
+      "trophyking": "Trophy King",
+      "clubranking": "Clubs",
+      "countryranking": "Countries"
+    }
   }
 }
