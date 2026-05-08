@@ -7,9 +7,9 @@ import {
 } from "@/lib/leaderboard";
 
 interface RowLabels {
-  /** "points" / "puan" — singular point label shown after totals on mobile */
+  /** singular point label shown after totals */
   points: string;
-  /** "members" / "üye" — only used for group rankings (clubs/countries) */
+  /** members label for group rankings (clubs/countries) */
   members: string;
 }
 
@@ -17,11 +17,15 @@ export function LeaderboardTable({
   entries,
   type,
   labels,
+  flagMap,
   highlightTopThree = true,
 }: {
   entries: LeaderboardEntry[];
   type: RankingType;
   labels: RowLabels;
+  /** countryCode → flag URL (from getCountryFlagMap). Used to render
+      flags next to user rows on individual rankings. */
+  flagMap?: Map<string, string>;
   /** Tints the rank badge for ranks 1/2/3 (gold/silver/bronze). */
   highlightTopThree?: boolean;
 }) {
@@ -44,6 +48,7 @@ export function LeaderboardTable({
             entry={entry}
             isGroup={isGroup}
             labels={labels}
+            flagMap={flagMap}
             highlightTopThree={highlightTopThree}
           />
         ))}
@@ -56,11 +61,13 @@ function Row({
   entry,
   isGroup,
   labels,
+  flagMap,
   highlightTopThree,
 }: {
   entry: LeaderboardEntry;
   isGroup: boolean;
   labels: RowLabels;
+  flagMap?: Map<string, string>;
   highlightTopThree: boolean;
 }) {
   const rankClass = highlightTopThree
@@ -89,25 +96,20 @@ function Row({
         <UserAvatar entry={entry} />
       )}
 
-      {/* Name + secondary line */}
+      {/* Name + secondary line (flag, team logo, trophy count) */}
       <div className="flex-1 min-w-0">
-        <div className="flex items-center gap-2 min-w-0">
+        <div className="flex items-center min-w-0">
           <span className="truncate text-text-primary font-semibold text-sm sm:text-[15px]">
             {isGroup ? (entry.groupName ?? entry.displayName) : entry.displayName}
           </span>
-          {!isGroup && entry.isPro && (
-            <span className="shrink-0 inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase bg-primary/15 text-primary ring-1 ring-primary/30">
-              Pro
-            </span>
-          )}
         </div>
-        <div className="text-[11px] sm:text-xs text-text-muted mt-0.5 flex items-center gap-2">
+        <div className="text-[11px] sm:text-xs text-text-muted mt-1 flex items-center gap-2">
           {isGroup ? (
             <span>
               {entry.memberCount ?? 0} {labels.members}
             </span>
           ) : (
-            <UserMeta entry={entry} />
+            <UserMeta entry={entry} flagMap={flagMap} />
           )}
         </div>
       </div>
@@ -126,13 +128,18 @@ function Row({
 }
 
 function UserAvatar({ entry }: { entry: LeaderboardEntry }) {
+  // Pro users get a translucent gold ring (mirrors iOS BoolToGoldStrokeConverter
+  // which uses #59FFD700 — alpha 35% gold).
+  const ring = entry.isPro
+    ? "ring-2 ring-yellow-400/55 shadow-[0_0_10px_rgba(255,215,0,0.25)]"
+    : "ring-1 ring-white/10";
   return (
     <Image
       src={avatarUrl(entry.avatarKey, 64)}
       alt=""
       width={40}
       height={40}
-      className="shrink-0 rounded-full ring-1 ring-white/10 bg-white/5"
+      className={`shrink-0 rounded-full bg-white/5 ${ring}`}
       unoptimized
     />
   );
@@ -159,50 +166,62 @@ function GroupLogo({ entry }: { entry: LeaderboardEntry }) {
 }
 
 /**
- * Secondary line for individual rows. Shows country flag (if known) and a
- * compact stat — trophyCount for trophyking, otherwise nothing extra.
+ * Secondary line for individual rows: country flag + favourite-team logo
+ * (mirrors what iOS shows on every ranking row).
  */
-function UserMeta({ entry }: { entry: LeaderboardEntry }) {
-  const parts: React.ReactNode[] = [];
-  if (entry.countryCode) {
-    parts.push(
-      <span key="cc" className="font-medium text-text-secondary">
-        {entry.countryCode}
-      </span>,
-    );
-  }
-  if (entry.trophyCount > 0) {
-    parts.push(
-      <span
-        key="t"
-        className="inline-flex items-center gap-1 text-primary/80"
-      >
-        <svg
-          className="w-3 h-3"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={1.8}
-          viewBox="0 0 24 24"
-          aria-hidden
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M8 21h8m-4-4v4m-6-9V5h12v7a6 6 0 11-12 0zM6 5H3a3 3 0 003 5m12-5h3a3 3 0 01-3 5"
-          />
-        </svg>
-        {entry.trophyCount}
-      </span>,
-    );
-  }
+function UserMeta({
+  entry,
+  flagMap,
+}: {
+  entry: LeaderboardEntry;
+  flagMap?: Map<string, string>;
+}) {
+  const flagSrc =
+    entry.countryCode && flagMap
+      ? flagMap.get(entry.countryCode.toUpperCase())
+      : undefined;
+
   return (
-    <>
-      {parts.map((p, i) => (
-        <span key={i} className="inline-flex items-center gap-1.5">
-          {i > 0 && <span className="text-text-muted/50">·</span>}
-          {p}
+    <span className="inline-flex items-center gap-2">
+      {flagSrc && (
+        <Image
+          src={flagSrc}
+          alt=""
+          width={18}
+          height={12}
+          className="rounded-[2px] ring-1 ring-white/10"
+          unoptimized
+        />
+      )}
+      {entry.favoriteTeamLogo && (
+        <Image
+          src={entry.favoriteTeamLogo}
+          alt=""
+          width={16}
+          height={16}
+          className="rounded-full bg-white/10 object-contain p-[1px]"
+          unoptimized
+        />
+      )}
+      {entry.trophyCount > 0 && (
+        <span className="inline-flex items-center gap-1 text-primary/80">
+          <svg
+            className="w-3 h-3"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={1.8}
+            viewBox="0 0 24 24"
+            aria-hidden
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M8 21h8m-4-4v4m-6-9V5h12v7a6 6 0 11-12 0zM6 5H3a3 3 0 003 5m12-5h3a3 3 0 01-3 5"
+            />
+          </svg>
+          {entry.trophyCount}
         </span>
-      ))}
-    </>
+      )}
+    </span>
   );
 }

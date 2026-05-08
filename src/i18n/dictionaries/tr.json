@@ -393,26 +393,22 @@
   "leaderboards": {
     "eyebrow": "Sıralamalar",
     "title": "Canlı sıralamalar",
-    "subtitle": "Bu hafta ve sezon boyunca kim öndeydi? Skor Avcısı'nın gerçek zamanlı sıralamaları aşağıda.",
-    "periodWeekly": "Hafta",
-    "periodSeason": "Sezon",
-    "weeklyContext": "Bu hafta",
+    "subtitle": "Sezon boyunca kim önde? Skor Avcısı'nın gerçek zamanlı sıralamaları aşağıda.",
     "seasonContext": "Sezon",
     "points": "puan",
     "members": "üye",
     "empty": "Bu sıralama için henüz veri yok.",
     "footnote": "Sıralamalar haftanın bitiminde güncellenir. Skorlar uygulamadan canlı olarak takip edilir.",
-    "seasonOnlyHint": "Yalnızca sezon",
     "previewTitle": "Sezonun lider tablosu",
     "previewSubtitle": "Genel sıralamada ilk 10",
     "previewViewAll": "Tüm sıralamalara bak",
     "types": {
-      "general": "Genel",
+      "general": "Genel Sıralama",
       "scorehunt": "Skor Avı",
       "minigames": "Mini Oyunlar",
       "trophyking": "Kupa Krallığı",
-      "clubranking": "Takımlar",
-      "countryranking": "Ülkeler"
+      "clubranking": "Kulüp Sıralaması",
+      "countryranking": "Ülke Sıralaması"
     }
   }
 }

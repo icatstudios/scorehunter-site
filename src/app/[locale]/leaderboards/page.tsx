@@ -9,11 +9,10 @@ import { SectionHeading } from "@/components/landing/SectionHeading";
 import { LeaderboardTabs } from "@/components/landing/LeaderboardTabs";
 import { LeaderboardTable } from "@/components/landing/LeaderboardTable";
 import {
-  GROUP_TYPES,
-  getActiveContext,
+  getActiveSeason,
+  getCountryFlagMap,
   getSeasonLeaderboard,
-  getWeeklyLeaderboard,
-  type IndividualRankingType,
+  pickSeasonName,
   type RankingType,
 } from "@/lib/leaderboard";
 
@@ -40,49 +39,34 @@ export async function generateMetadata({
   };
 }
 
-type Period = "weekly" | "season";
-
 export default async function LeaderboardsPage({
   params,
   searchParams,
 }: {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ period?: string; type?: string }>;
+  searchParams: Promise<{ type?: string }>;
 }) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const sp = await searchParams;
   const dict = await getDictionary(locale);
-
-  const period: Period = sp.period === "weekly" ? "weekly" : "season";
-  const requestedType = (sp.type ?? "general") as RankingType;
-
-  // Group rankings are season-only. Coerce silently if someone hits
-  // ?period=weekly&type=clubranking.
-  const type: RankingType =
-    period === "weekly" && (GROUP_TYPES as readonly string[]).includes(requestedType)
-      ? "general"
-      : requestedType;
-
   const lb = dict.leaderboards;
   if (!lb) notFound();
 
-  const ctx = await getActiveContext();
+  const type = (sp.type ?? "general") as RankingType;
 
-  let data = null;
-  let contextNote: string | null = null;
+  // Run season + flag-map fetches in parallel so the request doesn't pay
+  // for them sequentially.
+  const [season, flagMap] = await Promise.all([
+    getActiveSeason(),
+    getCountryFlagMap(),
+  ]);
 
-  if (period === "season" && ctx.season) {
-    data = await getSeasonLeaderboard(ctx.season.id, type, { pageSize: 100 });
-    contextNote = ctx.season.name;
-  } else if (period === "weekly" && ctx.latestCompletedWeek) {
-    data = await getWeeklyLeaderboard(
-      ctx.latestCompletedWeek.id,
-      type as IndividualRankingType,
-      { pageSize: 100 },
-    );
-    contextNote = ctx.latestCompletedWeek.name;
-  }
+  const data = season
+    ? await getSeasonLeaderboard(season.id, type, { pageSize: 100 })
+    : null;
+
+  const seasonLabel = season ? pickSeasonName(season, locale) : null;
 
   return (
     <>
@@ -101,8 +85,6 @@ export default async function LeaderboardsPage({
           <div className="mt-10">
             <LeaderboardTabs
               labels={{
-                weekly: lb.periodWeekly,
-                season: lb.periodSeason,
                 types: {
                   general: lb.types.general,
                   scorehunt: lb.types.scorehunt,
@@ -111,19 +93,18 @@ export default async function LeaderboardsPage({
                   clubranking: lb.types.clubranking,
                   countryranking: lb.types.countryranking,
                 },
-                seasonOnlyHint: lb.seasonOnlyHint,
               }}
             />
           </div>
 
-          {/* Sub-header: which week / season is being shown */}
-          {contextNote && (
+          {/* Sub-header: which season is being shown */}
+          {seasonLabel && (
             <div className="mt-6 flex items-baseline justify-between gap-3">
               <span className="text-text-muted text-xs uppercase tracking-[0.18em]">
-                {period === "weekly" ? lb.weeklyContext : lb.seasonContext}
+                {lb.seasonContext}
               </span>
               <span className="text-text-secondary text-sm font-semibold">
-                {contextNote}
+                {seasonLabel}
               </span>
             </div>
           )}
@@ -133,6 +114,7 @@ export default async function LeaderboardsPage({
               <LeaderboardTable
                 entries={data.entries}
                 type={type}
+                flagMap={flagMap}
                 labels={{ points: lb.points, members: lb.members }}
               />
             ) : (
@@ -142,7 +124,6 @@ export default async function LeaderboardsPage({
             )}
           </div>
 
-          {/* Footer note */}
           <p className="mt-6 text-text-muted text-xs">{lb.footnote}</p>
         </div>
       </main>

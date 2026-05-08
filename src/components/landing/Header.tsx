@@ -32,9 +32,9 @@ export function Header({
   }, []);
 
   const navLinks = [
+    { href: `/${locale}/leaderboards`, label: labels.leaderboards },
     { href: `/${locale}#how-to-play`, label: labels.howToPlay },
     { href: `/${locale}/features`, label: labels.features },
-    { href: `/${locale}/leaderboards`, label: labels.leaderboards },
     { href: `/${locale}/faq`, label: labels.faq },
     { href: `/${locale}/support`, label: labels.support },
   ];

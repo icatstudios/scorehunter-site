@@ -3,7 +3,8 @@ import type { Locale } from "@/i18n/config";
 import { SectionHeading } from "./SectionHeading";
 import { LeaderboardTable } from "./LeaderboardTable";
 import {
-  getActiveContext,
+  getActiveSeason,
+  getCountryFlagMap,
   getSeasonLeaderboard,
 } from "@/lib/leaderboard";
 
@@ -23,7 +24,10 @@ export async function RankingsPreview({
   locale: Locale;
   labels: RankingsPreviewLabels;
 }) {
-  const { season } = await getActiveContext();
+  const [season, flagMap] = await Promise.all([
+    getActiveSeason(),
+    getCountryFlagMap(),
+  ]);
   if (!season) return null;
 
   const data = await getSeasonLeaderboard(season.id, "general", { pageSize: 10 });
@@ -42,6 +46,7 @@ export async function RankingsPreview({
           <LeaderboardTable
             entries={data.entries}
             type="general"
+            flagMap={flagMap}
             labels={{ points: labels.points, members: labels.members }}
           />
         </div>
