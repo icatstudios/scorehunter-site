@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "crons": [
     {
-      "comment": "Nightly leaderboard cache flush. 23:00 UTC = 02:00 Türkiye time (TRT, UTC+3, no DST). Belt-and-braces in case the admin webhook from the backend hasn't fired by then.",
       "path": "/api/revalidate",
       "schedule": "0 23 * * *"
     }
