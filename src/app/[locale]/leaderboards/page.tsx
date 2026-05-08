@@ -17,7 +17,8 @@ import {
 } from "@/lib/leaderboard";
 
 // 24h fallback so a missed webhook doesn't keep stale data forever. The
-// real freshness signal is the admin-triggered /api/revalidate webhook.
+// real freshness signal is the admin-triggered /api/revalidate webhook
+// plus the nightly Vercel cron (vercel.json: "0 23 * * *", 02:00 TR).
 export const revalidate = 86400;
 
 export async function generateMetadata({
