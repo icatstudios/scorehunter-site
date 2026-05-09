@@ -231,15 +231,22 @@ function UserMeta({
         />
       )}
       {entry.favoriteTeamLogo && (
-        <Image
-          src={entry.favoriteTeamLogo}
-          alt=""
-          width={18}
-          height={18}
-          sizes="18px"
-          className="rounded-full bg-white/10 object-contain p-[1px]"
-          unoptimized
-        />
+        // Same fixed-frame trick as GroupLogo: wrap the api-sports PNG in
+        // a 20×20 rounded container so every row's team logo footprint is
+        // identical, regardless of how much internal whitespace the PNG
+        // itself has. Without the frame, club crests of different aspect
+        // ratios visibly varied in apparent size next to the username.
+        <span className="inline-flex shrink-0 w-5 h-5 rounded-md ring-1 ring-white/10 bg-white/5 p-0.5 items-center justify-center">
+          <Image
+            src={entry.favoriteTeamLogo}
+            alt=""
+            width={16}
+            height={16}
+            sizes="16px"
+            className="w-full h-full object-contain"
+            unoptimized
+          />
+        </span>
       )}
       {entry.trophyCount > 0 && (
         <span className="inline-flex items-center gap-1 text-primary/80">
