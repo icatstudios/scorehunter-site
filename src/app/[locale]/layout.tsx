@@ -45,16 +45,20 @@ export async function generateMetadata({
 
   const dict = await getDictionary(locale);
 
+  // Post-launch: use homeTitle / homeDescription as the layout default so
+  // OG cards and browser tabs on pages without their own metadata (and
+  // the OG tags every child inherits) read as "ScoreHunter — Football
+  // prediction game" instead of the pre-launch countdown title.
   return {
-    title: dict.metadata.comingSoonTitle,
-    description: dict.metadata.comingSoonDescription,
+    title: dict.metadata.homeTitle,
+    description: dict.metadata.homeDescription,
     alternates: {
       canonical: `/${locale}`,
       languages: localizedPathMap("/"),
     },
     openGraph: {
-      title: dict.metadata.comingSoonTitle,
-      description: dict.metadata.comingSoonDescription,
+      title: dict.metadata.homeTitle,
+      description: dict.metadata.homeDescription,
       url: `https://scorehunter.app/${locale}`,
       siteName: dict.metadata.siteName,
       type: "website",
@@ -62,8 +66,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: dict.metadata.comingSoonTitle,
-      description: dict.metadata.comingSoonDescription,
+      title: dict.metadata.homeTitle,
+      description: dict.metadata.homeDescription,
     },
   };
 }
