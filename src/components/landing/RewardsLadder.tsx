@@ -1,3 +1,5 @@
+import { Reveal } from "./Reveal";
+
 export interface RewardRow {
   /** "1", "2", … or a range like "6-10" */
   rank: string;
@@ -63,7 +65,8 @@ const TIER = {
     bg: "bg-gradient-to-br from-yellow-400/[0.10] via-transparent to-transparent",
     text: "text-yellow-400",
     pill: "bg-yellow-400/12 ring-yellow-400/35 text-yellow-400",
-    watermark: "text-yellow-400/[0.09]",
+    strip: "from-yellow-400 via-yellow-400/50",
+    device: "text-yellow-400/[0.09]",
   },
   silver: {
     ring: "ring-zinc-300/25",
@@ -71,7 +74,8 @@ const TIER = {
     bg: "bg-gradient-to-br from-zinc-300/[0.07] via-transparent to-transparent",
     text: "text-zinc-300",
     pill: "bg-zinc-300/10 ring-zinc-300/30 text-zinc-300",
-    watermark: "text-zinc-300/[0.07]",
+    strip: "from-zinc-300 via-zinc-300/50",
+    device: "text-zinc-300/[0.07]",
   },
   bronze: {
     ring: "ring-amber-500/25",
@@ -79,7 +83,8 @@ const TIER = {
     bg: "bg-gradient-to-br from-amber-500/[0.08] via-transparent to-transparent",
     text: "text-amber-500",
     pill: "bg-amber-500/10 ring-amber-500/30 text-amber-500",
-    watermark: "text-amber-500/[0.07]",
+    strip: "from-amber-500 via-amber-500/50",
+    device: "text-amber-500/[0.07]",
   },
   // Ranks 4-5: still an individual winner, so still its own card - but no
   // medal, so no tint or glow.
@@ -89,7 +94,8 @@ const TIER = {
     bg: "",
     text: "text-text-secondary",
     pill: "bg-white/[0.04] ring-white/10 text-text-secondary",
-    watermark: "text-white/[0.035]",
+    strip: "from-white/40 via-white/15",
+    device: "text-white/[0.035]",
   },
 } as const;
 
@@ -116,17 +122,19 @@ export function RewardsLadder({
   return (
     <div className="space-y-3">
       {singles.map((row, i) => (
-        <FeatureRow
-          key={row.rank}
-          row={row}
-          tier={MEDALS[i] ?? "plain"}
-          isWinner={i === 0}
-          sponsoredLabel={sponsoredLabel}
-        />
+        <Reveal key={row.rank} delay={i * 70}>
+          <FeatureRow
+            row={row}
+            tier={MEDALS[i] ?? "plain"}
+            isWinner={i === 0}
+            sponsoredLabel={sponsoredLabel}
+          />
+        </Reveal>
       ))}
 
       {ranges.length > 0 && (
-        <div className="rounded-2xl ring-1 ring-white/10 overflow-hidden bg-white/[0.02] !mt-5">
+        <Reveal delay={singles.length * 70} className="!mt-5">
+        <div className="rounded-2xl ring-1 ring-white/10 overflow-hidden bg-white/[0.02]">
           <ul className="divide-y divide-white/5">
             {ranges.map((row) => (
               <CompactRow
@@ -137,6 +145,7 @@ export function RewardsLadder({
             ))}
           </ul>
         </div>
+        </Reveal>
       )}
     </div>
   );
@@ -148,21 +157,21 @@ export function RewardsLadder({
 const SIZE = {
   lg: {
     pad: "px-5 sm:px-7 py-6 sm:py-7",
-    watermark: "text-[7rem]",
     pill: "w-12 h-12 text-xl",
     prize: "text-xl sm:text-2xl",
+    watermark: "text-[7rem]",
   },
   md: {
     pad: "px-5 sm:px-6 py-5",
-    watermark: "text-[5rem]",
     pill: "w-10 h-10 text-base",
     prize: "text-base sm:text-lg",
+    watermark: "text-[5rem]",
   },
   sm: {
     pad: "px-5 py-4",
-    watermark: "text-[3.5rem]",
     pill: "w-9 h-9 text-sm",
     prize: "text-[15px] sm:text-base",
+    watermark: "text-[3.5rem]",
   },
 } as const;
 
@@ -184,12 +193,25 @@ function FeatureRow({
     <div
       className={`relative overflow-hidden rounded-2xl ring-1 ${t.ring} ${t.glow} ${t.bg} bg-white/[0.02] ${s.pad}`}
     >
+      {/* Leading-edge light strip, brightest at the top and fading out. */}
+      <span
+        aria-hidden
+        className={`absolute start-0 inset-y-0 w-[3px] bg-gradient-to-b to-transparent ${t.strip}`}
+      />
+
+      {/* Only the winner sweeps - on every card it would be restless. */}
+      {isWinner && (
+        <span
+          aria-hidden
+          className="pointer-events-none absolute inset-y-0 -left-1/3 w-1/3 bg-gradient-to-r from-transparent via-white/[0.07] to-transparent animate-prize-sweep"
+        />
+      )}
       {/* Oversized rank digit behind the content - the same device the
           How-it-works step cards use, so the page stays on-brand. */}
       <span
         aria-hidden
         dir="ltr"
-        className={`absolute -top-2 end-3 font-bold leading-none select-none ${t.watermark} ${s.watermark}`}
+        className={`absolute -top-2 end-3 font-bold leading-none select-none ${t.device} ${s.watermark}`}
       >
         {row.rank}
       </span>
@@ -201,7 +223,7 @@ function FeatureRow({
           {row.rank}
         </span>
 
-        <div className="min-w-0 flex-1">
+        <div className="min-w-0 flex-1 pe-14 sm:pe-20">
           <div
             className={`text-text-primary font-bold leading-snug text-balance ${s.prize}`}
           >

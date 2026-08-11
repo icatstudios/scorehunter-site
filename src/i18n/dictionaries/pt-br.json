@@ -163,29 +163,6 @@
       "title": "Tudo o que você precisa é paixão pelo futebol",
       "howTitle": "Como jogar",
       "howIntro": "ScoreHunter recompensa o conhecimento de futebol. Sem bilhetes, sem handicaps, sem cotações - nada de jargão de apostas. Cada campeonato, cada partida, cada time tem o mesmo valor e a mesma importância. Cada jogador começa com as mesmas chances.",
-      "howItems": [
-        "A cada semana, um conjunto selecionado de partidas é aberto para previsões.",
-        "Os jogadores devem fazer suas previsões nessas partidas nos modos Score Hunt e Mini Jogos.",
-        "Os jogadores ganham pontos com base nos resultados das previsões que fazem.",
-        "Existem três classificações separadas - Geral, Score Hunt e Mini Jogos. A cada semana, os jogadores em 1°, 2° e 3° lugar recebem troféus.",
-        "A classificação Geral de cada semana é calculada como a soma dos pontos obtidos no Score Hunt e Mini Jogos.",
-        "Nas temporadas com prêmios, os prêmios são distribuídos com base nas conquistas da classificação Geral.",
-        "No Score Hunt, os jogadores devem prever os placares de 12 partidas no total - 10 principais e 2 bônus.",
-        "As previsões são pontuadas em detalhes em vários critérios: direção correta do resultado, empate correto, número correto de gols, saldo de gols correto, placar exato e previsão rara.",
-        "No Score Hunt, os jogadores podem aplicar o coringa 2X em uma das suas escolhas para dobrar os pontos obtidos naquela partida.",
-        "As previsões bônus substituem as escolhas de menor pontuação entre as previsões principais.",
-        "Usuários Pro podem criar uma lista de previsões reserva no Score Hunt.",
-        "No final da semana, só conta a lista de previsões com a pontuação mais alta.",
-        "No modo Mini Jogos, as previsões são feitas sobre eventos que acontecem durante as partidas.",
-        "Os jogadores selecionam um número de partidas ou times conforme exigido pelo conceito do jogo.",
-        "Cada mini jogo tem seu próprio conceito e valor em pontos.",
-        "O número, os pontos e os objetivos dos mini jogos podem variar com base no número de partidas da semana.",
-        "Os jogadores podem adicionar 1 partida ou time bônus por mini jogo.",
-        "Para vencer um mini jogo, é preciso fazer tantas previsões corretas quanto o objetivo do jogo.",
-        "A previsão bônus substitui a primeira previsão errada.",
-        "Mini jogos vencidos concedem uma recompensa fixa com base na sua dificuldade.",
-        "Mini jogos perdidos concedem apenas o ponto de participação."
-      ],
       "scoringTitle": "Pontuação",
       "scoringIntro": "No Score Hunt, cada detalhe que você acerta vale pontos. Você não precisa cravar o placar exato.",
       "scoringLabel": "Pontuação do Score Hunt",
@@ -291,19 +268,76 @@
         }
       ],
       "generalRulesTitle": "Regras",
-      "generalRulesItems": [
-        "Você só entra na competição quando confirma sua lista de previsões. Listas não confirmadas não são pontuadas.",
-        "Não esqueça de confirmar antes do apito inicial da primeira partida da sua lista. Depois que uma partida começa, a lista não pode mais ser editada.",
-        "As previsões são pontuadas apenas no tempo regulamentar (90 minutos). Prorrogações e cobranças de pênalti não contam.",
-        "Nenhum ponto é concedido para partidas adiadas, canceladas ou suspensas.",
-        "A classificação Geral é calculada semanalmente: Score Hunt + Mini Jogos combinados.",
-        "Os resultados são calculados automaticamente no fim da semana. Os placares das partidas são atualizados ao vivo - você pode acompanhar em tempo real.",
-        "Em caso de empate de pontos na classificação, o desempate segue esta ordem: primeiro pelo total de pontos da temporada, depois pelo número de troféus de ouro, prata e bronze conquistados - do maior para o menor.",
-        "Durante a pontuação é executada uma detecção de anomalias com IA. Todas as listas de usuários flagrados trapaceando são invalidadas.",
-        "Você precisa ter 13 anos ou mais para participar."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "A semana de jogo",
+          "items": [
+            "A cada semana, um conjunto selecionado de partidas é aberto para previsões.",
+            "Os jogadores devem fazer suas previsões nessas partidas nos modos Score Hunt e Mini Jogos.",
+            "Os jogadores ganham pontos com base nos resultados das previsões que fazem.",
+            "Existem três classificações separadas - Geral, Score Hunt e Mini Jogos. A cada semana, os jogadores em 1°, 2° e 3° lugar recebem troféus.",
+            "A classificação Geral de cada semana é calculada como a soma dos pontos obtidos no Score Hunt e Mini Jogos.",
+            "Nas temporadas com prêmios, os prêmios são distribuídos com base nas conquistas da classificação Geral."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "No Score Hunt, os jogadores devem prever os placares de 12 partidas no total - 10 principais e 2 bônus.",
+            "As previsões são pontuadas em detalhes em vários critérios: direção correta do resultado, empate correto, número correto de gols, saldo de gols correto, placar exato e previsão rara.",
+            "No Score Hunt, os jogadores podem aplicar o coringa 2X em uma das suas escolhas para dobrar os pontos obtidos naquela partida.",
+            "As previsões bônus substituem as escolhas de menor pontuação entre as previsões principais.",
+            "Usuários Pro podem criar uma lista de previsões reserva no Score Hunt.",
+            "No final da semana, só conta a lista de previsões com a pontuação mais alta."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Mini Jogos",
+          "items": [
+            "No modo Mini Jogos, as previsões são feitas sobre eventos que acontecem durante as partidas.",
+            "Os jogadores selecionam um número de partidas ou times conforme exigido pelo conceito do jogo.",
+            "Cada mini jogo tem seu próprio conceito e valor em pontos.",
+            "O número, os pontos e os objetivos dos mini jogos podem variar com base no número de partidas da semana.",
+            "Os jogadores podem adicionar 1 partida ou time bônus por mini jogo.",
+            "Para vencer um mini jogo, é preciso fazer tantas previsões corretas quanto o objetivo do jogo.",
+            "A previsão bônus substitui a primeira previsão errada.",
+            "Mini jogos vencidos concedem uma recompensa fixa com base na sua dificuldade.",
+            "Mini jogos perdidos concedem apenas o ponto de participação."
+          ]
+        }
       ],
-      "showMore": "Mostrar tudo",
-      "showLess": "Mostrar menos"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Sua lista de palpites",
+          "items": [
+            "Você só entra na competição quando confirma sua lista de previsões. Listas não confirmadas não são pontuadas.",
+            "Não esqueça de confirmar antes do apito inicial da primeira partida da sua lista. Depois que uma partida começa, a lista não pode mais ser editada."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Pontuação e partidas",
+          "items": [
+            "As previsões são pontuadas apenas no tempo regulamentar (90 minutos). Prorrogações e cobranças de pênalti não contam.",
+            "Nenhum ponto é concedido para partidas adiadas, canceladas ou suspensas.",
+            "A classificação Geral é calculada semanalmente: Score Hunt + Mini Jogos combinados.",
+            "Os resultados são calculados automaticamente no fim da semana. Os placares das partidas são atualizados ao vivo - você pode acompanhar em tempo real.",
+            "Em caso de empate de pontos na classificação, o desempate segue esta ordem: primeiro pelo total de pontos da temporada, depois pelo número de troféus de ouro, prata e bronze conquistados - do maior para o menor."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Jogo limpo",
+          "items": [
+            "Durante a pontuação é executada uma detecção de anomalias com IA. Todas as listas de usuários flagrados trapaceando são invalidadas.",
+            "Você precisa ter 13 anos ou mais para participar."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Recursos",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Regras dos prêmios",
-      "items": [
-        "Os prêmios vão para os 20 primeiros do Ranking geral no fim da temporada. Rankings semanais e por modo não afetam os prêmios da temporada.",
-        "Em caso de empate em pontos, a classificação é decidida primeiro pelo total de pontos da temporada e depois pelo número de troféus de ouro, prata e bronze conquistados.",
-        "O ScoreHunter não é um jogo de aposta nem de azar. Jogar é gratuito, não há depósitos e em nenhuma hipótese são dados prêmios em dinheiro. Os prêmios são somente os produtos físicos listados acima.",
-        "Os ganhadores são avisados por notificação no app e por e-mail depois do fim da temporada.",
-        "Para a entrega são necessários nome completo, endereço e dados de contato. Se não forem enviados em 30 dias, o prêmio passa para o próximo jogador do ranking.",
-        "Os prêmios não podem ser trocados por dinheiro nem transferidos para outra pessoa. Conforme o estoque, um prêmio pode ser substituído por um produto equivalente.",
-        "O frete é por conta da iCat Studios. Impostos e taxas alfandegárias no seu país são responsabilidade do ganhador.",
-        "Jogadores flagrados trapaceando, usando várias contas ou infringindo as regras perdem o prêmio.",
-        "Ganhadores menores de 18 anos precisam de autorização dos pais antes da entrega.",
-        "Estes prêmios e esta competição são totalmente independentes da Apple Inc. e da Google LLC. Apple e Google não são de forma alguma patrocinadores, organizadores ou administradores; a entrega dos prêmios e toda a responsabilidade são da iCat Studios.",
-        "A iCat Studios se reserva o direito de atualizar a lista de prêmios."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Quem ganha",
+          "items": [
+            "Os prêmios vão para os 20 primeiros do Ranking geral no fim da temporada. Rankings semanais e por modo não afetam os prêmios da temporada.",
+            "Em caso de empate em pontos, a classificação é decidida primeiro pelo total de pontos da temporada e depois pelo número de troféus de ouro, prata e bronze conquistados.",
+            "O ScoreHunter não é um jogo de aposta nem de azar. Jogar é gratuito, não há depósitos e em nenhuma hipótese são dados prêmios em dinheiro. Os prêmios são somente os produtos físicos listados acima."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Entrega",
+          "items": [
+            "Os ganhadores são avisados por notificação no app e por e-mail depois do fim da temporada.",
+            "Para a entrega são necessários nome completo, endereço e dados de contato. Se não forem enviados em 30 dias, o prêmio passa para o próximo jogador do ranking.",
+            "Os prêmios não podem ser trocados por dinheiro nem transferidos para outra pessoa. Conforme o estoque, um prêmio pode ser substituído por um produto equivalente.",
+            "O frete é por conta da iCat Studios. Impostos e taxas alfandegárias no seu país são responsabilidade do ganhador."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Jogo limpo",
+          "items": [
+            "Jogadores flagrados trapaceando, usando várias contas ou infringindo as regras perdem o prêmio.",
+            "Ganhadores menores de 18 anos precisam de autorização dos pais antes da entrega."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Jurídico",
+          "items": [
+            "Estes prêmios e esta competição são totalmente independentes da Apple Inc. e da Google LLC. Apple e Google não são de forma alguma patrocinadores, organizadores ou administradores; a entrega dos prêmios e toda a responsabilidade são da iCat Studios.",
+            "A iCat Studios se reserva o direito de atualizar a lista de prêmios."
+          ]
+        }
       ]
     },
     "preview": {

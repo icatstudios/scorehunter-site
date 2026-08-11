@@ -106,29 +106,6 @@
       "title": "All you need is a passion for football",
       "howTitle": "How to play",
       "howIntro": "ScoreHunter rewards football knowledge. No coupons, no handicaps, no odds - none of that betting jargon. Every league, every match, every team has equal value and importance. Every player starts with the same shot.",
-      "howItems": [
-        "Each week, a curated set of fixtures unlocks for predictions.",
-        "Players are expected to make predictions on those matches in Score Hunt and Mini Games modes.",
-        "Players earn points based on the results of the predictions they make.",
-        "There are three separate rankings - Overall, Score Hunt, and Mini Games. Each week, the players in 1st, 2nd, and 3rd place are awarded trophies.",
-        "The Overall ranking each week is calculated as the sum of points earned in Score Hunt and Mini Games.",
-        "In rewarded seasons, prizes are distributed based on Overall ranking achievements.",
-        "In Score Hunt, players are expected to predict scores for 12 matches in total - 10 main and 2 bonus.",
-        "Predictions are scored in detail across multiple criteria: correct win direction, correct draw, correct goal count, correct goal difference, correct exact score, and correct rare prediction.",
-        "In Score Hunt, players can apply the 2X joker to one of their picks to double the points earned from that match.",
-        "Bonus predictions replace the lowest-scoring picks among the main predictions.",
-        "Pro users are entitled to create one backup prediction list in Score Hunt.",
-        "At the end of the week, only the higher-scoring of the two prediction lists counts.",
-        "In Mini Games mode, predictions are made on events that occur during matches.",
-        "Players select a number of matches or teams as required by the concept.",
-        "Each mini game has its own concept and points value.",
-        "The number, points, and targets of the mini games can vary based on the weekly fixture count.",
-        "Players are entitled to add 1 bonus match or team for each mini game.",
-        "To succeed in a mini game, you need to make as many correct predictions as the game's target.",
-        "The bonus prediction replaces the first failed prediction.",
-        "Successful mini games award a fixed reward based on their difficulty.",
-        "Failed mini games award only the participation point."
-      ],
       "scoringTitle": "Scoring",
       "scoringIntro": "In Score Hunt, every detail you get right earns points. You don't have to nail the exact score.",
       "scoringLabel": "Score Hunt Scoring",
@@ -234,19 +211,76 @@
         }
       ],
       "generalRulesTitle": "Rules",
-      "generalRulesItems": [
-        "You enter the contest only when you confirm your prediction list. Unconfirmed lists are not scored.",
-        "Don't forget to confirm before the first match on your list kicks off. The list cannot be edited once a match has started.",
-        "Predictions are scored on regular time only (90 minutes). Extra time and penalty shootouts do not count.",
-        "No points are awarded for matches that are postponed, cancelled, or suspended.",
-        "The Overall ranking is calculated weekly: Score Hunt + Mini Games combined.",
-        "Results are calculated automatically when the week ends. Match scores are updated live - you can follow along in real time.",
-        "When there is a points tie in the standings, the tie is broken in this order: first by total season points, then by the number of gold, silver, and bronze trophies won - from highest to lowest.",
-        "AI-powered anomaly detection runs during scoring. All lists from users found cheating are voided.",
-        "You must be 13 or older to take part."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "The Game Week",
+          "items": [
+            "Each week, a curated set of fixtures unlocks for predictions.",
+            "Players are expected to make predictions on those matches in Score Hunt and Mini Games modes.",
+            "Players earn points based on the results of the predictions they make.",
+            "There are three separate rankings - Overall, Score Hunt, and Mini Games. Each week, the players in 1st, 2nd, and 3rd place are awarded trophies.",
+            "The Overall ranking each week is calculated as the sum of points earned in Score Hunt and Mini Games.",
+            "In rewarded seasons, prizes are distributed based on Overall ranking achievements."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "In Score Hunt, players are expected to predict scores for 12 matches in total - 10 main and 2 bonus.",
+            "Predictions are scored in detail across multiple criteria: correct win direction, correct draw, correct goal count, correct goal difference, correct exact score, and correct rare prediction.",
+            "In Score Hunt, players can apply the 2X joker to one of their picks to double the points earned from that match.",
+            "Bonus predictions replace the lowest-scoring picks among the main predictions.",
+            "Pro users are entitled to create one backup prediction list in Score Hunt.",
+            "At the end of the week, only the higher-scoring of the two prediction lists counts."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Mini Games",
+          "items": [
+            "In Mini Games mode, predictions are made on events that occur during matches.",
+            "Players select a number of matches or teams as required by the concept.",
+            "Each mini game has its own concept and points value.",
+            "The number, points, and targets of the mini games can vary based on the weekly fixture count.",
+            "Players are entitled to add 1 bonus match or team for each mini game.",
+            "To succeed in a mini game, you need to make as many correct predictions as the game's target.",
+            "The bonus prediction replaces the first failed prediction.",
+            "Successful mini games award a fixed reward based on their difficulty.",
+            "Failed mini games award only the participation point."
+          ]
+        }
       ],
-      "showMore": "Show all",
-      "showLess": "Show less"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Your prediction list",
+          "items": [
+            "You enter the contest only when you confirm your prediction list. Unconfirmed lists are not scored.",
+            "Don't forget to confirm before the first match on your list kicks off. The list cannot be edited once a match has started."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Scoring and matches",
+          "items": [
+            "Predictions are scored on regular time only (90 minutes). Extra time and penalty shootouts do not count.",
+            "No points are awarded for matches that are postponed, cancelled, or suspended.",
+            "The Overall ranking is calculated weekly: Score Hunt + Mini Games combined.",
+            "Results are calculated automatically when the week ends. Match scores are updated live - you can follow along in real time.",
+            "When there is a points tie in the standings, the tie is broken in this order: first by total season points, then by the number of gold, silver, and bronze trophies won - from highest to lowest."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "AI-powered anomaly detection runs during scoring. All lists from users found cheating are voided.",
+            "You must be 13 or older to take part."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Features",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Prize Rules",
-      "items": [
-        "Prizes are awarded to the top 20 players in the Overall Rankings at the end of the season. Weekly and mode-specific rankings do not affect season prizes.",
-        "If players are tied on points, the ranking is decided by total season points, then by the number of gold, silver and bronze trophies won.",
-        "ScoreHunter is not a betting or gambling game. Playing is free, there are no deposits, and no cash prizes are awarded under any circumstances. Prizes consist solely of the physical products listed above.",
-        "Winners are notified by in-app notification and email after the season ends.",
-        "Delivery requires your full name, address and contact details. If these aren't provided within 30 days, the prize passes to the next player in the ranking.",
-        "Prizes cannot be exchanged for cash or transferred to another person. Subject to stock, a prize may be replaced with an equivalent product.",
-        "Shipping is covered by iCat Studios. Any customs duties or taxes in your country are the winner's responsibility.",
-        "Players found cheating, using multiple accounts or breaching the rules forfeit their prize.",
-        "Winners under 18 need parental consent before a prize can be delivered.",
-        "These prizes and this contest are entirely independent of Apple Inc. and Google LLC. Apple and Google are in no way a sponsor, organizer or administrator; prize fulfilment and all associated responsibility rest with iCat Studios.",
-        "iCat Studios reserves the right to update the prize list."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Who wins",
+          "items": [
+            "Prizes are awarded to the top 20 players in the Overall Rankings at the end of the season. Weekly and mode-specific rankings do not affect season prizes.",
+            "If players are tied on points, the ranking is decided by total season points, then by the number of gold, silver and bronze trophies won.",
+            "ScoreHunter is not a betting or gambling game. Playing is free, there are no deposits, and no cash prizes are awarded under any circumstances. Prizes consist solely of the physical products listed above."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Delivery",
+          "items": [
+            "Winners are notified by in-app notification and email after the season ends.",
+            "Delivery requires your full name, address and contact details. If these aren't provided within 30 days, the prize passes to the next player in the ranking.",
+            "Prizes cannot be exchanged for cash or transferred to another person. Subject to stock, a prize may be replaced with an equivalent product.",
+            "Shipping is covered by iCat Studios. Any customs duties or taxes in your country are the winner's responsibility."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Players found cheating, using multiple accounts or breaching the rules forfeit their prize.",
+            "Winners under 18 need parental consent before a prize can be delivered."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Legal",
+          "items": [
+            "These prizes and this contest are entirely independent of Apple Inc. and Google LLC. Apple and Google are in no way a sponsor, organizer or administrator; prize fulfilment and all associated responsibility rest with iCat Studios.",
+            "iCat Studios reserves the right to update the prize list."
+          ]
+        }
       ]
     },
     "preview": {

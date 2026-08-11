@@ -163,29 +163,6 @@
       "title": "Alt du trenger er en lidenskap for fotball",
       "howTitle": "Slik spiller du",
       "howIntro": "ScoreHunter belønner fotballkunnskap. Ingen kuponger, ingen handicap, ingen odds - ingen sjargong fra veddeverdenen. Hver liga, hver kamp, hvert lag har samme verdi og betydning. Hver spiller starter med samme sjanse.",
-      "howItems": [
-        "Hver uke åpnes et utvalgt sett med kamper for forutsigelser.",
-        "Spillerne forventes å gjøre forutsigelser på disse kampene i Score Hunt- og Minispill-modusene.",
-        "Spillerne får poeng basert på resultatene av forutsigelsene de gjør.",
-        "Det er tre separate rangeringer - Totalt, Score Hunt og Minispill. Hver uke får spillerne på 1., 2. og 3. plass troféer.",
-        "Den totale rangeringen hver uke beregnes som summen av poeng oppnådd i Score Hunt og Minispill.",
-        "I premie-sesonger fordeles premier basert på prestasjoner på den totale rangeringen.",
-        "I Score Hunt forventes spillerne å forutsi resultater for 12 kamper totalt - 10 hoved og 2 bonus.",
-        "Forutsigelser scores i detalj på flere kriterier: riktig utfallsretning, riktig uavgjort, riktig antall mål, riktig målforskjell, eksakt resultat og sjelden forutsigelse.",
-        "I Score Hunt kan spillerne bruke 2X-jokeren på et av valgene sine for å doble poengene fra den kampen.",
-        "Bonusforutsigelser erstatter de lavest scorende valgene blant hovedforutsigelsene.",
-        "Pro-brukere kan opprette én reserveliste med forutsigelser i Score Hunt.",
-        "Ved ukens slutt teller bare den lista med høyest poengsum av de to.",
-        "I Minispill-modus gjøres forutsigelser på hendelser som skjer i kampene.",
-        "Spillerne velger et antall kamper eller lag som konseptet krever.",
-        "Hvert minispill har sitt eget konsept og sin egen poengverdi.",
-        "Antallet, poengene og målene for minispillene kan variere ut fra ukens kampantall.",
-        "Spillerne kan legge til 1 bonuskamp eller -lag per minispill.",
-        "For å lykkes i et minispill må du gjøre like mange riktige forutsigelser som målet for spillet.",
-        "Bonusforutsigelsen erstatter den første mislykkede forutsigelsen.",
-        "Vellykkede minispill gir en fast belønning basert på vanskelighetsgraden.",
-        "Mislykkede minispill gir bare deltakelsespoenget."
-      ],
       "scoringTitle": "Poengberegning",
       "scoringIntro": "I Score Hunt gir hver detalj du treffer poeng. Du trenger ikke å gjette det eksakte resultatet.",
       "scoringLabel": "Score Hunt-poengberegning",
@@ -291,19 +268,76 @@
         }
       ],
       "generalRulesTitle": "Regler",
-      "generalRulesItems": [
-        "Du blir med i konkurransen først når du bekrefter forutsigelseslista di. Ubekreftede lister blir ikke poengsatt.",
-        "Husk å bekrefte før første kamp på lista di starter. Lista kan ikke redigeres etter at en kamp har startet.",
-        "Forutsigelser scores kun på ordinær spilletid (90 minutter). Ekstraomganger og straffekonkurranser teller ikke.",
-        "Det gis ikke poeng for kamper som er utsatt, avlyst eller avbrutt.",
-        "Den totale rangeringen beregnes ukentlig: Score Hunt + Minispill kombinert.",
-        "Resultatene beregnes automatisk når uka er over. Kampresultater oppdateres live - du kan følge med i sanntid.",
-        "Ved poenglikhet i tabellen brytes likheten i denne rekkefølgen: først på totale sesongpoeng, deretter på antall vunne gull-, sølv- og bronse-troféer - fra høyest til lavest.",
-        "AI-drevet anomalideteksjon kjører under poengsetting. Alle lister fra brukere som tas for juks blir annullert.",
-        "Du må være 13 år eller eldre for å delta."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "Spilleuken",
+          "items": [
+            "Hver uke åpnes et utvalgt sett med kamper for forutsigelser.",
+            "Spillerne forventes å gjøre forutsigelser på disse kampene i Score Hunt- og Minispill-modusene.",
+            "Spillerne får poeng basert på resultatene av forutsigelsene de gjør.",
+            "Det er tre separate rangeringer - Totalt, Score Hunt og Minispill. Hver uke får spillerne på 1., 2. og 3. plass troféer.",
+            "Den totale rangeringen hver uke beregnes som summen av poeng oppnådd i Score Hunt og Minispill.",
+            "I premie-sesonger fordeles premier basert på prestasjoner på den totale rangeringen."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "I Score Hunt forventes spillerne å forutsi resultater for 12 kamper totalt - 10 hoved og 2 bonus.",
+            "Forutsigelser scores i detalj på flere kriterier: riktig utfallsretning, riktig uavgjort, riktig antall mål, riktig målforskjell, eksakt resultat og sjelden forutsigelse.",
+            "I Score Hunt kan spillerne bruke 2X-jokeren på et av valgene sine for å doble poengene fra den kampen.",
+            "Bonusforutsigelser erstatter de lavest scorende valgene blant hovedforutsigelsene.",
+            "Pro-brukere kan opprette én reserveliste med forutsigelser i Score Hunt.",
+            "Ved ukens slutt teller bare den lista med høyest poengsum av de to."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Minispill",
+          "items": [
+            "I Minispill-modus gjøres forutsigelser på hendelser som skjer i kampene.",
+            "Spillerne velger et antall kamper eller lag som konseptet krever.",
+            "Hvert minispill har sitt eget konsept og sin egen poengverdi.",
+            "Antallet, poengene og målene for minispillene kan variere ut fra ukens kampantall.",
+            "Spillerne kan legge til 1 bonuskamp eller -lag per minispill.",
+            "For å lykkes i et minispill må du gjøre like mange riktige forutsigelser som målet for spillet.",
+            "Bonusforutsigelsen erstatter den første mislykkede forutsigelsen.",
+            "Vellykkede minispill gir en fast belønning basert på vanskelighetsgraden.",
+            "Mislykkede minispill gir bare deltakelsespoenget."
+          ]
+        }
       ],
-      "showMore": "Vis alle",
-      "showLess": "Vis mindre"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Tippelisten din",
+          "items": [
+            "Du blir med i konkurransen først når du bekrefter forutsigelseslista di. Ubekreftede lister blir ikke poengsatt.",
+            "Husk å bekrefte før første kamp på lista di starter. Lista kan ikke redigeres etter at en kamp har startet."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Poeng og kamper",
+          "items": [
+            "Forutsigelser scores kun på ordinær spilletid (90 minutter). Ekstraomganger og straffekonkurranser teller ikke.",
+            "Det gis ikke poeng for kamper som er utsatt, avlyst eller avbrutt.",
+            "Den totale rangeringen beregnes ukentlig: Score Hunt + Minispill kombinert.",
+            "Resultatene beregnes automatisk når uka er over. Kampresultater oppdateres live - du kan følge med i sanntid.",
+            "Ved poenglikhet i tabellen brytes likheten i denne rekkefølgen: først på totale sesongpoeng, deretter på antall vunne gull-, sølv- og bronse-troféer - fra høyest til lavest."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "AI-drevet anomalideteksjon kjører under poengsetting. Alle lister fra brukere som tas for juks blir annullert.",
+            "Du må være 13 år eller eldre for å delta."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Funksjoner",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Premieregler",
-      "items": [
-        "Premiene går til de 20 beste på Total rangering ved sesongslutt. Ukentlige og modusbaserte rangeringer påvirker ikke sesongpremiene.",
-        "Ved poenglikhet avgjøres rangeringen først av totale sesongpoeng, deretter av antall gull-, sølv- og bronsetroféer.",
-        "ScoreHunter er ikke et vedde- eller pengespill. Det er gratis å spille, det finnes ingen innskudd, og det deles aldri ut pengepremier. Premiene består utelukkende av de fysiske produktene listet ovenfor.",
-        "Vinnerne varsles med appvarsel og e-post etter at sesongen er over.",
-        "Levering krever fullt navn, adresse og kontaktinformasjon. Kommer ikke dette innen 30 dager, går premien videre til neste spiller på rangeringen.",
-        "Premier kan ikke veksles inn i penger eller overføres til andre. Avhengig av lagerbeholdning kan en premie erstattes med et tilsvarende produkt.",
-        "Frakten dekkes av iCat Studios. Eventuell toll og skatt i landet ditt er vinnerens ansvar.",
-        "Spillere som tas for juks, bruk av flere kontoer eller regelbrudd, mister premien.",
-        "Vinnere under 18 år trenger samtykke fra foresatte før premien sendes.",
-        "Disse premiene og denne konkurransen er helt uavhengige av Apple Inc. og Google LLC. Apple og Google er på ingen måte sponsor, arrangør eller administrator; utsending av premier og alt ansvar ligger hos iCat Studios.",
-        "iCat Studios forbeholder seg retten til å oppdatere premielisten."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Hvem vinner",
+          "items": [
+            "Premiene går til de 20 beste på Total rangering ved sesongslutt. Ukentlige og modusbaserte rangeringer påvirker ikke sesongpremiene.",
+            "Ved poenglikhet avgjøres rangeringen først av totale sesongpoeng, deretter av antall gull-, sølv- og bronsetroféer.",
+            "ScoreHunter er ikke et vedde- eller pengespill. Det er gratis å spille, det finnes ingen innskudd, og det deles aldri ut pengepremier. Premiene består utelukkende av de fysiske produktene listet ovenfor."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Levering",
+          "items": [
+            "Vinnerne varsles med appvarsel og e-post etter at sesongen er over.",
+            "Levering krever fullt navn, adresse og kontaktinformasjon. Kommer ikke dette innen 30 dager, går premien videre til neste spiller på rangeringen.",
+            "Premier kan ikke veksles inn i penger eller overføres til andre. Avhengig av lagerbeholdning kan en premie erstattes med et tilsvarende produkt.",
+            "Frakten dekkes av iCat Studios. Eventuell toll og skatt i landet ditt er vinnerens ansvar."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Spillere som tas for juks, bruk av flere kontoer eller regelbrudd, mister premien.",
+            "Vinnere under 18 år trenger samtykke fra foresatte før premien sendes."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Juridisk",
+          "items": [
+            "Disse premiene og denne konkurransen er helt uavhengige av Apple Inc. og Google LLC. Apple og Google er på ingen måte sponsor, arrangør eller administrator; utsending av premier og alt ansvar ligger hos iCat Studios.",
+            "iCat Studios forbeholder seg retten til å oppdatere premielisten."
+          ]
+        }
       ]
     },
     "preview": {

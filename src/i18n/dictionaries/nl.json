@@ -163,29 +163,6 @@
       "title": "Het enige wat je nodig hebt is een passie voor voetbal",
       "howTitle": "Hoe te spelen",
       "howIntro": "ScoreHunter beloont voetbalkennis. Geen tickets, geen handicaps, geen quoteringen - geen weddenschapsjargon. Elke competitie, elke wedstrijd, elk team heeft dezelfde waarde en hetzelfde belang. Elke speler begint met dezelfde kansen.",
-      "howItems": [
-        "Elke week wordt een geselecteerde reeks wedstrijden opengesteld voor voorspellingen.",
-        "Spelers worden geacht op deze wedstrijden voorspellingen te doen in de Score Hunt- en Minispelen-modus.",
-        "Spelers verdienen punten op basis van de uitkomsten van hun voorspellingen.",
-        "Er zijn drie aparte ranglijsten - Algemeen, Score Hunt en Minispelen. Elke week ontvangen de spelers op de 1e, 2e en 3e plaats trofeeën.",
-        "De Algemene ranglijst van elke week wordt berekend als de som van de in Score Hunt en Minispelen behaalde punten.",
-        "In seizoenen met prijzen worden prijzen verdeeld op basis van de prestaties op de Algemene ranglijst.",
-        "In Score Hunt moeten spelers de scores van in totaal 12 wedstrijden voorspellen - 10 hoofd- en 2 bonuswedstrijden.",
-        "Voorspellingen worden in detail beoordeeld op meerdere criteria: juiste uitslagrichting, juiste gelijkspel, juist aantal doelpunten, juist doelsaldo, exacte score en zeldzame voorspelling.",
-        "In Score Hunt kunnen spelers de 2X-joker toepassen op één van hun keuzes om de op die wedstrijd verdiende punten te verdubbelen.",
-        "Bonusvoorspellingen vervangen de laagstgewaardeerde keuzes onder de hoofdvoorspellingen.",
-        "Pro-gebruikers mogen één back-uplijst met voorspellingen aanmaken in Score Hunt.",
-        "Aan het einde van de week telt alleen de hoogstscorende lijst van de twee.",
-        "In Minispelen-modus worden voorspellingen gedaan op gebeurtenissen die tijdens wedstrijden plaatsvinden.",
-        "Spelers selecteren een aantal wedstrijden of teams zoals het concept van het spel vereist.",
-        "Elk minispel heeft zijn eigen concept en puntenwaarde.",
-        "Het aantal, de punten en de doelen van de minispelen kunnen variëren op basis van het wekelijkse aantal wedstrijden.",
-        "Spelers mogen 1 bonuswedstrijd of -team toevoegen per minispel.",
-        "Om een minispel te halen, moet je net zoveel correcte voorspellingen doen als het doel van het spel.",
-        "De bonusvoorspelling vervangt de eerste mislukte voorspelling.",
-        "Geslaagde minispelen geven een vaste beloning op basis van hun moeilijkheidsgraad.",
-        "Mislukte minispelen geven alleen het deelnamepunt."
-      ],
       "scoringTitle": "Puntentelling",
       "scoringIntro": "In Score Hunt levert elk detail dat je goed hebt punten op. Je hoeft de exacte score niet te raken.",
       "scoringLabel": "Score Hunt-puntentelling",
@@ -291,19 +268,76 @@
         }
       ],
       "generalRulesTitle": "Regels",
-      "generalRulesItems": [
-        "Je doet pas mee aan de competitie wanneer je je voorspellingenlijst bevestigt. Niet-bevestigde lijsten worden niet beoordeeld.",
-        "Vergeet niet te bevestigen voordat de eerste wedstrijd op je lijst aftrapt. Zodra een wedstrijd is begonnen kan de lijst niet meer worden gewijzigd.",
-        "Voorspellingen worden alleen op de reguliere speeltijd (90 minuten) beoordeeld. Verlenging en strafschoppenseries tellen niet mee.",
-        "Voor uitgestelde, geannuleerde of geschorste wedstrijden worden geen punten toegekend.",
-        "De Algemene ranglijst wordt wekelijks berekend: Score Hunt + Minispelen gecombineerd.",
-        "Resultaten worden automatisch berekend wanneer de week eindigt. Wedstrijdscores worden live bijgewerkt - je kunt het in realtime volgen.",
-        "Bij gelijke punten in de stand wordt de gelijkstand verbroken in deze volgorde: eerst op totaal seizoenspunten, daarna op aantal gewonnen gouden, zilveren en bronzen trofeeën - van hoog naar laag.",
-        "Tijdens het scoren draait een door AI aangedreven anomaliedetectie. Alle lijsten van gebruikers die worden betrapt op valsspelen worden ongeldig verklaard.",
-        "Je moet 13 jaar of ouder zijn om mee te doen."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "De speelweek",
+          "items": [
+            "Elke week wordt een geselecteerde reeks wedstrijden opengesteld voor voorspellingen.",
+            "Spelers worden geacht op deze wedstrijden voorspellingen te doen in de Score Hunt- en Minispelen-modus.",
+            "Spelers verdienen punten op basis van de uitkomsten van hun voorspellingen.",
+            "Er zijn drie aparte ranglijsten - Algemeen, Score Hunt en Minispelen. Elke week ontvangen de spelers op de 1e, 2e en 3e plaats trofeeën.",
+            "De Algemene ranglijst van elke week wordt berekend als de som van de in Score Hunt en Minispelen behaalde punten.",
+            "In seizoenen met prijzen worden prijzen verdeeld op basis van de prestaties op de Algemene ranglijst."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "In Score Hunt moeten spelers de scores van in totaal 12 wedstrijden voorspellen - 10 hoofd- en 2 bonuswedstrijden.",
+            "Voorspellingen worden in detail beoordeeld op meerdere criteria: juiste uitslagrichting, juiste gelijkspel, juist aantal doelpunten, juist doelsaldo, exacte score en zeldzame voorspelling.",
+            "In Score Hunt kunnen spelers de 2X-joker toepassen op één van hun keuzes om de op die wedstrijd verdiende punten te verdubbelen.",
+            "Bonusvoorspellingen vervangen de laagstgewaardeerde keuzes onder de hoofdvoorspellingen.",
+            "Pro-gebruikers mogen één back-uplijst met voorspellingen aanmaken in Score Hunt.",
+            "Aan het einde van de week telt alleen de hoogstscorende lijst van de twee."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Minispellen",
+          "items": [
+            "In Minispelen-modus worden voorspellingen gedaan op gebeurtenissen die tijdens wedstrijden plaatsvinden.",
+            "Spelers selecteren een aantal wedstrijden of teams zoals het concept van het spel vereist.",
+            "Elk minispel heeft zijn eigen concept en puntenwaarde.",
+            "Het aantal, de punten en de doelen van de minispelen kunnen variëren op basis van het wekelijkse aantal wedstrijden.",
+            "Spelers mogen 1 bonuswedstrijd of -team toevoegen per minispel.",
+            "Om een minispel te halen, moet je net zoveel correcte voorspellingen doen als het doel van het spel.",
+            "De bonusvoorspelling vervangt de eerste mislukte voorspelling.",
+            "Geslaagde minispelen geven een vaste beloning op basis van hun moeilijkheidsgraad.",
+            "Mislukte minispelen geven alleen het deelnamepunt."
+          ]
+        }
       ],
-      "showMore": "Alles tonen",
-      "showLess": "Minder tonen"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Jouw voorspellijst",
+          "items": [
+            "Je doet pas mee aan de competitie wanneer je je voorspellingenlijst bevestigt. Niet-bevestigde lijsten worden niet beoordeeld.",
+            "Vergeet niet te bevestigen voordat de eerste wedstrijd op je lijst aftrapt. Zodra een wedstrijd is begonnen kan de lijst niet meer worden gewijzigd."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Punten en wedstrijden",
+          "items": [
+            "Voorspellingen worden alleen op de reguliere speeltijd (90 minuten) beoordeeld. Verlenging en strafschoppenseries tellen niet mee.",
+            "Voor uitgestelde, geannuleerde of geschorste wedstrijden worden geen punten toegekend.",
+            "De Algemene ranglijst wordt wekelijks berekend: Score Hunt + Minispelen gecombineerd.",
+            "Resultaten worden automatisch berekend wanneer de week eindigt. Wedstrijdscores worden live bijgewerkt - je kunt het in realtime volgen.",
+            "Bij gelijke punten in de stand wordt de gelijkstand verbroken in deze volgorde: eerst op totaal seizoenspunten, daarna op aantal gewonnen gouden, zilveren en bronzen trofeeën - van hoog naar laag."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Tijdens het scoren draait een door AI aangedreven anomaliedetectie. Alle lijsten van gebruikers die worden betrapt op valsspelen worden ongeldig verklaard.",
+            "Je moet 13 jaar of ouder zijn om mee te doen."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Functies",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Prijsvoorwaarden",
-      "items": [
-        "De prijzen gaan naar de top 20 van de Totaalranglijst aan het eind van het seizoen. Wekelijkse en modusgebonden ranglijsten hebben geen invloed op de seizoensprijzen.",
-        "Bij een gelijke stand telt eerst het totaal aantal seizoenspunten, daarna het aantal gewonnen gouden, zilveren en bronzen trofeeën.",
-        "ScoreHunter is geen gok- of kansspel. Meedoen is gratis, er zijn geen stortingen en er worden onder geen beding geldprijzen uitgekeerd. De prijzen bestaan uitsluitend uit de hierboven genoemde fysieke producten.",
-        "Winnaars krijgen na afloop van het seizoen bericht via een melding in de app en per e-mail.",
-        "Voor de verzending zijn je volledige naam, adres en contactgegevens nodig. Komen die niet binnen 30 dagen binnen, dan gaat de prijs naar de volgende speler op de ranglijst.",
-        "Prijzen zijn niet inwisselbaar voor geld en niet overdraagbaar. Afhankelijk van de voorraad kan een prijs worden vervangen door een gelijkwaardig product.",
-        "De verzendkosten zijn voor rekening van iCat Studios. Invoerrechten en belastingen in jouw land zijn voor rekening van de winnaar.",
-        "Spelers die betrapt worden op valsspelen, meerdere accounts of het overtreden van de regels verliezen hun prijs.",
-        "Winnaars onder de 18 hebben toestemming van hun ouders nodig voordat een prijs wordt verstuurd.",
-        "Deze prijzen en deze wedstrijd staan volledig los van Apple Inc. en Google LLC. Apple en Google zijn op geen enkele manier sponsor, organisator of beheerder; de afhandeling van de prijzen en alle verantwoordelijkheid liggen bij iCat Studios.",
-        "iCat Studios behoudt zich het recht voor de prijzenlijst bij te werken."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Wie wint",
+          "items": [
+            "De prijzen gaan naar de top 20 van de Totaalranglijst aan het eind van het seizoen. Wekelijkse en modusgebonden ranglijsten hebben geen invloed op de seizoensprijzen.",
+            "Bij een gelijke stand telt eerst het totaal aantal seizoenspunten, daarna het aantal gewonnen gouden, zilveren en bronzen trofeeën.",
+            "ScoreHunter is geen gok- of kansspel. Meedoen is gratis, er zijn geen stortingen en er worden onder geen beding geldprijzen uitgekeerd. De prijzen bestaan uitsluitend uit de hierboven genoemde fysieke producten."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Levering",
+          "items": [
+            "Winnaars krijgen na afloop van het seizoen bericht via een melding in de app en per e-mail.",
+            "Voor de verzending zijn je volledige naam, adres en contactgegevens nodig. Komen die niet binnen 30 dagen binnen, dan gaat de prijs naar de volgende speler op de ranglijst.",
+            "Prijzen zijn niet inwisselbaar voor geld en niet overdraagbaar. Afhankelijk van de voorraad kan een prijs worden vervangen door een gelijkwaardig product.",
+            "De verzendkosten zijn voor rekening van iCat Studios. Invoerrechten en belastingen in jouw land zijn voor rekening van de winnaar."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Spelers die betrapt worden op valsspelen, meerdere accounts of het overtreden van de regels verliezen hun prijs.",
+            "Winnaars onder de 18 hebben toestemming van hun ouders nodig voordat een prijs wordt verstuurd."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Juridisch",
+          "items": [
+            "Deze prijzen en deze wedstrijd staan volledig los van Apple Inc. en Google LLC. Apple en Google zijn op geen enkele manier sponsor, organisator of beheerder; de afhandeling van de prijzen en alle verantwoordelijkheid liggen bij iCat Studios.",
+            "iCat Studios behoudt zich het recht voor de prijzenlijst bij te werken."
+          ]
+        }
       ]
     },
     "preview": {

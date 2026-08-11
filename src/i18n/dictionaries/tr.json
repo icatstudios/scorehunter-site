@@ -106,29 +106,6 @@
       "title": "İhtiyacın olan tek şey futbol tutkusu",
       "howTitle": "Nasıl oynanır?",
       "howIntro": "Skor Avcısı futbol bilgisini ödüllendirir. Kupon, handikap, oran vb. bahis terimleri yok. Her lig, her maç, her takım eşit değerde ve önemde. Her oyuncu oyuna aynı şansla başlar.",
-      "howItems": [
-        "Her hafta seçilmiş bir maç seti tahmin için açılır.",
-        "Kullanıcılardan bu maçlar üzerinden Skor Avı ve Mini Oyunlar modlarında tahminler yapmaları beklenir.",
-        "Kullanıcılar yapmış oldukları tahminlerin sonuçlarına göre puan toplar.",
-        "Genel Sıralama, Skor Avı ve Mini Oyunlar olarak üç ayrı sıralamada, her hafta birinci, ikinci ve üçüncü sıralarda yer alan kullanıcılara kupa verilir.",
-        "Genel Sıralama her hafta için Skor Avı ve Mini Oyunlar modlarından alınan puanın toplamı üzerinden hesaplanır.",
-        "Ödüllü sezonlarda ödüller Genel Sıralama başarıları üzerinden dağıtılır.",
-        "Skor Avı oyun modunda kullanıcılardan 10 adet ana, 2 de bonus olmak üzere toplam 12 maç için skor tahmini yapmaları beklenir.",
-        "Yapılan tahminler; doğru galibiyet yönü tahmini, doğru beraberlik tahmini, doğru gol sayısı tahmini, doğru gol averajı tahmini, doğru tam skor tahmini ve doğru nadir tahmin gibi çeşitli kriterler üzerinden ayrıntılı puanlanır.",
-        "Skor Avı modunda kullanıcılar 2X jokeri kullanarak seçtikleri bir maçtan kazandıkları puanı iki katına çıkarabilirler.",
-        "Bonus tahminler ana tahminler arasından en düşük puanı olan tahminlerin yerini alır.",
-        "Skor Avı oyun modunda Pro kullanıcılara bir adet yedek tahmin listesi oluşturma hakkı verilir.",
-        "Hafta sonunda iki adet tahmin listesinden en yüksek puanlı olan tahmin listesi hesaplamaya katılır.",
-        "Mini Oyunlar modunda maçların içerisinde gerçekleşen olaylar üzerine tahmin yapılır.",
-        "Kullanıcılar konsepte göre belirlenen sayıda maç veya takım seçerler.",
-        "Her mini oyunun ayrı konsepti ve puanı vardır.",
-        "Mini oyunların sayıları, puanları ve hedefleri haftalık maç sayıları gözetilerek değişiklik gösterebilir.",
-        "Kullanıcılara her mini oyun için 1 adet bonus maç veya takım ekleme hakkı verilmiştir.",
-        "Mini oyunlarda başarılı olabilmek için oyun hedefindeki maç sayısınca başarılı tahmin yapmış olmak gerekir.",
-        "Bonus tahmin başarısız olan ilk tahminin yerine geçer.",
-        "Başarılı olunan mini oyunlardan zorluk derecelerine göre sabit puan alınır.",
-        "Başarısız olunan mini oyunlardan sadece katılım puanı alınır."
-      ],
       "scoringTitle": "Puanlama",
       "scoringIntro": "Skor Avı'nda doğru bildiğin her detay puan kazandırır. Tüm skoru tutturmak zorunda değilsin.",
       "scoringTable": {
@@ -234,19 +211,76 @@
         }
       ],
       "generalRulesTitle": "Kurallar",
-      "generalRulesItems": [
-        "Tahmin listeni onayladığında yarışmaya katılırsın. Onaylanmamış listeler değerlendirilmez.",
-        "Listendeki ilk maç başlamadan önce onaylamayı unutma. Maç başladıktan sonra liste düzenlenemez.",
-        "Tahminler sadece normal süre (90 dakika) üzerinden değerlendirilir. Uzatma ve penaltı atışları sayılmaz.",
-        "Ertelenen, iptal edilen veya askıya alınan maçlardan puan kazanılamaz.",
-        "Genel Sıralama haftalık hesaplanır: Skor Avı + Mini Oyunlar toplamı.",
-        "Hafta bittiğinde sonuçlar otomatik hesaplanır. Maç skorları canlı olarak güncellenir - beklemeden takip edebilirsin.",
-        "Sıralamada puan eşitliği olduğunda eşitlik şu sıraya göre bozulur: önce sezon toplam puanı, sonra kazanılan altın, gümüş ve bronz kupa sayıları - yüksekten düşüğe.",
-        "Puan hesaplaması sırasında yapay zeka destekli anomali tespiti yapılır. Hile yaptığı tespit edilen kullanıcıların bütün listeleri geçersiz sayılır.",
-        "Oyunlara katılım için 13 yaş ve üzeri olmak gerekir."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "Oyun Haftası",
+          "items": [
+            "Her hafta seçilmiş bir maç seti tahmin için açılır.",
+            "Kullanıcılardan bu maçlar üzerinden Skor Avı ve Mini Oyunlar modlarında tahminler yapmaları beklenir.",
+            "Kullanıcılar yapmış oldukları tahminlerin sonuçlarına göre puan toplar.",
+            "Genel Sıralama, Skor Avı ve Mini Oyunlar olarak üç ayrı sıralamada, her hafta birinci, ikinci ve üçüncü sıralarda yer alan kullanıcılara kupa verilir.",
+            "Genel Sıralama her hafta için Skor Avı ve Mini Oyunlar modlarından alınan puanın toplamı üzerinden hesaplanır.",
+            "Ödüllü sezonlarda ödüller Genel Sıralama başarıları üzerinden dağıtılır."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Skor Avı",
+          "items": [
+            "Skor Avı oyun modunda kullanıcılardan 10 adet ana, 2 de bonus olmak üzere toplam 12 maç için skor tahmini yapmaları beklenir.",
+            "Yapılan tahminler; doğru galibiyet yönü tahmini, doğru beraberlik tahmini, doğru gol sayısı tahmini, doğru gol averajı tahmini, doğru tam skor tahmini ve doğru nadir tahmin gibi çeşitli kriterler üzerinden ayrıntılı puanlanır.",
+            "Skor Avı modunda kullanıcılar 2X jokeri kullanarak seçtikleri bir maçtan kazandıkları puanı iki katına çıkarabilirler.",
+            "Bonus tahminler ana tahminler arasından en düşük puanı olan tahminlerin yerini alır.",
+            "Skor Avı oyun modunda Pro kullanıcılara bir adet yedek tahmin listesi oluşturma hakkı verilir.",
+            "Hafta sonunda iki adet tahmin listesinden en yüksek puanlı olan tahmin listesi hesaplamaya katılır."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Mini Oyunlar",
+          "items": [
+            "Mini Oyunlar modunda maçların içerisinde gerçekleşen olaylar üzerine tahmin yapılır.",
+            "Kullanıcılar konsepte göre belirlenen sayıda maç veya takım seçerler.",
+            "Her mini oyunun ayrı konsepti ve puanı vardır.",
+            "Mini oyunların sayıları, puanları ve hedefleri haftalık maç sayıları gözetilerek değişiklik gösterebilir.",
+            "Kullanıcılara her mini oyun için 1 adet bonus maç veya takım ekleme hakkı verilmiştir.",
+            "Mini oyunlarda başarılı olabilmek için oyun hedefindeki maç sayısınca başarılı tahmin yapmış olmak gerekir.",
+            "Bonus tahmin başarısız olan ilk tahminin yerine geçer.",
+            "Başarılı olunan mini oyunlardan zorluk derecelerine göre sabit puan alınır.",
+            "Başarısız olunan mini oyunlardan sadece katılım puanı alınır."
+          ]
+        }
       ],
-      "showMore": "Tümünü göster",
-      "showLess": "Daha az göster"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Tahmin listesi",
+          "items": [
+            "Tahmin listeni onayladığında yarışmaya katılırsın. Onaylanmamış listeler değerlendirilmez.",
+            "Listendeki ilk maç başlamadan önce onaylamayı unutma. Maç başladıktan sonra liste düzenlenemez."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Puanlama ve maçlar",
+          "items": [
+            "Tahminler sadece normal süre (90 dakika) üzerinden değerlendirilir. Uzatma ve penaltı atışları sayılmaz.",
+            "Ertelenen, iptal edilen veya askıya alınan maçlardan puan kazanılamaz.",
+            "Genel Sıralama haftalık hesaplanır: Skor Avı + Mini Oyunlar toplamı.",
+            "Hafta bittiğinde sonuçlar otomatik hesaplanır. Maç skorları canlı olarak güncellenir - beklemeden takip edebilirsin.",
+            "Sıralamada puan eşitliği olduğunda eşitlik şu sıraya göre bozulur: önce sezon toplam puanı, sonra kazanılan altın, gümüş ve bronz kupa sayıları - yüksekten düşüğe."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Adil oyun",
+          "items": [
+            "Puan hesaplaması sırasında yapay zeka destekli anomali tespiti yapılır. Hile yaptığı tespit edilen kullanıcıların bütün listeleri geçersiz sayılır.",
+            "Oyunlara katılım için 13 yaş ve üzeri olmak gerekir."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Özellikler",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Ödül Kuralları",
-      "items": [
-        "Ödüller, sezon sonunda Genel Sıralama'da ilk 20'ye giren oyunculara verilir. Haftalık ve mod bazlı sıralamalar sezon ödüllerini etkilemez.",
-        "Sıralamada puan eşitliği olması durumunda sıralama; sezon toplam puanı, ardından kazanılan altın, gümüş ve bronz kupa sayılarına göre belirlenir.",
-        "Skor Avcısı bir bahis veya kumar oyunu değildir. Oyuna katılım ücretsizdir, para yatırma yoktur ve hiçbir koşulda nakit para ödülü verilmez. Ödüller yalnızca yukarıda belirtilen fiziksel ürünlerden oluşur.",
-        "Kazananlar sezon bitiminden sonra uygulama içi bildirim ve e-posta ile bilgilendirilir.",
-        "Ödül teslimatı için ad-soyad, adres ve iletişim bilgilerinin paylaşılması gerekir. Bilgiler 30 gün içinde iletilmezse ödül hakkı sıradaki oyuncuya geçer.",
-        "Ödüller nakde çevrilemez ve başkasına devredilemez. Stok durumuna bağlı olarak eşdeğer bir ürünle değiştirilebilir.",
-        "Kargo masrafları iCat Studios tarafından karşılanır. Ülkenizde doğabilecek gümrük ve vergi yükümlülükleri kazanana aittir.",
-        "Hile, çoklu hesap kullanımı veya kural ihlali tespit edilen oyuncular ödül hakkını kaybeder.",
-        "18 yaşından küçük oyuncuların ödül kazanması durumunda teslimat için veli onayı aranır.",
-        "Bu ödüller ve yarışma Apple Inc. ve Google LLC'den tamamen bağımsızdır. Apple ve Google hiçbir şekilde sponsor, organizatör veya yönetici değildir; ödüllerin dağıtımı ve tüm sorumluluk iCat Studios'a aittir.",
-        "iCat Studios, ödül listesini güncelleme hakkını saklı tutar."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Kimler kazanır",
+          "items": [
+            "Ödüller, sezon sonunda Genel Sıralama'da ilk 20'ye giren oyunculara verilir. Haftalık ve mod bazlı sıralamalar sezon ödüllerini etkilemez.",
+            "Sıralamada puan eşitliği olması durumunda sıralama; sezon toplam puanı, ardından kazanılan altın, gümüş ve bronz kupa sayılarına göre belirlenir.",
+            "Skor Avcısı bir bahis veya kumar oyunu değildir. Oyuna katılım ücretsizdir, para yatırma yoktur ve hiçbir koşulda nakit para ödülü verilmez. Ödüller yalnızca yukarıda belirtilen fiziksel ürünlerden oluşur."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Teslimat",
+          "items": [
+            "Kazananlar sezon bitiminden sonra uygulama içi bildirim ve e-posta ile bilgilendirilir.",
+            "Ödül teslimatı için ad-soyad, adres ve iletişim bilgilerinin paylaşılması gerekir. Bilgiler 30 gün içinde iletilmezse ödül hakkı sıradaki oyuncuya geçer.",
+            "Ödüller nakde çevrilemez ve başkasına devredilemez. Stok durumuna bağlı olarak eşdeğer bir ürünle değiştirilebilir.",
+            "Kargo masrafları iCat Studios tarafından karşılanır. Ülkenizde doğabilecek gümrük ve vergi yükümlülükleri kazanana aittir."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Adil oyun",
+          "items": [
+            "Hile, çoklu hesap kullanımı veya kural ihlali tespit edilen oyuncular ödül hakkını kaybeder.",
+            "18 yaşından küçük oyuncuların ödül kazanması durumunda teslimat için veli onayı aranır."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Yasal",
+          "items": [
+            "Bu ödüller ve yarışma Apple Inc. ve Google LLC'den tamamen bağımsızdır. Apple ve Google hiçbir şekilde sponsor, organizatör veya yönetici değildir; ödüllerin dağıtımı ve tüm sorumluluk iCat Studios'a aittir.",
+            "iCat Studios, ödül listesini güncelleme hakkını saklı tutar."
+          ]
+        }
       ]
     },
     "preview": {

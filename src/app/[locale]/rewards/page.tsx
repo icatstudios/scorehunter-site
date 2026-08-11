@@ -10,6 +10,9 @@ import {
   RewardsLadder,
   type RewardRow,
 } from "@/components/landing/RewardsLadder";
+import { Reveal } from "@/components/landing/Reveal";
+import { Emphasize } from "@/components/landing/Emphasize";
+import { GroupCard, GROUP_ICONS } from "@/components/landing/GroupCard";
 import { WeeklyRewardsCard } from "@/components/landing/WeeklyRewardsCard";
 import { getActivePlayerCount } from "@/lib/leaderboard";
 
@@ -122,19 +125,27 @@ export default async function RewardsPage({
             <h2 className="text-2xl font-bold text-text-primary tracking-tight mb-5">
               {r.rules.title}
             </h2>
-            <ol className="space-y-3">
-              {r.rules.items.map((item, i) => (
-                <li
-                  key={i}
-                  className="flex items-start gap-3 text-text-secondary text-sm leading-relaxed"
-                >
-                  <span className="shrink-0 w-6 h-6 mt-0.5 rounded-full bg-primary/10 ring-1 ring-primary/20 text-primary text-xs font-semibold flex items-center justify-center">
-                    {i + 1}
-                  </span>
-                  <span>{item}</span>
-                </li>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {r.rules.groups.map((g, i) => (
+                <Reveal key={g.key} delay={i * 80}>
+                  <GroupCard icon={GROUP_ICONS[g.key]} title={g.title}>
+                    <ul className="space-y-2.5">
+                      {g.items.map((item, j) => (
+                        <li
+                          key={j}
+                          className="flex items-start gap-3 text-text-secondary text-sm leading-relaxed"
+                        >
+                          <span className="shrink-0 w-1.5 h-1.5 mt-[7px] rounded-full bg-primary/60" />
+                          <span>
+                            <Emphasize text={item} />
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </GroupCard>
+                </Reveal>
               ))}
-            </ol>
+            </div>
           </section>
         </div>
       </main>

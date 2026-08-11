@@ -163,29 +163,6 @@
       "title": "Jediné, co potřebuješ, je vášeň pro fotbal",
       "howTitle": "Jak hrát",
       "howIntro": "ScoreHunter odměňuje znalost fotbalu. Žádné tikety, žádný handicap, žádné kurzy - žádný sázkařský žargon. Každá liga, každý zápas, každý tým mají stejnou hodnotu a důležitost. Každý hráč začíná se stejnou šancí.",
-      "howItems": [
-        "Každý týden se otevře vybraná sada zápasů pro předpovědi.",
-        "Hráči mají dělat předpovědi na tyto zápasy v režimech Score Hunt a Mini Hry.",
-        "Hráči získávají body podle výsledků svých předpovědí.",
-        "Existují tři samostatné žebříčky - Celkový, Score Hunt a Mini Hry. Každý týden získávají hráči na 1., 2. a 3. místě trofeje.",
-        "Celkový žebříček každého týdne se počítá jako součet bodů získaných v Score Hunt a Mini Hry.",
-        "V odměňovaných sezónách jsou ceny rozdělovány podle úspěchů v Celkovém žebříčku.",
-        "V Score Hunt mají hráči předpovědět výsledky 12 zápasů celkem - 10 hlavních a 2 bonusové.",
-        "Předpovědi jsou bodovány detailně podle více kritérií: správný směr výsledku, správná remíza, správný počet branek, správný rozdíl branek, přesný výsledek a vzácná předpověď.",
-        "V Score Hunt mohou hráči použít 2X jokera na jednu ze svých voleb a zdvojnásobit body z toho zápasu.",
-        "Bonusové předpovědi nahrazují volby s nejnižším bodováním mezi hlavními předpověďmi.",
-        "Pro uživatelé mají právo vytvořit jeden záložní seznam předpovědí v Score Hunt.",
-        "Na konci týdne se počítá pouze ten ze dvou seznamů, který má vyšší skóre.",
-        "V režimu Mini Hry se předpovědi dělají na události, ke kterým dojde během zápasů.",
-        "Hráči vybírají počet zápasů nebo týmů podle konceptu hry.",
-        "Každá mini hra má svůj vlastní koncept a hodnotu v bodech.",
-        "Počet, body a cíle mini her se mohou lišit podle počtu zápasů v týdnu.",
-        "Hráči mají právo přidat 1 bonusový zápas nebo tým na každou mini hru.",
-        "K úspěchu v mini hře musíš udělat tolik správných předpovědí, kolik je cíl hry.",
-        "Bonusová předpověď nahrazuje první neúspěšnou předpověď.",
-        "Úspěšné mini hry udělují pevnou odměnu podle obtížnosti.",
-        "Neúspěšné mini hry udělují pouze bod za účast."
-      ],
       "scoringTitle": "Bodování",
       "scoringIntro": "V Score Hunt každý detail, který trefíš, přináší body. Nemusíš trefit přesný výsledek.",
       "scoringLabel": "Bodování Score Hunt",
@@ -291,19 +268,76 @@
         }
       ],
       "generalRulesTitle": "Pravidla",
-      "generalRulesItems": [
-        "Do soutěže vstoupíš až ve chvíli, kdy potvrdíš svůj seznam předpovědí. Nepotvrzené seznamy se nehodnotí.",
-        "Nezapomeň potvrdit před výkopem prvního zápasu na svém seznamu. Po začátku zápasu už seznam nelze upravit.",
-        "Předpovědi se hodnotí pouze na základě řádné hrací doby (90 minut). Prodloužení a penaltové rozstřely se nepočítají.",
-        "Za odložené, zrušené nebo přerušené zápasy se body neudělují.",
-        "Celkový žebříček se počítá týdně: Score Hunt + Mini Hry dohromady.",
-        "Výsledky se na konci týdne počítají automaticky. Skóre zápasů se aktualizuje živě - můžeš sledovat v reálném čase.",
-        "Při rovnosti bodů v tabulce se pořadí určuje takto: nejprve podle celkových bodů sezóny, pak podle počtu získaných zlatých, stříbrných a bronzových trofejí - od nejvyššího po nejnižší.",
-        "Během bodování běží detekce anomálií poháněná AI. Všechny seznamy uživatelů přistižených při podvádění jsou zneplatněny.",
-        "Pro účast ti musí být 13 nebo více let."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "Herní týden",
+          "items": [
+            "Každý týden se otevře vybraná sada zápasů pro předpovědi.",
+            "Hráči mají dělat předpovědi na tyto zápasy v režimech Score Hunt a Mini Hry.",
+            "Hráči získávají body podle výsledků svých předpovědí.",
+            "Existují tři samostatné žebříčky - Celkový, Score Hunt a Mini Hry. Každý týden získávají hráči na 1., 2. a 3. místě trofeje.",
+            "Celkový žebříček každého týdne se počítá jako součet bodů získaných v Score Hunt a Mini Hry.",
+            "V odměňovaných sezónách jsou ceny rozdělovány podle úspěchů v Celkovém žebříčku."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "V Score Hunt mají hráči předpovědět výsledky 12 zápasů celkem - 10 hlavních a 2 bonusové.",
+            "Předpovědi jsou bodovány detailně podle více kritérií: správný směr výsledku, správná remíza, správný počet branek, správný rozdíl branek, přesný výsledek a vzácná předpověď.",
+            "V Score Hunt mohou hráči použít 2X jokera na jednu ze svých voleb a zdvojnásobit body z toho zápasu.",
+            "Bonusové předpovědi nahrazují volby s nejnižším bodováním mezi hlavními předpověďmi.",
+            "Pro uživatelé mají právo vytvořit jeden záložní seznam předpovědí v Score Hunt.",
+            "Na konci týdne se počítá pouze ten ze dvou seznamů, který má vyšší skóre."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Minihry",
+          "items": [
+            "V režimu Mini Hry se předpovědi dělají na události, ke kterým dojde během zápasů.",
+            "Hráči vybírají počet zápasů nebo týmů podle konceptu hry.",
+            "Každá mini hra má svůj vlastní koncept a hodnotu v bodech.",
+            "Počet, body a cíle mini her se mohou lišit podle počtu zápasů v týdnu.",
+            "Hráči mají právo přidat 1 bonusový zápas nebo tým na každou mini hru.",
+            "K úspěchu v mini hře musíš udělat tolik správných předpovědí, kolik je cíl hry.",
+            "Bonusová předpověď nahrazuje první neúspěšnou předpověď.",
+            "Úspěšné mini hry udělují pevnou odměnu podle obtížnosti.",
+            "Neúspěšné mini hry udělují pouze bod za účast."
+          ]
+        }
       ],
-      "showMore": "Zobrazit vše",
-      "showLess": "Zobrazit méně"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Váš seznam tipů",
+          "items": [
+            "Do soutěže vstoupíš až ve chvíli, kdy potvrdíš svůj seznam předpovědí. Nepotvrzené seznamy se nehodnotí.",
+            "Nezapomeň potvrdit před výkopem prvního zápasu na svém seznamu. Po začátku zápasu už seznam nelze upravit."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Bodování a zápasy",
+          "items": [
+            "Předpovědi se hodnotí pouze na základě řádné hrací doby (90 minut). Prodloužení a penaltové rozstřely se nepočítají.",
+            "Za odložené, zrušené nebo přerušené zápasy se body neudělují.",
+            "Celkový žebříček se počítá týdně: Score Hunt + Mini Hry dohromady.",
+            "Výsledky se na konci týdne počítají automaticky. Skóre zápasů se aktualizuje živě - můžeš sledovat v reálném čase.",
+            "Při rovnosti bodů v tabulce se pořadí určuje takto: nejprve podle celkových bodů sezóny, pak podle počtu získaných zlatých, stříbrných a bronzových trofejí - od nejvyššího po nejnižší."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Během bodování běží detekce anomálií poháněná AI. Všechny seznamy uživatelů přistižených při podvádění jsou zneplatněny.",
+            "Pro účast ti musí být 13 nebo více let."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Funkce",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Pravidla cen",
-      "items": [
-        "Ceny získává 20 nejlepších hráčů Celkového žebříčku na konci sezóny. Týdenní žebříčky ani žebříčky podle režimu sezónní ceny neovlivňují.",
-        "Při rovnosti bodů rozhoduje nejprve celkový počet bodů za sezónu, poté počet získaných zlatých, stříbrných a bronzových trofejí.",
-        "ScoreHunter není sázková ani hazardní hra. Hraní je zdarma, neexistují žádné vklady a peněžní ceny se za žádných okolností neudělují. Ceny tvoří výhradně fyzické produkty uvedené výše.",
-        "Výherce informujeme oznámením v aplikaci a e-mailem po skončení sezóny.",
-        "K doručení potřebujeme celé jméno, adresu a kontaktní údaje. Pokud je nedodáš do 30 dnů, cena přechází na dalšího hráče v pořadí.",
-        "Ceny nelze vyměnit za peníze ani převést na jinou osobu. Podle dostupnosti může být cena nahrazena rovnocenným produktem.",
-        "Poštovné hradí iCat Studios. Případná cla a daně ve tvé zemi jsou na výherci.",
-        "Hráči přistižení při podvádění, používání více účtů nebo porušení pravidel o cenu přicházejí.",
-        "U výherců mladších 18 let je před odesláním ceny potřeba souhlas rodičů.",
-        "Tyto ceny a tato soutěž jsou zcela nezávislé na Apple Inc. a Google LLC. Apple ani Google nejsou žádným způsobem sponzorem, organizátorem ani správcem; předání cen a veškerá odpovědnost jsou na iCat Studios.",
-        "iCat Studios si vyhrazuje právo seznam cen aktualizovat."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Kdo vyhrává",
+          "items": [
+            "Ceny získává 20 nejlepších hráčů Celkového žebříčku na konci sezóny. Týdenní žebříčky ani žebříčky podle režimu sezónní ceny neovlivňují.",
+            "Při rovnosti bodů rozhoduje nejprve celkový počet bodů za sezónu, poté počet získaných zlatých, stříbrných a bronzových trofejí.",
+            "ScoreHunter není sázková ani hazardní hra. Hraní je zdarma, neexistují žádné vklady a peněžní ceny se za žádných okolností neudělují. Ceny tvoří výhradně fyzické produkty uvedené výše."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Doručení",
+          "items": [
+            "Výherce informujeme oznámením v aplikaci a e-mailem po skončení sezóny.",
+            "K doručení potřebujeme celé jméno, adresu a kontaktní údaje. Pokud je nedodáš do 30 dnů, cena přechází na dalšího hráče v pořadí.",
+            "Ceny nelze vyměnit za peníze ani převést na jinou osobu. Podle dostupnosti může být cena nahrazena rovnocenným produktem.",
+            "Poštovné hradí iCat Studios. Případná cla a daně ve tvé zemi jsou na výherci."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Hráči přistižení při podvádění, používání více účtů nebo porušení pravidel o cenu přicházejí.",
+            "U výherců mladších 18 let je před odesláním ceny potřeba souhlas rodičů."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Právní informace",
+          "items": [
+            "Tyto ceny a tato soutěž jsou zcela nezávislé na Apple Inc. a Google LLC. Apple ani Google nejsou žádným způsobem sponzorem, organizátorem ani správcem; předání cen a veškerá odpovědnost jsou na iCat Studios.",
+            "iCat Studios si vyhrazuje právo seznam cen aktualizovat."
+          ]
+        }
       ]
     },
     "preview": {

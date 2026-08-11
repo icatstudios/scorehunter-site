@@ -1,6 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { Emphasize } from "./Emphasize";
+import { Reveal } from "./Reveal";
+import { GroupCard, GROUP_ICONS } from "./GroupCard";
 
 interface ScoringRow {
   label: string;
@@ -10,6 +13,13 @@ interface ScoringRow {
 interface ScoringTable {
   title: string;
   rows: ScoringRow[];
+}
+
+export interface RuleGroup {
+  /** Stable key used to pick the group's icon. */
+  key: string;
+  title: string;
+  items: string[];
 }
 
 interface MiniGameItem {
@@ -22,7 +32,7 @@ interface RulesTabsDict {
   // How to play
   howTitle: string;
   howIntro: string;
-  howItems: string[];
+  howGroups: RuleGroup[];
 
   // Scoring
   scoringTitle: string;
@@ -37,16 +47,8 @@ interface RulesTabsDict {
 
   // General rules
   generalRulesTitle: string;
-  generalRulesItems: string[];
-
-  /** Expander labels for the long "how to play" list. */
-  showMore: string;
-  showLess: string;
-
+  ruleGroups: RuleGroup[];
 }
-
-/** How many "Nasıl oynanır" bullets show before the expander. */
-const HOW_ITEMS_COLLAPSED = 10;
 
 // Prizes moved out to their own /rewards page (the app deep-links to it),
 // so this tab set is gameplay-only again.
@@ -63,36 +65,7 @@ const TAB_ICONS: Record<TabKey, string> = {
 function CheckBullet({ children }: { children: React.ReactNode }) {
   return (
     <li className="flex items-start gap-3 text-text-secondary text-sm leading-relaxed">
-      <svg
-        className="shrink-0 w-5 h-5 mt-0.5 text-primary"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth={2.2}
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M5 13l4 4L19 7"
-        />
-      </svg>
-      <span>{children}</span>
-    </li>
-  );
-}
-
-function NumberedItem({
-  number,
-  children,
-}: {
-  number: number;
-  children: React.ReactNode;
-}) {
-  return (
-    <li className="flex items-start gap-3 text-text-secondary text-sm leading-relaxed">
-      <span className="shrink-0 w-6 h-6 mt-0.5 rounded-full bg-primary/10 ring-1 ring-primary/20 text-primary text-xs font-semibold flex items-center justify-center">
-        {number}
-      </span>
+      <span className="shrink-0 w-1.5 h-1.5 mt-[7px] rounded-full bg-primary/60" />
       <span>{children}</span>
     </li>
   );
@@ -180,12 +153,6 @@ function TabButton({
 
 export function RulesTabs({ dict }: { dict: RulesTabsDict }) {
   const [tab, setTab] = useState<TabKey>("how");
-  // "Nasıl oynanır" runs to ~20 bullets, which buries the tab strip and the
-  // sections below it. Show the first 10 and let the reader open the rest.
-  const [howExpanded, setHowExpanded] = useState(false);
-  const visibleHowItems = howExpanded
-    ? dict.howItems
-    : dict.howItems.slice(0, HOW_ITEMS_COLLAPSED);
 
   const tabs: { key: TabKey; label: string }[] = [
     { key: "how", label: dict.howTitle },
@@ -216,42 +183,25 @@ export function RulesTabs({ dict }: { dict: RulesTabsDict }) {
         {tab === "how" && (
           <div>
             {dict.howIntro && (
-              <p className="text-text-secondary text-sm mb-5 leading-relaxed">
+              <p className="text-text-secondary text-sm mb-6 leading-relaxed">
                 {dict.howIntro}
               </p>
             )}
-            <ul className="space-y-3">
-              {visibleHowItems.map((item, i) => (
-                <CheckBullet key={i}>{item}</CheckBullet>
+            <div className="space-y-4">
+              {dict.howGroups.map((g, i) => (
+                <Reveal key={g.key} delay={i * 80}>
+                  <GroupCard icon={GROUP_ICONS[g.key]} title={g.title}>
+                    <ul className="space-y-2.5">
+                      {g.items.map((item, j) => (
+                        <CheckBullet key={j}>
+                          <Emphasize text={item} />
+                        </CheckBullet>
+                      ))}
+                    </ul>
+                  </GroupCard>
+                </Reveal>
               ))}
-            </ul>
-
-            {dict.howItems.length > HOW_ITEMS_COLLAPSED && (
-              <button
-                type="button"
-                onClick={() => setHowExpanded((v) => !v)}
-                aria-expanded={howExpanded}
-                className="mt-5 inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.03] ring-1 ring-white/10 text-primary text-[13px] font-semibold hover:bg-white/[0.06] transition-colors"
-              >
-                {howExpanded
-                  ? dict.showLess
-                  : `${dict.showMore} (${dict.howItems.length - HOW_ITEMS_COLLAPSED})`}
-                <svg
-                  className={`w-4 h-4 transition-transform ${howExpanded ? "rotate-180" : ""}`}
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  viewBox="0 0 24 24"
-                  aria-hidden
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-            )}
+            </div>
           </div>
         )}
 
@@ -296,13 +246,21 @@ export function RulesTabs({ dict }: { dict: RulesTabsDict }) {
         )}
 
         {tab === "rules" && (
-          <ol className="space-y-3">
-            {dict.generalRulesItems.map((item, i) => (
-              <NumberedItem key={i} number={i + 1}>
-                {item}
-              </NumberedItem>
+          <div className="space-y-4">
+            {dict.ruleGroups.map((g, i) => (
+              <Reveal key={g.key} delay={i * 80}>
+                <GroupCard icon={GROUP_ICONS[g.key]} title={g.title}>
+                  <ul className="space-y-2.5">
+                    {g.items.map((item, j) => (
+                      <CheckBullet key={j}>
+                        <Emphasize text={item} />
+                      </CheckBullet>
+                    ))}
+                  </ul>
+                </GroupCard>
+              </Reveal>
             ))}
-          </ol>
+          </div>
         )}
 
       </div>

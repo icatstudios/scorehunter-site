@@ -163,29 +163,6 @@
       "title": "Allt du behöver är en passion för fotboll",
       "howTitle": "Så spelar du",
       "howIntro": "ScoreHunter belönar fotbollskunskap. Inga kuponger, inga handikapp, inga odds - ingen vadslagningsjargong. Varje liga, varje match, varje lag har samma värde och betydelse. Varje spelare börjar med samma chans.",
-      "howItems": [
-        "Varje vecka öppnas ett kurerat urval matcher för förutsägelser.",
-        "Spelarna förväntas göra förutsägelser på dessa matcher i lägena Score Hunt och Minispel.",
-        "Spelarna får poäng baserat på resultaten av sina förutsägelser.",
-        "Det finns tre separata topplistor - Total, Score Hunt och Minispel. Varje vecka tilldelas spelarna på 1:a, 2:a och 3:e plats troféer.",
-        "Den totala topplistan varje vecka beräknas som summan av poäng från Score Hunt och Minispel.",
-        "I prissäsonger fördelas priser baserat på prestationer på den totala topplistan.",
-        "I Score Hunt förväntas spelarna förutspå resultat för totalt 12 matcher - 10 huvud och 2 bonus.",
-        "Förutsägelser poängsätts i detalj på flera kriterier: rätt utgångsriktning, rätt oavgjort, rätt antal mål, rätt målskillnad, exakt resultat och sällsynt förutsägelse.",
-        "I Score Hunt kan spelarna använda 2X-jokern på ett av sina val för att dubblera poängen från den matchen.",
-        "Bonusförutsägelser ersätter de lägst poängsatta valen bland huvudförutsägelserna.",
-        "Pro-användare kan skapa en backuplista med förutsägelser i Score Hunt.",
-        "Vid veckans slut räknas bara den högst poängsatta listan av de två.",
-        "I Minispel-läget görs förutsägelser på händelser som inträffar under matcher.",
-        "Spelarna väljer ett antal matcher eller lag enligt spelets koncept.",
-        "Varje minispel har sitt eget koncept och sitt eget poängvärde.",
-        "Antalet, poängen och målen för minispelen kan variera beroende på veckans matchantal.",
-        "Spelarna har rätt att lägga till 1 bonusmatch eller -lag per minispel.",
-        "För att lyckas i ett minispel måste du göra lika många korrekta förutsägelser som spelets mål.",
-        "Bonusförutsägelsen ersätter den första misslyckade förutsägelsen.",
-        "Lyckade minispel ger en fast belöning baserat på svårighetsgrad.",
-        "Misslyckade minispel ger endast deltagarpoängen."
-      ],
       "scoringTitle": "Poängsättning",
       "scoringIntro": "I Score Hunt ger varje detalj du träffar rätt på poäng. Du måste inte pricka det exakta resultatet.",
       "scoringLabel": "Score Hunt-poängsättning",
@@ -291,19 +268,76 @@
         }
       ],
       "generalRulesTitle": "Regler",
-      "generalRulesItems": [
-        "Du går med i tävlingen först när du bekräftar din förutsägelselista. Obekräftade listor poängsätts inte.",
-        "Glöm inte att bekräfta innan första matchen på din lista startar. Listan kan inte redigeras när en match har börjat.",
-        "Förutsägelser poängsätts endast på ordinarie speltid (90 minuter). Förlängning och straffläggning räknas inte.",
-        "Inga poäng ges för matcher som skjuts upp, ställs in eller avbryts.",
-        "Den totala topplistan beräknas veckovis: Score Hunt + Minispel kombinerat.",
-        "Resultaten beräknas automatiskt när veckan tar slut. Matchresultat uppdateras live - du kan följa i realtid.",
-        "Vid poänglika i tabellen avgörs likheten i denna ordning: först på totala säsongspoäng, sedan på antal vunna guld-, silver- och bronstroféer - från högst till lägst.",
-        "AI-driven anomalidetektion körs under poängsättningen. Alla listor från användare som tas på fusk ogiltigförklaras.",
-        "Du måste vara 13 år eller äldre för att delta."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "Spelveckan",
+          "items": [
+            "Varje vecka öppnas ett kurerat urval matcher för förutsägelser.",
+            "Spelarna förväntas göra förutsägelser på dessa matcher i lägena Score Hunt och Minispel.",
+            "Spelarna får poäng baserat på resultaten av sina förutsägelser.",
+            "Det finns tre separata topplistor - Total, Score Hunt och Minispel. Varje vecka tilldelas spelarna på 1:a, 2:a och 3:e plats troféer.",
+            "Den totala topplistan varje vecka beräknas som summan av poäng från Score Hunt och Minispel.",
+            "I prissäsonger fördelas priser baserat på prestationer på den totala topplistan."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "I Score Hunt förväntas spelarna förutspå resultat för totalt 12 matcher - 10 huvud och 2 bonus.",
+            "Förutsägelser poängsätts i detalj på flera kriterier: rätt utgångsriktning, rätt oavgjort, rätt antal mål, rätt målskillnad, exakt resultat och sällsynt förutsägelse.",
+            "I Score Hunt kan spelarna använda 2X-jokern på ett av sina val för att dubblera poängen från den matchen.",
+            "Bonusförutsägelser ersätter de lägst poängsatta valen bland huvudförutsägelserna.",
+            "Pro-användare kan skapa en backuplista med förutsägelser i Score Hunt.",
+            "Vid veckans slut räknas bara den högst poängsatta listan av de två."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Minispel",
+          "items": [
+            "I Minispel-läget görs förutsägelser på händelser som inträffar under matcher.",
+            "Spelarna väljer ett antal matcher eller lag enligt spelets koncept.",
+            "Varje minispel har sitt eget koncept och sitt eget poängvärde.",
+            "Antalet, poängen och målen för minispelen kan variera beroende på veckans matchantal.",
+            "Spelarna har rätt att lägga till 1 bonusmatch eller -lag per minispel.",
+            "För att lyckas i ett minispel måste du göra lika många korrekta förutsägelser som spelets mål.",
+            "Bonusförutsägelsen ersätter den första misslyckade förutsägelsen.",
+            "Lyckade minispel ger en fast belöning baserat på svårighetsgrad.",
+            "Misslyckade minispel ger endast deltagarpoängen."
+          ]
+        }
       ],
-      "showMore": "Visa alla",
-      "showLess": "Visa färre"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Din tipslista",
+          "items": [
+            "Du går med i tävlingen först när du bekräftar din förutsägelselista. Obekräftade listor poängsätts inte.",
+            "Glöm inte att bekräfta innan första matchen på din lista startar. Listan kan inte redigeras när en match har börjat."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Poäng och matcher",
+          "items": [
+            "Förutsägelser poängsätts endast på ordinarie speltid (90 minuter). Förlängning och straffläggning räknas inte.",
+            "Inga poäng ges för matcher som skjuts upp, ställs in eller avbryts.",
+            "Den totala topplistan beräknas veckovis: Score Hunt + Minispel kombinerat.",
+            "Resultaten beräknas automatiskt när veckan tar slut. Matchresultat uppdateras live - du kan följa i realtid.",
+            "Vid poänglika i tabellen avgörs likheten i denna ordning: först på totala säsongspoäng, sedan på antal vunna guld-, silver- och bronstroféer - från högst till lägst."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "AI-driven anomalidetektion körs under poängsättningen. Alla listor från användare som tas på fusk ogiltigförklaras.",
+            "Du måste vara 13 år eller äldre för att delta."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Funktioner",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Prisregler",
-      "items": [
-        "Priserna går till de 20 bästa på Total rankning vid säsongens slut. Vecko- och lägesspecifika rankningar påverkar inte säsongspriserna.",
-        "Vid lika poäng avgörs placeringen först av totala säsongspoäng och därefter av antalet vunna guld-, silver- och bronstroféer.",
-        "ScoreHunter är inte ett vad- eller hasardspel. Det är gratis att spela, det finns inga insättningar och kontantpriser delas aldrig ut. Priserna består enbart av de fysiska produkter som listas ovan.",
-        "Vinnarna meddelas via avisering i appen och e-post efter säsongens slut.",
-        "För leverans behövs fullständigt namn, adress och kontaktuppgifter. Om de inte kommer in inom 30 dagar går priset vidare till nästa spelare på listan.",
-        "Priser kan inte lösas in mot pengar eller överlåtas till någon annan. Beroende på lagersaldo kan ett pris ersättas med en likvärdig produkt.",
-        "Frakten står iCat Studios för. Eventuell tull och skatt i ditt land är vinnarens ansvar.",
-        "Spelare som ertappas med fusk, flera konton eller regelbrott förlorar sitt pris.",
-        "Vinnare under 18 år behöver målsmans samtycke innan priset skickas.",
-        "De här priserna och den här tävlingen är helt oberoende av Apple Inc. och Google LLC. Apple och Google är på inget sätt sponsor, arrangör eller administratör; utskick av priser och allt ansvar ligger hos iCat Studios.",
-        "iCat Studios förbehåller sig rätten att uppdatera prislistan."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Vem vinner",
+          "items": [
+            "Priserna går till de 20 bästa på Total rankning vid säsongens slut. Vecko- och lägesspecifika rankningar påverkar inte säsongspriserna.",
+            "Vid lika poäng avgörs placeringen först av totala säsongspoäng och därefter av antalet vunna guld-, silver- och bronstroféer.",
+            "ScoreHunter är inte ett vad- eller hasardspel. Det är gratis att spela, det finns inga insättningar och kontantpriser delas aldrig ut. Priserna består enbart av de fysiska produkter som listas ovan."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Leverans",
+          "items": [
+            "Vinnarna meddelas via avisering i appen och e-post efter säsongens slut.",
+            "För leverans behövs fullständigt namn, adress och kontaktuppgifter. Om de inte kommer in inom 30 dagar går priset vidare till nästa spelare på listan.",
+            "Priser kan inte lösas in mot pengar eller överlåtas till någon annan. Beroende på lagersaldo kan ett pris ersättas med en likvärdig produkt.",
+            "Frakten står iCat Studios för. Eventuell tull och skatt i ditt land är vinnarens ansvar."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Spelare som ertappas med fusk, flera konton eller regelbrott förlorar sitt pris.",
+            "Vinnare under 18 år behöver målsmans samtycke innan priset skickas."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Juridiskt",
+          "items": [
+            "De här priserna och den här tävlingen är helt oberoende av Apple Inc. och Google LLC. Apple och Google är på inget sätt sponsor, arrangör eller administratör; utskick av priser och allt ansvar ligger hos iCat Studios.",
+            "iCat Studios förbehåller sig rätten att uppdatera prislistan."
+          ]
+        }
       ]
     },
     "preview": {

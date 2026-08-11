@@ -163,29 +163,6 @@
       "title": "Wszystko, czego potrzebujesz, to pasja do piłki nożnej",
       "howTitle": "Jak grać",
       "howIntro": "ScoreHunter nagradza znajomość piłki nożnej. Żadnych kuponów, żadnych handicapów, żadnych kursów - żadnego żargonu bukmacherskiego. Każda liga, każdy mecz, każda drużyna mają tę samą wartość i znaczenie. Każdy gracz zaczyna z taką samą szansą.",
-      "howItems": [
-        "Co tydzień otwierany jest wybrany zestaw meczów do typowania.",
-        "Gracze mają typować te mecze w trybach Score Hunt i Mini Gry.",
-        "Gracze zdobywają punkty na podstawie wyników swoich typów.",
-        "Są trzy oddzielne rankingi - Ogólny, Score Hunt i Mini Gry. Co tydzień gracze na 1., 2. i 3. miejscu otrzymują trofea.",
-        "Ranking Ogólny w każdym tygodniu jest sumą punktów zdobytych w Score Hunt i Mini Gry.",
-        "W sezonach z nagrodami nagrody są przyznawane na podstawie osiągnięć w rankingu Ogólnym.",
-        "W Score Hunt gracze mają typować wyniki łącznie 12 meczów - 10 głównych i 2 bonusowych.",
-        "Typy są punktowane szczegółowo według wielu kryteriów: poprawny kierunek wyniku, poprawny remis, poprawna liczba bramek, poprawna różnica bramek, dokładny wynik i typ rzadki.",
-        "W Score Hunt gracze mogą użyć jokera 2X na jednym ze swoich typów, aby podwoić punkty zdobyte w tym meczu.",
-        "Typy bonusowe zastępują najniżej punktowane wybory wśród typów głównych.",
-        "Użytkownicy Pro mogą utworzyć jedną zapasową listę typów w Score Hunt.",
-        "Pod koniec tygodnia liczy się tylko lista typów z wyższym wynikiem.",
-        "W trybie Mini Gry typy dotyczą zdarzeń, które dzieją się podczas meczów.",
-        "Gracze wybierają liczbę meczów lub drużyn zgodnie z koncepcją gry.",
-        "Każda mini gra ma własną koncepcję i wartość punktową.",
-        "Liczba, punkty i cele mini gier mogą się zmieniać w zależności od liczby meczów w tygodniu.",
-        "Gracze mogą dodać 1 mecz lub drużynę bonusową do każdej mini gry.",
-        "Aby wygrać mini grę, musisz wytypować poprawnie tyle wyborów, ile wynosi cel gry.",
-        "Typ bonusowy zastępuje pierwszy nieudany typ.",
-        "Wygrane mini gry przyznają stałą nagrodę zależną od trudności.",
-        "Przegrane mini gry przyznają tylko punkt za uczestnictwo."
-      ],
       "scoringTitle": "Punktacja",
       "scoringIntro": "W Score Hunt każdy szczegół, który trafisz, daje punkty. Nie musisz trafić dokładnego wyniku.",
       "scoringLabel": "Punktacja Score Hunt",
@@ -291,19 +268,76 @@
         }
       ],
       "generalRulesTitle": "Zasady",
-      "generalRulesItems": [
-        "Wchodzisz do rywalizacji dopiero po zatwierdzeniu listy typów. Niezatwierdzone listy nie są punktowane.",
-        "Nie zapomnij zatwierdzić przed gwizdkiem początkowym pierwszego meczu z twojej listy. Po rozpoczęciu meczu lista nie może być edytowana.",
-        "Typy są punktowane tylko w regulaminowym czasie gry (90 minut). Dogrywki i serie rzutów karnych się nie liczą.",
-        "Za mecze przełożone, odwołane lub zawieszone nie są przyznawane punkty.",
-        "Ranking Ogólny jest obliczany co tydzień: Score Hunt + Mini Gry razem.",
-        "Wyniki są obliczane automatycznie po zakończeniu tygodnia. Wyniki meczów są aktualizowane na żywo - możesz śledzić w czasie rzeczywistym.",
-        "W przypadku remisu punktowego w tabeli rozstrzygnięcie następuje w tej kolejności: najpierw po sumie punktów sezonu, potem po liczbie zdobytych trofeów złotych, srebrnych i brązowych - od najwyższego do najniższego.",
-        "Podczas punktowania działa wykrywanie anomalii oparte na AI. Wszystkie listy użytkowników przyłapanych na oszustwie zostają unieważnione.",
-        "Aby wziąć udział, musisz mieć 13 lat lub więcej."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "Tydzień gry",
+          "items": [
+            "Co tydzień otwierany jest wybrany zestaw meczów do typowania.",
+            "Gracze mają typować te mecze w trybach Score Hunt i Mini Gry.",
+            "Gracze zdobywają punkty na podstawie wyników swoich typów.",
+            "Są trzy oddzielne rankingi - Ogólny, Score Hunt i Mini Gry. Co tydzień gracze na 1., 2. i 3. miejscu otrzymują trofea.",
+            "Ranking Ogólny w każdym tygodniu jest sumą punktów zdobytych w Score Hunt i Mini Gry.",
+            "W sezonach z nagrodami nagrody są przyznawane na podstawie osiągnięć w rankingu Ogólnym."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "W Score Hunt gracze mają typować wyniki łącznie 12 meczów - 10 głównych i 2 bonusowych.",
+            "Typy są punktowane szczegółowo według wielu kryteriów: poprawny kierunek wyniku, poprawny remis, poprawna liczba bramek, poprawna różnica bramek, dokładny wynik i typ rzadki.",
+            "W Score Hunt gracze mogą użyć jokera 2X na jednym ze swoich typów, aby podwoić punkty zdobyte w tym meczu.",
+            "Typy bonusowe zastępują najniżej punktowane wybory wśród typów głównych.",
+            "Użytkownicy Pro mogą utworzyć jedną zapasową listę typów w Score Hunt.",
+            "Pod koniec tygodnia liczy się tylko lista typów z wyższym wynikiem."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Minigry",
+          "items": [
+            "W trybie Mini Gry typy dotyczą zdarzeń, które dzieją się podczas meczów.",
+            "Gracze wybierają liczbę meczów lub drużyn zgodnie z koncepcją gry.",
+            "Każda mini gra ma własną koncepcję i wartość punktową.",
+            "Liczba, punkty i cele mini gier mogą się zmieniać w zależności od liczby meczów w tygodniu.",
+            "Gracze mogą dodać 1 mecz lub drużynę bonusową do każdej mini gry.",
+            "Aby wygrać mini grę, musisz wytypować poprawnie tyle wyborów, ile wynosi cel gry.",
+            "Typ bonusowy zastępuje pierwszy nieudany typ.",
+            "Wygrane mini gry przyznają stałą nagrodę zależną od trudności.",
+            "Przegrane mini gry przyznają tylko punkt za uczestnictwo."
+          ]
+        }
       ],
-      "showMore": "Pokaż wszystkie",
-      "showLess": "Pokaż mniej"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Twoja lista typów",
+          "items": [
+            "Wchodzisz do rywalizacji dopiero po zatwierdzeniu listy typów. Niezatwierdzone listy nie są punktowane.",
+            "Nie zapomnij zatwierdzić przed gwizdkiem początkowym pierwszego meczu z twojej listy. Po rozpoczęciu meczu lista nie może być edytowana."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Punktacja i mecze",
+          "items": [
+            "Typy są punktowane tylko w regulaminowym czasie gry (90 minut). Dogrywki i serie rzutów karnych się nie liczą.",
+            "Za mecze przełożone, odwołane lub zawieszone nie są przyznawane punkty.",
+            "Ranking Ogólny jest obliczany co tydzień: Score Hunt + Mini Gry razem.",
+            "Wyniki są obliczane automatycznie po zakończeniu tygodnia. Wyniki meczów są aktualizowane na żywo - możesz śledzić w czasie rzeczywistym.",
+            "W przypadku remisu punktowego w tabeli rozstrzygnięcie następuje w tej kolejności: najpierw po sumie punktów sezonu, potem po liczbie zdobytych trofeów złotych, srebrnych i brązowych - od najwyższego do najniższego."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Podczas punktowania działa wykrywanie anomalii oparte na AI. Wszystkie listy użytkowników przyłapanych na oszustwie zostają unieważnione.",
+            "Aby wziąć udział, musisz mieć 13 lat lub więcej."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Funkcje",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Zasady nagród",
-      "items": [
-        "Nagrody trafiają do 20 najlepszych graczy Rankingu ogólnego na koniec sezonu. Rankingi tygodniowe i te według trybu nie wpływają na nagrody sezonowe.",
-        "Przy remisie punktowym o miejscu decyduje najpierw suma punktów sezonu, a potem liczba zdobytych trofeów złotych, srebrnych i brązowych.",
-        "ScoreHunter nie jest grą bukmacherską ani hazardową. Granie jest darmowe, nie ma wpłat i w żadnym wypadku nie przyznajemy nagród pieniężnych. Nagrody to wyłącznie produkty fizyczne wymienione powyżej.",
-        "Zwycięzcy dostają powiadomienie w aplikacji i e-mail po zakończeniu sezonu.",
-        "Do wysyłki potrzebne są imię i nazwisko, adres oraz dane kontaktowe. Jeśli nie dotrą w ciągu 30 dni, nagroda przechodzi na kolejnego gracza w rankingu.",
-        "Nagród nie można wymienić na gotówkę ani przekazać innej osobie. W zależności od stanu magazynu nagroda może zostać zastąpiona równorzędnym produktem.",
-        "Koszty wysyłki pokrywa iCat Studios. Ewentualne cła i podatki w twoim kraju są po stronie zwycięzcy.",
-        "Gracze przyłapani na oszustwie, korzystaniu z wielu kont lub łamaniu zasad tracą nagrodę.",
-        "Zwycięzcy poniżej 18 roku życia potrzebują zgody rodziców przed wysyłką nagrody.",
-        "Te nagrody i ten konkurs są całkowicie niezależne od Apple Inc. i Google LLC. Apple ani Google w żaden sposób nie są sponsorem, organizatorem ani administratorem; wydanie nagród i cała odpowiedzialność spoczywają na iCat Studios.",
-        "iCat Studios zastrzega sobie prawo do aktualizacji listy nagród."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Kto wygrywa",
+          "items": [
+            "Nagrody trafiają do 20 najlepszych graczy Rankingu ogólnego na koniec sezonu. Rankingi tygodniowe i te według trybu nie wpływają na nagrody sezonowe.",
+            "Przy remisie punktowym o miejscu decyduje najpierw suma punktów sezonu, a potem liczba zdobytych trofeów złotych, srebrnych i brązowych.",
+            "ScoreHunter nie jest grą bukmacherską ani hazardową. Granie jest darmowe, nie ma wpłat i w żadnym wypadku nie przyznajemy nagród pieniężnych. Nagrody to wyłącznie produkty fizyczne wymienione powyżej."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Dostawa",
+          "items": [
+            "Zwycięzcy dostają powiadomienie w aplikacji i e-mail po zakończeniu sezonu.",
+            "Do wysyłki potrzebne są imię i nazwisko, adres oraz dane kontaktowe. Jeśli nie dotrą w ciągu 30 dni, nagroda przechodzi na kolejnego gracza w rankingu.",
+            "Nagród nie można wymienić na gotówkę ani przekazać innej osobie. W zależności od stanu magazynu nagroda może zostać zastąpiona równorzędnym produktem.",
+            "Koszty wysyłki pokrywa iCat Studios. Ewentualne cła i podatki w twoim kraju są po stronie zwycięzcy."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fair play",
+          "items": [
+            "Gracze przyłapani na oszustwie, korzystaniu z wielu kont lub łamaniu zasad tracą nagrodę.",
+            "Zwycięzcy poniżej 18 roku życia potrzebują zgody rodziców przed wysyłką nagrody."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Informacje prawne",
+          "items": [
+            "Te nagrody i ten konkurs są całkowicie niezależne od Apple Inc. i Google LLC. Apple ani Google w żaden sposób nie są sponsorem, organizatorem ani administratorem; wydanie nagród i cała odpowiedzialność spoczywają na iCat Studios.",
+            "iCat Studios zastrzega sobie prawo do aktualizacji listy nagród."
+          ]
+        }
       ]
     },
     "preview": {

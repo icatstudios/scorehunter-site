@@ -24,7 +24,7 @@ interface RulesDict {
   // Tab 1: Nasıl oynanır?
   howTitle: string;
   howIntro: string;
-  howItems: string[];
+  howGroups: { key: string; title: string; items: string[] }[];
 
   // Tab 2: Puanlama
   scoringTitle: string;
@@ -39,11 +39,8 @@ interface RulesDict {
 
   // Tab 3: Kurallar
   generalRulesTitle: string;
-  generalRulesItems: string[];
+  ruleGroups: { key: string; title: string; items: string[] }[];
 
-  /** Expander labels for the long "how to play" list. */
-  showMore: string;
-  showLess: string;
 }
 
 export function RulesSection({ dict }: { dict: RulesDict }) {

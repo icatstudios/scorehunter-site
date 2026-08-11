@@ -163,29 +163,6 @@
       "title": "Alles, was du brauchst, ist Leidenschaft für Fußball",
       "howTitle": "Spielanleitung",
       "howIntro": "ScoreHunter belohnt Fußballwissen. Keine Wettscheine, keine Handicaps, keine Quoten - nichts von diesem Wettjargon. Jede Liga, jedes Spiel, jede Mannschaft hat denselben Wert. Jeder Spieler startet mit den gleichen Chancen.",
-      "howItems": [
-        "Jede Woche wird eine kuratierte Auswahl an Spielen für Tipps freigeschaltet.",
-        "Spieler geben in den Modi Score Hunt und Minispiele ihre Tipps für diese Spiele ab.",
-        "Spieler sammeln Punkte basierend auf den Ergebnissen ihrer Tipps.",
-        "Es gibt drei separate Ranglisten - Gesamt, Score Hunt und Minispiele. Jede Woche erhalten die Spieler auf Platz 1, 2 und 3 Trophäen.",
-        "Die Gesamtrangliste einer Woche errechnet sich aus der Summe der in Score Hunt und Minispiele erzielten Punkte.",
-        "In belohnten Saisons werden Preise anhand der Gesamtranglisten-Ergebnisse verteilt.",
-        "In Score Hunt tippen Spieler insgesamt 12 Spiele - 10 Hauptspiele und 2 Bonusspiele.",
-        "Tipps werden detailliert nach mehreren Kriterien bewertet: richtiger Ausgang, richtiges Unentschieden, richtige Toranzahl, richtige Tordifferenz, richtiges Exaktergebnis und richtiger seltener Tipp.",
-        "In Score Hunt können Spieler den 2X-Joker auf einen ihrer Tipps anwenden, um die daraus erzielten Punkte zu verdoppeln.",
-        "Bonustipps ersetzen die am niedrigsten bewerteten Haupttipps.",
-        "Pro-Nutzer können in Score Hunt eine zusätzliche Backup-Tippliste erstellen.",
-        "Am Ende der Woche zählt nur die höher bewertete der beiden Tipplisten.",
-        "Im Minispiele-Modus werden Ereignisse getippt, die während der Spiele eintreten.",
-        "Spieler wählen eine bestimmte Anzahl an Spielen oder Mannschaften gemäß dem jeweiligen Konzept.",
-        "Jedes Minispiel hat sein eigenes Konzept und einen eigenen Punktwert.",
-        "Anzahl, Punkte und Ziele der Minispiele können je nach wöchentlicher Spielanzahl variieren.",
-        "Spieler dürfen bei jedem Minispiel 1 Bonusspiel oder -team hinzufügen.",
-        "Um ein Minispiel zu gewinnen, musst du so viele richtige Tipps abgeben wie das Spielziel verlangt.",
-        "Der Bonustipp ersetzt den ersten fehlgeschlagenen Tipp.",
-        "Erfolgreiche Minispiele vergeben eine feste Belohnung basierend auf ihrem Schwierigkeitsgrad.",
-        "Fehlgeschlagene Minispiele vergeben nur den Teilnahmepunkt."
-      ],
       "scoringTitle": "Wertung",
       "scoringIntro": "In Score Hunt bringt jedes richtig getippte Detail Punkte. Du musst nicht das exakte Ergebnis treffen.",
       "scoringLabel": "Score Hunt Punktewertung",
@@ -291,19 +268,76 @@
         }
       ],
       "generalRulesTitle": "Regeln",
-      "generalRulesItems": [
-        "Du nimmst am Wettbewerb nur teil, wenn du deine Tippliste bestätigst. Unbestätigte Listen werden nicht gewertet.",
-        "Vergiss nicht, vor dem Anstoß des ersten Spiels auf deiner Liste zu bestätigen. Die Liste kann nicht mehr bearbeitet werden, sobald ein Spiel begonnen hat.",
-        "Tipps werden nur für die reguläre Spielzeit (90 Minuten) gewertet. Verlängerung und Elfmeterschießen zählen nicht.",
-        "Für verschobene, abgesagte oder abgebrochene Spiele werden keine Punkte vergeben.",
-        "Die Gesamtrangliste wird wöchentlich berechnet: Score Hunt + Minispiele zusammen.",
-        "Ergebnisse werden automatisch berechnet, wenn die Woche endet. Spielstände werden live aktualisiert - du kannst in Echtzeit mitverfolgen.",
-        "Bei Punktgleichstand in der Rangliste wird der Gleichstand in dieser Reihenfolge aufgelöst: zunächst nach Gesamtpunkten der Saison, dann nach der Anzahl der gewonnenen Gold-, Silber- und Bronzetrophäen - von hoch nach niedrig.",
-        "Während der Wertung läuft eine KI-gestützte Anomalieerkennung. Alle Listen von als Betrüger erkannten Nutzern werden annulliert.",
-        "Du musst mindestens 13 Jahre alt sein, um teilzunehmen."
+      "howGroups": [
+        {
+          "key": "week",
+          "title": "Die Spielwoche",
+          "items": [
+            "Jede Woche wird eine kuratierte Auswahl an Spielen für Tipps freigeschaltet.",
+            "Spieler geben in den Modi Score Hunt und Minispiele ihre Tipps für diese Spiele ab.",
+            "Spieler sammeln Punkte basierend auf den Ergebnissen ihrer Tipps.",
+            "Es gibt drei separate Ranglisten - Gesamt, Score Hunt und Minispiele. Jede Woche erhalten die Spieler auf Platz 1, 2 und 3 Trophäen.",
+            "Die Gesamtrangliste einer Woche errechnet sich aus der Summe der in Score Hunt und Minispiele erzielten Punkte.",
+            "In belohnten Saisons werden Preise anhand der Gesamtranglisten-Ergebnisse verteilt."
+          ]
+        },
+        {
+          "key": "scorehunt",
+          "title": "Score Hunt",
+          "items": [
+            "In Score Hunt tippen Spieler insgesamt 12 Spiele - 10 Hauptspiele und 2 Bonusspiele.",
+            "Tipps werden detailliert nach mehreren Kriterien bewertet: richtiger Ausgang, richtiges Unentschieden, richtige Toranzahl, richtige Tordifferenz, richtiges Exaktergebnis und richtiger seltener Tipp.",
+            "In Score Hunt können Spieler den 2X-Joker auf einen ihrer Tipps anwenden, um die daraus erzielten Punkte zu verdoppeln.",
+            "Bonustipps ersetzen die am niedrigsten bewerteten Haupttipps.",
+            "Pro-Nutzer können in Score Hunt eine zusätzliche Backup-Tippliste erstellen.",
+            "Am Ende der Woche zählt nur die höher bewertete der beiden Tipplisten."
+          ]
+        },
+        {
+          "key": "minigames",
+          "title": "Minispiele",
+          "items": [
+            "Im Minispiele-Modus werden Ereignisse getippt, die während der Spiele eintreten.",
+            "Spieler wählen eine bestimmte Anzahl an Spielen oder Mannschaften gemäß dem jeweiligen Konzept.",
+            "Jedes Minispiel hat sein eigenes Konzept und einen eigenen Punktwert.",
+            "Anzahl, Punkte und Ziele der Minispiele können je nach wöchentlicher Spielanzahl variieren.",
+            "Spieler dürfen bei jedem Minispiel 1 Bonusspiel oder -team hinzufügen.",
+            "Um ein Minispiel zu gewinnen, musst du so viele richtige Tipps abgeben wie das Spielziel verlangt.",
+            "Der Bonustipp ersetzt den ersten fehlgeschlagenen Tipp.",
+            "Erfolgreiche Minispiele vergeben eine feste Belohnung basierend auf ihrem Schwierigkeitsgrad.",
+            "Fehlgeschlagene Minispiele vergeben nur den Teilnahmepunkt."
+          ]
+        }
       ],
-      "showMore": "Alle anzeigen",
-      "showLess": "Weniger anzeigen"
+      "ruleGroups": [
+        {
+          "key": "list",
+          "title": "Deine Tippliste",
+          "items": [
+            "Du nimmst am Wettbewerb nur teil, wenn du deine Tippliste bestätigst. Unbestätigte Listen werden nicht gewertet.",
+            "Vergiss nicht, vor dem Anstoß des ersten Spiels auf deiner Liste zu bestätigen. Die Liste kann nicht mehr bearbeitet werden, sobald ein Spiel begonnen hat."
+          ]
+        },
+        {
+          "key": "scoring",
+          "title": "Wertung und Spiele",
+          "items": [
+            "Tipps werden nur für die reguläre Spielzeit (90 Minuten) gewertet. Verlängerung und Elfmeterschießen zählen nicht.",
+            "Für verschobene, abgesagte oder abgebrochene Spiele werden keine Punkte vergeben.",
+            "Die Gesamtrangliste wird wöchentlich berechnet: Score Hunt + Minispiele zusammen.",
+            "Ergebnisse werden automatisch berechnet, wenn die Woche endet. Spielstände werden live aktualisiert - du kannst in Echtzeit mitverfolgen.",
+            "Bei Punktgleichstand in der Rangliste wird der Gleichstand in dieser Reihenfolge aufgelöst: zunächst nach Gesamtpunkten der Saison, dann nach der Anzahl der gewonnenen Gold-, Silber- und Bronzetrophäen - von hoch nach niedrig."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fairplay",
+          "items": [
+            "Während der Wertung läuft eine KI-gestützte Anomalieerkennung. Alle Listen von als Betrüger erkannten Nutzern werden annulliert.",
+            "Du musst mindestens 13 Jahre alt sein, um teilzunehmen."
+          ]
+        }
+      ]
     },
     "features": {
       "eyebrow": "Funktionen",
@@ -474,18 +508,42 @@
     },
     "rules": {
       "title": "Preisbedingungen",
-      "items": [
-        "Die Preise gehen an die besten 20 Spieler der Gesamtrangliste am Saisonende. Wöchentliche und modusbezogene Ranglisten haben keinen Einfluss auf die Saisonpreise.",
-        "Bei Punktgleichheit entscheidet zuerst die Gesamtpunktzahl der Saison, danach die Zahl der gewonnenen Gold-, Silber- und Bronzetrophäen.",
-        "ScoreHunter ist kein Wett- oder Glücksspiel. Die Teilnahme ist kostenlos, es gibt keine Einzahlungen und unter keinen Umständen Geldpreise. Die Preise bestehen ausschließlich aus den oben genannten Sachpreisen.",
-        "Gewinner werden nach Saisonende per In-App-Benachrichtigung und E-Mail informiert.",
-        "Für den Versand sind vollständiger Name, Adresse und Kontaktdaten erforderlich. Werden diese nicht innerhalb von 30 Tagen übermittelt, geht der Preis an den nächsten Spieler der Rangliste.",
-        "Preise können nicht in bar ausgezahlt oder an andere übertragen werden. Je nach Verfügbarkeit kann ein Preis durch ein gleichwertiges Produkt ersetzt werden.",
-        "Die Versandkosten übernimmt iCat Studios. Zölle und Steuern in deinem Land trägt der Gewinner.",
-        "Wer beim Schummeln, bei der Nutzung mehrerer Konten oder bei Regelverstößen erwischt wird, verliert den Anspruch auf den Preis.",
-        "Bei Gewinnern unter 18 Jahren ist vor der Zustellung die Zustimmung der Eltern erforderlich.",
-        "Diese Preise und dieser Wettbewerb sind vollständig unabhängig von Apple Inc. und Google LLC. Apple und Google sind in keiner Weise Sponsor, Veranstalter oder Verwalter; die Abwicklung der Preise und die gesamte Verantwortung liegen bei iCat Studios.",
-        "iCat Studios behält sich das Recht vor, die Preisliste zu aktualisieren."
+      "groups": [
+        {
+          "key": "who",
+          "title": "Wer gewinnt",
+          "items": [
+            "Die Preise gehen an die besten 20 Spieler der Gesamtrangliste am Saisonende. Wöchentliche und modusbezogene Ranglisten haben keinen Einfluss auf die Saisonpreise.",
+            "Bei Punktgleichheit entscheidet zuerst die Gesamtpunktzahl der Saison, danach die Zahl der gewonnenen Gold-, Silber- und Bronzetrophäen.",
+            "ScoreHunter ist kein Wett- oder Glücksspiel. Die Teilnahme ist kostenlos, es gibt keine Einzahlungen und unter keinen Umständen Geldpreise. Die Preise bestehen ausschließlich aus den oben genannten Sachpreisen."
+          ]
+        },
+        {
+          "key": "delivery",
+          "title": "Versand",
+          "items": [
+            "Gewinner werden nach Saisonende per In-App-Benachrichtigung und E-Mail informiert.",
+            "Für den Versand sind vollständiger Name, Adresse und Kontaktdaten erforderlich. Werden diese nicht innerhalb von 30 Tagen übermittelt, geht der Preis an den nächsten Spieler der Rangliste.",
+            "Preise können nicht in bar ausgezahlt oder an andere übertragen werden. Je nach Verfügbarkeit kann ein Preis durch ein gleichwertiges Produkt ersetzt werden.",
+            "Die Versandkosten übernimmt iCat Studios. Zölle und Steuern in deinem Land trägt der Gewinner."
+          ]
+        },
+        {
+          "key": "fairplay",
+          "title": "Fairplay",
+          "items": [
+            "Wer beim Schummeln, bei der Nutzung mehrerer Konten oder bei Regelverstößen erwischt wird, verliert den Anspruch auf den Preis.",
+            "Bei Gewinnern unter 18 Jahren ist vor der Zustellung die Zustimmung der Eltern erforderlich."
+          ]
+        },
+        {
+          "key": "legal",
+          "title": "Rechtliches",
+          "items": [
+            "Diese Preise und dieser Wettbewerb sind vollständig unabhängig von Apple Inc. und Google LLC. Apple und Google sind in keiner Weise Sponsor, Veranstalter oder Verwalter; die Abwicklung der Preise und die gesamte Verantwortung liegen bei iCat Studios.",
+            "iCat Studios behält sich das Recht vor, die Preisliste zu aktualisieren."
+          ]
+        }
       ]
     },
     "preview": {
