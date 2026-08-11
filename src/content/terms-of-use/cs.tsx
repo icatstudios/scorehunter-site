@@ -49,7 +49,7 @@ export function TermsContentCs() {
 
       <Divider />
 
-      <Section title="2. Povaha Služby — DŮLEŽITÉ">
+      <Section title="2. Povaha Služby - DŮLEŽITÉ">
         <SubHeading>2.1 ScoreHunter není hazardní hra o peníze</SubHeading>
         <p>
           ScoreHunter je{" "}
@@ -77,7 +77,7 @@ export function TermsContentCs() {
             </>,
             <>
               Všechny zápasy jsou pro účely tipování{" "}
-              <Strong>rovnocenné</Strong> — žádný zápas není
+              <Strong>rovnocenné</Strong> - žádný zápas není
               &quot;cennější&quot; než jiný
             </>,
             <>
@@ -123,7 +123,7 @@ export function TermsContentCs() {
             </>,
             <>
               Placené funkce, jako je členství Pro,{" "}
-              <Strong>neovlivňují výsledky soutěží</Strong> — nabízejí pouze
+              <Strong>neovlivňují výsledky soutěží</Strong> - nabízejí pouze
               další funkce, které vylepšují uživatelský zážitek
             </>,
           ]}
@@ -144,11 +144,11 @@ export function TermsContentCs() {
               zapojení uživatelů
             </>,
             <>
-              Ceny <Strong>NEJSOU zaručeny</Strong> — jsou udělovány pouze
+              Ceny <Strong>NEJSOU zaručeny</Strong> - jsou udělovány pouze
               v rámci kampaní, které Vývojář oznámí
             </>,
             <>
-              Ceny <Strong>NEJSOU vypláceny v hotovosti</Strong> — pouze
+              Ceny <Strong>NEJSOU vypláceny v hotovosti</Strong> - pouze
               jako fyzické nebo digitální dárky
             </>,
             <>
@@ -290,7 +290,7 @@ export function TermsContentCs() {
           zápasech, názvů týmů a lig, jmen hráčů a vizuálních prostředků,
           jako jsou loga týmů a lig. Obsah je poskytován prostřednictvím
           našeho datového partnera API-Football a patří příslušným
-          vlastníkům — klubům, ligám, federacím a dalším držitelům práv.
+          vlastníkům - klubům, ligám, federacím a dalším držitelům práv.
           ScoreHunter si nečiní nárok na vlastnictví žádných ochranných
           známek, log nebo materiálů chráněných autorským právem třetích
           stran zobrazených v Aplikaci.
@@ -449,7 +449,7 @@ export function TermsContentCs() {
                 Veškeré ceny, soutěže, kampaně nebo marketing v Aplikaci
                 jsou nezávislé na Apple Inc.
               </Strong>{" "}
-              — Apple v žádném smyslu není sponzorem, organizátorem ani
+              - Apple v žádném smyslu není sponzorem, organizátorem ani
               administrátorem
             </>,
             "Apple Inc. je zproštěn odpovědnosti za právní záležitosti nebo nároky vznikající v Aplikaci",
@@ -492,7 +492,7 @@ export function TermsContentCs() {
                 Veškeré ceny, soutěže, kampaně nebo marketing v Aplikaci
                 jsou nezávislé na Google LLC
               </Strong>{" "}
-              — Google v žádném smyslu není sponzorem, organizátorem ani
+              - Google v žádném smyslu není sponzorem, organizátorem ani
               administrátorem
             </>,
             "Google Play Store je pouze distribuční platformou a nenese odpovědnost za obsah ani provoz Aplikace",
@@ -528,16 +528,16 @@ export function TermsContentCs() {
               <Strong>
                 Žádosti o vrácení peněz musí být zaslány Apple nebo Googlu
               </Strong>{" "}
-              — nikoli přímo Vývojáři
+              - nikoli přímo Vývojáři
             </>,
             <>
               Placené funkce poskytují uživateli pouze{" "}
-              <Strong>další zážitek</Strong> — neovlivňují výsledky soutěží
+              <Strong>další zážitek</Strong> - neovlivňují výsledky soutěží
               ani umístění
             </>,
             <>
               Placené funkce{" "}
-              <Strong>nezaručují výhru</Strong> — všichni uživatelé jsou v
+              <Strong>nezaručují výhru</Strong> - všichni uživatelé jsou v
               soutěžích rovnocenní
             </>,
           ]}

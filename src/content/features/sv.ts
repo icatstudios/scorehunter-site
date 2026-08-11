@@ -8,7 +8,7 @@ export const featuresSv: FeaturesData = {
     bullets: [
       "Du har 10 huvudtips och 2 bonustips.",
       "Du har en 2X-joker att använda på en match.",
-      "Du kan tjäna poäng på många sätt — från att träffa rätt utgångsriktning till exakt antal mål.",
+      "Du kan tjäna poäng på många sätt - från att träffa rätt utgångsriktning till exakt antal mål.",
       "Du tjänar extra bonuspoäng när du gör en perfekt tippning eller träffar en sällsynt tippning.",
       "Glöm inte att bekräfta din tipplista innan matcherna på den startar.",
     ],
@@ -37,7 +37,7 @@ export const featuresSv: FeaturesData = {
   trophies: {
     title: "Troféer",
     intro:
-      "På ScoreHunter får spelare som slutar i topp 3 i de tre huvudtopplistorna — veckovis och säsongsvis — egna troféer.",
+      "På ScoreHunter får spelare som slutar i topp 3 i de tre huvudtopplistorna - veckovis och säsongsvis - egna troféer.",
     bullets: [
       "Egna troféer-design för varje spelläge.",
       "Troféer du vinner visas på din profil och är synliga för andra användare.",

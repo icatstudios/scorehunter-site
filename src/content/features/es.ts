@@ -8,7 +8,7 @@ export const featuresEs: FeaturesData = {
     bullets: [
       "Tienes 10 pronósticos principales y 2 pronósticos bonus.",
       "Tienes un comodín 2X para usar en un partido.",
-      "Puedes ganar puntos de muchas maneras — desde acertar la dirección del resultado hasta el número exacto de goles.",
+      "Puedes ganar puntos de muchas maneras - desde acertar la dirección del resultado hasta el número exacto de goles.",
       "Cuando haces un pronóstico perfecto o uno raro, ganas puntos bonus extra.",
       "No olvides confirmar tu lista de pronósticos antes de que comiencen los partidos que están en ella.",
     ],
@@ -37,7 +37,7 @@ export const featuresEs: FeaturesData = {
   trophies: {
     title: "Trofeos",
     intro:
-      "En ScoreHunter, los jugadores que terminan en el top 3 de las tres clasificaciones principales — semanal y de temporada — reciben trofeos especiales.",
+      "En ScoreHunter, los jugadores que terminan en el top 3 de las tres clasificaciones principales - semanal y de temporada - reciben trofeos especiales.",
     bullets: [
       "Diseños de trofeo personalizados para cada modo de juego.",
       "Los trofeos que ganas se exhiben en tu perfil y son visibles para otros usuarios.",

@@ -41,9 +41,9 @@ interface RulesDict {
   generalRulesTitle: string;
   generalRulesItems: string[];
 
-  // Tab 4: Ödüller
-  rewardsTitle: string;
-  rewardsPlaceholder: string;
+  /** Expander labels for the long "how to play" list. */
+  showMore: string;
+  showLess: string;
 }
 
 export function RulesSection({ dict }: { dict: RulesDict }) {

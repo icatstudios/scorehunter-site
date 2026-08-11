@@ -14,7 +14,7 @@ export const faqEs: FAQCategory[] = [
       },
       {
         q: "¿Cómo me registro?",
-        a: "Inicia sesión con Apple o Google en segundos — sin contraseñas, sin verificación de correo. Nunca vemos tu contraseña ni guardamos ninguna.",
+        a: "Inicia sesión con Apple o Google en segundos - sin contraseñas, sin verificación de correo. Nunca vemos tu contraseña ni guardamos ninguna.",
       },
       {
         q: "¿Qué dispositivos están soportados?",
@@ -27,7 +27,7 @@ export const faqEs: FAQCategory[] = [
     items: [
       {
         q: "¿Cómo funciona la puntuación?",
-        a: "Ganas puntos por aciertos en el resultado (1, X, 2), marcadores exactos y goleadores. Los Minijuegos añaden pronósticos bonus. Cada partido vale lo mismo — sin cuotas, sin multiplicadores, sin pagos al azar.",
+        a: "Ganas puntos por aciertos en el resultado (1, X, 2), marcadores exactos y goleadores. Los Minijuegos añaden pronósticos bonus. Cada partido vale lo mismo - sin cuotas, sin multiplicadores, sin pagos al azar.",
       },
       {
         q: "¿Qué es un Score Hunt?",
@@ -35,15 +35,15 @@ export const faqEs: FAQCategory[] = [
       },
       {
         q: "¿Puedo cambiar mis pronósticos?",
-        a: "Sí — puedes editar tus pronósticos en cualquier momento antes del pitido inicial. Una vez que un partido empieza, tu pronóstico para ese partido queda bloqueado.",
+        a: "Sí - puedes editar tus pronósticos en cualquier momento antes del pitido inicial. Una vez que un partido empieza, tu pronóstico para ese partido queda bloqueado.",
       },
       {
         q: "¿Qué son los minijuegos?",
-        a: "Los minijuegos son modos de pronóstico de formato corto que se ejecutan entre rondas completas de Score Hunt. Partidos rápidos, semanas temáticas, mismo principio de habilidad — mantienen el ritmo en los días tranquilos.",
+        a: "Los minijuegos son modos de pronóstico de formato corto que se ejecutan entre rondas completas de Score Hunt. Partidos rápidos, semanas temáticas, mismo principio de habilidad - mantienen el ritmo en los días tranquilos.",
       },
       {
         q: "¿Esto es apuestas?",
-        a: "No. ScoreHunter no contiene apuestas, ni cuotas, ni dinero entrando o saliendo, ni loterías. Todos los partidos tienen el mismo valor y los premios son únicamente promocionales — nunca en metálico.",
+        a: "No. ScoreHunter no contiene apuestas, ni cuotas, ni dinero entrando o saliendo, ni loterías. Todos los partidos tienen el mismo valor y los premios son únicamente promocionales - nunca en metálico.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqEs: FAQCategory[] = [
     items: [
       {
         q: "¿Qué incluye Pro?",
-        a: "Menos anuncios, trofeos exclusivos Pro, una insignia Pro exclusiva en clasificaciones y soporte prioritario. Pro nunca afecta los resultados de la competición — todos los partidos mantienen el mismo valor para cada jugador.",
+        a: "Menos anuncios, trofeos exclusivos Pro, una insignia Pro exclusiva en clasificaciones y soporte prioritario. Pro nunca afecta los resultados de la competición - todos los partidos mantienen el mismo valor para cada jugador.",
       },
       {
         q: "¿Cómo me suscribo?",
@@ -90,11 +90,11 @@ export const faqEs: FAQCategory[] = [
       },
       {
         q: "¿Qué datos guarda ScoreHunter sobre mí?",
-        a: "Tu nombre de usuario, país, equipo favorito, pronósticos y trofeos — básicamente lo que cabe esperar de un juego de clasificación. El correo y el nombre real se mantienen privados. Desglose completo en nuestra Política de privacidad.",
+        a: "Tu nombre de usuario, país, equipo favorito, pronósticos y trofeos - básicamente lo que cabe esperar de un juego de clasificación. El correo y el nombre real se mantienen privados. Desglose completo en nuestra Política de privacidad.",
       },
       {
         q: "Olvidé mi contraseña.",
-        a: "No hay contraseña. El inicio de sesión va por Apple o Google — la recuperación ocurre del lado de Apple/Google, no en ScoreHunter.",
+        a: "No hay contraseña. El inicio de sesión va por Apple o Google - la recuperación ocurre del lado de Apple/Google, no en ScoreHunter.",
       },
     ],
   },

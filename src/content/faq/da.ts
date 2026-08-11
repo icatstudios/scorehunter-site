@@ -14,7 +14,7 @@ export const faqDa: FAQCategory[] = [
       },
       {
         q: "Hvordan opretter jeg en konto?",
-        a: "Log ind med Apple eller Google på sekunder — ingen adgangskoder, ingen e-mailbekræftelse. Vi ser aldrig din adgangskode, og vi gemmer ingen.",
+        a: "Log ind med Apple eller Google på sekunder - ingen adgangskoder, ingen e-mailbekræftelse. Vi ser aldrig din adgangskode, og vi gemmer ingen.",
       },
       {
         q: "Hvilke enheder understøttes?",
@@ -27,7 +27,7 @@ export const faqDa: FAQCategory[] = [
     items: [
       {
         q: "Hvordan virker pointgivningen?",
-        a: "Du tjener point for korrekte udfald (1, X, 2), præcise resultater og målscorere. Minispil tilføjer bonustips. Hver kamp er det samme værd — ingen odds, ingen multiplikatorer, ingen udbetalinger baseret på held.",
+        a: "Du tjener point for korrekte udfald (1, X, 2), præcise resultater og målscorere. Minispil tilføjer bonustips. Hver kamp er det samme værd - ingen odds, ingen multiplikatorer, ingen udbetalinger baseret på held.",
       },
       {
         q: "Hvad er en Score Hunt?",
@@ -35,15 +35,15 @@ export const faqDa: FAQCategory[] = [
       },
       {
         q: "Kan jeg ændre mine forudsigelser?",
-        a: "Ja — du kan redigere dine forudsigelser når som helst før kampstart. Når en kamp begynder, er din forudsigelse for den kamp låst.",
+        a: "Ja - du kan redigere dine forudsigelser når som helst før kampstart. Når en kamp begynder, er din forudsigelse for den kamp låst.",
       },
       {
         q: "Hvad er minispil?",
-        a: "Minispil er kortformatige forudsigelsestilstande, der kører mellem fulde Score Hunt-runder. Hurtige kampe, temauger, samme færdighedsprincip — de holder rytmen i gang på rolige kampdage.",
+        a: "Minispil er kortformatige forudsigelsestilstande, der kører mellem fulde Score Hunt-runder. Hurtige kampe, temauger, samme færdighedsprincip - de holder rytmen i gang på rolige kampdage.",
       },
       {
         q: "Er det her hasardspil?",
-        a: "Nej. ScoreHunter indeholder ingen væddemål, ingen odds, ingen penge ind eller ud, ingen lotterier. Alle kampe har samme værdi, og præmier er kun reklamemæssige — aldrig kontanter.",
+        a: "Nej. ScoreHunter indeholder ingen væddemål, ingen odds, ingen penge ind eller ud, ingen lotterier. Alle kampe har samme værdi, og præmier er kun reklamemæssige - aldrig kontanter.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqDa: FAQCategory[] = [
     items: [
       {
         q: "Hvad indeholder Pro?",
-        a: "Færre annoncer, Pro-eksklusive trofæer, et eksklusivt Pro-mærke på topplister og prioriteret support. Pro påvirker aldrig konkurrenceresultater — alle kampe har samme værdi for hver spiller.",
+        a: "Færre annoncer, Pro-eksklusive trofæer, et eksklusivt Pro-mærke på topplister og prioriteret support. Pro påvirker aldrig konkurrenceresultater - alle kampe har samme værdi for hver spiller.",
       },
       {
         q: "Hvordan abonnerer jeg?",
@@ -90,11 +90,11 @@ export const faqDa: FAQCategory[] = [
       },
       {
         q: "Hvilke data gemmer ScoreHunter om mig?",
-        a: "Dit brugernavn, land, favorithold, forudsigelser og trofæer — basalt set hvad du forventer af et toppliste-spil. E-mail og rigtigt navn forbliver private. Fuld oversigt i vores Privatlivspolitik.",
+        a: "Dit brugernavn, land, favorithold, forudsigelser og trofæer - basalt set hvad du forventer af et toppliste-spil. E-mail og rigtigt navn forbliver private. Fuld oversigt i vores Privatlivspolitik.",
       },
       {
         q: "Jeg har glemt min adgangskode.",
-        a: "Der er ingen adgangskode. Login går gennem Apple eller Google — gendannelse sker på Apple/Google-siden, ikke hos ScoreHunter.",
+        a: "Der er ingen adgangskode. Login går gennem Apple eller Google - gendannelse sker på Apple/Google-siden, ikke hos ScoreHunter.",
       },
     ],
   },

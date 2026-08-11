@@ -49,7 +49,7 @@ export function TermsContentSv() {
 
       <Divider />
 
-      <Section title="2. Tjänstens karaktär — VIKTIGT">
+      <Section title="2. Tjänstens karaktär - VIKTIGT">
         <SubHeading>2.1 ScoreHunter är inte en spelapp om pengar</SubHeading>
         <p>
           ScoreHunter är en{" "}
@@ -77,7 +77,7 @@ export function TermsContentSv() {
             </>,
             <>
               Alla matcher är{" "}
-              <Strong>likvärda</Strong> för tippsändamål — ingen match är
+              <Strong>likvärda</Strong> för tippsändamål - ingen match är
               &quot;mer värd&quot; än någon annan
             </>,
             <>
@@ -123,7 +123,7 @@ export function TermsContentSv() {
             </>,
             <>
               Betalda funktioner som Pro-medlemskap{" "}
-              <Strong>påverkar inte tävlingsresultat</Strong> — de
+              <Strong>påverkar inte tävlingsresultat</Strong> - de
               erbjuder bara extra funktioner som förbättrar
               användarupplevelsen
             </>,
@@ -145,11 +145,11 @@ export function TermsContentSv() {
               användarengagemang
             </>,
             <>
-              Priser är <Strong>INTE garanterade</Strong> — de delas ut
+              Priser är <Strong>INTE garanterade</Strong> - de delas ut
               endast inom kampanjer som Utvecklaren tillkännager
             </>,
             <>
-              Priser delas <Strong>INTE ut som kontanter</Strong> — endast
+              Priser delas <Strong>INTE ut som kontanter</Strong> - endast
               som fysiska eller digitala gåvor
             </>,
             <>
@@ -289,7 +289,7 @@ export function TermsContentSv() {
           Appen visar tredjepartsinnehåll, inklusive men inte begränsat
           till matchdata, lag- och liganamn, spelarnamn samt visuella
           tillgångar som lag- och ligalogotyper. Innehållet tillhandahålls
-          via vår datapartner API-Football och tillhör respektive ägare —
+          via vår datapartner API-Football och tillhör respektive ägare -
           klubbar, ligor, förbund och andra rättighetsinnehavare.
           ScoreHunter gör inte anspråk på äganderätt till några
           tredjeparts varumärken, logotyper eller upphovsrättsskyddat
@@ -453,7 +453,7 @@ export function TermsContentSv() {
                 Eventuella priser, tävlingar, kampanjer eller
                 marknadsföring i Appen är oberoende av Apple Inc.
               </Strong>{" "}
-              — Apple är på inget sätt sponsor, organisatör eller
+              - Apple är på inget sätt sponsor, organisatör eller
               administratör
             </>,
             "Apple Inc. är fritaget från ansvar för rättsliga frågor eller anspråk som uppstår i Appen",
@@ -496,7 +496,7 @@ export function TermsContentSv() {
                 Eventuella priser, tävlingar, kampanjer eller
                 marknadsföring i Appen är oberoende av Google LLC
               </Strong>{" "}
-              — Google är på inget sätt sponsor, organisatör eller
+              - Google är på inget sätt sponsor, organisatör eller
               administratör
             </>,
             "Google Play Store är endast en distributionsplattform och har inget ansvar för innehållet eller driften av Appen",
@@ -533,16 +533,16 @@ export function TermsContentSv() {
                 Återbetalningsförfrågningar måste skickas till Apple eller
                 Google
               </Strong>{" "}
-              — inte direkt till Utvecklaren
+              - inte direkt till Utvecklaren
             </>,
             <>
               Betalda funktioner ger användaren endast{" "}
-              <Strong>extra upplevelse</Strong> — de påverkar inte
+              <Strong>extra upplevelse</Strong> - de påverkar inte
               tävlingsresultat eller placeringar
             </>,
             <>
               Betalda funktioner{" "}
-              <Strong>garanterar inte vinst</Strong> — alla användare är
+              <Strong>garanterar inte vinst</Strong> - alla användare är
               jämbördiga i tävlingarna
             </>,
           ]}

@@ -14,7 +14,7 @@ export const faqCs: FAQCategory[] = [
       },
       {
         q: "Jak se zaregistruji?",
-        a: "Přihlas se přes Apple nebo Google během sekund — žádná hesla, žádné ověřování e-mailem. Tvoje heslo nikdy nevidíme a žádné neukládáme.",
+        a: "Přihlas se přes Apple nebo Google během sekund - žádná hesla, žádné ověřování e-mailem. Tvoje heslo nikdy nevidíme a žádné neukládáme.",
       },
       {
         q: "Jaká zařízení jsou podporována?",
@@ -27,7 +27,7 @@ export const faqCs: FAQCategory[] = [
     items: [
       {
         q: "Jak funguje bodování?",
-        a: "Získáváš body za správné výsledky (1, X, 2), přesné skóre a střelce. Mini Hry přidávají bonusové tipy. Každý zápas má stejnou hodnotu — žádné kurzy, žádné násobitele, žádné výhry založené na štěstí.",
+        a: "Získáváš body za správné výsledky (1, X, 2), přesné skóre a střelce. Mini Hry přidávají bonusové tipy. Každý zápas má stejnou hodnotu - žádné kurzy, žádné násobitele, žádné výhry založené na štěstí.",
       },
       {
         q: "Co je Score Hunt?",
@@ -35,15 +35,15 @@ export const faqCs: FAQCategory[] = [
       },
       {
         q: "Můžu změnit své tipy?",
-        a: "Ano — můžeš editovat své tipy kdykoli před výkopem. Jakmile zápas začne, tvůj tip pro ten zápas je uzamčen.",
+        a: "Ano - můžeš editovat své tipy kdykoli před výkopem. Jakmile zápas začne, tvůj tip pro ten zápas je uzamčen.",
       },
       {
         q: "Co jsou mini hry?",
-        a: "Mini hry jsou krátké tipovací režimy, které běží mezi plnými koly Score Hunt. Rychlé zápasy, tematické týdny, stejný princip dovednosti — udržují akci v klidnějších dnech.",
+        a: "Mini hry jsou krátké tipovací režimy, které běží mezi plnými koly Score Hunt. Rychlé zápasy, tematické týdny, stejný princip dovednosti - udržují akci v klidnějších dnech.",
       },
       {
         q: "Je tohle hazard?",
-        a: "Ne. ScoreHunter neobsahuje žádné sázky, žádné kurzy, žádné finanční toky, žádné loterie. Všechny zápasy mají stejnou hodnotu a ceny jsou pouze propagační — nikdy v hotovosti.",
+        a: "Ne. ScoreHunter neobsahuje žádné sázky, žádné kurzy, žádné finanční toky, žádné loterie. Všechny zápasy mají stejnou hodnotu a ceny jsou pouze propagační - nikdy v hotovosti.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqCs: FAQCategory[] = [
     items: [
       {
         q: "Co Pro obsahuje?",
-        a: "Méně reklam, Pro exkluzivní trofeje, exkluzivní Pro odznak v žebříčcích a prioritní podporu. Pro nikdy neovlivňuje výsledky soutěže — všechny zápasy zůstávají stejně hodnotné pro každého hráče.",
+        a: "Méně reklam, Pro exkluzivní trofeje, exkluzivní Pro odznak v žebříčcích a prioritní podporu. Pro nikdy neovlivňuje výsledky soutěže - všechny zápasy zůstávají stejně hodnotné pro každého hráče.",
       },
       {
         q: "Jak se přihlásím k odběru?",
@@ -90,11 +90,11 @@ export const faqCs: FAQCategory[] = [
       },
       {
         q: "Jaká data ScoreHunter o mně ukládá?",
-        a: "Tvé uživatelské jméno, zemi, oblíbený tým, tipy a trofeje — v podstatě to, co bys čekal u hry s žebříčky. E-mail a skutečné jméno zůstávají soukromé. Plný rozpis v našich Zásadách ochrany osobních údajů.",
+        a: "Tvé uživatelské jméno, zemi, oblíbený tým, tipy a trofeje - v podstatě to, co bys čekal u hry s žebříčky. E-mail a skutečné jméno zůstávají soukromé. Plný rozpis v našich Zásadách ochrany osobních údajů.",
       },
       {
         q: "Zapomněl jsem heslo.",
-        a: "Žádné heslo není. Přihlášení probíhá přes Apple nebo Google — obnovení se děje na straně Apple/Google, ne na straně ScoreHunteru.",
+        a: "Žádné heslo není. Přihlášení probíhá přes Apple nebo Google - obnovení se děje na straně Apple/Google, ne na straně ScoreHunteru.",
       },
     ],
   },

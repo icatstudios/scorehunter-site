@@ -49,7 +49,7 @@ export function TermsContentTr() {
 
       <Divider />
 
-      <Section title="2. Hizmetin Niteliği — ÖNEMLİ">
+      <Section title="2. Hizmetin Niteliği - ÖNEMLİ">
         <SubHeading>
           2.1 ScoreHunter Bir Bahis Uygulaması Değildir
         </SubHeading>
@@ -76,7 +76,7 @@ export function TermsContentTr() {
               <Strong>kazanç çarpanı</Strong> sunulmaz
             </>,
             <>
-              Tüm maçlar tahmin açısından <Strong>eşit değerdedir</Strong> —
+              Tüm maçlar tahmin açısından <Strong>eşit değerdedir</Strong> -
               herhangi bir maçın tahmini diğerinden daha &quot;değerli&quot;
               değildir
             </>,
@@ -142,7 +142,7 @@ export function TermsContentTr() {
               oyuna katılımını teşvik etmek içindir
             </>,
             <>
-              Ödüllerin verilmesi <Strong>garanti edilmez</Strong> — yalnızca
+              Ödüllerin verilmesi <Strong>garanti edilmez</Strong> - yalnızca
               Geliştiricinin duyurduğu kampanyalar dahilinde verilir
             </>,
             <>
@@ -456,7 +456,7 @@ export function TermsContentTr() {
                 her türlü ödül, yarışma, kampanya veya promosyon Apple
                 Inc.&apos;ten bağımsızdır
               </Strong>{" "}
-              — Apple bu konularda hiçbir şekilde sponsor, organizatör veya
+              - Apple bu konularda hiçbir şekilde sponsor, organizatör veya
               yönetici değildir
             </>,
             "Uygulama içinde gerçekleşen herhangi bir yasal sorun veya talep durumunda Apple Inc., her türlü sorumluluktan muaftır",
@@ -502,10 +502,10 @@ export function TermsContentTr() {
                 her türlü ödül, yarışma, kampanya veya promosyon Google
                 LLC&apos;den bağımsızdır
               </Strong>{" "}
-              — Google bu konularda hiçbir şekilde sponsor, organizatör veya
+              - Google bu konularda hiçbir şekilde sponsor, organizatör veya
               yönetici değildir
             </>,
-            "Google Play Store, yalnızca Uygulamanın dağıtım platformudur — Uygulamanın içeriği veya işleyişi ile ilgili hiçbir sorumluluğu yoktur",
+            "Google Play Store, yalnızca Uygulamanın dağıtım platformudur - Uygulamanın içeriği veya işleyişi ile ilgili hiçbir sorumluluğu yoktur",
           ]}
         />
 
@@ -540,12 +540,12 @@ export function TermsContentTr() {
             </>,
             <>
               Ücretli özellikler, kullanıcıya{" "}
-              <Strong>yalnızca ek deneyim</Strong> sunar — yarışma sonuçlarını
+              <Strong>yalnızca ek deneyim</Strong> sunar - yarışma sonuçlarını
               veya sıralamayı etkilemez
             </>,
             <>
               Ücretli özellikler, kullanıcıya{" "}
-              <Strong>kazanma garantisi vermez</Strong> — tüm kullanıcılar
+              <Strong>kazanma garantisi vermez</Strong> - tüm kullanıcılar
               yarışmalarda eşit konumdadır
             </>,
           ]}

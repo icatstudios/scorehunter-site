@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://scorehunter.app"),
-  title: "ScoreHunter — Coming Soon",
+  title: "ScoreHunter - Coming Soon",
   description: "Something big is coming. Are you ready to hunt?",
   keywords: ["scorehunter", "coming soon", "mobile app", "gaming"],
   openGraph: {
-    title: "ScoreHunter — Coming Soon",
+    title: "ScoreHunter - Coming Soon",
     description: "Something big is coming. Are you ready to hunt?",
     url: "https://scorehunter.app",
     siteName: "ScoreHunter",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ScoreHunter — Coming Soon",
+    title: "ScoreHunter - Coming Soon",
     description: "Something big is coming. Are you ready to hunt?",
   },
   icons: {

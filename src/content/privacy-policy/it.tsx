@@ -46,7 +46,7 @@ export function PolicyContentIt() {
               primo accesso; Google li fornisce a ogni accesso)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — un identificativo
+              <Strong>Provider User ID</Strong> - un identificativo
               univoco utilizzato per riconoscere il tuo account
             </>,
           ]}
@@ -57,7 +57,7 @@ export function PolicyContentIt() {
         <List
           items={[
             <>
-              <Strong>Nome utente</Strong> (nome visualizzato — visibile
+              <Strong>Nome utente</Strong> (nome visualizzato - visibile
               nelle classifiche)
             </>,
             <>
@@ -70,11 +70,11 @@ export function PolicyContentIt() {
               <Strong>Data di nascita</Strong>
             </>,
             <>
-              <Strong>Genere</Strong> (facoltativo — opzione
+              <Strong>Genere</Strong> (facoltativo - opzione
               &quot;preferisco non specificare&quot; disponibile)
             </>,
             <>
-              <Strong>Stato dell&apos;abbonamento Pro</Strong> — se hai
+              <Strong>Stato dell&apos;abbonamento Pro</Strong> - se hai
               un&apos;iscrizione Pro attiva e la sua data di scadenza
             </>,
           ]}
@@ -114,11 +114,11 @@ export function PolicyContentIt() {
             <>
               <Strong>Versione e piattaforma dell&apos;App</Strong>{" "}
               (codice di versione, nome della versione e iOS o Android)
-              — utilizzati per fornire supporto specifico per la
+              - utilizzati per fornire supporto specifico per la
               versione e individuare problemi di compatibilità
             </>,
             <>
-              <Strong>Token per le notifiche push</Strong> — un token
+              <Strong>Token per le notifiche push</Strong> - un token
               univoco rilasciato da Apple Push Notification service
               (APNs) o Firebase Cloud Messaging (FCM) per inviarti
               promemoria delle partite, notifiche dei premi e
@@ -169,7 +169,7 @@ export function PolicyContentIt() {
         <List
           items={[
             <>
-              <Strong>Indirizzo IP</Strong> — utilizzato per scopi di
+              <Strong>Indirizzo IP</Strong> - utilizzato per scopi di
               sicurezza, inclusa la limitazione di frequenza sugli
               endpoint di autenticazione (ad es. fino a 15 tentativi di
               accesso al minuto per IP) e la prevenzione degli abusi.
@@ -177,7 +177,7 @@ export function PolicyContentIt() {
               pubblicitari.
             </>,
             <>
-              <Strong>Report di errori e crash</Strong> — utilizzati per
+              <Strong>Report di errori e crash</Strong> - utilizzati per
               monitorare la stabilità dell&apos;App. I report sono
               filtrati per escludere informazioni personali
               identificabili.
@@ -228,7 +228,7 @@ export function PolicyContentIt() {
             <>
               <Strong>Pubblicità</Strong>: per mostrare annunci
               all&apos;interno dell&apos;App e misurarne le performance
-              — vedi la sezione 8 per i dettagli
+              - vedi la sezione 8 per i dettagli
             </>,
             <>
               <Strong>Analisi e miglioramento</Strong>: per analizzare
@@ -257,7 +257,7 @@ export function PolicyContentIt() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — hosting di
+              <Strong>Amazon Web Services (AWS)</Strong> - hosting di
               server e database (Francoforte, Germania)
             </>,
             <>
@@ -265,7 +265,7 @@ export function PolicyContentIt() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — servizio di terze parti che fornisce dati delle
+              ) - servizio di terze parti che fornisce dati delle
               partite, informazioni su squadre e leghe e relativi
               contenuti visivi (loghi e immagini). Nessun dato personale
               viene condiviso con API-Football. ScoreHunter non possiede
@@ -273,22 +273,22 @@ export function PolicyContentIt() {
               servizio; vedi la sezione 11 per i dettagli.
             </>,
             <>
-              <Strong>Apple</Strong> — autenticazione Apple Sign-In
+              <Strong>Apple</Strong> - autenticazione Apple Sign-In
             </>,
             <>
-              <Strong>Google</Strong> — autenticazione Google Sign-In e
+              <Strong>Google</Strong> - autenticazione Google Sign-In e
               Firebase Cloud Messaging (notifiche push su Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — elabora gli acquisti e i
+              <Strong>Apple StoreKit</Strong> - elabora gli acquisti e i
               rinnovi dell&apos;abbonamento Pro su iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — elabora gli
+              <Strong>Google Play Billing</Strong> - elabora gli
               acquisti e i rinnovi dell&apos;abbonamento Pro su Android
             </>,
             <>
-              <Strong>Sentry</Strong> — monitoraggio degli errori e
+              <Strong>Sentry</Strong> - monitoraggio degli errori e
               delle eccezioni del back-end. Il filtraggio delle
               informazioni personali identificabili è attivo (a Sentry
               non vengono inviati e-mail, nomi o contenuti dell&apos;utente).
@@ -355,43 +355,43 @@ export function PolicyContentIt() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -658,7 +658,7 @@ export function PolicyContentIt() {
       <Section title="9. Trasferimenti internazionali di dati">
         <p>
           I tuoi dati possono essere trattati al di fuori del tuo paese
-          di residenza (AWS Francoforte — Unione Europea, nonché nei
+          di residenza (AWS Francoforte - Unione Europea, nonché nei
           data center dei partner pubblicitari elencati nella sezione
           3.4, che possono trovarsi al di fuori dell&apos;UE). Tali
           trasferimenti rispettano gli standard di sicurezza richiesti
@@ -686,7 +686,7 @@ export function PolicyContentIt() {
           squadre, nomi di leghe, nomi di giocatori e contenuti visivi
           (come loghi di squadre e leghe) forniti dal nostro provider
           di dati API-Football. Questi nomi, loghi e marchi sono di
-          proprietà dei rispettivi titolari — inclusi club, leghe,
+          proprietà dei rispettivi titolari - inclusi club, leghe,
           federazioni e altri titolari dei diritti.
         </p>
         <p>

@@ -27,3 +27,6 @@ next-env.d.ts
 
 # Local Claude settings
 .claude/
+
+# Local preview launch config (machine-specific)
+.claude/

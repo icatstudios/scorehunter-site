@@ -31,7 +31,7 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
   const meta = dict.leaderboards;
   return {
-    title: `${meta?.title ?? "Leaderboards"} — ScoreHunter`,
+    title: `${meta?.title ?? "Leaderboards"} - ScoreHunter`,
     description: meta?.subtitle ?? "Live ScoreHunter rankings",
     alternates: {
       canonical: `/${locale}/leaderboards`,
@@ -99,7 +99,7 @@ export default async function LeaderboardsPage({
           </div>
 
           {/* Sub-header: Top 100 (left) + season name (right). Participant
-              count is hidden until the player base grows — sparse boards
+              count is hidden until the player base grows - sparse boards
               read better without "X katılımcı" telling visitors how empty
               the table is. */}
           {seasonLabel && (

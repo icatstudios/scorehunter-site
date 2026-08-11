@@ -51,7 +51,7 @@ export function TermsContentPtPt() {
 
       <Divider />
 
-      <Section title="2. Natureza do Serviço — IMPORTANTE">
+      <Section title="2. Natureza do Serviço - IMPORTANTE">
         <SubHeading>
           2.1 O ScoreHunter não é uma aplicação de apostas
         </SubHeading>
@@ -85,7 +85,7 @@ export function TermsContentPtPt() {
             </>,
             <>
               Todos os jogos têm o{" "}
-              <Strong>mesmo valor</Strong> para efeitos de palpite —
+              <Strong>mesmo valor</Strong> para efeitos de palpite -
               nenhum jogo &quot;vale mais&quot; do que outro
             </>,
             <>
@@ -138,7 +138,7 @@ export function TermsContentPtPt() {
               <Strong>
                 não influenciam os resultados dos concursos
               </Strong>{" "}
-              — apenas oferecem funcionalidades adicionais que
+              - apenas oferecem funcionalidades adicionais que
               melhoram a experiência do utilizador
             </>,
           ]}
@@ -161,13 +161,13 @@ export function TermsContentPtPt() {
               incentivar o envolvimento dos utilizadores
             </>,
             <>
-              Os prémios <Strong>NÃO são garantidos</Strong> — apenas
+              Os prémios <Strong>NÃO são garantidos</Strong> - apenas
               são atribuídos no âmbito de campanhas anunciadas pelo
               Programador
             </>,
             <>
               Os prémios{" "}
-              <Strong>NÃO são entregues em dinheiro</Strong> —
+              <Strong>NÃO são entregues em dinheiro</Strong> -
               são fornecidos apenas como ofertas físicas ou digitais
             </>,
             <>
@@ -319,7 +319,7 @@ export function TermsContentPtPt() {
           de equipas e ligas, nomes de jogadores e elementos visuais
           como logótipos de equipas e ligas. Esse conteúdo é
           fornecido através do nosso parceiro de dados API-Football
-          e é propriedade dos respetivos titulares — incluindo
+          e é propriedade dos respetivos titulares - incluindo
           clubes, ligas, federações e outros titulares de direitos.
           O ScoreHunter não reivindica a propriedade de quaisquer
           marcas, logótipos ou material protegido por direitos de
@@ -497,7 +497,7 @@ export function TermsContentPtPt() {
                 disponibilizados na Aplicação são independentes da
                 Apple Inc.
               </Strong>{" "}
-              — a Apple não é, em caso algum, patrocinadora,
+              - a Apple não é, em caso algum, patrocinadora,
               organizadora ou administradora dessas iniciativas
             </>,
             "A Apple Inc. está isenta de qualquer responsabilidade por questões legais ou reclamações que surjam dentro da Aplicação",
@@ -545,7 +545,7 @@ export function TermsContentPtPt() {
                 disponibilizados na Aplicação são independentes da
                 Google LLC
               </Strong>{" "}
-              — a Google não é, em caso algum, patrocinadora,
+              - a Google não é, em caso algum, patrocinadora,
               organizadora ou administradora dessas iniciativas
             </>,
             "A Google Play Store é apenas uma plataforma de distribuição da Aplicação e não tem qualquer responsabilidade pelo conteúdo ou funcionamento da Aplicação",
@@ -584,17 +584,17 @@ export function TermsContentPtPt() {
                 Os pedidos de reembolso devem ser apresentados à
                 Apple ou à Google
               </Strong>{" "}
-              — não podem ser apresentados diretamente ao Programador
+              - não podem ser apresentados diretamente ao Programador
             </>,
             <>
               As funcionalidades pagas oferecem ao utilizador apenas
-              uma <Strong>experiência adicional</Strong> — não
+              uma <Strong>experiência adicional</Strong> - não
               influenciam os resultados dos concursos nem os
               rankings
             </>,
             <>
               As funcionalidades pagas{" "}
-              <Strong>não garantem vitória</Strong> — todos os
+              <Strong>não garantem vitória</Strong> - todos os
               utilizadores estão em pé de igualdade nos concursos
             </>,
           ]}

@@ -34,7 +34,7 @@ export function LeaderboardTable({
   if (entries.length === 0) {
     return (
       <div className="rounded-2xl glass-card p-10 text-center text-text-muted">
-        —
+        -
       </div>
     );
   }
@@ -129,7 +129,7 @@ function Row({
 
 function UserAvatar({ entry }: { entry: LeaderboardEntry }) {
   // Pro users get a gold ring + a small crown overlay at the top-right
-  // (mirrors iOS ProfileAvatarCrown — FontAwesome , gold, 30° tilt).
+  // (mirrors iOS ProfileAvatarCrown - FontAwesome , gold, 30° tilt).
   const ring = entry.isPro
     ? "ring-2 ring-yellow-400/55 shadow-[0_0_10px_rgba(255,215,0,0.25)]"
     : "ring-1 ring-white/10";
@@ -160,7 +160,7 @@ function ProCrown() {
       style={{ transform: "rotate(20deg)" }}
       fill="currentColor"
     >
-      {/* Solid crown — 5 spikes, base bar */}
+      {/* Solid crown - 5 spikes, base bar */}
       <path d="M3 7.5l3.5 4 3-5 2.5 5 3-5 2.5 5L21 7.5l-1.6 9.3a1.5 1.5 0 0 1-1.5 1.2H6.1a1.5 1.5 0 0 1-1.5-1.2L3 7.5zm2.4 11.4h13.2v1.4a1.2 1.2 0 0 1-1.2 1.2H6.6a1.2 1.2 0 0 1-1.2-1.2v-1.4z" />
     </svg>
   );
@@ -174,7 +174,7 @@ function GroupLogo({ entry }: { entry: LeaderboardEntry }) {
       </div>
     );
   }
-  // Country logos point at /sh/images/flag/64/ — bump to /128/ for retina.
+  // Country logos point at /sh/images/flag/64/ - bump to /128/ for retina.
   // Club logos come from api-sports CDN at native (already high) res.
   const src = flagUrlAtSize(entry.groupLogoUrl, 128);
   // Wrap the image in a fixed-size frame so EVERY row has the same logo

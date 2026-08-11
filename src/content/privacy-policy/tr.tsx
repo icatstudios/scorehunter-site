@@ -44,7 +44,7 @@ export function PolicyContentTr() {
               sırasında, Google her giriş sırasında sağlar)
             </>,
             <>
-              <Strong>Benzersiz kimlik (Provider User ID)</Strong> —
+              <Strong>Benzersiz kimlik (Provider User ID)</Strong> -
               hesabınızı tanımlamak için
             </>,
           ]}
@@ -55,7 +55,7 @@ export function PolicyContentTr() {
         <List
           items={[
             <>
-              <Strong>Kullanıcı adı</Strong> (gösterim adı — sıralamalarda
+              <Strong>Kullanıcı adı</Strong> (gösterim adı - sıralamalarda
               görünür)
             </>,
             <>
@@ -68,11 +68,11 @@ export function PolicyContentTr() {
               <Strong>Doğum tarihi</Strong>
             </>,
             <>
-              <Strong>Cinsiyet</Strong> (opsiyonel — &quot;belirtmek
+              <Strong>Cinsiyet</Strong> (opsiyonel - &quot;belirtmek
               istemiyorum&quot; seçeneği mevcuttur)
             </>,
             <>
-              <Strong>Pro abonelik durumu</Strong> — aktif bir Pro
+              <Strong>Pro abonelik durumu</Strong> - aktif bir Pro
               üyeliğinizin olup olmadığı ve son kullanma tarihi
             </>,
           ]}
@@ -102,7 +102,7 @@ export function PolicyContentTr() {
         <List
           items={[
             <>
-              <Strong>Cihaz kimliği</Strong> (Device ID — anonim oturum
+              <Strong>Cihaz kimliği</Strong> (Device ID - anonim oturum
               yönetimi için)
             </>,
             <>
@@ -110,11 +110,11 @@ export function PolicyContentTr() {
             </>,
             <>
               <Strong>Uygulama sürümü ve platform</Strong> (sürüm kodu, sürüm
-              adı ve iOS mu Android mi olduğu) — sürüme özel destek sağlamak
+              adı ve iOS mu Android mi olduğu) - sürüme özel destek sağlamak
               ve uyumluluk sorunlarını tespit etmek için kullanılır
             </>,
             <>
-              <Strong>Push bildirim tokenı</Strong> — Apple Push Notification
+              <Strong>Push bildirim tokenı</Strong> - Apple Push Notification
               service (APNs) veya Firebase Cloud Messaging (FCM) tarafından
               verilen benzersiz bir token; maç hatırlatmaları, ödül
               bildirimleri ve önemli duyuruları size iletmek için
@@ -158,14 +158,14 @@ export function PolicyContentTr() {
         <List
           items={[
             <>
-              <Strong>IP adresi</Strong> — kimlik doğrulama uç noktalarında
+              <Strong>IP adresi</Strong> - kimlik doğrulama uç noktalarında
               hız sınırlandırması (örn. IP başına dakikada en fazla 15 giriş
               denemesi) ve kötüye kullanım önleme dahil güvenlik amaçlarıyla
               kullanılır. IP adreslerini reklam profili oluşturmak için
               kullanmıyoruz.
             </>,
             <>
-              <Strong>Hata ve çökme raporları</Strong> — uygulama
+              <Strong>Hata ve çökme raporları</Strong> - uygulama
               stabilitesini izlemek için kullanılır. Raporlar, kişisel
               tanımlayıcı bilgileri içermeyecek şekilde filtrelenir.
             </>,
@@ -211,7 +211,7 @@ export function PolicyContentTr() {
             </>,
             <>
               <Strong>Reklamcılık</Strong>: Uygulama içinde reklam göstermek
-              ve performansını ölçmek — ayrıntılar için 8. bölüme bakın
+              ve performansını ölçmek - ayrıntılar için 8. bölüme bakın
             </>,
             <>
               <Strong>Analitik ve iyileştirme</Strong>: Kullanım
@@ -239,7 +239,7 @@ export function PolicyContentTr() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — Sunucu ve
+              <Strong>Amazon Web Services (AWS)</Strong> - Sunucu ve
               veritabanı barındırma (Frankfurt, Almanya)
             </>,
             <>
@@ -247,7 +247,7 @@ export function PolicyContentTr() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — Maç verileri, takım ve lig bilgileri ile bunlara ait
+              ) - Maç verileri, takım ve lig bilgileri ile bunlara ait
               görsel materyalleri (logolar ve görseller) sağlayan üçüncü
               taraf servis. API-Football ile kişisel verileriniz
               paylaşılmaz. ScoreHunter, bu hizmet üzerinden gelen logolar
@@ -255,22 +255,22 @@ export function PolicyContentTr() {
               ayrıntılar için 11. bölüme bakın.
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In kimlik doğrulama
+              <Strong>Apple</Strong> - Apple Sign-In kimlik doğrulama
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In kimlik doğrulama ve
+              <Strong>Google</Strong> - Google Sign-In kimlik doğrulama ve
               Firebase Cloud Messaging (Android&apos;de push bildirimleri)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — iOS&apos;ta Pro abonelik
+              <Strong>Apple StoreKit</Strong> - iOS&apos;ta Pro abonelik
               satın alımlarını ve yenilemelerini işler
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — Android&apos;de Pro
+              <Strong>Google Play Billing</Strong> - Android&apos;de Pro
               abonelik satın alımlarını ve yenilemelerini işler
             </>,
             <>
-              <Strong>Sentry</Strong> — Backend hata ve istisna izleme
+              <Strong>Sentry</Strong> - Backend hata ve istisna izleme
               servisi. Kişisel tanımlayıcı bilgi filtreleme aktiftir
               (Sentry&apos;ye e-posta, isim veya kullanıcı içeriği
               gönderilmez).
@@ -332,43 +332,43 @@ export function PolicyContentTr() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -619,7 +619,7 @@ export function PolicyContentTr() {
 
       <Section title="9. Uluslararası Veri Aktarımı">
         <p>
-          Verileriniz Türkiye dışında (AWS Frankfurt — Avrupa Birliği ve 3.4
+          Verileriniz Türkiye dışında (AWS Frankfurt - Avrupa Birliği ve 3.4
           bölümünde listelenen, AB dışında bulunabilen reklam ortaklarımızın
           veri merkezleri) işlenebilir. Bu aktarımlar, GDPR ve KVKK&apos;nın
           gerekli güvenlik standartlarına uygundur.

@@ -49,7 +49,7 @@ export function TermsContentDa() {
 
       <Divider />
 
-      <Section title="2. Tjenestens karakter — VIGTIGT">
+      <Section title="2. Tjenestens karakter - VIGTIGT">
         <SubHeading>2.1 ScoreHunter er ikke en gambling-app</SubHeading>
         <p>
           ScoreHunter er en{" "}
@@ -77,7 +77,7 @@ export function TermsContentDa() {
             </>,
             <>
               Alle kampe er{" "}
-              <Strong>lige meget værd</Strong> for forudsigelser — ingen
+              <Strong>lige meget værd</Strong> for forudsigelser - ingen
               kamp er &quot;mere værd&quot; end andre
             </>,
             <>
@@ -123,7 +123,7 @@ export function TermsContentDa() {
             </>,
             <>
               Betalte funktioner som Pro-medlemskab{" "}
-              <Strong>påvirker ikke konkurrenceresultater</Strong> — de
+              <Strong>påvirker ikke konkurrenceresultater</Strong> - de
               tilbyder kun ekstra funktioner, der forbedrer
               brugeroplevelsen
             </>,
@@ -146,11 +146,11 @@ export function TermsContentDa() {
               at fremme brugerengagement
             </>,
             <>
-              Præmier er <Strong>IKKE garanterede</Strong> — de tildeles
+              Præmier er <Strong>IKKE garanterede</Strong> - de tildeles
               kun inden for kampagner, som Udvikleren annoncerer
             </>,
             <>
-              Præmier udbetales <Strong>IKKE som kontanter</Strong> — kun
+              Præmier udbetales <Strong>IKKE som kontanter</Strong> - kun
               som fysiske eller digitale gaver
             </>,
             <>
@@ -292,7 +292,7 @@ export function TermsContentDa() {
           til, fodboldkampdata, hold- og liganavne, spillernavne samt
           visuelle aktiver som hold- og ligalogoer. Indholdet leveres
           gennem vores datapartner API-Football og er ejet af de
-          respektive ejere — klubber, ligaer, forbund og andre
+          respektive ejere - klubber, ligaer, forbund og andre
           rettighedshavere. ScoreHunter gør ikke krav på ejendomsret over
           tredjeparts varemærker, logoer eller ophavsretligt beskyttet
           materiale, der vises i Appen.
@@ -453,7 +453,7 @@ export function TermsContentDa() {
                 Eventuelle præmier, konkurrencer, kampagner eller
                 kampagnetilbud i Appen er uafhængige af Apple Inc.
               </Strong>{" "}
-              — Apple er på ingen måde sponsor, arrangør eller
+              - Apple er på ingen måde sponsor, arrangør eller
               administrator
             </>,
             "Apple Inc. er fritaget for ansvar for retlige spørgsmål eller krav, der måtte opstå i Appen",
@@ -496,7 +496,7 @@ export function TermsContentDa() {
                 Eventuelle præmier, konkurrencer, kampagner eller
                 kampagnetilbud i Appen er uafhængige af Google LLC
               </Strong>{" "}
-              — Google er på ingen måde sponsor, arrangør eller
+              - Google er på ingen måde sponsor, arrangør eller
               administrator
             </>,
             "Google Play Store er udelukkende en distributionsplatform og har intet ansvar for indholdet eller driften af Appen",
@@ -532,16 +532,16 @@ export function TermsContentDa() {
               <Strong>
                 Refusionsanmodninger skal fremsendes til Apple eller Google
               </Strong>{" "}
-              — ikke direkte til Udvikleren
+              - ikke direkte til Udvikleren
             </>,
             <>
               Betalte funktioner giver brugeren kun{" "}
-              <Strong>en ekstra oplevelse</Strong> — de påvirker ikke
+              <Strong>en ekstra oplevelse</Strong> - de påvirker ikke
               konkurrenceresultater eller placeringer
             </>,
             <>
               Betalte funktioner{" "}
-              <Strong>giver ingen sejrsgaranti</Strong> — alle brugere er
+              <Strong>giver ingen sejrsgaranti</Strong> - alle brugere er
               lige i konkurrencerne
             </>,
           ]}

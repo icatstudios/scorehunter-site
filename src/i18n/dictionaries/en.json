@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — Coming Soon",
+    "comingSoonTitle": "ScoreHunter - Coming Soon",
     "comingSoonDescription": "Something big is coming. Are you ready to hunt?",
-    "homeTitle": "ScoreHunter — Football prediction game",
+    "homeTitle": "ScoreHunter - Football prediction game",
     "homeDescription": "Predict football. Compete with friends. Climb the leaderboards. The skill-based football prediction game from iCat Studios.",
-    "deleteAccountTitle": "Delete Account — ScoreHunter",
+    "deleteAccountTitle": "Delete Account - ScoreHunter",
     "deleteAccountDescription": "Request the deletion of your ScoreHunter account and all associated data.",
-    "privacyPolicyTitle": "Privacy Policy — ScoreHunter",
+    "privacyPolicyTitle": "Privacy Policy - ScoreHunter",
     "privacyPolicyDescription": "Learn how ScoreHunter collects, uses, and protects your personal data.",
-    "termsOfUseTitle": "Terms of Use — ScoreHunter",
+    "termsOfUseTitle": "Terms of Use - ScoreHunter",
     "termsOfUseDescription": "Read the Terms of Use that govern your access to and use of the ScoreHunter application.",
-    "supportTitle": "Support — ScoreHunter",
+    "supportTitle": "Support - ScoreHunter",
     "supportDescription": "Need help with ScoreHunter? Reach our support team by email.",
-    "featuresTitle": "Features — ScoreHunter",
+    "featuresTitle": "Features - ScoreHunter",
     "featuresDescription": "Everything ScoreHunter offers: weekly predictions, mini games, leagues, trophies, Pro membership, and live tracking.",
-    "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Answers to the most common questions about ScoreHunter — gameplay, leagues, Pro membership, account, and more."
+    "faqTitle": "FAQ - ScoreHunter",
+    "faqDescription": "Answers to the most common questions about ScoreHunter - gameplay, leagues, Pro membership, account, and more."
   },
   "nav": {
     "backToHome": "Back to Home"
@@ -68,7 +68,8 @@
       "features": "Features",
       "faq": "FAQ",
       "support": "Support",
-      "leaderboards": "Leaderboards"
+      "leaderboards": "Leaderboards",
+      "rewards": "Rewards"
     },
     "hero": {
       "eyebrow": "iCat Studios presents",
@@ -104,15 +105,15 @@
       "eyebrow": "How to play",
       "title": "All you need is a passion for football",
       "howTitle": "How to play",
-      "howIntro": "ScoreHunter rewards football knowledge. No coupons, no handicaps, no odds — none of that betting jargon. Every league, every match, every team has equal value and importance. Every player starts with the same shot.",
+      "howIntro": "ScoreHunter rewards football knowledge. No coupons, no handicaps, no odds - none of that betting jargon. Every league, every match, every team has equal value and importance. Every player starts with the same shot.",
       "howItems": [
         "Each week, a curated set of fixtures unlocks for predictions.",
         "Players are expected to make predictions on those matches in Score Hunt and Mini Games modes.",
         "Players earn points based on the results of the predictions they make.",
-        "There are three separate rankings — Overall, Score Hunt, and Mini Games. Each week, the players in 1st, 2nd, and 3rd place are awarded trophies.",
+        "There are three separate rankings - Overall, Score Hunt, and Mini Games. Each week, the players in 1st, 2nd, and 3rd place are awarded trophies.",
         "The Overall ranking each week is calculated as the sum of points earned in Score Hunt and Mini Games.",
         "In rewarded seasons, prizes are distributed based on Overall ranking achievements.",
-        "In Score Hunt, players are expected to predict scores for 12 matches in total — 10 main and 2 bonus.",
+        "In Score Hunt, players are expected to predict scores for 12 matches in total - 10 main and 2 bonus.",
         "Predictions are scored in detail across multiple criteria: correct win direction, correct draw, correct goal count, correct goal difference, correct exact score, and correct rare prediction.",
         "In Score Hunt, players can apply the 2X joker to one of their picks to double the points earned from that match.",
         "Bonus predictions replace the lowest-scoring picks among the main predictions.",
@@ -239,13 +240,13 @@
         "Predictions are scored on regular time only (90 minutes). Extra time and penalty shootouts do not count.",
         "No points are awarded for matches that are postponed, cancelled, or suspended.",
         "The Overall ranking is calculated weekly: Score Hunt + Mini Games combined.",
-        "Results are calculated automatically when the week ends. Match scores are updated live — you can follow along in real time.",
-        "When there is a points tie in the standings, the tie is broken in this order: first by total season points, then by the number of gold, silver, and bronze trophies won — from highest to lowest.",
+        "Results are calculated automatically when the week ends. Match scores are updated live - you can follow along in real time.",
+        "When there is a points tie in the standings, the tie is broken in this order: first by total season points, then by the number of gold, silver, and bronze trophies won - from highest to lowest.",
         "AI-powered anomaly detection runs during scoring. All lists from users found cheating are voided.",
         "You must be 13 or older to take part."
       ],
-      "rewardsTitle": "Rewards",
-      "rewardsPlaceholder": "Because our launch falls in the closing weeks of the 2025-2026 season, a fair competitive environment isn't possible — so we've named the rest of the season the \"Training Season\".\n\nUse this season to explore the game and share any bugs or suggestions with us, and get ready for the World Cup Season.\n\nOur rewarded seasons begin with the World Cup. Until then, stay tuned and stick with us."
+      "showMore": "Show all",
+      "showLess": "Show less"
     },
     "features": {
       "eyebrow": "Features",
@@ -267,7 +268,7 @@
         },
         {
           "title": "Trophies",
-          "description": "Top 3 finishers in weekly and seasonal rankings add a trophy to their cabinet — and qualify for the Champions League the following season."
+          "description": "Top 3 finishers in weekly and seasonal rankings add a trophy to their cabinet - and qualify for the Champions League the following season."
         },
         {
           "title": "Pro Membership",
@@ -292,15 +293,15 @@
       "items": [
         {
           "q": "Is ScoreHunter free?",
-          "a": "Yes — fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
+          "a": "Yes - fully free to download and play. There's an optional Pro membership for extras like reduced ads, but the core game is free for everyone."
         },
         {
           "q": "Is this gambling?",
-          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only — never cash."
+          "a": "No. ScoreHunter has no betting, no odds, no money in or out. All matches are equal value and prizes are promotional only - never cash."
         },
         {
           "q": "Do I need an account?",
-          "a": "Yes. Sign in with Apple or Google in seconds — no passwords, no email verification."
+          "a": "Yes. Sign in with Apple or Google in seconds - no passwords, no email verification."
         },
         {
           "q": "Can I play with friends?",
@@ -365,10 +366,10 @@
     "topics": {
       "accountLabel": "Account & Login",
       "accountDescription": "Sign-in problems, username, profile changes",
-      "accountSubject": "Support — Account & Login",
+      "accountSubject": "Support - Account & Login",
       "billingLabel": "Subscription & Billing",
       "billingDescription": "Pro membership, payments, refunds",
-      "billingSubject": "Support — Subscription & Billing",
+      "billingSubject": "Support - Subscription & Billing",
       "bugLabel": "Report a Bug",
       "bugDescription": "Something isn't working as expected",
       "bugSubject": "Bug Report",
@@ -412,5 +413,86 @@
     },
     "topN": "Top 100",
     "participants": "participants"
+  },
+  "rewards": {
+    "eyebrow": "Rewards",
+    "title": "Rewards",
+    "subtitle": "Prizes in ScoreHunter are real. Finish the season on top and you don't leave empty-handed.",
+    "season": {
+      "title": "End of Season Prizes",
+      "label": "2026-2027 Season",
+      "startLabel": "The season starts on 14 August.",
+      "intro": "These prizes go to the players who finish the season at the top of the Overall Rankings.",
+      "sponsoredLabel": "Sponsored Prize",
+      "sponsoredNote": "Sponsored Prizes will be announced after the season begins.",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "Sponsored Prize"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "Weekly Prizes",
+      "lockedBadge": "Coming soon",
+      "intro": "We want to reward the top players every single week, not just at the end of the season.",
+      "progressLabel": "Active players",
+      "targetLabel": "target",
+      "explain": "For weekly prizes to be fair and sustainable we need a large enough player base. Once we reach 10,000 active players, weekly prizes switch on automatically and will be announced on this page.",
+      "helpNote": "Invite your friends and we'll get there together, faster.",
+      "target": 10000
+    },
+    "rules": {
+      "title": "Prize Rules",
+      "items": [
+        "Prizes are awarded to the top 20 players in the Overall Rankings at the end of the season. Weekly and mode-specific rankings do not affect season prizes.",
+        "If players are tied on points, the ranking is decided by total season points, then by the number of gold, silver and bronze trophies won.",
+        "ScoreHunter is not a betting or gambling game. Playing is free, there are no deposits, and no cash prizes are awarded under any circumstances. Prizes consist solely of the physical products listed above.",
+        "Winners are notified by in-app notification and email after the season ends.",
+        "Delivery requires your full name, address and contact details. If these aren't provided within 30 days, the prize passes to the next player in the ranking.",
+        "Prizes cannot be exchanged for cash or transferred to another person. Subject to stock, a prize may be replaced with an equivalent product.",
+        "Shipping is covered by iCat Studios. Any customs duties or taxes in your country are the winner's responsibility.",
+        "Players found cheating, using multiple accounts or breaching the rules forfeit their prize.",
+        "Winners under 18 need parental consent before a prize can be delivered.",
+        "These prizes and this contest are entirely independent of Apple Inc. and Google LLC. Apple and Google are in no way a sponsor, organizer or administrator; prize fulfilment and all associated responsibility rest with iCat Studios.",
+        "iCat Studios reserves the right to update the prize list."
+      ]
+    },
+    "preview": {
+      "eyebrow": "Rewards",
+      "title": "Finish the season on top, take the prize",
+      "subtitle": "Everyone who finishes the 2026-2027 season in the top 20 of the Overall Rankings wins a prize.",
+      "viewAll": "See all prizes"
+    }
   }
 }

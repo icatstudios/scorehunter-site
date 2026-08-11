@@ -14,7 +14,7 @@ export const faqNl: FAQCategory[] = [
       },
       {
         q: "Hoe meld ik me aan?",
-        a: "Log binnen seconden in met Apple of Google — geen wachtwoorden, geen e-mailverificatie. We zien je wachtwoord nooit en slaan er geen op.",
+        a: "Log binnen seconden in met Apple of Google - geen wachtwoorden, geen e-mailverificatie. We zien je wachtwoord nooit en slaan er geen op.",
       },
       {
         q: "Welke apparaten worden ondersteund?",
@@ -27,7 +27,7 @@ export const faqNl: FAQCategory[] = [
     items: [
       {
         q: "Hoe werkt de puntentelling?",
-        a: "Je verdient punten voor juiste uitslagen (1, X, 2), exacte scores en doelpuntenmakers. Minispelen voegen bonustips toe. Elke wedstrijd is even veel waard — geen quoteringen, geen multipliers, geen geluksuitkeringen.",
+        a: "Je verdient punten voor juiste uitslagen (1, X, 2), exacte scores en doelpuntenmakers. Minispelen voegen bonustips toe. Elke wedstrijd is even veel waard - geen quoteringen, geen multipliers, geen geluksuitkeringen.",
       },
       {
         q: "Wat is een Score Hunt?",
@@ -35,15 +35,15 @@ export const faqNl: FAQCategory[] = [
       },
       {
         q: "Kan ik mijn voorspellingen wijzigen?",
-        a: "Ja — je kunt je voorspellingen op elk moment vóór de aftrap bewerken. Zodra een wedstrijd start, is je voorspelling voor die wedstrijd vergrendeld.",
+        a: "Ja - je kunt je voorspellingen op elk moment vóór de aftrap bewerken. Zodra een wedstrijd start, is je voorspelling voor die wedstrijd vergrendeld.",
       },
       {
         q: "Wat zijn minispelen?",
-        a: "Minispelen zijn voorspelmodi in kort formaat die tussen volledige Score Hunt-rondes door lopen. Snelle wedstrijden, themaweken, hetzelfde skill-principe — ze houden de gang erin op rustige speeldagen.",
+        a: "Minispelen zijn voorspelmodi in kort formaat die tussen volledige Score Hunt-rondes door lopen. Snelle wedstrijden, themaweken, hetzelfde skill-principe - ze houden de gang erin op rustige speeldagen.",
       },
       {
         q: "Is dit gokken?",
-        a: "Nee. ScoreHunter bevat geen weddenschappen, geen quoteringen, geen geld in of uit, geen loterijen. Alle wedstrijden zijn even veel waard en prijzen zijn alleen promotioneel — nooit in geld.",
+        a: "Nee. ScoreHunter bevat geen weddenschappen, geen quoteringen, geen geld in of uit, geen loterijen. Alle wedstrijden zijn even veel waard en prijzen zijn alleen promotioneel - nooit in geld.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqNl: FAQCategory[] = [
     items: [
       {
         q: "Wat zit er bij Pro?",
-        a: "Minder advertenties, Pro-exclusieve trofeeën, een exclusieve Pro-badge op ranglijsten en prioriteitssupport. Pro beïnvloedt nooit competitieresultaten — alle wedstrijden blijven voor elke speler even veel waard.",
+        a: "Minder advertenties, Pro-exclusieve trofeeën, een exclusieve Pro-badge op ranglijsten en prioriteitssupport. Pro beïnvloedt nooit competitieresultaten - alle wedstrijden blijven voor elke speler even veel waard.",
       },
       {
         q: "Hoe sluit ik een abonnement af?",
@@ -90,11 +90,11 @@ export const faqNl: FAQCategory[] = [
       },
       {
         q: "Welke gegevens slaat ScoreHunter over mij op?",
-        a: "Je gebruikersnaam, land, favoriete club, voorspellingen en trofeeën — kortom wat je verwacht voor een ranglijstspel. E-mail en echte naam blijven privé. Volledig overzicht in ons Privacybeleid.",
+        a: "Je gebruikersnaam, land, favoriete club, voorspellingen en trofeeën - kortom wat je verwacht voor een ranglijstspel. E-mail en echte naam blijven privé. Volledig overzicht in ons Privacybeleid.",
       },
       {
         q: "Ik ben mijn wachtwoord vergeten.",
-        a: "Er is geen wachtwoord. Inloggen loopt via Apple of Google — herstel gebeurt aan de Apple/Google-kant, niet bij ScoreHunter.",
+        a: "Er is geen wachtwoord. Inloggen loopt via Apple of Google - herstel gebeurt aan de Apple/Google-kant, niet bij ScoreHunter.",
       },
     ],
   },

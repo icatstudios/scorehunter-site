@@ -14,7 +14,7 @@ export const faqPtBr: FAQCategory[] = [
       },
       {
         q: "Como faço para me cadastrar?",
-        a: "Faça login com Apple ou Google em segundos — sem senhas, sem verificação por e-mail. Nunca vemos sua senha e nunca guardamos uma.",
+        a: "Faça login com Apple ou Google em segundos - sem senhas, sem verificação por e-mail. Nunca vemos sua senha e nunca guardamos uma.",
       },
       {
         q: "Quais dispositivos são suportados?",
@@ -27,7 +27,7 @@ export const faqPtBr: FAQCategory[] = [
     items: [
       {
         q: "Como funciona a pontuação?",
-        a: "Você ganha pontos por acertos no resultado (1, X, 2), placares exatos e marcadores. Os Mini Jogos adicionam previsões bônus. Toda partida vale o mesmo — sem cotações, sem multiplicadores, sem prêmios na sorte.",
+        a: "Você ganha pontos por acertos no resultado (1, X, 2), placares exatos e marcadores. Os Mini Jogos adicionam previsões bônus. Toda partida vale o mesmo - sem cotações, sem multiplicadores, sem prêmios na sorte.",
       },
       {
         q: "O que é um Score Hunt?",
@@ -35,15 +35,15 @@ export const faqPtBr: FAQCategory[] = [
       },
       {
         q: "Posso mudar minhas previsões?",
-        a: "Sim — você pode editar suas previsões a qualquer momento antes do apito inicial. Quando uma partida começa, sua previsão para aquela partida é travada.",
+        a: "Sim - você pode editar suas previsões a qualquer momento antes do apito inicial. Quando uma partida começa, sua previsão para aquela partida é travada.",
       },
       {
         q: "O que são os mini jogos?",
-        a: "Mini jogos são modos de previsão de formato curto que rodam entre as rodadas completas de Score Hunt. Partidas rápidas, semanas temáticas, mesmo princípio de habilidade — mantêm o ritmo nos dias mais calmos.",
+        a: "Mini jogos são modos de previsão de formato curto que rodam entre as rodadas completas de Score Hunt. Partidas rápidas, semanas temáticas, mesmo princípio de habilidade - mantêm o ritmo nos dias mais calmos.",
       },
       {
         q: "Isso é aposta?",
-        a: "Não. ScoreHunter não tem apostas, nem cotações, nem dinheiro entrando ou saindo, nem loterias. Todas as partidas têm o mesmo valor e os prêmios são apenas promocionais — nunca em dinheiro.",
+        a: "Não. ScoreHunter não tem apostas, nem cotações, nem dinheiro entrando ou saindo, nem loterias. Todas as partidas têm o mesmo valor e os prêmios são apenas promocionais - nunca em dinheiro.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqPtBr: FAQCategory[] = [
     items: [
       {
         q: "O que a assinatura Pro inclui?",
-        a: "Menos anúncios, troféus exclusivos Pro, um emblema Pro exclusivo nos rankings e suporte prioritário. Pro nunca afeta os resultados da competição — todas as partidas mantêm o mesmo valor para cada jogador.",
+        a: "Menos anúncios, troféus exclusivos Pro, um emblema Pro exclusivo nos rankings e suporte prioritário. Pro nunca afeta os resultados da competição - todas as partidas mantêm o mesmo valor para cada jogador.",
       },
       {
         q: "Como faço para assinar?",
@@ -90,11 +90,11 @@ export const faqPtBr: FAQCategory[] = [
       },
       {
         q: "Quais dados o ScoreHunter guarda sobre mim?",
-        a: "Seu nome de usuário, país, time favorito, previsões e troféus — basicamente o que se espera de um jogo de ranking. E-mail e nome real ficam privados. Detalhamento completo na nossa Política de Privacidade.",
+        a: "Seu nome de usuário, país, time favorito, previsões e troféus - basicamente o que se espera de um jogo de ranking. E-mail e nome real ficam privados. Detalhamento completo na nossa Política de Privacidade.",
       },
       {
         q: "Esqueci minha senha.",
-        a: "Não há senha. O login passa pela Apple ou Google — a recuperação acontece no lado da Apple/Google, não no ScoreHunter.",
+        a: "Não há senha. O login passa pela Apple ou Google - a recuperação acontece no lado da Apple/Google, não no ScoreHunter.",
       },
     ],
   },

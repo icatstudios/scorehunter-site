@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — Kommer snart",
+    "comingSoonTitle": "ScoreHunter - Kommer snart",
     "comingSoonDescription": "Något stort är på väg. Redo för jakten?",
-    "deleteAccountTitle": "Radera konto — ScoreHunter",
+    "deleteAccountTitle": "Radera konto - ScoreHunter",
     "deleteAccountDescription": "Begär radering av ditt ScoreHunter-konto och all tillhörande data.",
-    "privacyPolicyTitle": "Integritetspolicy — ScoreHunter",
+    "privacyPolicyTitle": "Integritetspolicy - ScoreHunter",
     "privacyPolicyDescription": "Lär dig hur ScoreHunter samlar in, använder och skyddar dina personuppgifter.",
-    "termsOfUseTitle": "Användarvillkor — ScoreHunter",
+    "termsOfUseTitle": "Användarvillkor - ScoreHunter",
     "termsOfUseDescription": "Läs användarvillkoren som styr din åtkomst till och användning av ScoreHunter-applikationen.",
-    "supportTitle": "Support — ScoreHunter",
+    "supportTitle": "Support - ScoreHunter",
     "supportDescription": "Behöver du hjälp med ScoreHunter? Kontakta vårt supportteam via e-post.",
-    "homeTitle": "ScoreHunter — Fotbollsförutsägelsespel",
+    "homeTitle": "ScoreHunter - Fotbollsförutsägelsespel",
     "homeDescription": "Förutspå fotboll. Tävla mot vänner. Klättra på topplistorna. Det skickbaserade fotbollsförutsägelsespelet från iCat Studios.",
-    "featuresTitle": "Funktioner — ScoreHunter",
+    "featuresTitle": "Funktioner - ScoreHunter",
     "featuresDescription": "Allt ScoreHunter erbjuder: veckoförutsägelser, minispel, ligor, troféer, Pro-medlemskap och livespårning.",
-    "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Svar på de vanligaste frågorna om ScoreHunter — spel, ligor, Pro-medlemskap, konto och mer."
+    "faqTitle": "FAQ - ScoreHunter",
+    "faqDescription": "Svar på de vanligaste frågorna om ScoreHunter - spel, ligor, Pro-medlemskap, konto och mer."
   },
   "nav": {
     "backToHome": "Tillbaka till startsidan"
@@ -94,10 +94,10 @@
     "topics": {
       "accountLabel": "Konto & Inloggning",
       "accountDescription": "Inloggningsproblem, användarnamn, profilförändringar",
-      "accountSubject": "Support — Konto & Inloggning",
+      "accountSubject": "Support - Konto & Inloggning",
       "billingLabel": "Prenumeration & Betalning",
       "billingDescription": "Pro-medlemskap, betalningar, återbetalningar",
-      "billingSubject": "Support — Prenumeration & Betalning",
+      "billingSubject": "Support - Prenumeration & Betalning",
       "bugLabel": "Rapportera ett fel",
       "bugDescription": "Något fungerar inte som förväntat",
       "bugSubject": "Felrapport",
@@ -125,13 +125,14 @@
       "features": "Funktioner",
       "faq": "FAQ",
       "support": "Support",
-      "leaderboards": "Leaderboards"
+      "leaderboards": "Leaderboards",
+      "rewards": "Priser"
     },
     "hero": {
       "eyebrow": "iCat Studios presenterar",
       "tagline": "Inga vadslagningar",
       "taglineAccent": "Fotbollsförutsägelsespel",
-      "subtitle": "ScoreHunter är ett gratis fotbollsförutsägelsespel. Gör dina förutsägelser, visa din fotbollskunskap, slå dina rivaler och bli mästare. Inga insättningar, ingen risk — bara skoj.",
+      "subtitle": "ScoreHunter är ett gratis fotbollsförutsägelsespel. Gör dina förutsägelser, visa din fotbollskunskap, slå dina rivaler och bli mästare. Inga insättningar, ingen risk - bara skoj.",
       "freeBadge": "Gratis",
       "appStoreLabel": "Hämta i",
       "appStoreName": "App Store",
@@ -161,15 +162,15 @@
       "eyebrow": "Så spelar du",
       "title": "Allt du behöver är en passion för fotboll",
       "howTitle": "Så spelar du",
-      "howIntro": "ScoreHunter belönar fotbollskunskap. Inga kuponger, inga handikapp, inga odds — ingen vadslagningsjargong. Varje liga, varje match, varje lag har samma värde och betydelse. Varje spelare börjar med samma chans.",
+      "howIntro": "ScoreHunter belönar fotbollskunskap. Inga kuponger, inga handikapp, inga odds - ingen vadslagningsjargong. Varje liga, varje match, varje lag har samma värde och betydelse. Varje spelare börjar med samma chans.",
       "howItems": [
         "Varje vecka öppnas ett kurerat urval matcher för förutsägelser.",
         "Spelarna förväntas göra förutsägelser på dessa matcher i lägena Score Hunt och Minispel.",
         "Spelarna får poäng baserat på resultaten av sina förutsägelser.",
-        "Det finns tre separata topplistor — Total, Score Hunt och Minispel. Varje vecka tilldelas spelarna på 1:a, 2:a och 3:e plats troféer.",
+        "Det finns tre separata topplistor - Total, Score Hunt och Minispel. Varje vecka tilldelas spelarna på 1:a, 2:a och 3:e plats troféer.",
         "Den totala topplistan varje vecka beräknas som summan av poäng från Score Hunt och Minispel.",
         "I prissäsonger fördelas priser baserat på prestationer på den totala topplistan.",
-        "I Score Hunt förväntas spelarna förutspå resultat för totalt 12 matcher — 10 huvud och 2 bonus.",
+        "I Score Hunt förväntas spelarna förutspå resultat för totalt 12 matcher - 10 huvud och 2 bonus.",
         "Förutsägelser poängsätts i detalj på flera kriterier: rätt utgångsriktning, rätt oavgjort, rätt antal mål, rätt målskillnad, exakt resultat och sällsynt förutsägelse.",
         "I Score Hunt kan spelarna använda 2X-jokern på ett av sina val för att dubblera poängen från den matchen.",
         "Bonusförutsägelser ersätter de lägst poängsatta valen bland huvudförutsägelserna.",
@@ -296,13 +297,13 @@
         "Förutsägelser poängsätts endast på ordinarie speltid (90 minuter). Förlängning och straffläggning räknas inte.",
         "Inga poäng ges för matcher som skjuts upp, ställs in eller avbryts.",
         "Den totala topplistan beräknas veckovis: Score Hunt + Minispel kombinerat.",
-        "Resultaten beräknas automatiskt när veckan tar slut. Matchresultat uppdateras live — du kan följa i realtid.",
-        "Vid poänglika i tabellen avgörs likheten i denna ordning: först på totala säsongspoäng, sedan på antal vunna guld-, silver- och bronstroféer — från högst till lägst.",
+        "Resultaten beräknas automatiskt när veckan tar slut. Matchresultat uppdateras live - du kan följa i realtid.",
+        "Vid poänglika i tabellen avgörs likheten i denna ordning: först på totala säsongspoäng, sedan på antal vunna guld-, silver- och bronstroféer - från högst till lägst.",
         "AI-driven anomalidetektion körs under poängsättningen. Alla listor från användare som tas på fusk ogiltigförklaras.",
         "Du måste vara 13 år eller äldre för att delta."
       ],
-      "rewardsTitle": "Priser",
-      "rewardsPlaceholder": "Eftersom vår lansering infaller under de sista veckorna av säsongen 2025-2026 är en rättvis tävlingsmiljö inte möjlig — så vi har döpt resten av säsongen till \"Training Season\".\n\nAnvänd den här säsongen för att utforska spelet, rapportera buggar du hittar och dela dina förslag med oss, och gör dig redo för VM-säsongen.\n\nVåra prissäsonger börjar med VM. Tills dess, håll dig uppdaterad och stanna kvar hos oss."
+      "showMore": "Visa alla",
+      "showLess": "Visa färre"
     },
     "features": {
       "eyebrow": "Funktioner",
@@ -324,7 +325,7 @@
         },
         {
           "title": "Troféer",
-          "description": "Topp 3 i veckans och säsongens rankningar lägger till en trofé i samlingen — och kvalificerar sig till Champions League nästa säsong."
+          "description": "Topp 3 i veckans och säsongens rankningar lägger till en trofé i samlingen - och kvalificerar sig till Champions League nästa säsong."
         },
         {
           "title": "Pro-medlemskap",
@@ -349,15 +350,15 @@
       "items": [
         {
           "q": "Är ScoreHunter gratis?",
-          "a": "Ja — helt gratis att ladda ner och spela. Det finns ett valfritt Pro-medlemskap för extrafunktioner som färre annonser, men huvudspelet är gratis för alla."
+          "a": "Ja - helt gratis att ladda ner och spela. Det finns ett valfritt Pro-medlemskap för extrafunktioner som färre annonser, men huvudspelet är gratis för alla."
         },
         {
           "q": "Är det här spel om pengar?",
-          "a": "Nej. ScoreHunter har inga vadslagningar, inga odds och inga pengar in eller ut. Alla matcher har samma värde och priserna är endast reklam — aldrig kontanter."
+          "a": "Nej. ScoreHunter har inga vadslagningar, inga odds och inga pengar in eller ut. Alla matcher har samma värde och priserna är endast reklam - aldrig kontanter."
         },
         {
           "q": "Behöver jag ett konto?",
-          "a": "Ja. Logga in med Apple eller Google på sekunder — inga lösenord, ingen e-postverifiering."
+          "a": "Ja. Logga in med Apple eller Google på sekunder - inga lösenord, ingen e-postverifiering."
         },
         {
           "q": "Kan jag spela med vänner?",
@@ -411,6 +412,87 @@
       "trophyking": "Troféer",
       "clubranking": "Klubbrankning",
       "countryranking": "Landsrankning"
+    }
+  },
+  "rewards": {
+    "eyebrow": "Priser",
+    "title": "Priser",
+    "subtitle": "Priserna i ScoreHunter är på riktigt. Den som avslutar säsongen i toppen går inte tomhänt hem.",
+    "season": {
+      "title": "Priser vid säsongens slut",
+      "label": "Säsongen 2026-2027",
+      "startLabel": "Säsongen startar 14 augusti.",
+      "intro": "De här priserna går till spelarna som avslutar säsongen högst upp på Total rankning.",
+      "sponsoredLabel": "Sponsrat pris",
+      "sponsoredNote": "Sponsrade priser tillkännages efter säsongsstarten.",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "Sponsrat pris"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "Veckopriser",
+      "lockedBadge": "Kommer snart",
+      "intro": "Vi vill belöna de bästa spelarna varje vecka, inte bara vid säsongens slut.",
+      "progressLabel": "Aktiva spelare",
+      "targetLabel": "mål",
+      "explain": "För att veckopriser ska vara rättvisa och hållbara behöver vi tillräckligt många spelare. När vi når 10 000 aktiva spelare slås veckopriserna på automatiskt och tillkännages på den här sidan.",
+      "helpNote": "Bjud in dina vänner så når vi målet snabbare tillsammans.",
+      "target": 10000
+    },
+    "rules": {
+      "title": "Prisregler",
+      "items": [
+        "Priserna går till de 20 bästa på Total rankning vid säsongens slut. Vecko- och lägesspecifika rankningar påverkar inte säsongspriserna.",
+        "Vid lika poäng avgörs placeringen först av totala säsongspoäng och därefter av antalet vunna guld-, silver- och bronstroféer.",
+        "ScoreHunter är inte ett vad- eller hasardspel. Det är gratis att spela, det finns inga insättningar och kontantpriser delas aldrig ut. Priserna består enbart av de fysiska produkter som listas ovan.",
+        "Vinnarna meddelas via avisering i appen och e-post efter säsongens slut.",
+        "För leverans behövs fullständigt namn, adress och kontaktuppgifter. Om de inte kommer in inom 30 dagar går priset vidare till nästa spelare på listan.",
+        "Priser kan inte lösas in mot pengar eller överlåtas till någon annan. Beroende på lagersaldo kan ett pris ersättas med en likvärdig produkt.",
+        "Frakten står iCat Studios för. Eventuell tull och skatt i ditt land är vinnarens ansvar.",
+        "Spelare som ertappas med fusk, flera konton eller regelbrott förlorar sitt pris.",
+        "Vinnare under 18 år behöver målsmans samtycke innan priset skickas.",
+        "De här priserna och den här tävlingen är helt oberoende av Apple Inc. och Google LLC. Apple och Google är på inget sätt sponsor, arrangör eller administratör; utskick av priser och allt ansvar ligger hos iCat Studios.",
+        "iCat Studios förbehåller sig rätten att uppdatera prislistan."
+      ]
+    },
+    "preview": {
+      "eyebrow": "Priser",
+      "title": "Avsluta säsongen i toppen och ta priset",
+      "subtitle": "Alla som avslutar säsongen 2026-2027 bland topp 20 på Total rankning vinner ett pris.",
+      "viewAll": "Se alla priser"
     }
   }
 }

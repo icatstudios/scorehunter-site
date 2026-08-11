@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — 即将推出",
+    "comingSoonTitle": "ScoreHunter - 即将推出",
     "comingSoonDescription": "重磅来袭。准备好开启狩猎了吗？",
-    "deleteAccountTitle": "删除账户 — ScoreHunter",
+    "deleteAccountTitle": "删除账户 - ScoreHunter",
     "deleteAccountDescription": "申请删除您的 ScoreHunter 账户及所有相关数据。",
-    "privacyPolicyTitle": "隐私政策 — ScoreHunter",
+    "privacyPolicyTitle": "隐私政策 - ScoreHunter",
     "privacyPolicyDescription": "了解 ScoreHunter 如何收集、使用和保护您的个人数据。",
-    "termsOfUseTitle": "使用条款 — ScoreHunter",
+    "termsOfUseTitle": "使用条款 - ScoreHunter",
     "termsOfUseDescription": "查看规范您访问和使用 ScoreHunter 应用程序的使用条款。",
-    "supportTitle": "支持 — ScoreHunter",
+    "supportTitle": "支持 - ScoreHunter",
     "supportDescription": "需要帮助吗？通过电子邮件联系我们的客户支持团队。",
-    "homeTitle": "ScoreHunter — 足球预测游戏",
+    "homeTitle": "ScoreHunter - 足球预测游戏",
     "homeDescription": "预测足球。与朋友竞争。登上排行榜。iCat Studios 推出的基于实力的足球预测游戏。",
-    "featuresTitle": "功能 — ScoreHunter",
+    "featuresTitle": "功能 - ScoreHunter",
     "featuresDescription": "ScoreHunter 提供的一切:每周预测、迷你游戏、联赛、奖杯、Pro 会员、实时追踪。",
-    "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "关于 ScoreHunter 最常见问题的解答——玩法、联赛、Pro 会员、账户等。"
+    "faqTitle": "FAQ - ScoreHunter",
+    "faqDescription": "关于 ScoreHunter 最常见问题的解答，玩法、联赛、Pro 会员、账户等。"
   },
   "nav": {
     "backToHome": "返回首页"
@@ -94,10 +94,10 @@
     "topics": {
       "accountLabel": "账户与登录",
       "accountDescription": "登录问题、用户名、个人资料更改",
-      "accountSubject": "客户支持 — 账户与登录",
+      "accountSubject": "客户支持 - 账户与登录",
       "billingLabel": "订阅与付款",
       "billingDescription": "Pro 会员、付款、退款",
-      "billingSubject": "客户支持 — 订阅与付款",
+      "billingSubject": "客户支持 - 订阅与付款",
       "bugLabel": "报告问题",
       "bugDescription": "某项功能未按预期工作",
       "bugSubject": "问题报告",
@@ -125,13 +125,14 @@
       "features": "功能",
       "faq": "FAQ",
       "support": "支持",
-      "leaderboards": "Leaderboards"
+      "leaderboards": "Leaderboards",
+      "rewards": "奖品"
     },
     "hero": {
       "eyebrow": "iCat Studios 出品",
       "tagline": "不是博彩",
       "taglineAccent": "足球预测游戏",
-      "subtitle": "ScoreHunter 是一款免费的足球预测游戏。做出你的预测,展示你的足球知识,超越对手,成为冠军。无需充值,没有风险——只有乐趣。",
+      "subtitle": "ScoreHunter 是一款免费的足球预测游戏。做出你的预测,展示你的足球知识,超越对手,成为冠军。无需充值,没有风险，只有乐趣。",
       "freeBadge": "免费畅玩",
       "appStoreLabel": "下载于",
       "appStoreName": "App Store",
@@ -161,15 +162,15 @@
       "eyebrow": "玩法",
       "title": "你需要的只是对足球的热情",
       "howTitle": "玩法",
-      "howIntro": "ScoreHunter 奖励足球知识。没有投注单、没有让球、没有赔率——没有任何博彩术语。每个联赛、每场比赛、每支球队都拥有同等价值与重要性。每位玩家都从同样的机会出发。",
+      "howIntro": "ScoreHunter 奖励足球知识。没有投注单、没有让球、没有赔率，没有任何博彩术语。每个联赛、每场比赛、每支球队都拥有同等价值与重要性。每位玩家都从同样的机会出发。",
       "howItems": [
         "每周开放一组精选比赛供预测。",
         "玩家在 Score Hunt 和 迷你游戏 模式中对这些比赛进行预测。",
         "玩家根据预测结果获得积分。",
-        "共有三个独立排行榜——总排行、Score Hunt 与 迷你游戏。每周第一、第二、第三名玩家都将获得奖杯。",
+        "共有三个独立排行榜，总排行、Score Hunt 与 迷你游戏。每周第一、第二、第三名玩家都将获得奖杯。",
         "每周的总排行按 Score Hunt 与 迷你游戏 所得积分之和计算。",
         "在有奖赛季,奖品按总排行榜的成绩进行分配。",
-        "在 Score Hunt 中,玩家需要预测共 12 场比赛的比分——10 场主预测和 2 场加分预测。",
+        "在 Score Hunt 中,玩家需要预测共 12 场比赛的比分，10 场主预测和 2 场加分预测。",
         "预测会按多个标准详细评分:正确的胜负方向、正确的平局、正确的进球数、正确的净胜球、精确比分以及罕见预测。",
         "在 Score Hunt 中,玩家可以对其中一项预测使用 2X 王牌,使该场比赛的所得积分翻倍。",
         "加分预测会替换主预测中得分最低的选择。",
@@ -296,13 +297,13 @@
         "预测仅按常规时间(90 分钟)评分。加时和点球大战不计算在内。",
         "对于延期、取消或暂停的比赛,不会授予积分。",
         "总排行每周计算一次:Score Hunt + 迷你游戏 合计。",
-        "周结束时结果会自动计算。比赛比分实时更新——你可以实时跟进。",
-        "积分排名相同时,按以下顺序决出胜负:先看赛季总积分,然后看赢得的金、银、铜奖杯数量——从高到低。",
+        "周结束时结果会自动计算。比赛比分实时更新，你可以实时跟进。",
+        "积分排名相同时,按以下顺序决出胜负:先看赛季总积分,然后看赢得的金、银、铜奖杯数量，从高到低。",
         "评分期间会运行 AI 异常检测。被识别为作弊的用户的所有列表都将被作废。",
         "参与需要 13 岁或以上。"
       ],
-      "rewardsTitle": "奖品",
-      "rewardsPlaceholder": "由于我们的发布正好赶上 2025-2026 赛季的最后几周,无法形成公平的竞争环境——因此我们将剩余赛季命名为 \"Training Season\"。\n\n请利用这个赛季探索游戏、向我们反馈你发现的 bug 或建议,并为世界杯赛季做好准备。\n\n我们的有奖赛季将随世界杯一起开始。在那之前,请保持关注,与我们同行。"
+      "showMore": "显示全部",
+      "showLess": "收起"
     },
     "features": {
       "eyebrow": "功能",
@@ -324,7 +325,7 @@
         },
         {
           "title": "奖杯",
-          "description": "周榜与赛季排行榜前 3 名将把奖杯添入陈列柜——并获得下赛季欧冠资格。"
+          "description": "周榜与赛季排行榜前 3 名将把奖杯添入陈列柜，并获得下赛季欧冠资格。"
         },
         {
           "title": "Pro 会员",
@@ -349,15 +350,15 @@
       "items": [
         {
           "q": "ScoreHunter 是免费的吗?",
-          "a": "是的——下载和畅玩完全免费。我们提供可选的 Pro 会员,可享受减少广告等增值服务,但核心游戏对所有人都免费。"
+          "a": "是的，下载和畅玩完全免费。我们提供可选的 Pro 会员,可享受减少广告等增值服务,但核心游戏对所有人都免费。"
         },
         {
           "q": "这是博彩吗?",
-          "a": "不是。ScoreHunter 没有投注、没有赔率、没有任何资金进出。所有比赛价值相同,奖品仅为推广性质——绝无现金。"
+          "a": "不是。ScoreHunter 没有投注、没有赔率、没有任何资金进出。所有比赛价值相同,奖品仅为推广性质，绝无现金。"
         },
         {
           "q": "我需要账号吗?",
-          "a": "需要。使用 Apple 或 Google 几秒钟即可登录——无密码,无邮箱验证。"
+          "a": "需要。使用 Apple 或 Google 几秒钟即可登录，无密码,无邮箱验证。"
         },
         {
           "q": "我能和朋友一起玩吗?",
@@ -411,6 +412,87 @@
       "trophyking": "奖杯",
       "clubranking": "俱乐部排行榜",
       "countryranking": "国家排行榜"
+    }
+  },
+  "rewards": {
+    "eyebrow": "奖品",
+    "title": "奖品",
+    "subtitle": "ScoreHunter 的奖品都是真的。赛季结束时站在顶端的人,不会空手而归。",
+    "season": {
+      "title": "赛季结束奖品",
+      "label": "2026-2027 赛季",
+      "startLabel": "赛季于 8 月 14 日开启。",
+      "intro": "这些奖品将颁给赛季结束时位居总排行榜前列的玩家。",
+      "sponsoredLabel": "赞助奖品",
+      "sponsoredNote": "赞助奖品将在赛季开始后公布。",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "赞助奖品"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "每周奖品",
+      "lockedBadge": "即将推出",
+      "intro": "我们希望每周都能奖励表现最好的玩家,而不只是在赛季结束时。",
+      "progressLabel": "活跃玩家",
+      "targetLabel": "目标",
+      "explain": "要让每周奖品公平且可持续,我们需要足够多的玩家。当活跃玩家达到 10,000 人时,每周奖品会自动开启,并在本页公布。",
+      "helpNote": "邀请好友,我们一起更快达成目标。",
+      "target": 10000
+    },
+    "rules": {
+      "title": "奖品规则",
+      "items": [
+        "奖品颁发给赛季结束时总排行榜前 20 名的玩家。周榜和分模式排行榜不影响赛季奖品。",
+        "积分相同时,先比较赛季总积分,再比较获得的金、银、铜奖杯数量。",
+        "ScoreHunter 不是博彩或赌博游戏。游戏免费,没有充值,任何情况下都不会发放现金奖励。奖品仅限上方列出的实物商品。",
+        "赛季结束后,我们会通过应用内通知和电子邮件联系获奖者。",
+        "发货需要你的姓名、地址和联系方式。若 30 天内未提供,奖品将顺延给排行榜上的下一位玩家。",
+        "奖品不可折现,也不可转让他人。视库存情况,奖品可能以同等价值的商品替代。",
+        "运费由 iCat Studios 承担。你所在国家可能产生的关税和税费由获奖者承担。",
+        "被认定作弊、使用多个账号或违反规则的玩家将失去奖品资格。",
+        "未满 18 周岁的获奖者需在发货前取得监护人同意。",
+        "本奖品与本活动与 Apple Inc. 和 Google LLC 完全无关。Apple 与 Google 均非赞助方、主办方或管理方;奖品发放及全部责任由 iCat Studios 承担。",
+        "iCat Studios 保留更新奖品清单的权利。"
+      ]
+    },
+    "preview": {
+      "eyebrow": "奖品",
+      "title": "赛季登顶,把奖品带走",
+      "subtitle": "所有在 2026-2027 赛季以总排行榜前 20 名收官的玩家都能赢得奖品。",
+      "viewAll": "查看全部奖品"
     }
   }
 }

@@ -1,7 +1,7 @@
 /**
  * Leaderboard data layer.
  *
- * Read endpoints on api.scorehunter.app are `[AllowAnonymous]` — gameplay
+ * Read endpoints on api.scorehunter.app are `[AllowAnonymous]` - gameplay
  * data is the same one the iOS app shows publicly, no PII. The website
  * fetches them server-side without a key.
  *
@@ -34,7 +34,7 @@ export const ALL_TYPES: RankingType[] = [
 
 // Group rankings = clubs and countries (one row per club/country, with a
 // `groupKey` / `groupLogoUrl` / `memberCount`). trophyking is NOT a group
-// ranking — it's individual users sorted by trophy count, so each row has
+// ranking - it's individual users sorted by trophy count, so each row has
 // avatarKey / userId / countryCode and renders like the other individual
 // rankings.
 const GROUP_SET = new Set<RankingType>([
@@ -46,7 +46,7 @@ export function isGroupRanking(type: RankingType): type is GroupRankingType {
   return GROUP_SET.has(type);
 }
 
-// ─── DTOs (subset of backend payload — only fields the website renders) ──
+// ─── DTOs (subset of backend payload - only fields the website renders) ──
 
 export interface LeaderboardEntry {
   rank: number;
@@ -127,7 +127,7 @@ export function pickSeasonName(
 }
 
 /**
- * Build a `countryCode → flagUrl` lookup. Cached 24h — countries don't
+ * Build a `countryCode → flagUrl` lookup. Cached 24h - countries don't
  * change often. Used to render flags next to user rows on individual
  * rankings (group rankings already include `groupLogoUrl`).
  */
@@ -164,6 +164,21 @@ export async function getSeasonLeaderboard(
   });
   if (!res.ok) return null;
   return (await res.json()) as LeaderboardResponse;
+}
+
+/**
+ * Number of players who have scored in the active season - used as the
+ * "active players" figure on /rewards, where weekly prizes unlock at a
+ * participation threshold. Returns null when there's no visible season
+ * or the API is unreachable, so callers can hide the progress UI rather
+ * than render a misleading zero.
+ */
+export async function getActivePlayerCount(): Promise<number | null> {
+  const season = await getActiveSeason();
+  if (!season) return null;
+  // pageSize=1 - we only want the totalParticipants header, not the rows.
+  const lb = await getSeasonLeaderboard(season.id, "general", { pageSize: 1 });
+  return lb?.totalParticipants ?? null;
 }
 
 export const LEADERBOARD_CACHE_TAG = LEADERBOARD_TAG;

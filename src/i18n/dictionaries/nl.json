@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — Binnenkort",
+    "comingSoonTitle": "ScoreHunter - Binnenkort",
     "comingSoonDescription": "Er komt iets groots aan. Klaar voor de jacht?",
-    "deleteAccountTitle": "Account verwijderen — ScoreHunter",
+    "deleteAccountTitle": "Account verwijderen - ScoreHunter",
     "deleteAccountDescription": "Vraag de verwijdering aan van je ScoreHunter-account en alle bijbehorende gegevens.",
-    "privacyPolicyTitle": "Privacybeleid — ScoreHunter",
+    "privacyPolicyTitle": "Privacybeleid - ScoreHunter",
     "privacyPolicyDescription": "Lees hoe ScoreHunter je persoonlijke gegevens verzamelt, gebruikt en beschermt.",
-    "termsOfUseTitle": "Gebruiksvoorwaarden — ScoreHunter",
+    "termsOfUseTitle": "Gebruiksvoorwaarden - ScoreHunter",
     "termsOfUseDescription": "Lees de Gebruiksvoorwaarden die je toegang tot en gebruik van de ScoreHunter-applicatie regelen.",
-    "supportTitle": "Support — ScoreHunter",
+    "supportTitle": "Support - ScoreHunter",
     "supportDescription": "Hulp nodig met ScoreHunter? Neem per e-mail contact op met ons supportteam.",
-    "homeTitle": "ScoreHunter — Voetbalvoorspellingsspel",
+    "homeTitle": "ScoreHunter - Voetbalvoorspellingsspel",
     "homeDescription": "Voorspel voetbal. Speel tegen vrienden. Klim op de ranglijst. Het op vaardigheid gebaseerde voetbalvoorspellingsspel van iCat Studios.",
-    "featuresTitle": "Functies — ScoreHunter",
+    "featuresTitle": "Functies - ScoreHunter",
     "featuresDescription": "Alles wat ScoreHunter biedt: weekvoorspellingen, minispelen, competities, trofeeën, Pro-lidmaatschap en live volgen.",
-    "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Antwoorden op de meest gestelde vragen over ScoreHunter — gameplay, competities, Pro-lidmaatschap, account en meer."
+    "faqTitle": "FAQ - ScoreHunter",
+    "faqDescription": "Antwoorden op de meest gestelde vragen over ScoreHunter - gameplay, competities, Pro-lidmaatschap, account en meer."
   },
   "nav": {
     "backToHome": "Terug naar startpagina"
@@ -94,10 +94,10 @@
     "topics": {
       "accountLabel": "Account & Inloggen",
       "accountDescription": "Aanmeldproblemen, gebruikersnaam, profielwijzigingen",
-      "accountSubject": "Ondersteuning — Account & Inloggen",
+      "accountSubject": "Ondersteuning - Account & Inloggen",
       "billingLabel": "Abonnement & Betaling",
       "billingDescription": "Pro-lidmaatschap, betalingen, terugbetalingen",
-      "billingSubject": "Ondersteuning — Abonnement & Betaling",
+      "billingSubject": "Ondersteuning - Abonnement & Betaling",
       "bugLabel": "Bug melden",
       "bugDescription": "Iets werkt niet zoals verwacht",
       "bugSubject": "Bugmelding",
@@ -125,13 +125,14 @@
       "features": "Functies",
       "faq": "FAQ",
       "support": "Support",
-      "leaderboards": "Leaderboards"
+      "leaderboards": "Leaderboards",
+      "rewards": "Prijzen"
     },
     "hero": {
       "eyebrow": "iCat Studios presenteert",
       "tagline": "Geen wedden",
       "taglineAccent": "Voetbalvoorspellingsspel",
-      "subtitle": "ScoreHunter is een gratis voetbalvoorspellingsspel. Doe je voorspellingen, laat je voetbalkennis zien, klop je rivalen en word kampioen. Geen stortingen, geen risico — gewoon plezier.",
+      "subtitle": "ScoreHunter is een gratis voetbalvoorspellingsspel. Doe je voorspellingen, laat je voetbalkennis zien, klop je rivalen en word kampioen. Geen stortingen, geen risico - gewoon plezier.",
       "freeBadge": "Gratis",
       "appStoreLabel": "Download in de",
       "appStoreName": "App Store",
@@ -161,15 +162,15 @@
       "eyebrow": "Hoe te spelen",
       "title": "Het enige wat je nodig hebt is een passie voor voetbal",
       "howTitle": "Hoe te spelen",
-      "howIntro": "ScoreHunter beloont voetbalkennis. Geen tickets, geen handicaps, geen quoteringen — geen weddenschapsjargon. Elke competitie, elke wedstrijd, elk team heeft dezelfde waarde en hetzelfde belang. Elke speler begint met dezelfde kansen.",
+      "howIntro": "ScoreHunter beloont voetbalkennis. Geen tickets, geen handicaps, geen quoteringen - geen weddenschapsjargon. Elke competitie, elke wedstrijd, elk team heeft dezelfde waarde en hetzelfde belang. Elke speler begint met dezelfde kansen.",
       "howItems": [
         "Elke week wordt een geselecteerde reeks wedstrijden opengesteld voor voorspellingen.",
         "Spelers worden geacht op deze wedstrijden voorspellingen te doen in de Score Hunt- en Minispelen-modus.",
         "Spelers verdienen punten op basis van de uitkomsten van hun voorspellingen.",
-        "Er zijn drie aparte ranglijsten — Algemeen, Score Hunt en Minispelen. Elke week ontvangen de spelers op de 1e, 2e en 3e plaats trofeeën.",
+        "Er zijn drie aparte ranglijsten - Algemeen, Score Hunt en Minispelen. Elke week ontvangen de spelers op de 1e, 2e en 3e plaats trofeeën.",
         "De Algemene ranglijst van elke week wordt berekend als de som van de in Score Hunt en Minispelen behaalde punten.",
         "In seizoenen met prijzen worden prijzen verdeeld op basis van de prestaties op de Algemene ranglijst.",
-        "In Score Hunt moeten spelers de scores van in totaal 12 wedstrijden voorspellen — 10 hoofd- en 2 bonuswedstrijden.",
+        "In Score Hunt moeten spelers de scores van in totaal 12 wedstrijden voorspellen - 10 hoofd- en 2 bonuswedstrijden.",
         "Voorspellingen worden in detail beoordeeld op meerdere criteria: juiste uitslagrichting, juiste gelijkspel, juist aantal doelpunten, juist doelsaldo, exacte score en zeldzame voorspelling.",
         "In Score Hunt kunnen spelers de 2X-joker toepassen op één van hun keuzes om de op die wedstrijd verdiende punten te verdubbelen.",
         "Bonusvoorspellingen vervangen de laagstgewaardeerde keuzes onder de hoofdvoorspellingen.",
@@ -296,13 +297,13 @@
         "Voorspellingen worden alleen op de reguliere speeltijd (90 minuten) beoordeeld. Verlenging en strafschoppenseries tellen niet mee.",
         "Voor uitgestelde, geannuleerde of geschorste wedstrijden worden geen punten toegekend.",
         "De Algemene ranglijst wordt wekelijks berekend: Score Hunt + Minispelen gecombineerd.",
-        "Resultaten worden automatisch berekend wanneer de week eindigt. Wedstrijdscores worden live bijgewerkt — je kunt het in realtime volgen.",
-        "Bij gelijke punten in de stand wordt de gelijkstand verbroken in deze volgorde: eerst op totaal seizoenspunten, daarna op aantal gewonnen gouden, zilveren en bronzen trofeeën — van hoog naar laag.",
+        "Resultaten worden automatisch berekend wanneer de week eindigt. Wedstrijdscores worden live bijgewerkt - je kunt het in realtime volgen.",
+        "Bij gelijke punten in de stand wordt de gelijkstand verbroken in deze volgorde: eerst op totaal seizoenspunten, daarna op aantal gewonnen gouden, zilveren en bronzen trofeeën - van hoog naar laag.",
         "Tijdens het scoren draait een door AI aangedreven anomaliedetectie. Alle lijsten van gebruikers die worden betrapt op valsspelen worden ongeldig verklaard.",
         "Je moet 13 jaar of ouder zijn om mee te doen."
       ],
-      "rewardsTitle": "Prijzen",
-      "rewardsPlaceholder": "Omdat onze lancering valt in de slotweken van het seizoen 2025-2026 is een eerlijke competitieve omgeving niet mogelijk — daarom hebben we de rest van het seizoen het \"Training Season\" genoemd.\n\nGebruik dit seizoen om het spel te ontdekken, ons je gevonden bugs te melden en je suggesties met ons te delen, en bereid je voor op het WK-seizoen.\n\nOnze beloonde seizoenen beginnen met het WK. Tot dan, blijf op de hoogte en blijf bij ons."
+      "showMore": "Alles tonen",
+      "showLess": "Minder tonen"
     },
     "features": {
       "eyebrow": "Functies",
@@ -324,7 +325,7 @@
         },
         {
           "title": "Trofeeën",
-          "description": "Top 3-finishers in de week- en seizoensrankings voegen een trofee toe aan hun kast — en kwalificeren zich het volgende seizoen voor de Champions League."
+          "description": "Top 3-finishers in de week- en seizoensrankings voegen een trofee toe aan hun kast - en kwalificeren zich het volgende seizoen voor de Champions League."
         },
         {
           "title": "Pro-lidmaatschap",
@@ -349,15 +350,15 @@
       "items": [
         {
           "q": "Is ScoreHunter gratis?",
-          "a": "Ja — volledig gratis te downloaden en te spelen. Er is een optioneel Pro-lidmaatschap voor extra's zoals minder advertenties, maar het hoofdspel is voor iedereen gratis."
+          "a": "Ja - volledig gratis te downloaden en te spelen. Er is een optioneel Pro-lidmaatschap voor extra's zoals minder advertenties, maar het hoofdspel is voor iedereen gratis."
         },
         {
           "q": "Is dit gokken?",
-          "a": "Nee. ScoreHunter heeft geen weddenschappen, geen quoteringen en er gaat geen geld in of uit. Alle wedstrijden hebben dezelfde waarde en prijzen zijn alleen promotioneel — nooit in geld."
+          "a": "Nee. ScoreHunter heeft geen weddenschappen, geen quoteringen en er gaat geen geld in of uit. Alle wedstrijden hebben dezelfde waarde en prijzen zijn alleen promotioneel - nooit in geld."
         },
         {
           "q": "Heb ik een account nodig?",
-          "a": "Ja. Log binnen enkele seconden in met Apple of Google — geen wachtwoorden, geen e-mailverificatie."
+          "a": "Ja. Log binnen enkele seconden in met Apple of Google - geen wachtwoorden, geen e-mailverificatie."
         },
         {
           "q": "Kan ik met vrienden spelen?",
@@ -411,6 +412,87 @@
       "trophyking": "Trofeeën",
       "clubranking": "Clubranglijst",
       "countryranking": "Landranglijst"
+    }
+  },
+  "rewards": {
+    "eyebrow": "Prijzen",
+    "title": "Prijzen",
+    "subtitle": "De prijzen bij ScoreHunter zijn echt. Wie het seizoen bovenaan afsluit, gaat niet met lege handen naar huis.",
+    "season": {
+      "title": "Prijzen aan het eind van het seizoen",
+      "label": "Seizoen 2026-2027",
+      "startLabel": "Het seizoen begint op 14 augustus.",
+      "intro": "Deze prijzen gaan naar de spelers die het seizoen bovenaan de Totaalranglijst afsluiten.",
+      "sponsoredLabel": "Gesponsorde prijs",
+      "sponsoredNote": "Gesponsorde prijzen worden bekendgemaakt na de start van het seizoen.",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "Gesponsorde prijs"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "Wekelijkse prijzen",
+      "lockedBadge": "Binnenkort",
+      "intro": "We willen de beste spelers elke week belonen, niet alleen aan het eind van het seizoen.",
+      "progressLabel": "Actieve spelers",
+      "targetLabel": "doel",
+      "explain": "Om wekelijkse prijzen eerlijk en houdbaar te maken hebben we genoeg spelers nodig. Zodra we 10.000 actieve spelers bereiken, gaan de wekelijkse prijzen automatisch van start en worden ze op deze pagina aangekondigd.",
+      "helpNote": "Nodig je vrienden uit, dan halen we het doel samen sneller.",
+      "target": 10000
+    },
+    "rules": {
+      "title": "Prijsvoorwaarden",
+      "items": [
+        "De prijzen gaan naar de top 20 van de Totaalranglijst aan het eind van het seizoen. Wekelijkse en modusgebonden ranglijsten hebben geen invloed op de seizoensprijzen.",
+        "Bij een gelijke stand telt eerst het totaal aantal seizoenspunten, daarna het aantal gewonnen gouden, zilveren en bronzen trofeeën.",
+        "ScoreHunter is geen gok- of kansspel. Meedoen is gratis, er zijn geen stortingen en er worden onder geen beding geldprijzen uitgekeerd. De prijzen bestaan uitsluitend uit de hierboven genoemde fysieke producten.",
+        "Winnaars krijgen na afloop van het seizoen bericht via een melding in de app en per e-mail.",
+        "Voor de verzending zijn je volledige naam, adres en contactgegevens nodig. Komen die niet binnen 30 dagen binnen, dan gaat de prijs naar de volgende speler op de ranglijst.",
+        "Prijzen zijn niet inwisselbaar voor geld en niet overdraagbaar. Afhankelijk van de voorraad kan een prijs worden vervangen door een gelijkwaardig product.",
+        "De verzendkosten zijn voor rekening van iCat Studios. Invoerrechten en belastingen in jouw land zijn voor rekening van de winnaar.",
+        "Spelers die betrapt worden op valsspelen, meerdere accounts of het overtreden van de regels verliezen hun prijs.",
+        "Winnaars onder de 18 hebben toestemming van hun ouders nodig voordat een prijs wordt verstuurd.",
+        "Deze prijzen en deze wedstrijd staan volledig los van Apple Inc. en Google LLC. Apple en Google zijn op geen enkele manier sponsor, organisator of beheerder; de afhandeling van de prijzen en alle verantwoordelijkheid liggen bij iCat Studios.",
+        "iCat Studios behoudt zich het recht voor de prijzenlijst bij te werken."
+      ]
+    },
+    "preview": {
+      "eyebrow": "Prijzen",
+      "title": "Sluit het seizoen bovenaan af en pak je prijs",
+      "subtitle": "Iedereen die het seizoen 2026-2027 in de top 20 van de Totaalranglijst afsluit, wint een prijs.",
+      "viewAll": "Alle prijzen bekijken"
     }
   }
 }

@@ -14,7 +14,7 @@ export const faqIt: FAQCategory[] = [
       },
       {
         q: "Come mi registro?",
-        a: "Accedi con Apple o Google in pochi secondi — niente password, niente verifica email. Non vediamo mai la tua password e non ne salviamo nessuna.",
+        a: "Accedi con Apple o Google in pochi secondi - niente password, niente verifica email. Non vediamo mai la tua password e non ne salviamo nessuna.",
       },
       {
         q: "Quali dispositivi sono supportati?",
@@ -27,7 +27,7 @@ export const faqIt: FAQCategory[] = [
     items: [
       {
         q: "Come funziona il punteggio?",
-        a: "Guadagni punti per esiti corretti (1, X, 2), risultati esatti e marcatori. I Mini Giochi aggiungono pronostici bonus. Ogni partita vale uguale — niente quote, niente moltiplicatori, niente vincite a sorte.",
+        a: "Guadagni punti per esiti corretti (1, X, 2), risultati esatti e marcatori. I Mini Giochi aggiungono pronostici bonus. Ogni partita vale uguale - niente quote, niente moltiplicatori, niente vincite a sorte.",
       },
       {
         q: "Cos'è uno Score Hunt?",
@@ -35,15 +35,15 @@ export const faqIt: FAQCategory[] = [
       },
       {
         q: "Posso modificare i miei pronostici?",
-        a: "Sì — puoi modificare i tuoi pronostici in qualsiasi momento prima del fischio d'inizio. Una volta iniziata la partita, il tuo pronostico per quella partita è bloccato.",
+        a: "Sì - puoi modificare i tuoi pronostici in qualsiasi momento prima del fischio d'inizio. Una volta iniziata la partita, il tuo pronostico per quella partita è bloccato.",
       },
       {
         q: "Cosa sono i mini giochi?",
-        a: "I mini giochi sono modalità di pronostico in formato breve che girano tra i round completi di Score Hunt. Partite veloci, settimane a tema, stesso principio di abilità — tengono in movimento le giornate tranquille.",
+        a: "I mini giochi sono modalità di pronostico in formato breve che girano tra i round completi di Score Hunt. Partite veloci, settimane a tema, stesso principio di abilità - tengono in movimento le giornate tranquille.",
       },
       {
         q: "È gioco d'azzardo?",
-        a: "No. ScoreHunter non contiene scommesse, quote, flussi di denaro, lotterie. Tutte le partite hanno lo stesso valore e i premi sono solo promozionali — mai in contanti.",
+        a: "No. ScoreHunter non contiene scommesse, quote, flussi di denaro, lotterie. Tutte le partite hanno lo stesso valore e i premi sono solo promozionali - mai in contanti.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqIt: FAQCategory[] = [
     items: [
       {
         q: "Cosa include Pro?",
-        a: "Meno pubblicità, trofei esclusivi Pro, un badge Pro esclusivo nelle classifiche e supporto prioritario. Pro non influisce mai sui risultati della competizione — tutte le partite restano dello stesso valore per ogni giocatore.",
+        a: "Meno pubblicità, trofei esclusivi Pro, un badge Pro esclusivo nelle classifiche e supporto prioritario. Pro non influisce mai sui risultati della competizione - tutte le partite restano dello stesso valore per ogni giocatore.",
       },
       {
         q: "Come mi iscrivo?",
@@ -90,11 +90,11 @@ export const faqIt: FAQCategory[] = [
       },
       {
         q: "Quali dati conserva ScoreHunter su di me?",
-        a: "Il tuo nome utente, paese, squadra del cuore, pronostici e trofei — in pratica quello che ci si aspetta da un gioco di classifiche. Email e nome reale restano privati. Dettaglio completo nella nostra Privacy Policy.",
+        a: "Il tuo nome utente, paese, squadra del cuore, pronostici e trofei - in pratica quello che ci si aspetta da un gioco di classifiche. Email e nome reale restano privati. Dettaglio completo nella nostra Privacy Policy.",
       },
       {
         q: "Ho dimenticato la password.",
-        a: "Non c'è una password. L'accesso passa da Apple o Google — il recupero avviene a livello di Apple/Google, non lato ScoreHunter.",
+        a: "Non c'è una password. L'accesso passa da Apple o Google - il recupero avviene a livello di Apple/Google, non lato ScoreHunter.",
       },
     ],
   },

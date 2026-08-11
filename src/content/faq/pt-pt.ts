@@ -14,7 +14,7 @@ export const faqPtPt: FAQCategory[] = [
       },
       {
         q: "Como me registo?",
-        a: "Inicia sessão com Apple ou Google em segundos — sem palavras-passe, sem verificação por e-mail. Nunca vemos a tua palavra-passe nem guardamos nenhuma.",
+        a: "Inicia sessão com Apple ou Google em segundos - sem palavras-passe, sem verificação por e-mail. Nunca vemos a tua palavra-passe nem guardamos nenhuma.",
       },
       {
         q: "Que dispositivos são suportados?",
@@ -27,7 +27,7 @@ export const faqPtPt: FAQCategory[] = [
     items: [
       {
         q: "Como funciona a pontuação?",
-        a: "Ganhas pontos por acertos no resultado (1, X, 2), resultados exactos e marcadores. Os Mini Jogos acrescentam previsões de bónus. Cada jogo vale o mesmo — sem odds, sem multiplicadores, sem prémios pela sorte.",
+        a: "Ganhas pontos por acertos no resultado (1, X, 2), resultados exactos e marcadores. Os Mini Jogos acrescentam previsões de bónus. Cada jogo vale o mesmo - sem odds, sem multiplicadores, sem prémios pela sorte.",
       },
       {
         q: "O que é um Score Hunt?",
@@ -35,15 +35,15 @@ export const faqPtPt: FAQCategory[] = [
       },
       {
         q: "Posso alterar as minhas previsões?",
-        a: "Sim — podes editar as tuas previsões a qualquer momento antes do apito inicial. Quando um jogo começa, a tua previsão para esse jogo fica bloqueada.",
+        a: "Sim - podes editar as tuas previsões a qualquer momento antes do apito inicial. Quando um jogo começa, a tua previsão para esse jogo fica bloqueada.",
       },
       {
         q: "O que são os mini jogos?",
-        a: "Os mini jogos são modos de previsão de formato curto que correm entre rondas completas de Score Hunt. Jogos rápidos, semanas temáticas, mesmo princípio de perícia — mantêm o ritmo nos dias mais calmos.",
+        a: "Os mini jogos são modos de previsão de formato curto que correm entre rondas completas de Score Hunt. Jogos rápidos, semanas temáticas, mesmo princípio de perícia - mantêm o ritmo nos dias mais calmos.",
       },
       {
         q: "Isto é jogo de aposta?",
-        a: "Não. O ScoreHunter não tem apostas, odds, dinheiro a entrar ou sair, nem lotarias. Todos os jogos têm o mesmo valor e os prémios são apenas promocionais — nunca em dinheiro.",
+        a: "Não. O ScoreHunter não tem apostas, odds, dinheiro a entrar ou sair, nem lotarias. Todos os jogos têm o mesmo valor e os prémios são apenas promocionais - nunca em dinheiro.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqPtPt: FAQCategory[] = [
     items: [
       {
         q: "O que inclui a subscrição Pro?",
-        a: "Menos publicidade, troféus exclusivos Pro, um emblema Pro exclusivo nas classificações e suporte prioritário. Pro nunca afecta os resultados da competição — todos os jogos mantêm o mesmo valor para cada jogador.",
+        a: "Menos publicidade, troféus exclusivos Pro, um emblema Pro exclusivo nas classificações e suporte prioritário. Pro nunca afecta os resultados da competição - todos os jogos mantêm o mesmo valor para cada jogador.",
       },
       {
         q: "Como subscrevo?",
@@ -90,11 +90,11 @@ export const faqPtPt: FAQCategory[] = [
       },
       {
         q: "Que dados o ScoreHunter guarda sobre mim?",
-        a: "O teu nome de utilizador, país, equipa preferida, previsões e troféus — basicamente o que se espera de um jogo de classificações. E-mail e nome verdadeiro permanecem privados. Detalhe completo na nossa Política de Privacidade.",
+        a: "O teu nome de utilizador, país, equipa preferida, previsões e troféus - basicamente o que se espera de um jogo de classificações. E-mail e nome verdadeiro permanecem privados. Detalhe completo na nossa Política de Privacidade.",
       },
       {
         q: "Esqueci-me da palavra-passe.",
-        a: "Não há palavra-passe. O início de sessão passa pela Apple ou Google — a recuperação acontece do lado da Apple/Google, não do lado do ScoreHunter.",
+        a: "Não há palavra-passe. O início de sessão passa pela Apple ou Google - a recuperação acontece do lado da Apple/Google, não do lado do ScoreHunter.",
       },
     ],
   },

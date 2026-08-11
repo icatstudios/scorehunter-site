@@ -8,7 +8,7 @@ export const featuresPl: FeaturesData = {
     bullets: [
       "Masz 10 typów głównych i 2 typy bonusowe.",
       "Masz jednego jokera 2X do użycia na jeden mecz.",
-      "Możesz zdobywać punkty na wiele sposobów — od trafienia kierunku wyniku po dokładną liczbę bramek.",
+      "Możesz zdobywać punkty na wiele sposobów - od trafienia kierunku wyniku po dokładną liczbę bramek.",
       "Gdy postawisz idealny typ lub trafisz rzadki typ, otrzymujesz dodatkowe punkty bonusowe.",
       "Nie zapomnij zatwierdzić swojej listy typów, zanim mecze na niej się rozpoczną.",
     ],
@@ -37,7 +37,7 @@ export const featuresPl: FeaturesData = {
   trophies: {
     title: "Trofea",
     intro:
-      "W ScoreHunter gracze, którzy kończą w top 3 trzech głównych rankingów — tygodniowych i sezonowych — otrzymują specjalne trofea.",
+      "W ScoreHunter gracze, którzy kończą w top 3 trzech głównych rankingów - tygodniowych i sezonowych - otrzymują specjalne trofea.",
     bullets: [
       "Niestandardowe projekty trofeów dla każdego trybu gry.",
       "Trofea, które zdobywasz, są wystawiane na twoim profilu i widoczne dla innych użytkowników.",

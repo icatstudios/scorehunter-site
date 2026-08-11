@@ -41,7 +41,7 @@ export function PhoneMockup({
         {/* Screen */}
         <div className="relative w-full h-full rounded-[2rem] overflow-hidden bg-bg-dark">
           {image ? (
-            // Real screenshot mode — image fills the screen, preserving aspect.
+            // Real screenshot mode - image fills the screen, preserving aspect.
             <Image
               src={image.src}
               alt={image.alt}
@@ -170,10 +170,10 @@ function LiveMatch() {
 
 function Leaderboard() {
   const rows = [
-    ["1", "futbolFan_42", "1240", "—"],
+    ["1", "futbolFan_42", "1240", "-"],
     ["2", "you", "1185", "↑ 14"],
     ["3", "predictor.99", "1150", "↓ 2"],
-    ["4", "scoreHunterPro", "1080", "—"],
+    ["4", "scoreHunterPro", "1080", "-"],
     ["5", "fanzone", "1020", "↑ 6"],
   ];
   return (

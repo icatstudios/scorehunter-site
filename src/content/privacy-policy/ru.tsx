@@ -42,10 +42,10 @@ export function PolicyContentRu() {
             </>,
             <>
               <Strong>Имя и фамилия</Strong> (Apple передаёт их только при
-              первом входе; Google — при каждом входе)
+              первом входе; Google - при каждом входе)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — уникальный
+              <Strong>Provider User ID</Strong> - уникальный
               идентификатор для распознавания вашего аккаунта
             </>,
           ]}
@@ -56,7 +56,7 @@ export function PolicyContentRu() {
         <List
           items={[
             <>
-              <Strong>Имя пользователя</Strong> (отображаемое имя — видно
+              <Strong>Имя пользователя</Strong> (отображаемое имя - видно
               в таблицах лидеров)
             </>,
             <>
@@ -69,11 +69,11 @@ export function PolicyContentRu() {
               <Strong>Дата рождения</Strong>
             </>,
             <>
-              <Strong>Пол</Strong> (необязательно — доступен вариант
+              <Strong>Пол</Strong> (необязательно - доступен вариант
               «не указывать»)
             </>,
             <>
-              <Strong>Статус Pro-подписки</Strong> — наличие активного
+              <Strong>Статус Pro-подписки</Strong> - наличие активного
               членства Pro и дата его окончания
             </>,
           ]}
@@ -111,12 +111,12 @@ export function PolicyContentRu() {
             </>,
             <>
               <Strong>Версия Приложения и платформа</Strong> (код версии,
-              имя версии, iOS или Android) — используется для оказания
+              имя версии, iOS или Android) - используется для оказания
               поддержки в зависимости от версии и выявления проблем
               совместимости
             </>,
             <>
-              <Strong>Токен push-уведомлений</Strong> — уникальный токен,
+              <Strong>Токен push-уведомлений</Strong> - уникальный токен,
               выдаваемый Apple Push Notification service (APNs) или
               Firebase Cloud Messaging (FCM), чтобы мы могли отправлять
               напоминания о матчах, уведомления о призах и важные
@@ -163,14 +163,14 @@ export function PolicyContentRu() {
         <List
           items={[
             <>
-              <Strong>IP-адрес</Strong> — используется в целях
+              <Strong>IP-адрес</Strong> - используется в целях
               безопасности, включая ограничение скорости на конечных
               точках аутентификации (например, до 15 попыток входа в
               минуту с одного IP) и предотвращение злоупотреблений. Мы не
               используем IP-адреса для построения рекламных профилей.
             </>,
             <>
-              <Strong>Отчёты об ошибках и сбоях</Strong> — используются
+              <Strong>Отчёты об ошибках и сбоях</Strong> - используются
               для контроля стабильности Приложения. Отчёты фильтруются,
               чтобы исключить персональные идентифицирующие сведения.
             </>,
@@ -217,7 +217,7 @@ export function PolicyContentRu() {
             </>,
             <>
               <Strong>Реклама</Strong>: для показа рекламы в Приложении и
-              измерения её эффективности — подробности в разделе 8
+              измерения её эффективности - подробности в разделе 8
             </>,
             <>
               <Strong>Аналитика и улучшения</Strong>: для анонимного
@@ -244,7 +244,7 @@ export function PolicyContentRu() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — хостинг
+              <Strong>Amazon Web Services (AWS)</Strong> - хостинг
               серверов и баз данных (Франкфурт, Германия)
             </>,
             <>
@@ -252,7 +252,7 @@ export function PolicyContentRu() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — сторонний сервис, поставляющий данные о матчах,
+              ) - сторонний сервис, поставляющий данные о матчах,
               информацию о командах и лигах, а также сопутствующие
               визуальные ресурсы (логотипы и изображения). С API-Football
               не передаются персональные данные. ScoreHunter не владеет
@@ -260,22 +260,22 @@ export function PolicyContentRu() {
               службой; см. раздел 11.
             </>,
             <>
-              <Strong>Apple</Strong> — аутентификация Apple Sign-In
+              <Strong>Apple</Strong> - аутентификация Apple Sign-In
             </>,
             <>
-              <Strong>Google</Strong> — аутентификация Google Sign-In и
+              <Strong>Google</Strong> - аутентификация Google Sign-In и
               Firebase Cloud Messaging (push-уведомления на Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — обработка покупок и
+              <Strong>Apple StoreKit</Strong> - обработка покупок и
               продлений Pro-подписки на iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — обработка покупок и
+              <Strong>Google Play Billing</Strong> - обработка покупок и
               продлений Pro-подписки на Android
             </>,
             <>
-              <Strong>Sentry</Strong> — мониторинг ошибок на стороне
+              <Strong>Sentry</Strong> - мониторинг ошибок на стороне
               backend. Включена фильтрация персональных идентифицирующих
               сведений (в Sentry не отправляются e-mail, имена или
               пользовательский контент).
@@ -339,43 +339,43 @@ export function PolicyContentRu() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -462,7 +462,7 @@ export function PolicyContentRu() {
                 Настройки → Конфиденциальность и безопасность →
                 Отслеживание
               </Strong>
-              , а на Android — сбросить или удалить рекламный ID в любой
+              , а на Android - сбросить или удалить рекламный ID в любой
               момент
             </>,
           ]}
@@ -569,7 +569,7 @@ export function PolicyContentRu() {
           показывает рекламу через <Strong>Google AdMob</Strong> и
           дополнительные сети через mediation (AppLovin, Liftoff/Vungle,
           IronSource, Unity Ads, Meta Audience Network, InMobi). Полный
-          список партнёров — в разделе 3.4.
+          список партнёров - в разделе 3.4.
         </p>
         <p>
           Реклама может быть в форматах баннер, межстраничный
@@ -633,7 +633,7 @@ export function PolicyContentRu() {
       <Section title="9. Международные передачи данных">
         <p>
           Ваши данные могут обрабатываться за пределами вашей страны
-          проживания (AWS Франкфурт — Европейский Союз и дата-центры
+          проживания (AWS Франкфурт - Европейский Союз и дата-центры
           наших рекламных партнёров, перечисленных в разделе 3.4, которые
           могут располагаться вне ЕС). Эти передачи соответствуют
           требованиям безопасности GDPR и KVKK.
@@ -660,7 +660,7 @@ export function PolicyContentRu() {
           команд и лиг, имена игроков и визуальные ресурсы (например,
           логотипы команд и лиг), полученные от поставщика данных
           API-Football. Эти названия, логотипы и товарные знаки являются
-          собственностью соответствующих правообладателей — клубов, лиг,
+          собственностью соответствующих правообладателей - клубов, лиг,
           федераций и других правообладателей.
         </p>
         <p>

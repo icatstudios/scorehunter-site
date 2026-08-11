@@ -42,7 +42,7 @@ export function PolicyContentDa() {
               login; Google ved hvert login)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — en unik identifikator til
+              <Strong>Provider User ID</Strong> - en unik identifikator til
               at genkende din konto
             </>,
           ]}
@@ -53,7 +53,7 @@ export function PolicyContentDa() {
         <List
           items={[
             <>
-              <Strong>Brugernavn</Strong> (visningsnavn — synligt i
+              <Strong>Brugernavn</Strong> (visningsnavn - synligt i
               ranglister)
             </>,
             <>
@@ -66,11 +66,11 @@ export function PolicyContentDa() {
               <Strong>Fødselsdato</Strong>
             </>,
             <>
-              <Strong>Køn</Strong> (valgfrit — &quot;ønsker ikke at
+              <Strong>Køn</Strong> (valgfrit - &quot;ønsker ikke at
               oplyse&quot; er en mulighed)
             </>,
             <>
-              <Strong>Pro-abonnementsstatus</Strong> — om du har et aktivt
+              <Strong>Pro-abonnementsstatus</Strong> - om du har et aktivt
               Pro-medlemskab og udløbsdatoen
             </>,
           ]}
@@ -107,12 +107,12 @@ export function PolicyContentDa() {
             </>,
             <>
               <Strong>Appversion og platform</Strong> (versionskode,
-              versionsnavn samt om du bruger iOS eller Android) — bruges til
+              versionsnavn samt om du bruger iOS eller Android) - bruges til
               at yde versionsspecifik support og identificere
               kompatibilitetsproblemer
             </>,
             <>
-              <Strong>Push-notifikationstoken</Strong> — et unikt token
+              <Strong>Push-notifikationstoken</Strong> - et unikt token
               udstedt af Apple Push Notification service (APNs) eller
               Firebase Cloud Messaging (FCM), så vi kan levere
               kamperindringer, præmie­meddelelser og vigtige beskeder. Du
@@ -158,14 +158,14 @@ export function PolicyContentDa() {
         <List
           items={[
             <>
-              <Strong>IP-adresse</Strong> — bruges til
+              <Strong>IP-adresse</Strong> - bruges til
               sikkerhedsformål, herunder hastighedsbegrænsning på
               autentifikationsendpoints (fx op til 15 loginforsøg pr. minut
               pr. IP) og misbrugsforebyggelse. Vi bruger ikke IP-adresser
               til at oprette annonceprofiler.
             </>,
             <>
-              <Strong>Fejl- og crashrapporter</Strong> — bruges til at
+              <Strong>Fejl- og crashrapporter</Strong> - bruges til at
               overvåge appens stabilitet. Rapporterne filtreres for at
               udelukke personhenførbare oplysninger.
             </>,
@@ -213,7 +213,7 @@ export function PolicyContentDa() {
             </>,
             <>
               <Strong>Annoncering</Strong>: til at vise annoncer i Appen og
-              måle deres effektivitet — se afsnit 8 for detaljer
+              måle deres effektivitet - se afsnit 8 for detaljer
             </>,
             <>
               <Strong>Analyse og forbedring</Strong>: til at analysere
@@ -240,7 +240,7 @@ export function PolicyContentDa() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — server- og
+              <Strong>Amazon Web Services (AWS)</Strong> - server- og
               databasehosting (Frankfurt, Tyskland)
             </>,
             <>
@@ -248,29 +248,29 @@ export function PolicyContentDa() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — tredjepartstjeneste, der leverer kampdata, hold- og
+              ) - tredjepartstjeneste, der leverer kampdata, hold- og
               ligaoplysninger samt tilhørende visuelle aktiver (logoer og
               billeder). Ingen personoplysninger deles med API-Football.
               ScoreHunter ejer ikke rettighederne til logoer eller varemærker
               leveret via denne tjeneste; se afsnit 11 for detaljer.
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In-godkendelse
+              <Strong>Apple</Strong> - Apple Sign-In-godkendelse
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In-godkendelse og
+              <Strong>Google</Strong> - Google Sign-In-godkendelse og
               Firebase Cloud Messaging (push-notifikationer på Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — håndterer Pro-abonnementskøb
+              <Strong>Apple StoreKit</Strong> - håndterer Pro-abonnementskøb
               og fornyelser på iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — håndterer
+              <Strong>Google Play Billing</Strong> - håndterer
               Pro-abonnementskøb og fornyelser på Android
             </>,
             <>
-              <Strong>Sentry</Strong> — backend-fejlovervågning. Filtrering
+              <Strong>Sentry</Strong> - backend-fejlovervågning. Filtrering
               af personhenførbare oplysninger er aktiveret (ingen
               e-mailadresse, navn eller brugerindhold sendes til Sentry).
             </>,
@@ -331,43 +331,43 @@ export function PolicyContentDa() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -624,7 +624,7 @@ export function PolicyContentDa() {
       <Section title="9. Internationale dataoverførsler">
         <p>
           Dine data kan blive behandlet uden for dit hjemland (AWS
-          Frankfurt — EU, samt datacentrene hos vores annoncepartnere
+          Frankfurt - EU, samt datacentrene hos vores annoncepartnere
           anført i afsnit 3.4, der kan være placeret uden for EU). Disse
           overførsler overholder de sikkerhedsstandarder, der kræves af GDPR
           og KVKK.
@@ -649,7 +649,7 @@ export function PolicyContentDa() {
           ScoreHunter viser fodboldkampdata, holdnavne, liganavne,
           spillernavne og visuelle aktiver (såsom hold- og ligalogoer)
           leveret af vores dataudbyder API-Football. Disse navne, logoer og
-          varemærker tilhører de respektive ejere — herunder klubber, ligaer,
+          varemærker tilhører de respektive ejere - herunder klubber, ligaer,
           forbund og andre rettighedshavere.
         </p>
         <p>

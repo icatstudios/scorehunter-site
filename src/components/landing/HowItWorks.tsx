@@ -8,7 +8,7 @@ interface HowItWorksDict {
 }
 
 const stepIcons = [
-  // Pick the matches — calendar/list
+  // Pick the matches - calendar/list
   <svg
     key="0"
     viewBox="0 0 24 24"
@@ -22,7 +22,7 @@ const stepIcons = [
       d="M8 7V3m8 4V3M3 11h18M5 5h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2zm4 11h.01M13 16h2"
     />
   </svg>,
-  // Call the scores — football
+  // Call the scores - football
   <svg
     key="1"
     viewBox="0 0 24 24"
@@ -37,7 +37,7 @@ const stepIcons = [
       d="M12 7l3 2.5-1 3.5h-4l-1-3.5L12 7zm0 0V3m-3 6.5L5 8m6 4.5L8 16m3-3.5l3 3.5m1-7L19 8"
     />
   </svg>,
-  // Climb the board — bar chart up arrow
+  // Climb the board - bar chart up arrow
   <svg
     key="2"
     viewBox="0 0 24 24"

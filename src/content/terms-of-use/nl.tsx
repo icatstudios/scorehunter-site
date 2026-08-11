@@ -49,7 +49,7 @@ export function TermsContentNl() {
 
       <Divider />
 
-      <Section title="2. Aard van de Dienst — BELANGRIJK">
+      <Section title="2. Aard van de Dienst - BELANGRIJK">
         <SubHeading>2.1 ScoreHunter is geen gokapplicatie</SubHeading>
         <p>
           ScoreHunter is een{" "}
@@ -79,7 +79,7 @@ export function TermsContentNl() {
             </>,
             <>
               Alle wedstrijden zijn voor voorspellingsdoeleinden{" "}
-              <Strong>even waardevol</Strong> — geen wedstrijd is
+              <Strong>even waardevol</Strong> - geen wedstrijd is
               &quot;meer waard&quot; dan een andere
             </>,
             <>
@@ -128,7 +128,7 @@ export function TermsContentNl() {
               <Strong>
                 hebben geen invloed op wedstrijdresultaten
               </Strong>{" "}
-              — ze bieden alleen extra functies die de gebruikerservaring
+              - ze bieden alleen extra functies die de gebruikerservaring
               verbeteren
             </>,
           ]}
@@ -150,13 +150,13 @@ export function TermsContentNl() {
               gebruikersbetrokkenheid te bevorderen
             </>,
             <>
-              Prijzen zijn <Strong>NIET gegarandeerd</Strong> — ze worden
+              Prijzen zijn <Strong>NIET gegarandeerd</Strong> - ze worden
               alleen toegekend in het kader van door de Ontwikkelaar
               aangekondigde campagnes
             </>,
             <>
               Prijzen worden <Strong>NIET als contant geld</Strong>{" "}
-              uitgekeerd — alleen als fysiek of digitaal geschenk
+              uitgekeerd - alleen als fysiek of digitaal geschenk
             </>,
             <>
               Het toekennen, distribueren en bezorgen van prijzen is{" "}
@@ -305,7 +305,7 @@ export function TermsContentNl() {
           tot voetbalwedstrijddata, club- en competitienamen, namen van
           spelers en visuele assets zoals club- en competitielogo&apos;s.
           Deze content wordt geleverd via onze datapartner API-Football en
-          is eigendom van de respectieve eigenaren — clubs, competities,
+          is eigendom van de respectieve eigenaren - clubs, competities,
           bonden en andere rechthebbenden. ScoreHunter claimt geen
           eigendom op handelsmerken, logo&apos;s of auteursrechtelijk
           beschermd materiaal van derden dat in de App wordt getoond.
@@ -472,7 +472,7 @@ export function TermsContentNl() {
                 Eventuele prijzen, wedstrijden, campagnes of promoties in
                 de App zijn onafhankelijk van Apple Inc.
               </Strong>{" "}
-              — Apple is op geen enkele manier sponsor, organisator of
+              - Apple is op geen enkele manier sponsor, organisator of
               beheerder hiervan
             </>,
             "Apple Inc. is vrijgesteld van aansprakelijkheid voor juridische kwesties of vorderingen die binnen de App ontstaan",
@@ -519,7 +519,7 @@ export function TermsContentNl() {
                 Eventuele prijzen, wedstrijden, campagnes of promoties in
                 de App zijn onafhankelijk van Google LLC
               </Strong>{" "}
-              — Google is op geen enkele manier sponsor, organisator of
+              - Google is op geen enkele manier sponsor, organisator of
               beheerder hiervan
             </>,
             "De Google Play Store is uitsluitend een distributieplatform voor de App en draagt geen verantwoordelijkheid voor de inhoud of werking ervan",
@@ -557,16 +557,16 @@ export function TermsContentNl() {
                 Restitutieverzoeken moeten bij Apple of Google worden
                 ingediend
               </Strong>{" "}
-              — niet rechtstreeks bij de Ontwikkelaar
+              - niet rechtstreeks bij de Ontwikkelaar
             </>,
             <>
               Betaalde functies bieden gebruikers alleen{" "}
-              <Strong>extra ervaring</Strong> — ze beïnvloeden niet de
+              <Strong>extra ervaring</Strong> - ze beïnvloeden niet de
               wedstrijdresultaten of klasseringen
             </>,
             <>
               Betaalde functies{" "}
-              <Strong>garanderen geen winst</Strong> — alle gebruikers
+              <Strong>garanderen geen winst</Strong> - alle gebruikers
               zijn gelijk in wedstrijden
             </>,
           ]}

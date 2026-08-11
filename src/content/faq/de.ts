@@ -14,7 +14,7 @@ export const faqDe: FAQCategory[] = [
       },
       {
         q: "Wie melde ich mich an?",
-        a: "Melde dich in Sekunden mit Apple oder Google an — keine Passwörter, keine E-Mail-Bestätigung. Wir sehen dein Passwort nie und speichern auch keins.",
+        a: "Melde dich in Sekunden mit Apple oder Google an - keine Passwörter, keine E-Mail-Bestätigung. Wir sehen dein Passwort nie und speichern auch keins.",
       },
       {
         q: "Welche Geräte werden unterstützt?",
@@ -27,7 +27,7 @@ export const faqDe: FAQCategory[] = [
     items: [
       {
         q: "Wie funktioniert die Punktewertung?",
-        a: "Du bekommst Punkte für richtige Ausgänge (1, X, 2), exakte Ergebnisse und Torschützen. Minispiele bringen Bonus-Tipps. Jedes Spiel ist gleich viel wert — keine Quoten, keine Multiplikatoren, keine Glücks-Auszahlungen.",
+        a: "Du bekommst Punkte für richtige Ausgänge (1, X, 2), exakte Ergebnisse und Torschützen. Minispiele bringen Bonus-Tipps. Jedes Spiel ist gleich viel wert - keine Quoten, keine Multiplikatoren, keine Glücks-Auszahlungen.",
       },
       {
         q: "Was ist Score Hunt?",
@@ -35,15 +35,15 @@ export const faqDe: FAQCategory[] = [
       },
       {
         q: "Kann ich meine Tipps ändern?",
-        a: "Ja — du kannst deine Tipps jederzeit vor dem Anpfiff bearbeiten. Sobald ein Spiel beginnt, ist dein Tipp für dieses Spiel gesperrt.",
+        a: "Ja - du kannst deine Tipps jederzeit vor dem Anpfiff bearbeiten. Sobald ein Spiel beginnt, ist dein Tipp für dieses Spiel gesperrt.",
       },
       {
         q: "Was sind Minispiele?",
-        a: "Minispiele sind kurzformatige Tippmodi zwischen vollständigen Score-Hunt-Runden. Schnelle Spiele, thematische Wochen, gleiches Skill-Prinzip — sie halten den Spielfluss an ruhigen Tagen am Laufen.",
+        a: "Minispiele sind kurzformatige Tippmodi zwischen vollständigen Score-Hunt-Runden. Schnelle Spiele, thematische Wochen, gleiches Skill-Prinzip - sie halten den Spielfluss an ruhigen Tagen am Laufen.",
       },
       {
         q: "Ist das Glücksspiel?",
-        a: "Nein. ScoreHunter enthält keine Wetten, keine Quoten, keine Geldflüsse, keine Lotterien. Alle Spiele sind gleich viel wert und Preise sind ausschließlich werblicher Natur — niemals Bargeld.",
+        a: "Nein. ScoreHunter enthält keine Wetten, keine Quoten, keine Geldflüsse, keine Lotterien. Alle Spiele sind gleich viel wert und Preise sind ausschließlich werblicher Natur - niemals Bargeld.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqDe: FAQCategory[] = [
     items: [
       {
         q: "Was beinhaltet Pro?",
-        a: "Weniger Werbung, Pro-exklusive Trophäen, ein exklusives Pro-Abzeichen auf Bestenlisten und priorisierter Support. Pro beeinflusst Wettkampfergebnisse niemals — alle Spiele bleiben für jeden Spieler gleich viel wert.",
+        a: "Weniger Werbung, Pro-exklusive Trophäen, ein exklusives Pro-Abzeichen auf Bestenlisten und priorisierter Support. Pro beeinflusst Wettkampfergebnisse niemals - alle Spiele bleiben für jeden Spieler gleich viel wert.",
       },
       {
         q: "Wie schließe ich ein Abo ab?",
@@ -90,11 +90,11 @@ export const faqDe: FAQCategory[] = [
       },
       {
         q: "Welche Daten speichert ScoreHunter über mich?",
-        a: "Deinen Benutzernamen, dein Land, deinen Lieblingsverein, deine Tipps und deine Trophäen — im Grunde das, was du bei einem Bestenlistenspiel erwartest. E-Mail und Klarname bleiben privat. Vollständige Auflistung in unserer Datenschutzerklärung.",
+        a: "Deinen Benutzernamen, dein Land, deinen Lieblingsverein, deine Tipps und deine Trophäen - im Grunde das, was du bei einem Bestenlistenspiel erwartest. E-Mail und Klarname bleiben privat. Vollständige Auflistung in unserer Datenschutzerklärung.",
       },
       {
         q: "Ich habe mein Passwort vergessen.",
-        a: "Es gibt kein Passwort. Die Anmeldung läuft über Apple oder Google — die Wiederherstellung passiert auf der Apple/Google-Seite, nicht bei ScoreHunter.",
+        a: "Es gibt kein Passwort. Die Anmeldung läuft über Apple oder Google - die Wiederherstellung passiert auf der Apple/Google-Seite, nicht bei ScoreHunter.",
       },
     ],
   },

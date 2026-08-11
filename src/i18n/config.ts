@@ -85,7 +85,7 @@ export const localeDisplayName: Record<Locale, string> = {
   ar: "AR",
 };
 
-// Endonym — how each language calls itself. Used in the language switcher
+// Endonym - how each language calls itself. Used in the language switcher
 // dropdown so users see their own language in their own writing. Both
 // Portuguese variants render as plain "Português"; the flag (Brazilian vs
 // Portuguese) makes the distinction.

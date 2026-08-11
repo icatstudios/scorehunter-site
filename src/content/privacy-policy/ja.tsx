@@ -43,7 +43,7 @@ export function PolicyContentJa() {
               はサインインのたびに提供します）
             </>,
             <>
-              <Strong>Provider User ID</Strong> —
+              <Strong>Provider User ID</Strong> -
               アカウントを識別するための一意の識別子
             </>,
           ]}
@@ -54,7 +54,7 @@ export function PolicyContentJa() {
         <List
           items={[
             <>
-              <Strong>ユーザー名</Strong>（表示名 —
+              <Strong>ユーザー名</Strong>（表示名 -
               リーダーボードに表示されます）
             </>,
             <>
@@ -67,11 +67,11 @@ export function PolicyContentJa() {
               <Strong>生年月日</Strong>
             </>,
             <>
-              <Strong>性別</Strong>（任意 —
+              <Strong>性別</Strong>（任意 -
               「回答しない」も選択できます）
             </>,
             <>
-              <Strong>Pro サブスクリプションのステータス</Strong> —
+              <Strong>Pro サブスクリプションのステータス</Strong> -
               有効な Pro 会員かどうか、および有効期限
             </>,
           ]}
@@ -110,10 +110,10 @@ export function PolicyContentJa() {
             <>
               <Strong>アプリのバージョンとプラットフォーム</Strong>
               （バージョンコード、バージョン名、iOS か Android か）
-              — バージョン固有のサポート提供および互換性問題の特定に使用します
+              - バージョン固有のサポート提供および互換性問題の特定に使用します
             </>,
             <>
-              <Strong>プッシュ通知トークン</Strong> — Apple
+              <Strong>プッシュ通知トークン</Strong> - Apple
               Push Notification service（APNs）または Firebase Cloud
               Messaging（FCM）が発行する一意のトークンで、試合のリマインダー、
               賞品通知、重要なお知らせをお届けするために使用します。
@@ -158,14 +158,14 @@ export function PolicyContentJa() {
         <List
           items={[
             <>
-              <Strong>IP アドレス</Strong> —
+              <Strong>IP アドレス</Strong> -
               認証エンドポイントにおけるレート制限（例：IP
               あたり毎分 15 回までのサインイン試行）や不正利用防止など、
               セキュリティ目的で使用します。広告プロファイルの作成には
               使用しません。
             </>,
             <>
-              <Strong>エラーおよびクラッシュレポート</Strong> —
+              <Strong>エラーおよびクラッシュレポート</Strong> -
               アプリの安定性を監視するために使用します。レポートは
               個人を特定できる情報を除外するようフィルタリングされます。
             </>,
@@ -209,7 +209,7 @@ export function PolicyContentJa() {
             </>,
             <>
               <Strong>広告</Strong>：本アプリ内での広告表示および効果測定の
-              ため — 詳細は第 8 項をご参照ください
+              ため - 詳細は第 8 項をご参照ください
             </>,
             <>
               <Strong>分析および改善</Strong>：利用状況の統計を匿名で分析し、
@@ -235,7 +235,7 @@ export function PolicyContentJa() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services（AWS）</Strong> —
+              <Strong>Amazon Web Services（AWS）</Strong> -
               サーバーおよびデータベースのホスティング（ドイツ・フランクフルト）
             </>,
             <>
@@ -243,7 +243,7 @@ export function PolicyContentJa() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ） —
+              ） -
               試合データ、チーム・リーグ情報、関連するビジュアル素材
               （ロゴおよび画像）を提供する第三者サービス。API-Football
               に個人データは共有されません。本サービスを通じて配信される
@@ -251,22 +251,22 @@ export function PolicyContentJa() {
               詳細は第 11 項をご参照ください。
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In 認証
+              <Strong>Apple</Strong> - Apple Sign-In 認証
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In 認証および
+              <Strong>Google</Strong> - Google Sign-In 認証および
               Firebase Cloud Messaging（Android のプッシュ通知）
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — iOS における Pro
+              <Strong>Apple StoreKit</Strong> - iOS における Pro
               サブスクリプションの購入および更新を処理
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — Android における
+              <Strong>Google Play Billing</Strong> - Android における
               Pro サブスクリプションの購入および更新を処理
             </>,
             <>
-              <Strong>Sentry</Strong> —
+              <Strong>Sentry</Strong> -
               バックエンドのエラーおよび例外監視。個人を特定できる情報の
               フィルタリングは有効です（メールアドレス、氏名、ユーザーコンテンツは
               Sentry に送信されません）。
@@ -328,43 +328,43 @@ export function PolicyContentJa() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>

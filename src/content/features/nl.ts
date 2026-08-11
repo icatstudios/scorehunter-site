@@ -8,7 +8,7 @@ export const featuresNl: FeaturesData = {
     bullets: [
       "Je hebt 10 hoofdtips en 2 bonustips.",
       "Je hebt één 2X-joker om op een wedstrijd te gebruiken.",
-      "Je kunt op veel manieren punten scoren — van het juist hebben van de uitslagrichting tot het exacte aantal doelpunten.",
+      "Je kunt op veel manieren punten scoren - van het juist hebben van de uitslagrichting tot het exacte aantal doelpunten.",
       "Wanneer je een perfecte tip plaatst of een zeldzame tip raakt, verdien je extra bonuspunten.",
       "Vergeet niet je tipplijst te bevestigen voordat de wedstrijden erop beginnen.",
     ],
@@ -37,7 +37,7 @@ export const featuresNl: FeaturesData = {
   trophies: {
     title: "Trofeeën",
     intro:
-      "In ScoreHunter krijgen spelers die in de top 3 van de drie hoofdranglijsten eindigen — wekelijks en seizoensbreed — speciale trofeeën.",
+      "In ScoreHunter krijgen spelers die in de top 3 van de drie hoofdranglijsten eindigen - wekelijks en seizoensbreed - speciale trofeeën.",
     bullets: [
       "Eigen trofee-ontwerpen voor elke spelmodus.",
       "Gewonnen trofeeën worden op je profiel getoond en zijn zichtbaar voor andere gebruikers.",

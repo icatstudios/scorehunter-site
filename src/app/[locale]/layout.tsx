@@ -47,7 +47,7 @@ export async function generateMetadata({
 
   // Post-launch: use homeTitle / homeDescription as the layout default so
   // OG cards and browser tabs on pages without their own metadata (and
-  // the OG tags every child inherits) read as "ScoreHunter — Football
+  // the OG tags every child inherits) read as "ScoreHunter - Football
   // prediction game" instead of the pre-launch countdown title.
   return {
     title: dict.metadata.homeTitle,

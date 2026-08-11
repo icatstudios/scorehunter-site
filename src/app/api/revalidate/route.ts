@@ -7,13 +7,13 @@ import { LEADERBOARD_CACHE_TAG } from "@/lib/leaderboard";
  *
  * Two callers:
  *   1) Backend admin actions (CalculateWeeklyRankings, AwardWeeklyTrophies,
- *      EndSeason, …) — uses REVALIDATE_SECRET
- *   2) Vercel cron — runs nightly at 23:00 UTC (02:00 TR) per vercel.json,
+ *      EndSeason, …) - uses REVALIDATE_SECRET
+ *   2) Vercel cron - runs nightly at 23:00 UTC (02:00 TR) per vercel.json,
  *      uses CRON_SECRET (Vercel attaches `Authorization: Bearer <CRON_SECRET>`
  *      automatically when the env var is set)
  *
  * Either secret in `Authorization: Bearer <secret>` is accepted; the route
- * only flushes the leaderboard cache tag — no mutations, so even if a
+ * only flushes the leaderboard cache tag - no mutations, so even if a
  * secret leaks the worst case is forced re-fetches from the public API,
  * already covered by backend rate-limit (300/min/IP) + Vercel's own ones.
  *
@@ -33,7 +33,7 @@ function isAuthorized(req: NextRequest): boolean {
 }
 
 async function handle(req: NextRequest) {
-  // If neither secret is configured the endpoint is effectively closed —
+  // If neither secret is configured the endpoint is effectively closed -
   // every request returns 503 and nothing can flush cache. Surfaces
   // misconfiguration instead of silently letting anyone in.
   if (!process.env.REVALIDATE_SECRET && !process.env.CRON_SECRET) {
@@ -62,7 +62,7 @@ export async function POST(req: NextRequest) {
   return handle(req);
 }
 
-// Vercel cron jobs ping the path with GET — the auth is the
+// Vercel cron jobs ping the path with GET - the auth is the
 // `Authorization: Bearer <CRON_SECRET>` header that Vercel injects, not
 // the HTTP method. Mirror POST so the same endpoint serves both the
 // admin webhook and the nightly cron.

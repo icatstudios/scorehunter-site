@@ -47,7 +47,7 @@ export function TermsContentKo() {
 
       <Divider />
 
-      <Section title="2. 서비스의 성격 — 중요">
+      <Section title="2. 서비스의 성격 - 중요">
         <SubHeading>2.1 ScoreHunter는 도박 애플리케이션이 아닙니다</SubHeading>
         <p>
           ScoreHunter는{" "}
@@ -74,7 +74,7 @@ export function TermsContentKo() {
             </>,
             <>
               모든 경기는 예측 목적상{" "}
-              <Strong>가치가 동일</Strong>합니다 — 어떤 경기도 다른
+              <Strong>가치가 동일</Strong>합니다 - 어떤 경기도 다른
               경기보다 &quot;더 가치 있다&quot;고 할 수 없습니다
             </>,
             <>
@@ -122,7 +122,7 @@ export function TermsContentKo() {
               <Strong>
                 콘테스트 결과에 영향을 주지 않습니다
               </Strong>{" "}
-              — 사용자 경험을 향상시키는 추가 기능만을 제공합니다
+              - 사용자 경험을 향상시키는 추가 기능만을 제공합니다
             </>,
           ]}
         />
@@ -142,11 +142,11 @@ export function TermsContentKo() {
               장려하는 데 목적이 있습니다
             </>,
             <>
-              상품은 <Strong>보장되지 않습니다</Strong> — 개발자가
+              상품은 <Strong>보장되지 않습니다</Strong> - 개발자가
               공지하는 캠페인 범위 내에서만 제공됩니다
             </>,
             <>
-              상품은 <Strong>실제 현금으로 지급되지 않습니다</Strong> —
+              상품은 <Strong>실제 현금으로 지급되지 않습니다</Strong> -
               실물 또는 디지털 선물 형태로만 제공됩니다
             </>,
             <>
@@ -445,7 +445,7 @@ export function TermsContentKo() {
                 본 앱 내에서 제공되는 모든 상품, 콘테스트, 캠페인 또는
                 프로모션은 Apple Inc.와 무관합니다
               </Strong>{" "}
-              — Apple은 어떠한 형태로도 후원자, 주최자 또는 관리자가
+              - Apple은 어떠한 형태로도 후원자, 주최자 또는 관리자가
               아닙니다
             </>,
             "Apple Inc.는 본 앱 내에서 발생하는 법적 문제 또는 청구에 대해 일체의 책임이 면제됩니다",
@@ -490,7 +490,7 @@ export function TermsContentKo() {
                 본 앱 내에서 제공되는 모든 상품, 콘테스트, 캠페인 또는
                 프로모션은 Google LLC와 무관합니다
               </Strong>{" "}
-              — Google은 어떠한 형태로도 후원자, 주최자 또는 관리자가
+              - Google은 어떠한 형태로도 후원자, 주최자 또는 관리자가
               아닙니다
             </>,
             "Google Play Store는 본 앱의 배포 플랫폼일 뿐이며 본 앱의 콘텐츠나 운영에 대해 어떠한 책임도 지지 않습니다",
@@ -524,7 +524,7 @@ export function TermsContentKo() {
               <Strong>
                 환불 요청은 Apple 또는 Google에 제출해야 합니다
               </Strong>{" "}
-              — 환불 요청을 개발자에게 직접 보낼 수 없습니다
+              - 환불 요청을 개발자에게 직접 보낼 수 없습니다
             </>,
             <>
               유료 기능은 사용자에게{" "}
@@ -533,7 +533,7 @@ export function TermsContentKo() {
             </>,
             <>
               유료 기능은{" "}
-              <Strong>승리를 보장하지 않습니다</Strong> — 모든 사용자는
+              <Strong>승리를 보장하지 않습니다</Strong> - 모든 사용자는
               콘테스트에서 동등합니다
             </>,
           ]}

@@ -8,7 +8,7 @@ export const featuresIt: FeaturesData = {
     bullets: [
       "Hai 10 pronostici principali e 2 pronostici bonus.",
       "Hai un jolly 2X da usare su una sola partita.",
-      "Puoi guadagnare punti in molti modi — dall'azzeccare la direzione del risultato al numero esatto di gol.",
+      "Puoi guadagnare punti in molti modi - dall'azzeccare la direzione del risultato al numero esatto di gol.",
       "Quando fai un pronostico perfetto o un pronostico raro, guadagni punti bonus extra.",
       "Non dimenticare di confermare la tua lista di pronostici prima che inizino le partite che la compongono.",
     ],

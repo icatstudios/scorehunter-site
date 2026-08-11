@@ -8,7 +8,7 @@ export const featuresDe: FeaturesData = {
     bullets: [
       "Du hast 10 Haupttipps und 2 Bonustipps.",
       "Du hast einen 2X-Joker für ein Spiel.",
-      "Du kannst auf viele Arten Punkte sammeln — vom richtigen Ausgang bis zur korrekten Toranzahl.",
+      "Du kannst auf viele Arten Punkte sammeln - vom richtigen Ausgang bis zur korrekten Toranzahl.",
       "Wenn du einen perfekten Tipp abgibst oder einen seltenen Tipp triffst, gibt es zusätzliche Bonuspunkte.",
       "Vergiss nicht, deine Tippliste zu bestätigen, bevor die Spiele auf ihr beginnen.",
     ],

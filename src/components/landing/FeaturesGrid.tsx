@@ -11,7 +11,7 @@ interface FeaturesDict {
 }
 
 const featureIcons = [
-  // Score Hunt — target
+  // Score Hunt - target
   <svg
     key="0"
     viewBox="0 0 24 24"
@@ -23,7 +23,7 @@ const featureIcons = [
     <circle cx="12" cy="12" r="5" />
     <circle cx="12" cy="12" r="1.5" fill="currentColor" />
   </svg>,
-  // Mini games — controller / dice
+  // Mini games - controller / dice
   <svg
     key="1"
     viewBox="0 0 24 24"
@@ -40,7 +40,7 @@ const featureIcons = [
     <circle cx="15" cy="11" r="0.8" fill="currentColor" />
     <circle cx="17" cy="13" r="0.8" fill="currentColor" />
   </svg>,
-  // Leagues — trophy/people
+  // Leagues - trophy/people
   <svg
     key="2"
     viewBox="0 0 24 24"
@@ -54,7 +54,7 @@ const featureIcons = [
       d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m4 5.87v-3a4 4 0 014-4M9 12a4 4 0 100-8 4 4 0 000 8zm6 0a4 4 0 100-8 4 4 0 000 8z"
     />
   </svg>,
-  // Trophies — trophy
+  // Trophies - trophy
   <svg
     key="3"
     viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ const featureIcons = [
       d="M8 21h8m-4-4v4m6-15a3 3 0 003 3M4 5a3 3 0 003 3m12-3v6a6 6 0 11-12 0V5h12z"
     />
   </svg>,
-  // Pro Membership — star/sparkle
+  // Pro Membership - star/sparkle
   <svg
     key="4"
     viewBox="0 0 24 24"
@@ -82,7 +82,7 @@ const featureIcons = [
       d="M12 3l2.5 5.5 6 .5-4.5 4 1.5 6L12 16l-5.5 3 1.5-6-4.5-4 6-.5L12 3z"
     />
   </svg>,
-  // Live tracking — pulse
+  // Live tracking - pulse
   <svg
     key="5"
     viewBox="0 0 24 24"

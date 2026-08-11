@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — Demnächst verfügbar",
+    "comingSoonTitle": "ScoreHunter - Demnächst verfügbar",
     "comingSoonDescription": "Etwas Großes kommt. Bist du bereit für die Jagd?",
-    "deleteAccountTitle": "Konto löschen — ScoreHunter",
+    "deleteAccountTitle": "Konto löschen - ScoreHunter",
     "deleteAccountDescription": "Beantrage die Löschung deines ScoreHunter-Kontos und aller zugehörigen Daten.",
-    "privacyPolicyTitle": "Datenschutzerklärung — ScoreHunter",
+    "privacyPolicyTitle": "Datenschutzerklärung - ScoreHunter",
     "privacyPolicyDescription": "Erfahre, wie ScoreHunter deine personenbezogenen Daten erfasst, verwendet und schützt.",
-    "termsOfUseTitle": "Nutzungsbedingungen — ScoreHunter",
+    "termsOfUseTitle": "Nutzungsbedingungen - ScoreHunter",
     "termsOfUseDescription": "Lies die Nutzungsbedingungen, die deinen Zugriff auf und die Nutzung der ScoreHunter-App regeln.",
-    "supportTitle": "Hilfe — ScoreHunter",
+    "supportTitle": "Hilfe - ScoreHunter",
     "supportDescription": "Brauchst du Hilfe mit ScoreHunter? Erreiche unser Support-Team per E-Mail.",
-    "homeTitle": "ScoreHunter — Fußball-Tippspiel",
+    "homeTitle": "ScoreHunter - Fußball-Tippspiel",
     "homeDescription": "Tippe Fußball. Spiele gegen Freunde. Klettere in den Bestenlisten. Das skillbasierte Fußball-Tippspiel von iCat Studios.",
-    "featuresTitle": "Funktionen — ScoreHunter",
+    "featuresTitle": "Funktionen - ScoreHunter",
     "featuresDescription": "Alles, was ScoreHunter bietet: wöchentliche Tipps, Minispiele, Ligen, Trophäen, Pro-Mitgliedschaft und Live-Verfolgung.",
-    "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Antworten auf die häufigsten Fragen zu ScoreHunter — Gameplay, Ligen, Pro-Mitgliedschaft, Konto und mehr."
+    "faqTitle": "FAQ - ScoreHunter",
+    "faqDescription": "Antworten auf die häufigsten Fragen zu ScoreHunter - Gameplay, Ligen, Pro-Mitgliedschaft, Konto und mehr."
   },
   "nav": {
     "backToHome": "Zurück zur Startseite"
@@ -94,10 +94,10 @@
     "topics": {
       "accountLabel": "Konto & Anmeldung",
       "accountDescription": "Anmeldeprobleme, Benutzername, Profiländerungen",
-      "accountSubject": "Support — Konto & Anmeldung",
+      "accountSubject": "Support - Konto & Anmeldung",
       "billingLabel": "Abonnement & Zahlung",
       "billingDescription": "Pro-Mitgliedschaft, Zahlungen, Erstattungen",
-      "billingSubject": "Support — Abonnement & Zahlung",
+      "billingSubject": "Support - Abonnement & Zahlung",
       "bugLabel": "Fehler melden",
       "bugDescription": "Etwas funktioniert nicht wie erwartet",
       "bugSubject": "Fehlerbericht",
@@ -125,13 +125,14 @@
       "features": "Funktionen",
       "faq": "FAQ",
       "support": "Hilfe",
-      "leaderboards": "Leaderboards"
+      "leaderboards": "Leaderboards",
+      "rewards": "Belohnungen"
     },
     "hero": {
       "eyebrow": "iCat Studios präsentiert",
       "tagline": "Keine Wetten",
       "taglineAccent": "Fußball-Tippspiel",
-      "subtitle": "ScoreHunter ist ein kostenloses Fußball-Tippspiel. Tippe, zeig dein Fußballwissen, schlag deine Rivalen und werde Champion. Keine Einzahlungen, kein Risiko — nur Spaß.",
+      "subtitle": "ScoreHunter ist ein kostenloses Fußball-Tippspiel. Tippe, zeig dein Fußballwissen, schlag deine Rivalen und werde Champion. Keine Einzahlungen, kein Risiko - nur Spaß.",
       "freeBadge": "Kostenlos spielen",
       "appStoreLabel": "Laden im",
       "appStoreName": "App Store",
@@ -161,15 +162,15 @@
       "eyebrow": "Anleitung",
       "title": "Alles, was du brauchst, ist Leidenschaft für Fußball",
       "howTitle": "Spielanleitung",
-      "howIntro": "ScoreHunter belohnt Fußballwissen. Keine Wettscheine, keine Handicaps, keine Quoten — nichts von diesem Wettjargon. Jede Liga, jedes Spiel, jede Mannschaft hat denselben Wert. Jeder Spieler startet mit den gleichen Chancen.",
+      "howIntro": "ScoreHunter belohnt Fußballwissen. Keine Wettscheine, keine Handicaps, keine Quoten - nichts von diesem Wettjargon. Jede Liga, jedes Spiel, jede Mannschaft hat denselben Wert. Jeder Spieler startet mit den gleichen Chancen.",
       "howItems": [
         "Jede Woche wird eine kuratierte Auswahl an Spielen für Tipps freigeschaltet.",
         "Spieler geben in den Modi Score Hunt und Minispiele ihre Tipps für diese Spiele ab.",
         "Spieler sammeln Punkte basierend auf den Ergebnissen ihrer Tipps.",
-        "Es gibt drei separate Ranglisten — Gesamt, Score Hunt und Minispiele. Jede Woche erhalten die Spieler auf Platz 1, 2 und 3 Trophäen.",
+        "Es gibt drei separate Ranglisten - Gesamt, Score Hunt und Minispiele. Jede Woche erhalten die Spieler auf Platz 1, 2 und 3 Trophäen.",
         "Die Gesamtrangliste einer Woche errechnet sich aus der Summe der in Score Hunt und Minispiele erzielten Punkte.",
         "In belohnten Saisons werden Preise anhand der Gesamtranglisten-Ergebnisse verteilt.",
-        "In Score Hunt tippen Spieler insgesamt 12 Spiele — 10 Hauptspiele und 2 Bonusspiele.",
+        "In Score Hunt tippen Spieler insgesamt 12 Spiele - 10 Hauptspiele und 2 Bonusspiele.",
         "Tipps werden detailliert nach mehreren Kriterien bewertet: richtiger Ausgang, richtiges Unentschieden, richtige Toranzahl, richtige Tordifferenz, richtiges Exaktergebnis und richtiger seltener Tipp.",
         "In Score Hunt können Spieler den 2X-Joker auf einen ihrer Tipps anwenden, um die daraus erzielten Punkte zu verdoppeln.",
         "Bonustipps ersetzen die am niedrigsten bewerteten Haupttipps.",
@@ -296,13 +297,13 @@
         "Tipps werden nur für die reguläre Spielzeit (90 Minuten) gewertet. Verlängerung und Elfmeterschießen zählen nicht.",
         "Für verschobene, abgesagte oder abgebrochene Spiele werden keine Punkte vergeben.",
         "Die Gesamtrangliste wird wöchentlich berechnet: Score Hunt + Minispiele zusammen.",
-        "Ergebnisse werden automatisch berechnet, wenn die Woche endet. Spielstände werden live aktualisiert — du kannst in Echtzeit mitverfolgen.",
-        "Bei Punktgleichstand in der Rangliste wird der Gleichstand in dieser Reihenfolge aufgelöst: zunächst nach Gesamtpunkten der Saison, dann nach der Anzahl der gewonnenen Gold-, Silber- und Bronzetrophäen — von hoch nach niedrig.",
+        "Ergebnisse werden automatisch berechnet, wenn die Woche endet. Spielstände werden live aktualisiert - du kannst in Echtzeit mitverfolgen.",
+        "Bei Punktgleichstand in der Rangliste wird der Gleichstand in dieser Reihenfolge aufgelöst: zunächst nach Gesamtpunkten der Saison, dann nach der Anzahl der gewonnenen Gold-, Silber- und Bronzetrophäen - von hoch nach niedrig.",
         "Während der Wertung läuft eine KI-gestützte Anomalieerkennung. Alle Listen von als Betrüger erkannten Nutzern werden annulliert.",
         "Du musst mindestens 13 Jahre alt sein, um teilzunehmen."
       ],
-      "rewardsTitle": "Belohnungen",
-      "rewardsPlaceholder": "Da unser Launch in die Schlusswochen der Saison 2025-2026 fällt, ist ein fairer Wettkampf nicht möglich — deshalb haben wir den Rest der Saison zur \"Training Season\" erklärt.\n\nNutze diese Saison, um das Spiel kennenzulernen und uns Fehler oder Vorschläge mitzuteilen, und mach dich bereit für die Weltmeisterschaft-Saison.\n\nUnsere belohnten Saisons beginnen mit der Weltmeisterschaft. Bis dahin bleib dran und begleite uns."
+      "showMore": "Alle anzeigen",
+      "showLess": "Weniger anzeigen"
     },
     "features": {
       "eyebrow": "Funktionen",
@@ -324,7 +325,7 @@
         },
         {
           "title": "Trophäen",
-          "description": "Die Top-3 der wöchentlichen und saisonalen Ranglisten erhalten eine Trophäe für ihre Sammlung — und qualifizieren sich für die Champions League der nächsten Saison."
+          "description": "Die Top-3 der wöchentlichen und saisonalen Ranglisten erhalten eine Trophäe für ihre Sammlung - und qualifizieren sich für die Champions League der nächsten Saison."
         },
         {
           "title": "Pro Membership",
@@ -349,15 +350,15 @@
       "items": [
         {
           "q": "Ist ScoreHunter kostenlos?",
-          "a": "Ja — vollständig kostenlos zum Download und Spielen. Es gibt eine optionale Pro Membership für Extras wie weniger Werbung, aber das Hauptspiel ist für alle kostenlos."
+          "a": "Ja - vollständig kostenlos zum Download und Spielen. Es gibt eine optionale Pro Membership für Extras wie weniger Werbung, aber das Hauptspiel ist für alle kostenlos."
         },
         {
           "q": "Ist das Glücksspiel?",
-          "a": "Nein. ScoreHunter hat kein Wetten, keine Quoten, kein Geld rein oder raus. Alle Spiele haben den gleichen Wert und Preise sind rein promotional — niemals Bargeld."
+          "a": "Nein. ScoreHunter hat kein Wetten, keine Quoten, kein Geld rein oder raus. Alle Spiele haben den gleichen Wert und Preise sind rein promotional - niemals Bargeld."
         },
         {
           "q": "Brauche ich ein Konto?",
-          "a": "Ja. Melde dich in Sekunden mit Apple oder Google an — kein Passwort, keine E-Mail-Verifizierung."
+          "a": "Ja. Melde dich in Sekunden mit Apple oder Google an - kein Passwort, keine E-Mail-Verifizierung."
         },
         {
           "q": "Kann ich mit Freunden spielen?",
@@ -411,6 +412,87 @@
       "trophyking": "Trophäen",
       "clubranking": "Vereins-Rangliste",
       "countryranking": "Länder-Rangliste"
+    }
+  },
+  "rewards": {
+    "eyebrow": "Belohnungen",
+    "title": "Belohnungen",
+    "subtitle": "Die Preise bei ScoreHunter sind echt. Wer die Saison an der Spitze beendet, geht nicht leer aus.",
+    "season": {
+      "title": "Preise zum Saisonende",
+      "label": "Saison 2026-2027",
+      "startLabel": "Die Saison startet am 14. August.",
+      "intro": "Diese Preise gehen an die Spieler, die die Saison an der Spitze der Gesamtrangliste beenden.",
+      "sponsoredLabel": "Gesponserter Preis",
+      "sponsoredNote": "Gesponserte Preise werden nach dem Saisonstart bekannt gegeben.",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "Gesponserter Preis"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "Wöchentliche Preise",
+      "lockedBadge": "Demnächst",
+      "intro": "Wir wollen die besten Spieler jede Woche belohnen, nicht nur am Saisonende.",
+      "progressLabel": "Aktive Spieler",
+      "targetLabel": "Ziel",
+      "explain": "Damit wöchentliche Preise fair und dauerhaft möglich sind, brauchen wir genug Spieler. Sobald wir 10.000 aktive Spieler erreichen, schalten sich die wöchentlichen Preise automatisch frei und werden auf dieser Seite angekündigt.",
+      "helpNote": "Lade deine Freunde ein, dann kommen wir gemeinsam schneller ans Ziel.",
+      "target": 10000
+    },
+    "rules": {
+      "title": "Preisbedingungen",
+      "items": [
+        "Die Preise gehen an die besten 20 Spieler der Gesamtrangliste am Saisonende. Wöchentliche und modusbezogene Ranglisten haben keinen Einfluss auf die Saisonpreise.",
+        "Bei Punktgleichheit entscheidet zuerst die Gesamtpunktzahl der Saison, danach die Zahl der gewonnenen Gold-, Silber- und Bronzetrophäen.",
+        "ScoreHunter ist kein Wett- oder Glücksspiel. Die Teilnahme ist kostenlos, es gibt keine Einzahlungen und unter keinen Umständen Geldpreise. Die Preise bestehen ausschließlich aus den oben genannten Sachpreisen.",
+        "Gewinner werden nach Saisonende per In-App-Benachrichtigung und E-Mail informiert.",
+        "Für den Versand sind vollständiger Name, Adresse und Kontaktdaten erforderlich. Werden diese nicht innerhalb von 30 Tagen übermittelt, geht der Preis an den nächsten Spieler der Rangliste.",
+        "Preise können nicht in bar ausgezahlt oder an andere übertragen werden. Je nach Verfügbarkeit kann ein Preis durch ein gleichwertiges Produkt ersetzt werden.",
+        "Die Versandkosten übernimmt iCat Studios. Zölle und Steuern in deinem Land trägt der Gewinner.",
+        "Wer beim Schummeln, bei der Nutzung mehrerer Konten oder bei Regelverstößen erwischt wird, verliert den Anspruch auf den Preis.",
+        "Bei Gewinnern unter 18 Jahren ist vor der Zustellung die Zustimmung der Eltern erforderlich.",
+        "Diese Preise und dieser Wettbewerb sind vollständig unabhängig von Apple Inc. und Google LLC. Apple und Google sind in keiner Weise Sponsor, Veranstalter oder Verwalter; die Abwicklung der Preise und die gesamte Verantwortung liegen bei iCat Studios.",
+        "iCat Studios behält sich das Recht vor, die Preisliste zu aktualisieren."
+      ]
+    },
+    "preview": {
+      "eyebrow": "Belohnungen",
+      "title": "Beende die Saison an der Spitze und hol dir deinen Preis",
+      "subtitle": "Alle, die die Saison 2026-2027 unter den Top 20 der Gesamtrangliste beenden, gewinnen einen Preis.",
+      "viewAll": "Alle Preise ansehen"
     }
   }
 }

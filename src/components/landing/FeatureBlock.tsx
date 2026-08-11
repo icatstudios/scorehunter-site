@@ -57,7 +57,7 @@ export function FeatureBlock({
 }
 
 /**
- * The "Bilgilendirme" / informational note at the bottom of /features —
+ * The "Bilgilendirme" / informational note at the bottom of /features -
  * styled differently (warmer, paragraph-based) so it reads as a memo rather
  * than another feature card.
  */

@@ -8,7 +8,7 @@ export const featuresPtBr: FeaturesData = {
     bullets: [
       "Você tem 10 previsões principais e 2 previsões bônus.",
       "Você tem um coringa 2X para usar em uma partida.",
-      "Você pode ganhar pontos de várias formas — desde acertar a direção do resultado até o número exato de gols.",
+      "Você pode ganhar pontos de várias formas - desde acertar a direção do resultado até o número exato de gols.",
       "Quando você faz uma previsão perfeita ou uma previsão rara, ganha pontos bônus extras.",
       "Não esqueça de confirmar sua lista de previsões antes que as partidas dela comecem.",
     ],
@@ -37,7 +37,7 @@ export const featuresPtBr: FeaturesData = {
   trophies: {
     title: "Troféus",
     intro:
-      "No ScoreHunter, os jogadores que terminam no top 3 das três classificações principais — semanal e da temporada — recebem troféus especiais.",
+      "No ScoreHunter, os jogadores que terminam no top 3 das três classificações principais - semanal e da temporada - recebem troféus especiais.",
     bullets: [
       "Designs de troféus exclusivos para cada modo de jogo.",
       "Os troféus que você ganha aparecem no seu perfil e podem ser vistos por outros usuários.",

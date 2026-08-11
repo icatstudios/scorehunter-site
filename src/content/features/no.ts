@@ -8,7 +8,7 @@ export const featuresNo: FeaturesData = {
     bullets: [
       "Du har 10 hovedtips og 2 bonustips.",
       "Du har én 2X-joker som kan brukes på én kamp.",
-      "Du kan tjene poeng på mange måter — fra å treffe utfallsretningen til å treffe nøyaktig antall mål.",
+      "Du kan tjene poeng på mange måter - fra å treffe utfallsretningen til å treffe nøyaktig antall mål.",
       "Du tjener ekstra bonuspoeng når du leverer et perfekt tips eller treffer et sjeldent tips.",
       "Husk å bekrefte tippelista før kampene på den starter.",
     ],
@@ -37,7 +37,7 @@ export const featuresNo: FeaturesData = {
   trophies: {
     title: "Troféer",
     intro:
-      "I ScoreHunter får spillere som havner i topp 3 i de tre hovedrangeringene — ukentlig og sesongbasert — egne troféer.",
+      "I ScoreHunter får spillere som havner i topp 3 i de tre hovedrangeringene - ukentlig og sesongbasert - egne troféer.",
     bullets: [
       "Egne trofé-design for hver spillmodus.",
       "Troféer du vinner vises på profilen din og er synlige for andre brukere.",

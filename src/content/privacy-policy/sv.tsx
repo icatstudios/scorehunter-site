@@ -42,7 +42,7 @@ export function PolicyContentSv() {
               inloggningen; Google vid varje inloggning)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — en unik identifierare för
+              <Strong>Provider User ID</Strong> - en unik identifierare för
               att känna igen ditt konto
             </>,
           ]}
@@ -53,7 +53,7 @@ export function PolicyContentSv() {
         <List
           items={[
             <>
-              <Strong>Användarnamn</Strong> (visningsnamn — synligt i
+              <Strong>Användarnamn</Strong> (visningsnamn - synligt i
               topplistor)
             </>,
             <>
@@ -66,11 +66,11 @@ export function PolicyContentSv() {
               <Strong>Födelsedatum</Strong>
             </>,
             <>
-              <Strong>Kön</Strong> (valfritt — &quot;vill ej uppge&quot;
+              <Strong>Kön</Strong> (valfritt - &quot;vill ej uppge&quot;
               är ett alternativ)
             </>,
             <>
-              <Strong>Pro-prenumerationsstatus</Strong> — om du har ett
+              <Strong>Pro-prenumerationsstatus</Strong> - om du har ett
               aktivt Pro-medlemskap och dess utgångsdatum
             </>,
           ]}
@@ -107,12 +107,12 @@ export function PolicyContentSv() {
             </>,
             <>
               <Strong>Appversion och plattform</Strong> (versionskod,
-              versionsnamn samt om du använder iOS eller Android) — används
+              versionsnamn samt om du använder iOS eller Android) - används
               för att tillhandahålla versionsspecifik support och
               identifiera kompatibilitetsproblem
             </>,
             <>
-              <Strong>Push-notistoken</Strong> — en unik token från Apple
+              <Strong>Push-notistoken</Strong> - en unik token från Apple
               Push Notification service (APNs) eller Firebase Cloud
               Messaging (FCM) för att leverera matchpåminnelser,
               prismeddelanden och viktiga aviseringar. Du kan stänga av
@@ -157,14 +157,14 @@ export function PolicyContentSv() {
         <List
           items={[
             <>
-              <Strong>IP-adress</Strong> — används för säkerhetsändamål,
+              <Strong>IP-adress</Strong> - används för säkerhetsändamål,
               inklusive hastighetsbegränsning på autentiseringsendpunkter
               (t.ex. upp till 15 inloggningsförsök per minut per IP) samt
               missbruksförebyggande. Vi använder inte IP-adresser för att
               bygga annonsprofiler.
             </>,
             <>
-              <Strong>Fel- och kraschrapporter</Strong> — används för att
+              <Strong>Fel- och kraschrapporter</Strong> - används för att
               övervaka appens stabilitet. Rapporterna filtreras för att
               utesluta personidentifierbar information.
             </>,
@@ -211,7 +211,7 @@ export function PolicyContentSv() {
             </>,
             <>
               <Strong>Annonsering</Strong>: för att visa annonser i Appen
-              och mäta deras prestanda — se avsnitt 8 för detaljer
+              och mäta deras prestanda - se avsnitt 8 för detaljer
             </>,
             <>
               <Strong>Analys och förbättring</Strong>: för att analysera
@@ -238,7 +238,7 @@ export function PolicyContentSv() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — server- och
+              <Strong>Amazon Web Services (AWS)</Strong> - server- och
               databashosting (Frankfurt, Tyskland)
             </>,
             <>
@@ -246,7 +246,7 @@ export function PolicyContentSv() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — tredjepartstjänst som tillhandahåller matchdata, lag- och
+              ) - tredjepartstjänst som tillhandahåller matchdata, lag- och
               ligainformation samt tillhörande visuella tillgångar (logotyper
               och bilder). Inga personuppgifter delas med API-Football.
               ScoreHunter äger inte rättigheterna till logotyper eller
@@ -254,22 +254,22 @@ export function PolicyContentSv() {
               detaljer.
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In-autentisering
+              <Strong>Apple</Strong> - Apple Sign-In-autentisering
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In-autentisering och
+              <Strong>Google</Strong> - Google Sign-In-autentisering och
               Firebase Cloud Messaging (push-notiser på Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — hanterar köp och
+              <Strong>Apple StoreKit</Strong> - hanterar köp och
               förnyelser av Pro-prenumeration på iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — hanterar köp och
+              <Strong>Google Play Billing</Strong> - hanterar köp och
               förnyelser av Pro-prenumeration på Android
             </>,
             <>
-              <Strong>Sentry</Strong> — backend-felövervakning. Filtrering
+              <Strong>Sentry</Strong> - backend-felövervakning. Filtrering
               av personidentifierbar information är aktiverad (ingen
               e-postadress, namn eller användarinnehåll skickas till
               Sentry).
@@ -331,43 +331,43 @@ export function PolicyContentSv() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -618,7 +618,7 @@ export function PolicyContentSv() {
 
       <Section title="9. Internationella dataöverföringar">
         <p>
-          Dina data kan behandlas utanför ditt hemland (AWS Frankfurt — EU,
+          Dina data kan behandlas utanför ditt hemland (AWS Frankfurt - EU,
           samt datacentren hos våra annonspartners som anges i avsnitt 3.4
           och som kan ligga utanför EU). Dessa överföringar uppfyller de
           säkerhetskrav som GDPR och KVKK ställer.
@@ -643,7 +643,7 @@ export function PolicyContentSv() {
           ScoreHunter visar fotbollsmatchdata, lagnamn, liganamn, spelarnamn
           och visuella tillgångar (såsom lag- och ligalogotyper) som
           kommer från vår dataleverantör API-Football. Dessa namn,
-          logotyper och varumärken tillhör sina respektive ägare —
+          logotyper och varumärken tillhör sina respektive ägare -
           inklusive klubbar, ligor, förbund och andra rättighetsinnehavare.
         </p>
         <p>

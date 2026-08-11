@@ -48,7 +48,7 @@ export function PolicyContentFr() {
               connexion)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — un identifiant unique
+              <Strong>Provider User ID</Strong> - un identifiant unique
               utilisé pour reconnaître ton compte
             </>,
           ]}
@@ -59,7 +59,7 @@ export function PolicyContentFr() {
         <List
           items={[
             <>
-              <Strong>Nom d&apos;utilisateur</Strong> (nom affiché —
+              <Strong>Nom d&apos;utilisateur</Strong> (nom affiché -
               visible dans les classements)
             </>,
             <>
@@ -72,11 +72,11 @@ export function PolicyContentFr() {
               <Strong>Date de naissance</Strong>
             </>,
             <>
-              <Strong>Genre</Strong> (facultatif — option &quot;préfère
+              <Strong>Genre</Strong> (facultatif - option &quot;préfère
               ne pas le dire&quot; disponible)
             </>,
             <>
-              <Strong>Statut d&apos;abonnement Pro</Strong> — si tu as
+              <Strong>Statut d&apos;abonnement Pro</Strong> - si tu as
               une adhésion Pro active et sa date d&apos;expiration
             </>,
           ]}
@@ -116,12 +116,12 @@ export function PolicyContentFr() {
             </>,
             <>
               <Strong>Version et plateforme de l&apos;App</Strong> (code
-              de version, nom de version et iOS ou Android) — utilisée
+              de version, nom de version et iOS ou Android) - utilisée
               pour fournir un support spécifique à la version et
               identifier les problèmes de compatibilité
             </>,
             <>
-              <Strong>Token de notification push</Strong> — un token
+              <Strong>Token de notification push</Strong> - un token
               unique délivré par Apple Push Notification service (APNs)
               ou Firebase Cloud Messaging (FCM) afin de t&apos;envoyer
               des rappels de matchs, des notifications de prix et des
@@ -171,7 +171,7 @@ export function PolicyContentFr() {
         <List
           items={[
             <>
-              <Strong>Adresse IP</Strong> — utilisée à des fins de
+              <Strong>Adresse IP</Strong> - utilisée à des fins de
               sécurité, notamment la limitation de débit sur les points
               d&apos;authentification (par ex. jusqu&apos;à 15 tentatives
               de connexion par minute par IP) et la prévention des
@@ -179,7 +179,7 @@ export function PolicyContentFr() {
               des profils publicitaires.
             </>,
             <>
-              <Strong>Rapports d&apos;erreur et de plantage</Strong> —
+              <Strong>Rapports d&apos;erreur et de plantage</Strong> -
               utilisés pour surveiller la stabilité de l&apos;App. Les
               rapports sont filtrés pour exclure les informations
               personnelles identifiables.
@@ -229,7 +229,7 @@ export function PolicyContentFr() {
             </>,
             <>
               <Strong>Publicité</Strong> : pour afficher des annonces
-              dans l&apos;App et mesurer leurs performances — voir la
+              dans l&apos;App et mesurer leurs performances - voir la
               section 8 pour les détails
             </>,
             <>
@@ -259,7 +259,7 @@ export function PolicyContentFr() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — hébergement
+              <Strong>Amazon Web Services (AWS)</Strong> - hébergement
               des serveurs et de la base de données (Francfort,
               Allemagne)
             </>,
@@ -268,7 +268,7 @@ export function PolicyContentFr() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — service tiers fournissant les données de match, les
+              ) - service tiers fournissant les données de match, les
               informations sur les équipes et ligues, ainsi que les
               ressources visuelles associées (logos et images). Aucune
               donnée personnelle n&apos;est partagée avec API-Football.
@@ -277,24 +277,24 @@ export function PolicyContentFr() {
               plus de détails.
             </>,
             <>
-              <Strong>Apple</Strong> — authentification Apple Sign-In
+              <Strong>Apple</Strong> - authentification Apple Sign-In
             </>,
             <>
-              <Strong>Google</Strong> — authentification Google Sign-In
+              <Strong>Google</Strong> - authentification Google Sign-In
               et Firebase Cloud Messaging (notifications push sur
               Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — traite les achats et les
+              <Strong>Apple StoreKit</Strong> - traite les achats et les
               renouvellements de l&apos;abonnement Pro sur iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — traite les achats
+              <Strong>Google Play Billing</Strong> - traite les achats
               et les renouvellements de l&apos;abonnement Pro sur
               Android
             </>,
             <>
-              <Strong>Sentry</Strong> — surveillance des erreurs et
+              <Strong>Sentry</Strong> - surveillance des erreurs et
               exceptions du back-end. Le filtrage des informations
               personnelles identifiables est activé (aucun e-mail, nom
               ou contenu utilisateur n&apos;est envoyé à Sentry).
@@ -361,43 +361,43 @@ export function PolicyContentFr() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -664,7 +664,7 @@ export function PolicyContentFr() {
       <Section title="9. Transferts internationaux de données">
         <p>
           Tes données peuvent être traitées en dehors de ton pays
-          d&apos;origine (AWS Francfort — Union européenne, ainsi que
+          d&apos;origine (AWS Francfort - Union européenne, ainsi que
           dans les centres de données de nos partenaires publicitaires
           listés à la section 3.4, qui peuvent se situer hors UE). Ces
           transferts respectent les normes de sécurité exigées par le
@@ -693,7 +693,7 @@ export function PolicyContentFr() {
           et des éléments visuels (tels que les logos d&apos;équipes et
           de ligues) provenant de notre fournisseur de données
           API-Football. Ces noms, logos et marques sont la propriété de
-          leurs détenteurs respectifs — y compris les clubs de football,
+          leurs détenteurs respectifs - y compris les clubs de football,
           ligues, fédérations et autres titulaires de droits.
         </p>
         <p>

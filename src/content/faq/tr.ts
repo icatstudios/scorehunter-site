@@ -14,7 +14,7 @@ export const faqTr: FAQCategory[] = [
       },
       {
         q: "Nasıl kayıt olurum?",
-        a: "Apple veya Google ile saniyeler içinde giriş yap — şifre yok, e-posta doğrulama yok. Şifreni hiç görmeyiz ve hiç saklamayız.",
+        a: "Apple veya Google ile saniyeler içinde giriş yap - şifre yok, e-posta doğrulama yok. Şifreni hiç görmeyiz ve hiç saklamayız.",
       },
       {
         q: "Hangi cihazlar destekleniyor?",
@@ -27,7 +27,7 @@ export const faqTr: FAQCategory[] = [
     items: [
       {
         q: "Puanlama nasıl işliyor?",
-        a: "Doğru sonuç (1, X, 2), kesin skor ve gol atan tahminleri için puan kazanırsın. Mini oyunlar bonus tahminler ekler. Her maç eşit değerde — oran yok, çarpan yok, şansa dayalı ödeme yok.",
+        a: "Doğru sonuç (1, X, 2), kesin skor ve gol atan tahminleri için puan kazanırsın. Mini oyunlar bonus tahminler ekler. Her maç eşit değerde - oran yok, çarpan yok, şansa dayalı ödeme yok.",
       },
       {
         q: "Score Hunt nedir?",
@@ -35,15 +35,15 @@ export const faqTr: FAQCategory[] = [
       },
       {
         q: "Tahminlerimi değiştirebilir miyim?",
-        a: "Evet — maç başlamadan önce tahminlerini istediğin zaman düzenleyebilirsin. Maç başladığı anda o maça ait tahminin kilitlenir.",
+        a: "Evet - maç başlamadan önce tahminlerini istediğin zaman düzenleyebilirsin. Maç başladığı anda o maça ait tahminin kilitlenir.",
       },
       {
         q: "Mini oyunlar nedir?",
-        a: "Mini oyunlar, tam Score Hunt turlarının arasında çalışan kısa formatlı tahmin modlarıdır. Hızlı maçlar, tematik haftalar, aynı beceri prensibi — sessiz maç günlerinde hareketi sürdürür.",
+        a: "Mini oyunlar, tam Score Hunt turlarının arasında çalışan kısa formatlı tahmin modlarıdır. Hızlı maçlar, tematik haftalar, aynı beceri prensibi - sessiz maç günlerinde hareketi sürdürür.",
       },
       {
         q: "Bu kumar mı?",
-        a: "Hayır. ScoreHunter'da bahis yok, oran yok, para girişi/çıkışı yok, çekiliş yok. Tüm maçlar eşit değerde ve verilen ödüller yalnızca promosyon amaçlı — asla nakit değil.",
+        a: "Hayır. ScoreHunter'da bahis yok, oran yok, para girişi/çıkışı yok, çekiliş yok. Tüm maçlar eşit değerde ve verilen ödüller yalnızca promosyon amaçlı - asla nakit değil.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqTr: FAQCategory[] = [
     items: [
       {
         q: "Pro neler içerir?",
-        a: "Daha az reklam, Pro'ya özel kupalar, sıralamalarda özel Pro rozeti ve öncelikli destek. Pro asla yarışmayı etkilemez — tüm maçlar her oyuncu için eşit değerde kalır.",
+        a: "Daha az reklam, Pro'ya özel kupalar, sıralamalarda özel Pro rozeti ve öncelikli destek. Pro asla yarışmayı etkilemez - tüm maçlar her oyuncu için eşit değerde kalır.",
       },
       {
         q: "Nasıl abone olurum?",
@@ -90,11 +90,11 @@ export const faqTr: FAQCategory[] = [
       },
       {
         q: "ScoreHunter benim hakkımda hangi verileri saklıyor?",
-        a: "Kullanıcı adın, ülken, favori takımın, tahminlerin ve kupaların — bir sıralama oyunundan beklenen şeyler. E-posta ve gerçek isim gizli kalır. Tam döküm Gizlilik Politikası'nda.",
+        a: "Kullanıcı adın, ülken, favori takımın, tahminlerin ve kupaların - bir sıralama oyunundan beklenen şeyler. E-posta ve gerçek isim gizli kalır. Tam döküm Gizlilik Politikası'nda.",
       },
       {
         q: "Şifremi unuttum.",
-        a: "Şifre yok. Giriş Apple veya Google üzerinden olur — kurtarma ScoreHunter'da değil, Apple/Google tarafında olur.",
+        a: "Şifre yok. Giriş Apple veya Google üzerinden olur - kurtarma ScoreHunter'da değil, Apple/Google tarafında olur.",
       },
     ],
   },

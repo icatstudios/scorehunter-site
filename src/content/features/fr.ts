@@ -8,7 +8,7 @@ export const featuresFr: FeaturesData = {
     bullets: [
       "Tu disposes de 10 pronostics principaux et de 2 pronostics bonus.",
       "Tu disposes d'un joker 2X à utiliser sur un match.",
-      "Tu peux marquer des points de plein de façons — du sens du résultat au nombre exact de buts.",
+      "Tu peux marquer des points de plein de façons - du sens du résultat au nombre exact de buts.",
       "Tu gagnes des points bonus supplémentaires en réalisant un pronostic parfait ou un pronostic rare.",
       "N'oublie pas de confirmer ta liste avant le coup d'envoi des matchs qui y figurent.",
     ],

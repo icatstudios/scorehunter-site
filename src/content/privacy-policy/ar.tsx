@@ -42,7 +42,7 @@ export function PolicyContentAr() {
               دخول)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — معرّف فريد يُستخدم
+              <Strong>Provider User ID</Strong> - معرّف فريد يُستخدم
               للتعرف على حسابك
             </>,
           ]}
@@ -53,7 +53,7 @@ export function PolicyContentAr() {
         <List
           items={[
             <>
-              <Strong>اسم المستخدم</Strong> (الاسم الظاهر — يظهر في
+              <Strong>اسم المستخدم</Strong> (الاسم الظاهر - يظهر في
               لوحات الترتيب)
             </>,
             <>
@@ -66,11 +66,11 @@ export function PolicyContentAr() {
               <Strong>تاريخ الميلاد</Strong>
             </>,
             <>
-              <Strong>الجنس</Strong> (اختياري — يتوفر خيار «أفضّل عدم
+              <Strong>الجنس</Strong> (اختياري - يتوفر خيار «أفضّل عدم
               الإجابة»)
             </>,
             <>
-              <Strong>حالة اشتراك Pro</Strong> — ما إذا كان لديك
+              <Strong>حالة اشتراك Pro</Strong> - ما إذا كان لديك
               اشتراك Pro نشط وتاريخ انتهائه
             </>,
           ]}
@@ -108,12 +108,12 @@ export function PolicyContentAr() {
             </>,
             <>
               <Strong>إصدار التطبيق والمنصة</Strong> (رمز الإصدار،
-              اسم الإصدار، وما إذا كنت تستخدم iOS أو Android) —
+              اسم الإصدار، وما إذا كنت تستخدم iOS أو Android) -
               يُستخدم لتقديم الدعم الخاص بكل إصدار وتحديد مشكلات
               التوافق
             </>,
             <>
-              <Strong>رمز الإشعارات الفورية</Strong> — رمز فريد يصدر
+              <Strong>رمز الإشعارات الفورية</Strong> - رمز فريد يصدر
               من Apple Push Notification service (APNs) أو Firebase
               Cloud Messaging (FCM) ليتسنى لنا إرسال تنبيهات
               المباريات وإشعارات الجوائز والإعلانات المهمة. يمكنك
@@ -158,14 +158,14 @@ export function PolicyContentAr() {
         <List
           items={[
             <>
-              <Strong>عنوان IP</Strong> — يُستخدم لأغراض الأمان، بما
+              <Strong>عنوان IP</Strong> - يُستخدم لأغراض الأمان، بما
               في ذلك الحد من معدل الطلبات على نقاط نهاية المصادقة
               (مثلاً حتى 15 محاولة تسجيل دخول في الدقيقة لكل عنوان
               IP) ومنع إساءة الاستخدام. لا نستخدم عناوين IP لإنشاء
               ملفات تعريف إعلانية.
             </>,
             <>
-              <Strong>تقارير الأخطاء والأعطال</Strong> — تُستخدم
+              <Strong>تقارير الأخطاء والأعطال</Strong> - تُستخدم
               لمراقبة استقرار التطبيق. تُصفّى التقارير لاستبعاد أي
               معلومات تعريف شخصية.
             </>,
@@ -211,7 +211,7 @@ export function PolicyContentAr() {
             </>,
             <>
               <Strong>الإعلانات</Strong>: لعرض الإعلانات داخل
-              التطبيق وقياس فعاليتها — راجع القسم 8 للتفاصيل
+              التطبيق وقياس فعاليتها - راجع القسم 8 للتفاصيل
             </>,
             <>
               <Strong>التحليل والتحسين</Strong>: لتحليل إحصاءات
@@ -237,7 +237,7 @@ export function PolicyContentAr() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — استضافة
+              <Strong>Amazon Web Services (AWS)</Strong> - استضافة
               الخوادم وقاعدة البيانات (فرانكفورت، ألمانيا)
             </>,
             <>
@@ -245,7 +245,7 @@ export function PolicyContentAr() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — خدمة طرف ثالث توفر بيانات المباريات ومعلومات
+              ) - خدمة طرف ثالث توفر بيانات المباريات ومعلومات
               الفرق والدوريات والأصول البصرية المرتبطة (الشعارات
               والصور). لا يتم مشاركة أي بيانات شخصية مع
               API-Football. لا يمتلك ScoreHunter أي حقوق على
@@ -253,23 +253,23 @@ export function PolicyContentAr() {
               راجع القسم 11 للتفاصيل.
             </>,
             <>
-              <Strong>Apple</Strong> — مصادقة Apple Sign-In
+              <Strong>Apple</Strong> - مصادقة Apple Sign-In
             </>,
             <>
-              <Strong>Google</Strong> — مصادقة Google Sign-In و
+              <Strong>Google</Strong> - مصادقة Google Sign-In و
               Firebase Cloud Messaging (الإشعارات الفورية على
               Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — معالجة عمليات شراء
+              <Strong>Apple StoreKit</Strong> - معالجة عمليات شراء
               اشتراك Pro وتجديده على iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — معالجة عمليات
+              <Strong>Google Play Billing</Strong> - معالجة عمليات
               شراء اشتراك Pro وتجديده على Android
             </>,
             <>
-              <Strong>Sentry</Strong> — مراقبة الأخطاء على الخادم.
+              <Strong>Sentry</Strong> - مراقبة الأخطاء على الخادم.
               التصفية لمعلومات التعريف الشخصية مفعّلة (لا يتم إرسال
               عنوان البريد أو الاسم أو محتوى المستخدم إلى Sentry).
             </>,
@@ -332,43 +332,43 @@ export function PolicyContentAr() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User
-              Messaging Platform —{" "}
+              Messaging Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -629,7 +629,7 @@ export function PolicyContentAr() {
 
       <Section title="9. عمليات النقل الدولية للبيانات">
         <p>
-          قد تتم معالجة بياناتك خارج بلد إقامتك (AWS فرانكفورت —
+          قد تتم معالجة بياناتك خارج بلد إقامتك (AWS فرانكفورت -
           الاتحاد الأوروبي، ومراكز بيانات شركائنا الإعلانيين
           المذكورين في القسم 3.4 والتي قد تكون خارج الاتحاد
           الأوروبي). تتوافق عمليات النقل هذه مع معايير الأمان
@@ -656,7 +656,7 @@ export function PolicyContentAr() {
           والدوريات وأسماء اللاعبين والأصول البصرية (مثل شعارات
           الفرق والدوريات) من مزوّد البيانات API-Football. تعود
           ملكية هذه الأسماء والشعارات والعلامات التجارية إلى
-          أصحابها — بما في ذلك الأندية والدوريات والاتحادات وأي
+          أصحابها - بما في ذلك الأندية والدوريات والاتحادات وأي
           أصحاب حقوق آخرين.
         </p>
         <p>

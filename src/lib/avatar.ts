@@ -1,10 +1,10 @@
 /**
- * Avatar URL builder — mirrors the iOS app's AvatarHelper logic.
+ * Avatar URL builder - mirrors the iOS app's AvatarHelper logic.
  *
  * Avatars live on S3 at:
  *   https://icatbucket.s3.eu-central-1.amazonaws.com/sh/images/avatar/{size}/{avatarKey}.png
  *
- * Available sizes: 64, 128, 256 (32 returns 403 — not published).
+ * Available sizes: 64, 128, 256 (32 returns 403 - not published).
  */
 
 const BASE_URL =

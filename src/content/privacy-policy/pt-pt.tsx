@@ -47,7 +47,7 @@ export function PolicyContentPtPt() {
               Google a cada início de sessão)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — um identificador
+              <Strong>Provider User ID</Strong> - um identificador
               único utilizado para reconhecer a tua conta
             </>,
           ]}
@@ -58,7 +58,7 @@ export function PolicyContentPtPt() {
         <List
           items={[
             <>
-              <Strong>Nome de utilizador</Strong> (nome a apresentar —
+              <Strong>Nome de utilizador</Strong> (nome a apresentar -
               visível nos rankings)
             </>,
             <>
@@ -71,11 +71,11 @@ export function PolicyContentPtPt() {
               <Strong>Data de nascimento</Strong>
             </>,
             <>
-              <Strong>Género</Strong> (opcional — opção &quot;prefiro
+              <Strong>Género</Strong> (opcional - opção &quot;prefiro
               não dizer&quot; disponível)
             </>,
             <>
-              <Strong>Estado da subscrição Pro</Strong> — se tens uma
+              <Strong>Estado da subscrição Pro</Strong> - se tens uma
               subscrição Pro ativa e a respetiva data de validade
             </>,
           ]}
@@ -115,11 +115,11 @@ export function PolicyContentPtPt() {
             <>
               <Strong>Versão e plataforma da Aplicação</Strong>{" "}
               (código de versão, nome da versão e se estás em iOS ou
-              Android) — utilizado para prestar suporte específico
+              Android) - utilizado para prestar suporte específico
               para a versão e identificar problemas de compatibilidade
             </>,
             <>
-              <Strong>Token de notificações push</Strong> — um token
+              <Strong>Token de notificações push</Strong> - um token
               único emitido pelo Apple Push Notification service
               (APNs) ou pelo Firebase Cloud Messaging (FCM) para que
               possamos enviar lembretes de jogos, notificações de
@@ -170,14 +170,14 @@ export function PolicyContentPtPt() {
         <List
           items={[
             <>
-              <Strong>Endereço IP</Strong> — utilizado para fins de
+              <Strong>Endereço IP</Strong> - utilizado para fins de
               segurança, incluindo limitação de taxa em endpoints de
               autenticação (por ex. até 15 tentativas de início de
               sessão por minuto por IP) e prevenção de abusos. Não
               utilizamos endereços IP para criar perfis publicitários.
             </>,
             <>
-              <Strong>Relatórios de erros e falhas</Strong> —
+              <Strong>Relatórios de erros e falhas</Strong> -
               utilizados para monitorizar a estabilidade da Aplicação.
               Os relatórios são filtrados para excluir informações
               pessoais identificáveis.
@@ -227,7 +227,7 @@ export function PolicyContentPtPt() {
             </>,
             <>
               <Strong>Publicidade</Strong>: para mostrar anúncios
-              dentro da Aplicação e medir o seu desempenho — ver
+              dentro da Aplicação e medir o seu desempenho - ver
               secção 8 para detalhes
             </>,
             <>
@@ -256,7 +256,7 @@ export function PolicyContentPtPt() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — alojamento
+              <Strong>Amazon Web Services (AWS)</Strong> - alojamento
               de servidores e bases de dados (Frankfurt, Alemanha)
             </>,
             <>
@@ -264,7 +264,7 @@ export function PolicyContentPtPt() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — serviço de terceiros que disponibiliza dados de
+              ) - serviço de terceiros que disponibiliza dados de
               jogos, informações de equipas e ligas e elementos
               visuais associados (logótipos e imagens). Não são
               partilhados quaisquer dados pessoais com a API-Football.
@@ -273,22 +273,22 @@ export function PolicyContentPtPt() {
               secção 11 para mais detalhes.
             </>,
             <>
-              <Strong>Apple</Strong> — autenticação Apple Sign-In
+              <Strong>Apple</Strong> - autenticação Apple Sign-In
             </>,
             <>
-              <Strong>Google</Strong> — autenticação Google Sign-In e
+              <Strong>Google</Strong> - autenticação Google Sign-In e
               Firebase Cloud Messaging (notificações push em Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — processa as compras e
+              <Strong>Apple StoreKit</Strong> - processa as compras e
               renovações da subscrição Pro em iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — processa as
+              <Strong>Google Play Billing</Strong> - processa as
               compras e renovações da subscrição Pro em Android
             </>,
             <>
-              <Strong>Sentry</Strong> — monitorização de erros e
+              <Strong>Sentry</Strong> - monitorização de erros e
               exceções do back-end. A filtragem de informações
               pessoais identificáveis está ativada (não são enviados
               e-mails, nomes ou conteúdo do utilizador para o Sentry).
@@ -355,43 +355,43 @@ export function PolicyContentPtPt() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -663,7 +663,7 @@ export function PolicyContentPtPt() {
       <Section title="9. Transferências internacionais de dados">
         <p>
           Os teus dados podem ser tratados fora do teu país de
-          residência (AWS Frankfurt — União Europeia, e os data
+          residência (AWS Frankfurt - União Europeia, e os data
           centers dos parceiros de publicidade listados na secção
           3.4, que podem estar localizados fora da UE). Estas
           transferências cumprem os padrões de segurança exigidos
@@ -693,7 +693,7 @@ export function PolicyContentPtPt() {
           visuais (como logótipos de equipas e ligas) provenientes do
           nosso fornecedor de dados API-Football. Esses nomes,
           logótipos e marcas são propriedade dos respetivos titulares
-          — incluindo clubes, ligas, federações e outros titulares de
+          - incluindo clubes, ligas, federações e outros titulares de
           direitos.
         </p>
         <p>

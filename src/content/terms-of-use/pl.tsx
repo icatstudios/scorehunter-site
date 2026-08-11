@@ -50,7 +50,7 @@ export function TermsContentPl() {
 
       <Divider />
 
-      <Section title="2. Charakter Usługi — WAŻNE">
+      <Section title="2. Charakter Usługi - WAŻNE">
         <SubHeading>2.1 ScoreHunter nie jest aplikacją hazardową</SubHeading>
         <p>
           ScoreHunter jest{" "}
@@ -79,7 +79,7 @@ export function TermsContentPl() {
             </>,
             <>
               Wszystkie mecze są{" "}
-              <Strong>tak samo wartościowe</Strong> dla celów typowania —
+              <Strong>tak samo wartościowe</Strong> dla celów typowania -
               żaden mecz nie jest „cenniejszy" od innego
             </>,
             <>
@@ -129,7 +129,7 @@ export function TermsContentPl() {
               <Strong>
                 nie wpływają na wyniki konkursów
               </Strong>{" "}
-              — oferują jedynie dodatkowe funkcje poprawiające
+              - oferują jedynie dodatkowe funkcje poprawiające
               doświadczenie
             </>,
           ]}
@@ -151,11 +151,11 @@ export function TermsContentPl() {
               zachęcenie do aktywności użytkowników
             </>,
             <>
-              Nagrody <Strong>NIE są gwarantowane</Strong> — przyznawane
+              Nagrody <Strong>NIE są gwarantowane</Strong> - przyznawane
               są wyłącznie w ramach kampanii ogłoszonych przez Dewelopera
             </>,
             <>
-              Nagrody <Strong>NIE są wypłacane w gotówce</Strong> — są
+              Nagrody <Strong>NIE są wypłacane w gotówce</Strong> - są
               dostarczane wyłącznie jako prezenty fizyczne lub cyfrowe
             </>,
             <>
@@ -304,7 +304,7 @@ export function TermsContentPl() {
           dane meczów piłkarskich, nazwy klubów i lig, nazwiska zawodników
           oraz materiały wizualne, takie jak logotypy klubów i lig. Treści
           te są dostarczane za pośrednictwem naszego partnera
-          API-Football i są własnością odpowiednich uprawnionych — w tym
+          API-Football i są własnością odpowiednich uprawnionych - w tym
           klubów, lig, federacji oraz innych podmiotów uprawnionych.
           ScoreHunter nie rości sobie praw do żadnych znaków towarowych,
           logotypów ani materiałów chronionych prawem autorskim osób
@@ -472,7 +472,7 @@ export function TermsContentPl() {
                 Wszelkie nagrody, konkursy, kampanie lub promocje w
                 Aplikacji są niezależne od Apple Inc.
               </Strong>{" "}
-              — Apple w żaden sposób nie jest sponsorem, organizatorem
+              - Apple w żaden sposób nie jest sponsorem, organizatorem
               ani administratorem tych działań
             </>,
             "Apple Inc. jest zwolnione z odpowiedzialności za kwestie prawne lub roszczenia powstałe w Aplikacji",
@@ -519,7 +519,7 @@ export function TermsContentPl() {
                 Wszelkie nagrody, konkursy, kampanie lub promocje w
                 Aplikacji są niezależne od Google LLC
               </Strong>{" "}
-              — Google w żaden sposób nie jest sponsorem, organizatorem
+              - Google w żaden sposób nie jest sponsorem, organizatorem
               ani administratorem tych działań
             </>,
             "Google Play Store jest jedynie platformą dystrybucji Aplikacji i nie ponosi odpowiedzialności za jej treść ani działanie",
@@ -554,16 +554,16 @@ export function TermsContentPl() {
               <Strong>
                 Wnioski o zwrot należy składać do Apple lub Google
               </Strong>{" "}
-              — nie można ich kierować bezpośrednio do Dewelopera
+              - nie można ich kierować bezpośrednio do Dewelopera
             </>,
             <>
               Funkcje płatne zapewniają użytkownikowi jedynie{" "}
-              <Strong>dodatkowe doświadczenie</Strong> — nie wpływają na
+              <Strong>dodatkowe doświadczenie</Strong> - nie wpływają na
               wyniki konkursów ani rankingi
             </>,
             <>
               Funkcje płatne{" "}
-              <Strong>nie gwarantują wygranej</Strong> — wszyscy
+              <Strong>nie gwarantują wygranej</Strong> - wszyscy
               użytkownicy są równi w konkursach
             </>,
           ]}

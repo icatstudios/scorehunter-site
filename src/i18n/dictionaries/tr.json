@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — Yakında",
+    "comingSoonTitle": "ScoreHunter - Yakında",
     "comingSoonDescription": "Büyük bir şey geliyor. Ava hazır mısın?",
-    "homeTitle": "ScoreHunter — Futbol tahmin oyunu",
+    "homeTitle": "ScoreHunter - Futbol tahmin oyunu",
     "homeDescription": "Futbolu tahmin et. Arkadaşlarınla yarış. Sıralamada yüksel. iCat Studios'un beceri tabanlı futbol tahmin oyunu.",
-    "deleteAccountTitle": "Hesabı Sil — ScoreHunter",
+    "deleteAccountTitle": "Hesabı Sil - ScoreHunter",
     "deleteAccountDescription": "ScoreHunter hesabınızın ve ilişkili tüm verilerin silinmesini talep edin.",
-    "privacyPolicyTitle": "Gizlilik Politikası — ScoreHunter",
+    "privacyPolicyTitle": "Gizlilik Politikası - ScoreHunter",
     "privacyPolicyDescription": "ScoreHunter'ın kişisel verilerinizi nasıl topladığını, kullandığını ve koruduğunu öğrenin.",
-    "termsOfUseTitle": "Kullanım Koşulları — ScoreHunter",
+    "termsOfUseTitle": "Kullanım Koşulları - ScoreHunter",
     "termsOfUseDescription": "ScoreHunter uygulamasına erişiminizi ve kullanımınızı düzenleyen Kullanım Koşullarını okuyun.",
-    "supportTitle": "Destek — ScoreHunter",
+    "supportTitle": "Destek - ScoreHunter",
     "supportDescription": "ScoreHunter ile ilgili yardıma mı ihtiyacınız var? Destek ekibimize e-posta ile ulaşın.",
-    "featuresTitle": "Özellikler — ScoreHunter",
+    "featuresTitle": "Özellikler - ScoreHunter",
     "featuresDescription": "ScoreHunter'ın sunduğu her şey: haftalık tahminler, mini oyunlar, ligler, kupalar, Pro üyelik ve canlı takip.",
-    "faqTitle": "SSS — ScoreHunter",
-    "faqDescription": "ScoreHunter hakkında en sık sorulan sorulara cevaplar — oyun, ligler, Pro üyelik, hesap ve daha fazlası."
+    "faqTitle": "SSS - ScoreHunter",
+    "faqDescription": "ScoreHunter hakkında en sık sorulan sorulara cevaplar - oyun, ligler, Pro üyelik, hesap ve daha fazlası."
   },
   "nav": {
     "backToHome": "Ana Sayfaya Dön"
@@ -68,7 +68,8 @@
       "features": "Özellikler",
       "faq": "SSS",
       "support": "Destek",
-      "leaderboards": "Sıralamalar"
+      "leaderboards": "Sıralamalar",
+      "rewards": "Ödüller"
     },
     "hero": {
       "eyebrow": "iCat Studios sunar",
@@ -239,13 +240,13 @@
         "Tahminler sadece normal süre (90 dakika) üzerinden değerlendirilir. Uzatma ve penaltı atışları sayılmaz.",
         "Ertelenen, iptal edilen veya askıya alınan maçlardan puan kazanılamaz.",
         "Genel Sıralama haftalık hesaplanır: Skor Avı + Mini Oyunlar toplamı.",
-        "Hafta bittiğinde sonuçlar otomatik hesaplanır. Maç skorları canlı olarak güncellenir — beklemeden takip edebilirsin.",
-        "Sıralamada puan eşitliği olduğunda eşitlik şu sıraya göre bozulur: önce sezon toplam puanı, sonra kazanılan altın, gümüş ve bronz kupa sayıları — yüksekten düşüğe.",
+        "Hafta bittiğinde sonuçlar otomatik hesaplanır. Maç skorları canlı olarak güncellenir - beklemeden takip edebilirsin.",
+        "Sıralamada puan eşitliği olduğunda eşitlik şu sıraya göre bozulur: önce sezon toplam puanı, sonra kazanılan altın, gümüş ve bronz kupa sayıları - yüksekten düşüğe.",
         "Puan hesaplaması sırasında yapay zeka destekli anomali tespiti yapılır. Hile yaptığı tespit edilen kullanıcıların bütün listeleri geçersiz sayılır.",
         "Oyunlara katılım için 13 yaş ve üzeri olmak gerekir."
       ],
-      "rewardsTitle": "Ödüller",
-      "rewardsPlaceholder": "Oyunumuzun yayın tarihi 2025-2026 sezonunun son haftalarına denk geldiği için adil bir rekabet ortamı oluşmayacağından dolayı sezonun geri kalan kısmını \"Isınma Sezonu\" olarak adlandırdık.\n\nBu sezonu lütfen oyunu keşfetmek, bulduğunuz hataları veya önerilerinizi bizimle paylaşmak için değerlendirin ve Dünya Kupası Sezonu'na hazır olun.\n\nDünya Kupası ile beraber ödüllü sezonlarımız başlayacak. O zamana kadar bizi takipte kalın, bizimle kalın."
+      "showMore": "Tümünü göster",
+      "showLess": "Daha az göster"
     },
     "features": {
       "eyebrow": "Özellikler",
@@ -292,15 +293,15 @@
       "items": [
         {
           "q": "ScoreHunter ücretsiz mi?",
-          "a": "Evet — indirmesi ve oynaması tamamen ücretsiz. Daha az reklam gibi ekstralar için opsiyonel bir Pro üyelik var ama ana oyun herkese ücretsiz."
+          "a": "Evet - indirmesi ve oynaması tamamen ücretsiz. Daha az reklam gibi ekstralar için opsiyonel bir Pro üyelik var ama ana oyun herkese ücretsiz."
         },
         {
           "q": "Bu kumar mı?",
-          "a": "Hayır. ScoreHunter'da bahis yok, oran yok, para girişi/çıkışı yok. Tüm maçlar eşit değerde ve ödüller yalnızca promosyon amaçlı — asla nakit değil."
+          "a": "Hayır. ScoreHunter'da bahis yok, oran yok, para girişi/çıkışı yok. Tüm maçlar eşit değerde ve ödüller yalnızca promosyon amaçlı - asla nakit değil."
         },
         {
           "q": "Hesap açmam gerekiyor mu?",
-          "a": "Evet. Apple veya Google ile saniyeler içinde giriş yap — şifre yok, e-posta doğrulama yok."
+          "a": "Evet. Apple veya Google ile saniyeler içinde giriş yap - şifre yok, e-posta doğrulama yok."
         },
         {
           "q": "Arkadaşlarımla oynayabilir miyim?",
@@ -365,10 +366,10 @@
     "topics": {
       "accountLabel": "Hesap ve Giriş",
       "accountDescription": "Giriş sorunları, kullanıcı adı, profil değişiklikleri",
-      "accountSubject": "Destek — Hesap ve Giriş",
+      "accountSubject": "Destek - Hesap ve Giriş",
       "billingLabel": "Abonelik ve Ödeme",
       "billingDescription": "Pro üyelik, ödemeler, iadeler",
-      "billingSubject": "Destek — Abonelik ve Ödeme",
+      "billingSubject": "Destek - Abonelik ve Ödeme",
       "bugLabel": "Hata Bildir",
       "bugDescription": "Bir şey beklendiği gibi çalışmıyor",
       "bugSubject": "Hata Bildirimi",
@@ -412,5 +413,86 @@
     },
     "topN": "İlk 100",
     "participants": "katılımcı"
+  },
+  "rewards": {
+    "eyebrow": "Ödüller",
+    "title": "Ödüller",
+    "subtitle": "Skor Avcısı'nda ödüller gerçek. Sezon sonunda zirveye çıkanlar boş dönmüyor.",
+    "season": {
+      "title": "Sezon Sonu Ödülleri",
+      "label": "2026-2027 Sezonu",
+      "startLabel": "Sezon 14 Ağustos'ta başlıyor.",
+      "intro": "Bu ödüller sezon sonunda Genel Sıralama'da dereceye giren oyunculara verilir.",
+      "sponsoredLabel": "Sponsorlu Ödül",
+      "sponsoredNote": "Sponsorlu Ödüller sezon başlangıcından sonra açıklanacaktır.",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "Sponsorlu Ödül"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "Haftalık Ödüller",
+      "lockedBadge": "Yakında",
+      "intro": "Sezon sonunu beklemeden, her hafta dereceye giren oyunculara da ödül vermek istiyoruz.",
+      "progressLabel": "Aktif oyuncu",
+      "targetLabel": "hedef",
+      "explain": "Haftalık ödüllerin adil ve sürdürülebilir olması için yeterli sayıda oyuncuya ihtiyacımız var. Aktif oyuncu sayımız 10.000'e ulaştığında haftalık ödüller otomatik olarak devreye girecek ve bu sayfada duyurulacak.",
+      "helpNote": "Arkadaşlarını davet ederek bu hedefe birlikte daha hızlı ulaşabiliriz.",
+      "target": 10000
+    },
+    "rules": {
+      "title": "Ödül Kuralları",
+      "items": [
+        "Ödüller, sezon sonunda Genel Sıralama'da ilk 20'ye giren oyunculara verilir. Haftalık ve mod bazlı sıralamalar sezon ödüllerini etkilemez.",
+        "Sıralamada puan eşitliği olması durumunda sıralama; sezon toplam puanı, ardından kazanılan altın, gümüş ve bronz kupa sayılarına göre belirlenir.",
+        "Skor Avcısı bir bahis veya kumar oyunu değildir. Oyuna katılım ücretsizdir, para yatırma yoktur ve hiçbir koşulda nakit para ödülü verilmez. Ödüller yalnızca yukarıda belirtilen fiziksel ürünlerden oluşur.",
+        "Kazananlar sezon bitiminden sonra uygulama içi bildirim ve e-posta ile bilgilendirilir.",
+        "Ödül teslimatı için ad-soyad, adres ve iletişim bilgilerinin paylaşılması gerekir. Bilgiler 30 gün içinde iletilmezse ödül hakkı sıradaki oyuncuya geçer.",
+        "Ödüller nakde çevrilemez ve başkasına devredilemez. Stok durumuna bağlı olarak eşdeğer bir ürünle değiştirilebilir.",
+        "Kargo masrafları iCat Studios tarafından karşılanır. Ülkenizde doğabilecek gümrük ve vergi yükümlülükleri kazanana aittir.",
+        "Hile, çoklu hesap kullanımı veya kural ihlali tespit edilen oyuncular ödül hakkını kaybeder.",
+        "18 yaşından küçük oyuncuların ödül kazanması durumunda teslimat için veli onayı aranır.",
+        "Bu ödüller ve yarışma Apple Inc. ve Google LLC'den tamamen bağımsızdır. Apple ve Google hiçbir şekilde sponsor, organizatör veya yönetici değildir; ödüllerin dağıtımı ve tüm sorumluluk iCat Studios'a aittir.",
+        "iCat Studios, ödül listesini güncelleme hakkını saklı tutar."
+      ]
+    },
+    "preview": {
+      "eyebrow": "Ödüller",
+      "title": "Sezonu zirvede bitir, ödülünü al",
+      "subtitle": "2026-2027 sezonu sonunda Genel Sıralama'da ilk 20'ye girenler ödül kazanıyor.",
+      "viewAll": "Tüm ödülleri gör"
+    }
   }
 }

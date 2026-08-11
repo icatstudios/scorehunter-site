@@ -47,7 +47,7 @@ export function TermsContentEn() {
 
       <Divider />
 
-      <Section title="2. Nature of the Service — IMPORTANT">
+      <Section title="2. Nature of the Service - IMPORTANT">
         <SubHeading>2.1 ScoreHunter Is Not a Gambling Application</SubHeading>
         <p>
           ScoreHunter is a{" "}
@@ -74,7 +74,7 @@ export function TermsContentEn() {
             </>,
             <>
               All matches are <Strong>equal in value</Strong> for prediction
-              purposes — no match is &quot;worth more&quot; than another
+              purposes - no match is &quot;worth more&quot; than another
             </>,
             <>
               The App allows football enthusiasts to compete using their
@@ -118,7 +118,7 @@ export function TermsContentEn() {
             </>,
             <>
               Paid features such as Pro membership{" "}
-              <Strong>do not affect competition results</Strong> — they only
+              <Strong>do not affect competition results</Strong> - they only
               provide additional features that enhance user experience
             </>,
           ]}
@@ -138,11 +138,11 @@ export function TermsContentEn() {
               intended to encourage user engagement
             </>,
             <>
-              Prizes are <Strong>NOT guaranteed</Strong> — they are awarded
+              Prizes are <Strong>NOT guaranteed</Strong> - they are awarded
               only as part of campaigns announced by the Developer
             </>,
             <>
-              Prizes are <Strong>NOT given as real cash</Strong> — they are
+              Prizes are <Strong>NOT given as real cash</Strong> - they are
               provided only as physical or digital gifts
             </>,
             <>
@@ -285,7 +285,7 @@ export function TermsContentEn() {
           football match data, team and league names, player names, and
           visual assets such as team and league logos. This content is
           provided through our data partner, API-Football, and is the
-          property of its respective owners — including football clubs,
+          property of its respective owners - including football clubs,
           leagues, federations, and other rights holders. ScoreHunter does
           not claim ownership of any third-party trademarks, logos, or
           copyrighted material displayed in the App.
@@ -439,7 +439,7 @@ export function TermsContentEn() {
                 Any prizes, contests, campaigns, or promotions offered within
                 the App are independent of Apple Inc.
               </Strong>{" "}
-              — Apple is in no way a sponsor, organizer, or administrator of
+              - Apple is in no way a sponsor, organizer, or administrator of
               such matters
             </>,
             "Apple Inc. is exempt from any liability for legal issues or claims arising within the App",
@@ -482,7 +482,7 @@ export function TermsContentEn() {
                 Any prizes, contests, campaigns, or promotions offered within
                 the App are independent of Google LLC
               </Strong>{" "}
-              — Google is in no way a sponsor, organizer, or administrator of
+              - Google is in no way a sponsor, organizer, or administrator of
               such matters
             </>,
             "The Google Play Store is solely a distribution platform for the App and bears no responsibility for the content or operation of the App",
@@ -518,15 +518,15 @@ export function TermsContentEn() {
               <Strong>
                 Refund requests must be submitted to Apple or Google
               </Strong>{" "}
-              — refund requests cannot be sent directly to the Developer
+              - refund requests cannot be sent directly to the Developer
             </>,
             <>
               Paid features only provide users with{" "}
-              <Strong>additional experience</Strong> — they do not affect
+              <Strong>additional experience</Strong> - they do not affect
               competition results or rankings
             </>,
             <>
-              Paid features <Strong>do not guarantee winning</Strong> — all
+              Paid features <Strong>do not guarantee winning</Strong> - all
               users are equal in competitions
             </>,
           ]}

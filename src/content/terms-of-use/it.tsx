@@ -52,7 +52,7 @@ export function TermsContentIt() {
 
       <Divider />
 
-      <Section title="2. Natura del Servizio — IMPORTANTE">
+      <Section title="2. Natura del Servizio - IMPORTANTE">
         <SubHeading>
           2.1 ScoreHunter non è un&apos;applicazione di gioco
           d&apos;azzardo
@@ -86,7 +86,7 @@ export function TermsContentIt() {
             </>,
             <>
               Tutte le partite hanno{" "}
-              <Strong>pari valore</Strong> ai fini dei pronostici —
+              <Strong>pari valore</Strong> ai fini dei pronostici -
               nessuna partita &quot;vale di più&quot; rispetto a
               un&apos;altra
             </>,
@@ -140,7 +140,7 @@ export function TermsContentIt() {
               <Strong>
                 non incidono sui risultati dei concorsi
               </Strong>{" "}
-              — offrono solo funzioni aggiuntive che migliorano
+              - offrono solo funzioni aggiuntive che migliorano
               l&apos;esperienza utente
             </>,
           ]}
@@ -162,12 +162,12 @@ export function TermsContentIt() {
               incentivare il coinvolgimento degli utenti
             </>,
             <>
-              I premi <Strong>NON sono garantiti</Strong> — vengono
+              I premi <Strong>NON sono garantiti</Strong> - vengono
               assegnati solo nell&apos;ambito di campagne annunciate
               dallo Sviluppatore
             </>,
             <>
-              I premi <Strong>NON sono erogati in contanti</Strong> —
+              I premi <Strong>NON sono erogati in contanti</Strong> -
               vengono forniti solo come omaggi fisici o digitali
             </>,
             <>
@@ -321,7 +321,7 @@ export function TermsContentIt() {
           di squadre e leghe, nomi di giocatori e contenuti visivi
           come loghi di squadre e leghe. Tali contenuti vengono
           forniti tramite il nostro partner di dati API-Football e
-          sono di proprietà dei rispettivi titolari — inclusi club,
+          sono di proprietà dei rispettivi titolari - inclusi club,
           leghe, federazioni e altri titolari dei diritti.
           ScoreHunter non rivendica la proprietà di alcun marchio,
           logo o materiale protetto da copyright di terzi
@@ -501,7 +501,7 @@ export function TermsContentIt() {
                 offerti all&apos;interno dell&apos;App sono
                 indipendenti da Apple Inc.
               </Strong>{" "}
-              — Apple non è in alcun modo sponsor, organizzatore o
+              - Apple non è in alcun modo sponsor, organizzatore o
               amministratore di tali iniziative
             </>,
             "Apple Inc. è esonerata da qualsiasi responsabilità per questioni legali o reclami sorti all'interno dell'App",
@@ -551,7 +551,7 @@ export function TermsContentIt() {
                 offerti all&apos;interno dell&apos;App sono
                 indipendenti da Google LLC
               </Strong>{" "}
-              — Google non è in alcun modo sponsor, organizzatore o
+              - Google non è in alcun modo sponsor, organizzatore o
               amministratore di tali iniziative
             </>,
             "Google Play Store è unicamente una piattaforma di distribuzione dell'App e non ha alcuna responsabilità rispetto al contenuto o al funzionamento dell'App",
@@ -590,18 +590,18 @@ export function TermsContentIt() {
                 Le richieste di rimborso devono essere inviate ad
                 Apple o Google
               </Strong>{" "}
-              — non possono essere inviate direttamente allo
+              - non possono essere inviate direttamente allo
               Sviluppatore
             </>,
             <>
               Le funzionalità a pagamento offrono all&apos;utente
               solo un&apos;{" "}
-              <Strong>esperienza aggiuntiva</Strong> — non
+              <Strong>esperienza aggiuntiva</Strong> - non
               influenzano i risultati dei concorsi né le classifiche
             </>,
             <>
               Le funzionalità a pagamento{" "}
-              <Strong>non garantiscono la vittoria</Strong> — tutti
+              <Strong>non garantiscono la vittoria</Strong> - tutti
               gli utenti partecipano ai concorsi a pari condizioni
             </>,
           ]}

@@ -39,12 +39,18 @@ interface RulesTabsDict {
   generalRulesTitle: string;
   generalRulesItems: string[];
 
-  // Rewards
-  rewardsTitle: string;
-  rewardsPlaceholder: string;
+  /** Expander labels for the long "how to play" list. */
+  showMore: string;
+  showLess: string;
+
 }
 
-type TabKey = "how" | "scoring" | "rules" | "rewards";
+/** How many "Nasıl oynanır" bullets show before the expander. */
+const HOW_ITEMS_COLLAPSED = 10;
+
+// Prizes moved out to their own /rewards page (the app deep-links to it),
+// so this tab set is gameplay-only again.
+type TabKey = "how" | "scoring" | "rules";
 
 const TAB_ICONS: Record<TabKey, string> = {
   how: "M13 10V3L4 14h7v7l9-11h-7z",
@@ -52,8 +58,6 @@ const TAB_ICONS: Record<TabKey, string> = {
     "M9 17v-6a2 2 0 012-2h2a2 2 0 012 2v6m4 0V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10m14 0H5",
   rules:
     "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
-  rewards:
-    "M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4",
 };
 
 function CheckBullet({ children }: { children: React.ReactNode }) {
@@ -176,12 +180,17 @@ function TabButton({
 
 export function RulesTabs({ dict }: { dict: RulesTabsDict }) {
   const [tab, setTab] = useState<TabKey>("how");
+  // "Nasıl oynanır" runs to ~20 bullets, which buries the tab strip and the
+  // sections below it. Show the first 10 and let the reader open the rest.
+  const [howExpanded, setHowExpanded] = useState(false);
+  const visibleHowItems = howExpanded
+    ? dict.howItems
+    : dict.howItems.slice(0, HOW_ITEMS_COLLAPSED);
 
   const tabs: { key: TabKey; label: string }[] = [
     { key: "how", label: dict.howTitle },
     { key: "scoring", label: dict.scoringTitle },
     { key: "rules", label: dict.generalRulesTitle },
-    { key: "rewards", label: dict.rewardsTitle },
   ];
 
   return (
@@ -212,10 +221,37 @@ export function RulesTabs({ dict }: { dict: RulesTabsDict }) {
               </p>
             )}
             <ul className="space-y-3">
-              {dict.howItems.map((item, i) => (
+              {visibleHowItems.map((item, i) => (
                 <CheckBullet key={i}>{item}</CheckBullet>
               ))}
             </ul>
+
+            {dict.howItems.length > HOW_ITEMS_COLLAPSED && (
+              <button
+                type="button"
+                onClick={() => setHowExpanded((v) => !v)}
+                aria-expanded={howExpanded}
+                className="mt-5 inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.03] ring-1 ring-white/10 text-primary text-[13px] font-semibold hover:bg-white/[0.06] transition-colors"
+              >
+                {howExpanded
+                  ? dict.showLess
+                  : `${dict.showMore} (${dict.howItems.length - HOW_ITEMS_COLLAPSED})`}
+                <svg
+                  className={`w-4 h-4 transition-transform ${howExpanded ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  viewBox="0 0 24 24"
+                  aria-hidden
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+            )}
           </div>
         )}
 
@@ -269,22 +305,6 @@ export function RulesTabs({ dict }: { dict: RulesTabsDict }) {
           </ol>
         )}
 
-        {tab === "rewards" && (
-          <div className="space-y-5 text-text-secondary text-sm leading-relaxed">
-            {dict.rewardsPlaceholder.split(/\n\n+/).map((para, i) => (
-              <p
-                key={i}
-                className="relative pl-5 border-l-2 border-primary/40"
-              >
-                <span
-                  aria-hidden
-                  className="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-primary"
-                />
-                {para}
-              </p>
-            ))}
-          </div>
-        )}
       </div>
     </div>
   );

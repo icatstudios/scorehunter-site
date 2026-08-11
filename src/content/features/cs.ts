@@ -8,7 +8,7 @@ export const featuresCs: FeaturesData = {
     bullets: [
       "Máš 10 hlavních tipů a 2 bonusové tipy.",
       "Máš jednoho 2X jokera, kterého použiješ na jeden zápas.",
-      "Body můžeš získat mnoha způsoby — od trefení směru výsledku až po přesný počet branek.",
+      "Body můžeš získat mnoha způsoby - od trefení směru výsledku až po přesný počet branek.",
       "Když podáš perfektní tip nebo trefíš vzácný tip, získáš extra bonusové body.",
       "Nezapomeň potvrdit svůj seznam tipů, než zápasy v něm začnou.",
     ],
@@ -37,7 +37,7 @@ export const featuresCs: FeaturesData = {
   trophies: {
     title: "Trofeje",
     intro:
-      "V ScoreHunteru hráči, kteří se umístí v top 3 ze tří hlavních žebříčků, dostávají speciální trofeje — týdně i sezónně.",
+      "V ScoreHunteru hráči, kteří se umístí v top 3 ze tří hlavních žebříčků, dostávají speciální trofeje - týdně i sezónně.",
     bullets: [
       "Vlastní design trofejí pro každý herní režim.",
       "Trofeje, které získáš, se zobrazují v tvém profilu a vidí je ostatní uživatelé.",

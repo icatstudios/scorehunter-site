@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — Em breve",
+    "comingSoonTitle": "ScoreHunter - Em breve",
     "comingSoonDescription": "Algo grande está a chegar. Estás pronto para a caça?",
-    "deleteAccountTitle": "Eliminar conta — ScoreHunter",
+    "deleteAccountTitle": "Eliminar conta - ScoreHunter",
     "deleteAccountDescription": "Solicita a eliminação da tua conta ScoreHunter e de todos os dados associados.",
-    "privacyPolicyTitle": "Política de Privacidade — ScoreHunter",
+    "privacyPolicyTitle": "Política de Privacidade - ScoreHunter",
     "privacyPolicyDescription": "Descobre como o ScoreHunter recolhe, utiliza e protege os teus dados pessoais.",
-    "termsOfUseTitle": "Termos de Utilização — ScoreHunter",
+    "termsOfUseTitle": "Termos de Utilização - ScoreHunter",
     "termsOfUseDescription": "Lê os Termos de Utilização que regulam o teu acesso à aplicação ScoreHunter e à sua utilização.",
-    "supportTitle": "Apoio — ScoreHunter",
+    "supportTitle": "Apoio - ScoreHunter",
     "supportDescription": "Precisas de ajuda com o ScoreHunter? Contacta a nossa equipa de apoio por e-mail.",
-    "homeTitle": "ScoreHunter — Jogo de previsões de futebol",
+    "homeTitle": "ScoreHunter - Jogo de previsões de futebol",
     "homeDescription": "Prevê o futebol. Compete com amigos. Sobe nas classificações. O jogo de previsões de futebol baseado em perícia da iCat Studios.",
-    "featuresTitle": "Funcionalidades — ScoreHunter",
+    "featuresTitle": "Funcionalidades - ScoreHunter",
     "featuresDescription": "Tudo o que o ScoreHunter oferece: previsões semanais, mini jogos, ligas, troféus, subscrição Pro e acompanhamento ao vivo.",
-    "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Respostas às perguntas mais comuns sobre o ScoreHunter — jogabilidade, ligas, subscrição Pro, conta e mais."
+    "faqTitle": "FAQ - ScoreHunter",
+    "faqDescription": "Respostas às perguntas mais comuns sobre o ScoreHunter - jogabilidade, ligas, subscrição Pro, conta e mais."
   },
   "nav": {
     "backToHome": "Voltar ao início"
@@ -94,10 +94,10 @@
     "topics": {
       "accountLabel": "Conta e Início de sessão",
       "accountDescription": "Problemas de início de sessão, nome de utilizador, alterações ao perfil",
-      "accountSubject": "Apoio — Conta e Início de sessão",
+      "accountSubject": "Apoio - Conta e Início de sessão",
       "billingLabel": "Subscrição e Pagamento",
       "billingDescription": "Subscrição Pro, pagamentos, reembolsos",
-      "billingSubject": "Apoio — Subscrição e Pagamento",
+      "billingSubject": "Apoio - Subscrição e Pagamento",
       "bugLabel": "Reportar um erro",
       "bugDescription": "Algo não está a funcionar como esperado",
       "bugSubject": "Relatório de erro",
@@ -125,13 +125,14 @@
       "features": "Funcionalidades",
       "faq": "FAQ",
       "support": "Apoio",
-      "leaderboards": "Leaderboards"
+      "leaderboards": "Leaderboards",
+      "rewards": "Prémios"
     },
     "hero": {
       "eyebrow": "iCat Studios apresenta",
       "tagline": "Sem apostas",
       "taglineAccent": "Jogo de previsões de futebol",
-      "subtitle": "O ScoreHunter é um jogo de previsões de futebol gratuito. Faz as tuas previsões, mostra os teus conhecimentos de futebol, ultrapassa os teus rivais e torna-te campeão. Sem depósitos, sem risco — apenas diversão.",
+      "subtitle": "O ScoreHunter é um jogo de previsões de futebol gratuito. Faz as tuas previsões, mostra os teus conhecimentos de futebol, ultrapassa os teus rivais e torna-te campeão. Sem depósitos, sem risco - apenas diversão.",
       "freeBadge": "Grátis",
       "appStoreLabel": "Transferir na",
       "appStoreName": "App Store",
@@ -161,15 +162,15 @@
       "eyebrow": "Como jogar",
       "title": "Tudo o que precisas é paixão pelo futebol",
       "howTitle": "Como jogar",
-      "howIntro": "ScoreHunter recompensa o conhecimento de futebol. Sem boletins, sem handicaps, sem odds — nada de jargão de apostas. Cada liga, cada jogo, cada equipa têm o mesmo valor e a mesma importância. Cada jogador começa com as mesmas hipóteses.",
+      "howIntro": "ScoreHunter recompensa o conhecimento de futebol. Sem boletins, sem handicaps, sem odds - nada de jargão de apostas. Cada liga, cada jogo, cada equipa têm o mesmo valor e a mesma importância. Cada jogador começa com as mesmas hipóteses.",
       "howItems": [
         "Em cada semana, é aberto um conjunto seleccionado de jogos para previsões.",
         "Os jogadores têm de fazer as suas previsões nesses jogos nos modos Score Hunt e Mini Jogos.",
         "Os jogadores ganham pontos com base nos resultados das previsões que fazem.",
-        "Existem três classificações distintas — Geral, Score Hunt e Mini Jogos. Em cada semana, os jogadores em 1.º, 2.º e 3.º lugar recebem troféus.",
+        "Existem três classificações distintas - Geral, Score Hunt e Mini Jogos. Em cada semana, os jogadores em 1.º, 2.º e 3.º lugar recebem troféus.",
         "A classificação Geral de cada semana é calculada como a soma dos pontos obtidos no Score Hunt e nos Mini Jogos.",
         "Nas épocas com prémios, os prémios são distribuídos com base nos resultados da classificação Geral.",
-        "No Score Hunt, os jogadores têm de prever os resultados de 12 jogos no total — 10 principais e 2 de bónus.",
+        "No Score Hunt, os jogadores têm de prever os resultados de 12 jogos no total - 10 principais e 2 de bónus.",
         "As previsões são pontuadas em detalhe segundo vários critérios: direcção correcta do resultado, empate correcto, número correcto de golos, diferença de golos correcta, resultado exacto e previsão rara.",
         "No Score Hunt, os jogadores podem aplicar o joker 2X a uma das suas escolhas para duplicar os pontos obtidos nesse jogo.",
         "As previsões de bónus substituem as escolhas com pontuação mais baixa entre as previsões principais.",
@@ -296,13 +297,13 @@
         "As previsões são pontuadas apenas no tempo regulamentar (90 minutos). Prolongamentos e marcas de penálti não contam.",
         "Não são atribuídos pontos por jogos adiados, cancelados ou suspensos.",
         "A classificação Geral é calculada semanalmente: Score Hunt + Mini Jogos combinados.",
-        "Os resultados são calculados automaticamente no final da semana. Os resultados dos jogos são actualizados em directo — podes seguir em tempo real.",
-        "Em caso de empate de pontos na classificação, o desempate segue esta ordem: primeiro pelo total de pontos da época, depois pelo número de troféus de ouro, prata e bronze conquistados — do mais alto para o mais baixo.",
+        "Os resultados são calculados automaticamente no final da semana. Os resultados dos jogos são actualizados em directo - podes seguir em tempo real.",
+        "Em caso de empate de pontos na classificação, o desempate segue esta ordem: primeiro pelo total de pontos da época, depois pelo número de troféus de ouro, prata e bronze conquistados - do mais alto para o mais baixo.",
         "Durante a pontuação é executada uma detecção de anomalias com IA. Todas as listas dos utilizadores apanhados a fazer batota são anuladas.",
         "Tens de ter 13 anos ou mais para participar."
       ],
-      "rewardsTitle": "Prémios",
-      "rewardsPlaceholder": "Como o nosso lançamento cai nas últimas semanas da época 2025-2026, não é possível um ambiente competitivo justo — por isso chamámos ao resto da época a \"Training Season\".\n\nAproveita esta época para explorar o jogo, reportar bugs que encontres e partilhar as tuas sugestões connosco, e prepara-te para a época do Mundial.\n\nAs nossas épocas com prémios começam com o Mundial. Até lá, fica atento e fica connosco."
+      "showMore": "Mostrar tudo",
+      "showLess": "Mostrar menos"
     },
     "features": {
       "eyebrow": "Funcionalidades",
@@ -324,7 +325,7 @@
         },
         {
           "title": "Troféus",
-          "description": "Os 3 primeiros das classificações semanais e da época adicionam um troféu à sua vitrine — e qualificam-se para a Liga dos Campeões na época seguinte."
+          "description": "Os 3 primeiros das classificações semanais e da época adicionam um troféu à sua vitrine - e qualificam-se para a Liga dos Campeões na época seguinte."
         },
         {
           "title": "Subscrição Pro",
@@ -349,15 +350,15 @@
       "items": [
         {
           "q": "O ScoreHunter é grátis?",
-          "a": "Sim — totalmente grátis para transferir e jogar. Existe uma subscrição Pro opcional para extras como menos publicidade, mas o jogo principal é grátis para todos."
+          "a": "Sim - totalmente grátis para transferir e jogar. Existe uma subscrição Pro opcional para extras como menos publicidade, mas o jogo principal é grátis para todos."
         },
         {
           "q": "Isto é jogo de aposta?",
-          "a": "Não. O ScoreHunter não tem apostas, odds nem dinheiro a entrar ou sair. Todos os jogos têm o mesmo valor e os prémios são apenas promocionais — nunca em dinheiro."
+          "a": "Não. O ScoreHunter não tem apostas, odds nem dinheiro a entrar ou sair. Todos os jogos têm o mesmo valor e os prémios são apenas promocionais - nunca em dinheiro."
         },
         {
           "q": "Preciso de uma conta?",
-          "a": "Sim. Inicia sessão com Apple ou Google em segundos — sem palavras-passe, sem verificação por e-mail."
+          "a": "Sim. Inicia sessão com Apple ou Google em segundos - sem palavras-passe, sem verificação por e-mail."
         },
         {
           "q": "Posso jogar com amigos?",
@@ -411,6 +412,87 @@
       "trophyking": "Troféus",
       "clubranking": "Ranking por clube",
       "countryranking": "Ranking por país"
+    }
+  },
+  "rewards": {
+    "eyebrow": "Prémios",
+    "title": "Prémios",
+    "subtitle": "Os prémios do ScoreHunter são reais. Quem termina a época no topo não sai de mãos a abanar.",
+    "season": {
+      "title": "Prémios de fim de época",
+      "label": "Época 2026-2027",
+      "startLabel": "A época começa a 14 de agosto.",
+      "intro": "Estes prémios vão para os jogadores que terminarem a época no topo do Ranking geral.",
+      "sponsoredLabel": "Prémio patrocinado",
+      "sponsoredNote": "Os Prémios patrocinados serão anunciados depois do início da época.",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "Prémio patrocinado"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "Prémios semanais",
+      "lockedBadge": "Em breve",
+      "intro": "Queremos premiar os melhores jogadores todas as semanas, não só no fim da época.",
+      "progressLabel": "Jogadores activos",
+      "targetLabel": "meta",
+      "explain": "Para que os prémios semanais sejam justos e sustentáveis, precisamos de jogadores suficientes. Quando chegarmos a 10.000 jogadores activos, os prémios semanais entram automaticamente e serão anunciados nesta página.",
+      "helpNote": "Convida os teus amigos e chegamos lá mais depressa, juntos.",
+      "target": 10000
+    },
+    "rules": {
+      "title": "Regras dos prémios",
+      "items": [
+        "Os prémios vão para os 20 primeiros do Ranking geral no fim da época. Os rankings semanais e por modo não afectam os prémios da época.",
+        "Em caso de empate em pontos, a classificação é decidida primeiro pelo total de pontos da época e depois pelo número de troféus de ouro, prata e bronze conquistados.",
+        "O ScoreHunter não é um jogo de apostas nem de azar. Jogar é gratuito, não há depósitos e em nenhuma circunstância são dados prémios em dinheiro. Os prémios são apenas os produtos físicos listados acima.",
+        "Os vencedores são avisados por notificação na app e por e-mail depois do fim da época.",
+        "Para a entrega são necessários nome completo, morada e dados de contacto. Se não forem enviados em 30 dias, o prémio passa para o jogador seguinte do ranking.",
+        "Os prémios não podem ser trocados por dinheiro nem transferidos para outra pessoa. Consoante o stock, um prémio pode ser substituído por um produto equivalente.",
+        "Os portes são suportados pela iCat Studios. Direitos aduaneiros e impostos no teu país são da responsabilidade do vencedor.",
+        "Os jogadores apanhados a fazer batota, a usar várias contas ou a violar as regras perdem o prémio.",
+        "Vencedores com menos de 18 anos precisam da autorização dos pais antes da entrega.",
+        "Estes prémios e este concurso são totalmente independentes da Apple Inc. e da Google LLC. A Apple e a Google não são de forma alguma patrocinadores, organizadores ou administradores; a entrega dos prémios e toda a responsabilidade são da iCat Studios.",
+        "A iCat Studios reserva-se o direito de actualizar a lista de prémios."
+      ]
+    },
+    "preview": {
+      "eyebrow": "Prémios",
+      "title": "Termina a época no topo e leva o prémio",
+      "subtitle": "Todos os que terminarem a época 2026-2027 no top 20 do Ranking geral ganham um prémio.",
+      "viewAll": "Ver todos os prémios"
     }
   }
 }

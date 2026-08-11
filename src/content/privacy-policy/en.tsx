@@ -39,7 +39,7 @@ export function PolicyContentEn() {
               only on first sign-in; Google provides it on every sign-in)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — a unique identifier used to
+              <Strong>Provider User ID</Strong> - a unique identifier used to
               recognize your account
             </>,
           ]}
@@ -50,7 +50,7 @@ export function PolicyContentEn() {
         <List
           items={[
             <>
-              <Strong>Username</Strong> (display name — visible in
+              <Strong>Username</Strong> (display name - visible in
               leaderboards)
             </>,
             <>
@@ -63,11 +63,11 @@ export function PolicyContentEn() {
               <Strong>Date of birth</Strong>
             </>,
             <>
-              <Strong>Gender</Strong> (optional — &quot;prefer not to
+              <Strong>Gender</Strong> (optional - &quot;prefer not to
               say&quot; option available)
             </>,
             <>
-              <Strong>Pro subscription status</Strong> — whether you have an
+              <Strong>Pro subscription status</Strong> - whether you have an
               active Pro membership and its expiration date
             </>,
           ]}
@@ -104,12 +104,12 @@ export function PolicyContentEn() {
             </>,
             <>
               <Strong>App version and platform</Strong> (version code,
-              version name, and whether you are on iOS or Android) — used to
+              version name, and whether you are on iOS or Android) - used to
               provide version-specific support and identify compatibility
               issues
             </>,
             <>
-              <Strong>Push notification token</Strong> — a unique token
+              <Strong>Push notification token</Strong> - a unique token
               issued by Apple Push Notification service (APNs) or Firebase
               Cloud Messaging (FCM) so we can deliver match reminders, prize
               notifications, and important announcements. You can disable
@@ -154,13 +154,13 @@ export function PolicyContentEn() {
         <List
           items={[
             <>
-              <Strong>IP address</Strong> — used for security purposes,
+              <Strong>IP address</Strong> - used for security purposes,
               including rate limiting on authentication endpoints (e.g. up to
               15 sign-in attempts per minute per IP) and abuse prevention. We
               do not use IP addresses to build advertising profiles.
             </>,
             <>
-              <Strong>Error and crash reports</Strong> — used to monitor app
+              <Strong>Error and crash reports</Strong> - used to monitor app
               stability. Reports are filtered to exclude personally
               identifiable information.
             </>,
@@ -206,7 +206,7 @@ export function PolicyContentEn() {
             </>,
             <>
               <Strong>Advertising</Strong>: To display advertisements within
-              the App and measure their performance — see section 8 for
+              the App and measure their performance - see section 8 for
               details
             </>,
             <>
@@ -234,7 +234,7 @@ export function PolicyContentEn() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — Server and
+              <Strong>Amazon Web Services (AWS)</Strong> - Server and
               database hosting (Frankfurt, Germany)
             </>,
             <>
@@ -242,29 +242,29 @@ export function PolicyContentEn() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — Third-party service that provides match data, team and
+              ) - Third-party service that provides match data, team and
               league information, and associated visual assets (logos and
               images). No personal data is shared with API-Football.
               ScoreHunter does not own the rights to logos or trademarks
               delivered through this service; see Section 11 for details.
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In authentication
+              <Strong>Apple</Strong> - Apple Sign-In authentication
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In authentication and
+              <Strong>Google</Strong> - Google Sign-In authentication and
               Firebase Cloud Messaging (push notifications on Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — Processes Pro subscription
+              <Strong>Apple StoreKit</Strong> - Processes Pro subscription
               purchases and renewals on iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — Processes Pro
+              <Strong>Google Play Billing</Strong> - Processes Pro
               subscription purchases and renewals on Android
             </>,
             <>
-              <Strong>Sentry</Strong> — Backend error and exception
+              <Strong>Sentry</Strong> - Backend error and exception
               monitoring. Personally identifiable information filtering is
               enabled (no email, name, or user content is sent to Sentry).
             </>,
@@ -325,43 +325,43 @@ export function PolicyContentEn() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -604,7 +604,7 @@ export function PolicyContentEn() {
       <Section title="9. International Data Transfers">
         <p>
           Your data may be processed outside of your home country (AWS
-          Frankfurt — European Union, and the data centers of our advertising
+          Frankfurt - European Union, and the data centers of our advertising
           partners listed in section 3.4, which may be located outside the
           EU). These transfers comply with the security standards required by
           GDPR and KVKK.
@@ -629,7 +629,7 @@ export function PolicyContentEn() {
           ScoreHunter displays football match data, team names, league names,
           player names, and visual assets (such as team and league logos)
           sourced from our data provider, API-Football. These names, logos,
-          and trademarks are the property of their respective owners —
+          and trademarks are the property of their respective owners -
           including football clubs, leagues, federations, and other rights
           holders.
         </p>

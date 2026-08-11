@@ -14,7 +14,7 @@ export const faqFr: FAQCategory[] = [
       },
       {
         q: "Comment je m'inscris ?",
-        a: "Connecte-toi avec Apple ou Google en quelques secondes — pas de mots de passe, pas de vérification e-mail. Nous ne voyons jamais ton mot de passe et n'en stockons aucun.",
+        a: "Connecte-toi avec Apple ou Google en quelques secondes - pas de mots de passe, pas de vérification e-mail. Nous ne voyons jamais ton mot de passe et n'en stockons aucun.",
       },
       {
         q: "Quels appareils sont pris en charge ?",
@@ -27,7 +27,7 @@ export const faqFr: FAQCategory[] = [
     items: [
       {
         q: "Comment fonctionne la notation ?",
-        a: "Tu gagnes des points pour les bons résultats (1, X, 2), les scores exacts et les buteurs. Les Mini-Jeux ajoutent des pronostics bonus. Chaque match vaut le même nombre de points — pas de cotes, pas de multiplicateurs, pas de gains au hasard.",
+        a: "Tu gagnes des points pour les bons résultats (1, X, 2), les scores exacts et les buteurs. Les Mini-Jeux ajoutent des pronostics bonus. Chaque match vaut le même nombre de points - pas de cotes, pas de multiplicateurs, pas de gains au hasard.",
       },
       {
         q: "Qu'est-ce qu'un Score Hunt ?",
@@ -35,15 +35,15 @@ export const faqFr: FAQCategory[] = [
       },
       {
         q: "Puis-je modifier mes pronostics ?",
-        a: "Oui — tu peux modifier tes pronostics à tout moment avant le coup d'envoi. Une fois qu'un match commence, ton pronostic pour ce match est verrouillé.",
+        a: "Oui - tu peux modifier tes pronostics à tout moment avant le coup d'envoi. Une fois qu'un match commence, ton pronostic pour ce match est verrouillé.",
       },
       {
         q: "C'est quoi les mini-jeux ?",
-        a: "Les mini-jeux sont des modes de pronostics au format court qui tournent entre les rondes complètes de Score Hunt. Matchs rapides, semaines à thème, même principe de compétence — ils maintiennent l'action lors des journées calmes.",
+        a: "Les mini-jeux sont des modes de pronostics au format court qui tournent entre les rondes complètes de Score Hunt. Matchs rapides, semaines à thème, même principe de compétence - ils maintiennent l'action lors des journées calmes.",
       },
       {
         q: "Est-ce du jeu d'argent ?",
-        a: "Non. ScoreHunter ne contient aucun pari, aucune cote, aucun flux d'argent, aucune loterie. Tous les matchs ont la même valeur et les prix sont uniquement promotionnels — jamais en espèces.",
+        a: "Non. ScoreHunter ne contient aucun pari, aucune cote, aucun flux d'argent, aucune loterie. Tous les matchs ont la même valeur et les prix sont uniquement promotionnels - jamais en espèces.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqFr: FAQCategory[] = [
     items: [
       {
         q: "Que comprend l'adhésion Pro ?",
-        a: "Moins de publicités, des trophées exclusifs Pro, un badge Pro exclusif sur les classements, et un support prioritaire. Pro n'affecte jamais les résultats de la compétition — tous les matchs gardent la même valeur pour chaque joueur.",
+        a: "Moins de publicités, des trophées exclusifs Pro, un badge Pro exclusif sur les classements, et un support prioritaire. Pro n'affecte jamais les résultats de la compétition - tous les matchs gardent la même valeur pour chaque joueur.",
       },
       {
         q: "Comment je m'abonne ?",
@@ -90,11 +90,11 @@ export const faqFr: FAQCategory[] = [
       },
       {
         q: "Quelles données ScoreHunter conserve sur moi ?",
-        a: "Ton nom d'utilisateur, ton pays, ton équipe favorite, tes pronostics et tes trophées — en gros ce qu'on attend pour un jeu de classement. E-mail et vrai nom restent privés. Détails complets dans notre politique de confidentialité.",
+        a: "Ton nom d'utilisateur, ton pays, ton équipe favorite, tes pronostics et tes trophées - en gros ce qu'on attend pour un jeu de classement. E-mail et vrai nom restent privés. Détails complets dans notre politique de confidentialité.",
       },
       {
         q: "J'ai oublié mon mot de passe.",
-        a: "Il n'y a pas de mot de passe. La connexion passe par Apple ou Google — la récupération se fait au niveau d'Apple/Google, pas chez ScoreHunter.",
+        a: "Il n'y a pas de mot de passe. La connexion passe par Apple ou Google - la récupération se fait au niveau d'Apple/Google, pas chez ScoreHunter.",
       },
     ],
   },

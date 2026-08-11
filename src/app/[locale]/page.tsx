@@ -11,6 +11,8 @@ import { FeaturesGrid } from "@/components/landing/FeaturesGrid";
 import { Screenshots } from "@/components/landing/Screenshots";
 import { FAQAccordion } from "@/components/landing/FAQAccordion";
 import { RankingsPreview } from "@/components/landing/RankingsPreview";
+import { RewardsPreview } from "@/components/landing/RewardsPreview";
+import type { RewardRow } from "@/components/landing/RewardsLadder";
 import { SectionHeading } from "@/components/landing/SectionHeading";
 import { FinalCta } from "@/components/landing/FinalCta";
 import { Footer } from "@/components/landing/Footer";
@@ -60,6 +62,14 @@ export default async function Home({
       <main className="relative">
         <Hero dict={home.hero} comingSoonLabel={dict.landing.comingSoon} />
         <HowItWorks dict={home.howItWorks} />
+        {/* Prizes land immediately after the "what the game is" pitch -
+            the payoff is the strongest reason to keep reading. */}
+        <RewardsPreview
+          locale={locale}
+          labels={dict.rewards.preview}
+          rows={dict.rewards.season.rows as RewardRow[]}
+          sponsoredLabel={dict.rewards.season.sponsoredLabel}
+        />
         <RulesSection dict={home.rules} />
         <FeaturesGrid dict={home.features} locale={locale} />
         <Screenshots dict={home.screenshots} locale={locale} />

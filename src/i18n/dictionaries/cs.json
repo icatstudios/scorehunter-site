@@ -1,22 +1,22 @@
 {
   "metadata": {
     "siteName": "ScoreHunter",
-    "comingSoonTitle": "ScoreHunter — Brzy v provozu",
+    "comingSoonTitle": "ScoreHunter - Brzy v provozu",
     "comingSoonDescription": "Něco velkého se blíží. Jste připraveni na lov?",
-    "deleteAccountTitle": "Smazat účet — ScoreHunter",
+    "deleteAccountTitle": "Smazat účet - ScoreHunter",
     "deleteAccountDescription": "Požádejte o smazání svého účtu ScoreHunter a všech souvisejících údajů.",
-    "privacyPolicyTitle": "Zásady ochrany osobních údajů — ScoreHunter",
+    "privacyPolicyTitle": "Zásady ochrany osobních údajů - ScoreHunter",
     "privacyPolicyDescription": "Zjistěte, jak ScoreHunter shromažďuje, používá a chrání vaše osobní údaje.",
-    "termsOfUseTitle": "Podmínky použití — ScoreHunter",
+    "termsOfUseTitle": "Podmínky použití - ScoreHunter",
     "termsOfUseDescription": "Přečtěte si podmínky použití, kterými se řídí váš přístup k aplikaci ScoreHunter a její používání.",
-    "supportTitle": "Podpora — ScoreHunter",
+    "supportTitle": "Podpora - ScoreHunter",
     "supportDescription": "Potřebujete pomoc se ScoreHunterem? Kontaktujte náš tým podpory e-mailem.",
-    "homeTitle": "ScoreHunter — Hra na předpovídání fotbalu",
+    "homeTitle": "ScoreHunter - Hra na předpovídání fotbalu",
     "homeDescription": "Předpovídej fotbal. Soutěž s přáteli. Šplhej v žebříčcích. Dovednostní hra na předpovídání fotbalu od iCat Studios.",
-    "featuresTitle": "Funkce — ScoreHunter",
+    "featuresTitle": "Funkce - ScoreHunter",
     "featuresDescription": "Vše, co ScoreHunter nabízí: týdenní tipy, mini hry, ligy, trofeje, Pro Členství a živé sledování.",
-    "faqTitle": "FAQ — ScoreHunter",
-    "faqDescription": "Odpovědi na nejčastější otázky o ScoreHunteru — hraní, ligy, Pro Členství, účet a další."
+    "faqTitle": "FAQ - ScoreHunter",
+    "faqDescription": "Odpovědi na nejčastější otázky o ScoreHunteru - hraní, ligy, Pro Členství, účet a další."
   },
   "nav": {
     "backToHome": "Zpět na hlavní stránku"
@@ -94,10 +94,10 @@
     "topics": {
       "accountLabel": "Účet a přihlášení",
       "accountDescription": "Problémy s přihlášením, uživatelské jméno, změny profilu",
-      "accountSubject": "Podpora — Účet a přihlášení",
+      "accountSubject": "Podpora - Účet a přihlášení",
       "billingLabel": "Předplatné a platby",
       "billingDescription": "Pro členství, platby, vrácení peněz",
-      "billingSubject": "Podpora — Předplatné a platby",
+      "billingSubject": "Podpora - Předplatné a platby",
       "bugLabel": "Nahlásit chybu",
       "bugDescription": "Něco nefunguje podle očekávání",
       "bugSubject": "Hlášení chyby",
@@ -125,13 +125,14 @@
       "features": "Funkce",
       "faq": "FAQ",
       "support": "Podpora",
-      "leaderboards": "Leaderboards"
+      "leaderboards": "Leaderboards",
+      "rewards": "Odměny"
     },
     "hero": {
       "eyebrow": "iCat Studios uvádí",
       "tagline": "Žádné sázky",
       "taglineAccent": "Hra na předpovídání fotbalu",
-      "subtitle": "ScoreHunter je bezplatná hra na předpovídání fotbalu. Předpovídej, ukaž svou znalost fotbalu, překonej soupeře a staň se šampionem. Žádné vklady, žádné riziko — jen zábava.",
+      "subtitle": "ScoreHunter je bezplatná hra na předpovídání fotbalu. Předpovídej, ukaž svou znalost fotbalu, překonej soupeře a staň se šampionem. Žádné vklady, žádné riziko - jen zábava.",
       "freeBadge": "Zdarma",
       "appStoreLabel": "Stáhni v",
       "appStoreName": "App Store",
@@ -161,15 +162,15 @@
       "eyebrow": "Jak hrát",
       "title": "Jediné, co potřebuješ, je vášeň pro fotbal",
       "howTitle": "Jak hrát",
-      "howIntro": "ScoreHunter odměňuje znalost fotbalu. Žádné tikety, žádný handicap, žádné kurzy — žádný sázkařský žargon. Každá liga, každý zápas, každý tým mají stejnou hodnotu a důležitost. Každý hráč začíná se stejnou šancí.",
+      "howIntro": "ScoreHunter odměňuje znalost fotbalu. Žádné tikety, žádný handicap, žádné kurzy - žádný sázkařský žargon. Každá liga, každý zápas, každý tým mají stejnou hodnotu a důležitost. Každý hráč začíná se stejnou šancí.",
       "howItems": [
         "Každý týden se otevře vybraná sada zápasů pro předpovědi.",
         "Hráči mají dělat předpovědi na tyto zápasy v režimech Score Hunt a Mini Hry.",
         "Hráči získávají body podle výsledků svých předpovědí.",
-        "Existují tři samostatné žebříčky — Celkový, Score Hunt a Mini Hry. Každý týden získávají hráči na 1., 2. a 3. místě trofeje.",
+        "Existují tři samostatné žebříčky - Celkový, Score Hunt a Mini Hry. Každý týden získávají hráči na 1., 2. a 3. místě trofeje.",
         "Celkový žebříček každého týdne se počítá jako součet bodů získaných v Score Hunt a Mini Hry.",
         "V odměňovaných sezónách jsou ceny rozdělovány podle úspěchů v Celkovém žebříčku.",
-        "V Score Hunt mají hráči předpovědět výsledky 12 zápasů celkem — 10 hlavních a 2 bonusové.",
+        "V Score Hunt mají hráči předpovědět výsledky 12 zápasů celkem - 10 hlavních a 2 bonusové.",
         "Předpovědi jsou bodovány detailně podle více kritérií: správný směr výsledku, správná remíza, správný počet branek, správný rozdíl branek, přesný výsledek a vzácná předpověď.",
         "V Score Hunt mohou hráči použít 2X jokera na jednu ze svých voleb a zdvojnásobit body z toho zápasu.",
         "Bonusové předpovědi nahrazují volby s nejnižším bodováním mezi hlavními předpověďmi.",
@@ -296,13 +297,13 @@
         "Předpovědi se hodnotí pouze na základě řádné hrací doby (90 minut). Prodloužení a penaltové rozstřely se nepočítají.",
         "Za odložené, zrušené nebo přerušené zápasy se body neudělují.",
         "Celkový žebříček se počítá týdně: Score Hunt + Mini Hry dohromady.",
-        "Výsledky se na konci týdne počítají automaticky. Skóre zápasů se aktualizuje živě — můžeš sledovat v reálném čase.",
-        "Při rovnosti bodů v tabulce se pořadí určuje takto: nejprve podle celkových bodů sezóny, pak podle počtu získaných zlatých, stříbrných a bronzových trofejí — od nejvyššího po nejnižší.",
+        "Výsledky se na konci týdne počítají automaticky. Skóre zápasů se aktualizuje živě - můžeš sledovat v reálném čase.",
+        "Při rovnosti bodů v tabulce se pořadí určuje takto: nejprve podle celkových bodů sezóny, pak podle počtu získaných zlatých, stříbrných a bronzových trofejí - od nejvyššího po nejnižší.",
         "Během bodování běží detekce anomálií poháněná AI. Všechny seznamy uživatelů přistižených při podvádění jsou zneplatněny.",
         "Pro účast ti musí být 13 nebo více let."
       ],
-      "rewardsTitle": "Odměny",
-      "rewardsPlaceholder": "Protože náš start spadá do posledních týdnů sezóny 2025-2026, není možné férové soutěžní prostředí — proto jsme zbytek sezóny pojmenovali \"Training Season\".\n\nVyužij tuto sezónu k tomu, abys hru prozkoumal, hlásil nám chyby, které najdeš, a podělil se s námi o své návrhy, a připrav se na sezónu Mistrovství světa.\n\nNaše odměňované sezóny začínají s Mistrovstvím světa. Do té doby zůstaň naladěn a zůstaň s námi."
+      "showMore": "Zobrazit vše",
+      "showLess": "Zobrazit méně"
     },
     "features": {
       "eyebrow": "Funkce",
@@ -324,7 +325,7 @@
         },
         {
           "title": "Trofeje",
-          "description": "Top 3 v týdenních a sezónních žebříčcích si přidávají trofej do vitríny — a kvalifikují se na příští sezónu Ligy mistrů."
+          "description": "Top 3 v týdenních a sezónních žebříčcích si přidávají trofej do vitríny - a kvalifikují se na příští sezónu Ligy mistrů."
         },
         {
           "title": "Pro Členství",
@@ -349,15 +350,15 @@
       "items": [
         {
           "q": "Je ScoreHunter zdarma?",
-          "a": "Ano — zcela zdarma ke stažení a hraní. Existuje volitelné Pro členství pro extra věci jako méně reklam, ale hlavní hra je zdarma pro všechny."
+          "a": "Ano - zcela zdarma ke stažení a hraní. Existuje volitelné Pro členství pro extra věci jako méně reklam, ale hlavní hra je zdarma pro všechny."
         },
         {
           "q": "Je tohle hazard?",
-          "a": "Ne. ScoreHunter nemá žádné sázky, žádné kurzy, žádné peníze dovnitř ani ven. Všechny zápasy mají stejnou hodnotu a ceny jsou pouze propagační — nikdy v hotovosti."
+          "a": "Ne. ScoreHunter nemá žádné sázky, žádné kurzy, žádné peníze dovnitř ani ven. Všechny zápasy mají stejnou hodnotu a ceny jsou pouze propagační - nikdy v hotovosti."
         },
         {
           "q": "Potřebuji účet?",
-          "a": "Ano. Přihlas se přes Apple nebo Google během sekund — žádná hesla, žádné ověřování e-mailem."
+          "a": "Ano. Přihlas se přes Apple nebo Google během sekund - žádná hesla, žádné ověřování e-mailem."
         },
         {
           "q": "Mohu hrát s přáteli?",
@@ -411,6 +412,87 @@
       "trophyking": "Trofeje",
       "clubranking": "Žebříček klubů",
       "countryranking": "Žebříček zemí"
+    }
+  },
+  "rewards": {
+    "eyebrow": "Odměny",
+    "title": "Odměny",
+    "subtitle": "Ceny v ScoreHunteru jsou skutečné. Kdo zakončí sezónu na špici, neodchází s prázdnou.",
+    "season": {
+      "title": "Ceny na konci sezóny",
+      "label": "Sezóna 2026-2027",
+      "startLabel": "Sezóna začíná 14. srpna.",
+      "intro": "Tyto ceny získají hráči, kteří zakončí sezónu na špici Celkového žebříčku.",
+      "sponsoredLabel": "Sponzorovaná cena",
+      "sponsoredNote": "Sponzorované ceny budou oznámeny po startu sezóny.",
+      "rows": [
+        {
+          "rank": "1",
+          "prize": "Apple iPhone 17 Pro Max 512GB",
+          "sponsored": true
+        },
+        {
+          "rank": "2",
+          "prize": "Sony PlayStation®5 Pro Console – 2TB",
+          "sponsored": true
+        },
+        {
+          "rank": "3",
+          "prize": "Microsoft Xbox Series X – 1TB",
+          "sponsored": true
+        },
+        {
+          "rank": "4",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "5",
+          "prize": "Nintendo Switch 2",
+          "sponsored": true
+        },
+        {
+          "rank": "6-10",
+          "prize": "Apple AirPods Pro 3 | Samsung Galaxy Buds3 Pro",
+          "sponsored": true
+        },
+        {
+          "rank": "11-20",
+          "prize": "Sponzorovaná cena"
+        }
+      ]
+    },
+    "weekly": {
+      "title": "Týdenní ceny",
+      "lockedBadge": "Brzy",
+      "intro": "Chceme odměňovat nejlepší hráče každý týden, nejen na konci sezóny.",
+      "progressLabel": "Aktivní hráči",
+      "targetLabel": "cíl",
+      "explain": "Aby byly týdenní ceny férové a udržitelné, potřebujeme dost hráčů. Jakmile dosáhneme 10 000 aktivních hráčů, týdenní ceny se automaticky zapnou a oznámíme je na této stránce.",
+      "helpNote": "Pozvi kamarády a dojdeme k cíli společně rychleji.",
+      "target": 10000
+    },
+    "rules": {
+      "title": "Pravidla cen",
+      "items": [
+        "Ceny získává 20 nejlepších hráčů Celkového žebříčku na konci sezóny. Týdenní žebříčky ani žebříčky podle režimu sezónní ceny neovlivňují.",
+        "Při rovnosti bodů rozhoduje nejprve celkový počet bodů za sezónu, poté počet získaných zlatých, stříbrných a bronzových trofejí.",
+        "ScoreHunter není sázková ani hazardní hra. Hraní je zdarma, neexistují žádné vklady a peněžní ceny se za žádných okolností neudělují. Ceny tvoří výhradně fyzické produkty uvedené výše.",
+        "Výherce informujeme oznámením v aplikaci a e-mailem po skončení sezóny.",
+        "K doručení potřebujeme celé jméno, adresu a kontaktní údaje. Pokud je nedodáš do 30 dnů, cena přechází na dalšího hráče v pořadí.",
+        "Ceny nelze vyměnit za peníze ani převést na jinou osobu. Podle dostupnosti může být cena nahrazena rovnocenným produktem.",
+        "Poštovné hradí iCat Studios. Případná cla a daně ve tvé zemi jsou na výherci.",
+        "Hráči přistižení při podvádění, používání více účtů nebo porušení pravidel o cenu přicházejí.",
+        "U výherců mladších 18 let je před odesláním ceny potřeba souhlas rodičů.",
+        "Tyto ceny a tato soutěž jsou zcela nezávislé na Apple Inc. a Google LLC. Apple ani Google nejsou žádným způsobem sponzorem, organizátorem ani správcem; předání cen a veškerá odpovědnost jsou na iCat Studios.",
+        "iCat Studios si vyhrazuje právo seznam cen aktualizovat."
+      ]
+    },
+    "preview": {
+      "eyebrow": "Odměny",
+      "title": "Zakonči sezónu na špici a ber cenu",
+      "subtitle": "Každý, kdo zakončí sezónu 2026-2027 v top 20 Celkového žebříčku, vyhrává cenu.",
+      "viewAll": "Zobrazit všechny ceny"
     }
   }
 }

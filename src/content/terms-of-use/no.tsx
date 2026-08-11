@@ -49,7 +49,7 @@ export function TermsContentNo() {
 
       <Divider />
 
-      <Section title="2. Tjenestens art — VIKTIG">
+      <Section title="2. Tjenestens art - VIKTIG">
         <SubHeading>
           2.1 ScoreHunter er ikke en spillapp om penger
         </SubHeading>
@@ -80,7 +80,7 @@ export function TermsContentNo() {
             </>,
             <>
               Alle kamper har{" "}
-              <Strong>samme verdi</Strong> for tippeformål — ingen
+              <Strong>samme verdi</Strong> for tippeformål - ingen
               kamp er &quot;mer verdt&quot; enn en annen
             </>,
             <>
@@ -131,7 +131,7 @@ export function TermsContentNo() {
               <Strong>
                 påvirker ikke konkurranseresultater
               </Strong>{" "}
-              — de tilbyr kun ekstra funksjoner som forbedrer
+              - de tilbyr kun ekstra funksjoner som forbedrer
               brukeropplevelsen
             </>,
           ]}
@@ -153,11 +153,11 @@ export function TermsContentNo() {
               brukerengasjement
             </>,
             <>
-              Premier er <Strong>IKKE garantert</Strong> — de tildeles
+              Premier er <Strong>IKKE garantert</Strong> - de tildeles
               kun innenfor kampanjer Utvikleren annonserer
             </>,
             <>
-              Premier <Strong>gis IKKE som kontanter</Strong> — de
+              Premier <Strong>gis IKKE som kontanter</Strong> - de
               utleveres kun som fysiske eller digitale gaver
             </>,
             <>
@@ -302,7 +302,7 @@ export function TermsContentNo() {
           til, fotballkampdata, lag- og liganavn, spillernavn samt
           visuelle elementer som lag- og ligalogoer. Dette innholdet
           leveres via vår datapartner API-Football og tilhører deres
-          respektive eiere — inkludert klubber, ligaer, forbund og andre
+          respektive eiere - inkludert klubber, ligaer, forbund og andre
           rettighetshavere. ScoreHunter krever ingen eierskap over
           tredjeparts varemerker, logoer eller opphavsrettsbeskyttet
           materiale som vises i Appen.
@@ -468,7 +468,7 @@ export function TermsContentNo() {
                 Eventuelle premier, konkurranser, kampanjer eller
                 kampanjeaktiviteter i Appen er uavhengige av Apple Inc.
               </Strong>{" "}
-              — Apple er på ingen måte sponsor, organisator eller
+              - Apple er på ingen måte sponsor, organisator eller
               administrator av slike forhold
             </>,
             "Apple Inc. er fritatt for ethvert ansvar for juridiske spørsmål eller krav som oppstår i Appen",
@@ -514,7 +514,7 @@ export function TermsContentNo() {
                 Eventuelle premier, konkurranser, kampanjer eller
                 kampanjeaktiviteter i Appen er uavhengige av Google LLC
               </Strong>{" "}
-              — Google er på ingen måte sponsor, organisator eller
+              - Google er på ingen måte sponsor, organisator eller
               administrator av slike forhold
             </>,
             "Google Play Store er kun en distribusjonsplattform for Appen og har intet ansvar for innholdet eller driften av Appen",
@@ -550,17 +550,17 @@ export function TermsContentNo() {
               <Strong>
                 Refusjonsforespørsler må sendes til Apple eller Google
               </Strong>{" "}
-              — refusjonsforespørsler kan ikke sendes direkte til
+              - refusjonsforespørsler kan ikke sendes direkte til
               Utvikleren
             </>,
             <>
               Betalte funksjoner gir kun brukerne{" "}
-              <Strong>tilleggs­opplevelser</Strong> — de påvirker ikke
+              <Strong>tilleggs­opplevelser</Strong> - de påvirker ikke
               konkurranseresultater eller plasseringer
             </>,
             <>
               Betalte funksjoner{" "}
-              <Strong>garanterer ikke seier</Strong> — alle brukere er
+              <Strong>garanterer ikke seier</Strong> - alle brukere er
               likestilte i konkurransene
             </>,
           ]}

@@ -10,6 +10,7 @@ interface HeaderLabels {
   howToPlay: string;
   features: string;
   leaderboards: string;
+  rewards: string;
   faq: string;
   support: string;
 }
@@ -33,6 +34,7 @@ export function Header({
 
   const navLinks = [
     { href: `/${locale}/leaderboards`, label: labels.leaderboards },
+    { href: `/${locale}/rewards`, label: labels.rewards },
     { href: `/${locale}#how-to-play`, label: labels.howToPlay },
     { href: `/${locale}/features`, label: labels.features },
     { href: `/${locale}/faq`, label: labels.faq },

@@ -41,7 +41,7 @@ export function PolicyContentNl() {
               alleen bij de eerste aanmelding; Google bij elke aanmelding)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — een unieke identificatie om
+              <Strong>Provider User ID</Strong> - een unieke identificatie om
               je account te herkennen
             </>,
           ]}
@@ -52,7 +52,7 @@ export function PolicyContentNl() {
         <List
           items={[
             <>
-              <Strong>Gebruikersnaam</Strong> (weergavenaam — zichtbaar in
+              <Strong>Gebruikersnaam</Strong> (weergavenaam - zichtbaar in
               ranglijsten)
             </>,
             <>
@@ -65,11 +65,11 @@ export function PolicyContentNl() {
               <Strong>Geboortedatum</Strong>
             </>,
             <>
-              <Strong>Geslacht</Strong> (optioneel — &quot;zeg ik
+              <Strong>Geslacht</Strong> (optioneel - &quot;zeg ik
               liever niet&quot; is beschikbaar)
             </>,
             <>
-              <Strong>Pro-abonnementsstatus</Strong> — of je een actief
+              <Strong>Pro-abonnementsstatus</Strong> - of je een actief
               Pro-lidmaatschap hebt en de vervaldatum
             </>,
           ]}
@@ -106,12 +106,12 @@ export function PolicyContentNl() {
             </>,
             <>
               <Strong>App-versie en platform</Strong> (versiecode,
-              versienaam en of je iOS of Android gebruikt) — wordt gebruikt
+              versienaam en of je iOS of Android gebruikt) - wordt gebruikt
               om versie-specifieke ondersteuning te bieden en
               compatibiliteitsproblemen op te sporen
             </>,
             <>
-              <Strong>Push-notificatietoken</Strong> — een unieke token,
+              <Strong>Push-notificatietoken</Strong> - een unieke token,
               uitgegeven door Apple Push Notification service (APNs) of
               Firebase Cloud Messaging (FCM), waarmee we
               wedstrijdherinneringen, prijsmeldingen en belangrijke
@@ -158,14 +158,14 @@ export function PolicyContentNl() {
         <List
           items={[
             <>
-              <Strong>IP-adres</Strong> — wordt gebruikt voor
+              <Strong>IP-adres</Strong> - wordt gebruikt voor
               beveiligingsdoeleinden, waaronder snelheidslimieten op
               authenticatie-eindpunten (bijv. tot 15 aanmeldpogingen per
               minuut per IP) en misbruikpreventie. We gebruiken IP-adressen
               niet om reclameprofielen op te bouwen.
             </>,
             <>
-              <Strong>Fout- en crashrapporten</Strong> — gebruikt om de
+              <Strong>Fout- en crashrapporten</Strong> - gebruikt om de
               stabiliteit van de app te bewaken. De rapporten worden
               gefilterd om persoonlijk identificeerbare informatie uit te
               sluiten.
@@ -213,7 +213,7 @@ export function PolicyContentNl() {
             </>,
             <>
               <Strong>Reclame</Strong>: om advertenties in de App te tonen en
-              hun effectiviteit te meten — zie sectie 8 voor details
+              hun effectiviteit te meten - zie sectie 8 voor details
             </>,
             <>
               <Strong>Analyse en verbetering</Strong>: om gebruiksstatistieken
@@ -240,7 +240,7 @@ export function PolicyContentNl() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — server- en
+              <Strong>Amazon Web Services (AWS)</Strong> - server- en
               databasehosting (Frankfurt, Duitsland)
             </>,
             <>
@@ -248,7 +248,7 @@ export function PolicyContentNl() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — externe dienst die wedstrijddata, ploeg- en
+              ) - externe dienst die wedstrijddata, ploeg- en
               competitie-informatie en bijbehorende visuele assets (logo&apos;s
               en afbeeldingen) levert. Er worden geen persoonsgegevens met
               API-Football gedeeld. ScoreHunter bezit geen rechten op de
@@ -256,22 +256,22 @@ export function PolicyContentNl() {
               sectie 11 voor details.
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In-authenticatie
+              <Strong>Apple</Strong> - Apple Sign-In-authenticatie
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In-authenticatie en
+              <Strong>Google</Strong> - Google Sign-In-authenticatie en
               Firebase Cloud Messaging (push-notificaties op Android)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — verwerkt aankopen en
+              <Strong>Apple StoreKit</Strong> - verwerkt aankopen en
               verlengingen van het Pro-abonnement op iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — verwerkt aankopen en
+              <Strong>Google Play Billing</Strong> - verwerkt aankopen en
               verlengingen van het Pro-abonnement op Android
             </>,
             <>
-              <Strong>Sentry</Strong> — backend foutmonitoring. Filtering
+              <Strong>Sentry</Strong> - backend foutmonitoring. Filtering
               van persoonlijk identificeerbare informatie is ingeschakeld
               (geen e-mailadres, naam of gebruikersinhoud wordt naar Sentry
               gestuurd).
@@ -335,43 +335,43 @@ export function PolicyContentNl() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -616,7 +616,7 @@ export function PolicyContentNl() {
       <Section title="9. Internationale gegevensoverdrachten">
         <p>
           Je gegevens kunnen buiten je woonland worden verwerkt (AWS
-          Frankfurt — Europese Unie, en de datacenters van onze
+          Frankfurt - Europese Unie, en de datacenters van onze
           advertentiepartners genoemd in sectie 3.4, die buiten de EU kunnen
           zijn gevestigd). Deze overdrachten voldoen aan de
           beveiligingsstandaarden die door GDPR en KVKK worden vereist.
@@ -643,7 +643,7 @@ export function PolicyContentNl() {
           competitienamen, spelersnamen en visuele assets (zoals ploeg- en
           competitielogo&apos;s) die afkomstig zijn van onze dataleverancier
           API-Football. Deze namen, logo&apos;s en handelsmerken zijn eigendom
-          van hun respectievelijke eigenaren — clubs, competities, bonden en
+          van hun respectievelijke eigenaren - clubs, competities, bonden en
           andere rechthebbenden.
         </p>
         <p>

@@ -51,7 +51,7 @@ export function TermsContentDe() {
 
       <Divider />
 
-      <Section title="2. Art des Dienstes — WICHTIG">
+      <Section title="2. Art des Dienstes - WICHTIG">
         <SubHeading>
           2.1 ScoreHunter ist keine Glücksspiel-App
         </SubHeading>
@@ -82,7 +82,7 @@ export function TermsContentDe() {
             </>,
             <>
               Alle Spiele sind in Bezug auf Tipps{" "}
-              <Strong>gleichwertig</Strong> — kein Spiel ist
+              <Strong>gleichwertig</Strong> - kein Spiel ist
               &quot;wertvoller&quot; als ein anderes
             </>,
             <>
@@ -136,7 +136,7 @@ export function TermsContentDe() {
               <Strong>
                 beeinflussen die Wettbewerbsergebnisse nicht
               </Strong>{" "}
-              — sie bieten lediglich zusätzliche Funktionen, die das
+              - sie bieten lediglich zusätzliche Funktionen, die das
               Nutzererlebnis verbessern
             </>,
           ]}
@@ -158,13 +158,13 @@ export function TermsContentDe() {
               Förderung des Nutzerengagements
             </>,
             <>
-              Die Preise sind <Strong>NICHT garantiert</Strong> — sie
+              Die Preise sind <Strong>NICHT garantiert</Strong> - sie
               werden nur im Rahmen vom Entwickler angekündigter
               Kampagnen vergeben
             </>,
             <>
               Die Preise werden <Strong>NICHT als Bargeld</Strong>{" "}
-              vergeben — sie werden nur als physische oder digitale
+              vergeben - sie werden nur als physische oder digitale
               Geschenke bereitgestellt
             </>,
             <>
@@ -311,12 +311,12 @@ export function TermsContentDe() {
 
         <SubHeading>5.2 Inhalte Dritter und Marken</SubHeading>
         <p>
-          Die App zeigt Inhalte Dritter, einschließlich – aber nicht
-          beschränkt auf – Fußballspieldaten, Mannschafts- und
+          Die App zeigt Inhalte Dritter, einschließlich, aber nicht
+          beschränkt auf, Fußballspieldaten, Mannschafts- und
           Liganamen, Spielernamen sowie visuelle Inhalte wie
           Mannschafts- und Liga-Logos. Diese Inhalte werden über
           unseren Datenpartner API-Football bereitgestellt und sind
-          Eigentum ihrer jeweiligen Inhaber — einschließlich Vereinen,
+          Eigentum ihrer jeweiligen Inhaber - einschließlich Vereinen,
           Ligen, Verbänden und anderen Rechteinhabern. ScoreHunter
           beansprucht keinerlei Eigentum an in der App dargestellten
           Marken, Logos oder urheberrechtlich geschützten Inhalten
@@ -489,7 +489,7 @@ export function TermsContentDe() {
                 Kampagnen oder Promotionen sind unabhängig von Apple
                 Inc.
               </Strong>{" "}
-              — Apple ist in keiner Weise Sponsor, Veranstalter oder
+              - Apple ist in keiner Weise Sponsor, Veranstalter oder
               Verwalter solcher Angelegenheiten
             </>,
             "Apple Inc. ist von jeglicher Haftung für rechtliche Probleme oder Ansprüche im Zusammenhang mit der App befreit",
@@ -535,7 +535,7 @@ export function TermsContentDe() {
                 Kampagnen oder Promotionen sind unabhängig von Google
                 LLC
               </Strong>{" "}
-              — Google ist in keiner Weise Sponsor, Veranstalter oder
+              - Google ist in keiner Weise Sponsor, Veranstalter oder
               Verwalter solcher Angelegenheiten
             </>,
             "Der Google Play Store ist ausschließlich eine Vertriebsplattform für die App und übernimmt keine Verantwortung für deren Inhalt oder Betrieb",
@@ -572,18 +572,18 @@ export function TermsContentDe() {
                 Erstattungsanträge müssen an Apple oder Google
                 gerichtet werden
               </Strong>{" "}
-              — Erstattungsanträge können nicht direkt an den
+              - Erstattungsanträge können nicht direkt an den
               Entwickler gestellt werden
             </>,
             <>
               Kostenpflichtige Funktionen bieten Nutzern lediglich{" "}
-              <Strong>zusätzliche Erfahrungen</Strong> — sie
+              <Strong>zusätzliche Erfahrungen</Strong> - sie
               beeinflussen weder Wettbewerbsergebnisse noch
               Platzierungen
             </>,
             <>
               Kostenpflichtige Funktionen{" "}
-              <Strong>garantieren keinen Gewinn</Strong> — alle
+              <Strong>garantieren keinen Gewinn</Strong> - alle
               Nutzer sind in Wettbewerben gleichgestellt
             </>,
           ]}

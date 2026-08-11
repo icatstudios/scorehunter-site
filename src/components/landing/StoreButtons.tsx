@@ -147,7 +147,7 @@ function StoreButton({
     <span
       role="button"
       aria-disabled="true"
-      aria-label={`${label} ${name} — ${comingSoonLabel}`}
+      aria-label={`${label} ${name} - ${comingSoonLabel}`}
       className={`${baseClass} ${dimClass}`}
     >
       {inner}

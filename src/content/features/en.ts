@@ -8,7 +8,7 @@ export const featuresEn: FeaturesData = {
     bullets: [
       "You get 10 main predictions and 2 bonus predictions.",
       "You get one 2X joker to use on a single match.",
-      "You can earn points in many ways — from getting the win direction right to predicting the exact number of goals.",
+      "You can earn points in many ways - from getting the win direction right to predicting the exact number of goals.",
       "You earn extra bonus points when you nail a perfect prediction or land a rare prediction.",
       "Don't forget to confirm your prediction list before the matches on it kick off.",
     ],

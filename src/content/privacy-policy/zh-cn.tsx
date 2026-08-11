@@ -38,7 +38,7 @@ export function PolicyContentZhCn() {
               在每次登录时提供）
             </>,
             <>
-              <Strong>Provider User ID</Strong> — 用于识别您账户的唯一标识符
+              <Strong>Provider User ID</Strong> - 用于识别您账户的唯一标识符
             </>,
           ]}
         />
@@ -48,7 +48,7 @@ export function PolicyContentZhCn() {
         <List
           items={[
             <>
-              <Strong>用户名</Strong>（显示名称 — 在排行榜中可见）
+              <Strong>用户名</Strong>（显示名称 - 在排行榜中可见）
             </>,
             <>
               <Strong>国家</Strong>
@@ -60,10 +60,10 @@ export function PolicyContentZhCn() {
               <Strong>出生日期</Strong>
             </>,
             <>
-              <Strong>性别</Strong>（可选 — 提供&quot;不愿透露&quot;选项）
+              <Strong>性别</Strong>（可选 - 提供&quot;不愿透露&quot;选项）
             </>,
             <>
-              <Strong>Pro 订阅状态</Strong> — 是否拥有有效的 Pro
+              <Strong>Pro 订阅状态</Strong> - 是否拥有有效的 Pro
               会员资格及到期日期
             </>,
           ]}
@@ -100,10 +100,10 @@ export function PolicyContentZhCn() {
             </>,
             <>
               <Strong>应用版本和平台</Strong>（版本代码、版本名称，以及
-              iOS 还是 Android）— 用于提供版本相关支持并识别兼容性问题
+              iOS 还是 Android）- 用于提供版本相关支持并识别兼容性问题
             </>,
             <>
-              <Strong>推送通知令牌</Strong> — 由 Apple Push Notification
+              <Strong>推送通知令牌</Strong> - 由 Apple Push Notification
               service（APNs）或 Firebase Cloud
               Messaging（FCM）颁发的唯一令牌，用于向您发送比赛提醒、
               奖品通知和重要公告。您可以随时在设备设置中关闭推送通知。
@@ -142,14 +142,14 @@ export function PolicyContentZhCn() {
         <List
           items={[
             <>
-              <Strong>IP 地址</Strong> —
+              <Strong>IP 地址</Strong> -
               用于安全目的，包括对身份验证端点的速率限制（例如每个 IP
               每分钟最多 15
               次登录尝试）以及防止滥用。我们不会使用 IP 地址构建广告
               画像。
             </>,
             <>
-              <Strong>错误和崩溃报告</Strong> —
+              <Strong>错误和崩溃报告</Strong> -
               用于监测应用稳定性。报告会经过过滤以排除可识别个人身份的
               信息。
             </>,
@@ -190,7 +190,7 @@ export function PolicyContentZhCn() {
               可疑活动进行速率限制
             </>,
             <>
-              <Strong>广告</Strong>：在本应用内展示广告并衡量其效果 —
+              <Strong>广告</Strong>：在本应用内展示广告并衡量其效果 -
               详见第 8 节
             </>,
             <>
@@ -215,7 +215,7 @@ export function PolicyContentZhCn() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services（AWS）</Strong> —
+              <Strong>Amazon Web Services（AWS）</Strong> -
               服务器和数据库托管（德国法兰克福）
             </>,
             <>
@@ -223,28 +223,28 @@ export function PolicyContentZhCn() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ） — 提供比赛数据、球队和联赛信息以及相关视觉素材
+              ） - 提供比赛数据、球队和联赛信息以及相关视觉素材
               （徽标和图片）的第三方服务。我们不会与 API-Football
               共享任何个人数据。ScoreHunter 不拥有通过该服务交付的徽标
               或商标的权利；详见第 11 节。
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In 身份验证
+              <Strong>Apple</Strong> - Apple Sign-In 身份验证
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In 身份验证以及
+              <Strong>Google</Strong> - Google Sign-In 身份验证以及
               Firebase Cloud Messaging（Android 上的推送通知）
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — 处理 iOS 上 Pro
+              <Strong>Apple StoreKit</Strong> - 处理 iOS 上 Pro
               订阅的购买和续订
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — 处理 Android 上 Pro
+              <Strong>Google Play Billing</Strong> - 处理 Android 上 Pro
               订阅的购买和续订
             </>,
             <>
-              <Strong>Sentry</Strong> —
+              <Strong>Sentry</Strong> -
               后端错误和异常监测。已启用可识别个人身份信息的过滤功能
               （不会将电子邮件、姓名或用户内容发送至 Sentry）。
             </>,
@@ -301,43 +301,43 @@ export function PolicyContentZhCn() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -582,7 +582,7 @@ export function PolicyContentZhCn() {
         <p>
           ScoreHunter 显示的足球比赛数据、球队名称、联赛名称、球员
           姓名以及视觉素材（如球队和联赛徽标）来源于我们的数据合作伙伴
-          API-Football。这些名称、徽标和商标归各自所有者所有 —
+          API-Football。这些名称、徽标和商标归各自所有者所有 -
           包括足球俱乐部、联赛、协会和其他权利人。
         </p>
         <p>

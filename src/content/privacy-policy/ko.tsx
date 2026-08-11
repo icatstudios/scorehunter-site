@@ -42,7 +42,7 @@ export function PolicyContentKo() {
               Google은 매 로그인마다 제공합니다)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — 계정을 식별하는 데
+              <Strong>Provider User ID</Strong> - 계정을 식별하는 데
               사용되는 고유 식별자
             </>,
           ]}
@@ -53,7 +53,7 @@ export function PolicyContentKo() {
         <List
           items={[
             <>
-              <Strong>사용자명</Strong>(표시 이름 — 리더보드에 노출됩니다)
+              <Strong>사용자명</Strong>(표시 이름 - 리더보드에 노출됩니다)
             </>,
             <>
               <Strong>국가</Strong>
@@ -65,11 +65,11 @@ export function PolicyContentKo() {
               <Strong>생년월일</Strong>
             </>,
             <>
-              <Strong>성별</Strong>(선택사항 — &quot;응답하지 않음&quot;
+              <Strong>성별</Strong>(선택사항 - &quot;응답하지 않음&quot;
               옵션이 있습니다)
             </>,
             <>
-              <Strong>Pro 구독 상태</Strong> — 활성화된 Pro 멤버십 보유
+              <Strong>Pro 구독 상태</Strong> - 활성화된 Pro 멤버십 보유
               여부 및 만료일
             </>,
           ]}
@@ -106,11 +106,11 @@ export function PolicyContentKo() {
             </>,
             <>
               <Strong>앱 버전 및 플랫폼</Strong>(버전 코드, 버전 이름,
-              iOS인지 Android인지) — 버전별 지원 제공 및 호환성 문제
+              iOS인지 Android인지) - 버전별 지원 제공 및 호환성 문제
               파악에 사용됩니다
             </>,
             <>
-              <Strong>푸시 알림 토큰</Strong> — Apple Push Notification
+              <Strong>푸시 알림 토큰</Strong> - Apple Push Notification
               service(APNs) 또는 Firebase Cloud Messaging(FCM)이
               발급하는 고유 토큰으로, 경기 알림, 상품 알림, 중요 공지를
               전달하는 데 사용됩니다. 푸시 알림은 기기 설정에서 언제든
@@ -150,13 +150,13 @@ export function PolicyContentKo() {
         <List
           items={[
             <>
-              <Strong>IP 주소</Strong> — 인증 엔드포인트의 속도
+              <Strong>IP 주소</Strong> - 인증 엔드포인트의 속도
               제한(예: IP당 분당 최대 15회의 로그인 시도) 및 남용 방지를
               포함한 보안 목적으로 사용됩니다. IP 주소는 광고 프로필
               구축에 사용되지 않습니다.
             </>,
             <>
-              <Strong>오류 및 충돌 보고서</Strong> — 앱 안정성을
+              <Strong>오류 및 충돌 보고서</Strong> - 앱 안정성을
               모니터링하는 데 사용됩니다. 보고서는 개인 식별 정보를
               제외하도록 필터링됩니다.
             </>,
@@ -200,7 +200,7 @@ export function PolicyContentKo() {
             </>,
             <>
               <Strong>광고</Strong>: 본 앱 내 광고 노출 및 성과 측정을
-              위해 — 자세한 내용은 8항을 참고하세요
+              위해 - 자세한 내용은 8항을 참고하세요
             </>,
             <>
               <Strong>분석 및 개선</Strong>: 사용 통계를 익명으로 분석하여
@@ -226,7 +226,7 @@ export function PolicyContentKo() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services(AWS)</Strong> — 서버 및
+              <Strong>Amazon Web Services(AWS)</Strong> - 서버 및
               데이터베이스 호스팅(독일 프랑크푸르트)
             </>,
             <>
@@ -234,29 +234,29 @@ export function PolicyContentKo() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — 경기 데이터, 팀 및 리그 정보, 관련 시각 자료(로고와
+              ) - 경기 데이터, 팀 및 리그 정보, 관련 시각 자료(로고와
               이미지)를 제공하는 제3자 서비스. API-Football과는 어떠한
               개인 데이터도 공유되지 않습니다. 본 서비스를 통해 제공되는
               로고 또는 상표에 대한 권리는 ScoreHunter에 없습니다.
               자세한 내용은 11항을 참고하세요.
             </>,
             <>
-              <Strong>Apple</Strong> — Apple Sign-In 인증
+              <Strong>Apple</Strong> - Apple Sign-In 인증
             </>,
             <>
-              <Strong>Google</Strong> — Google Sign-In 인증 및 Firebase
+              <Strong>Google</Strong> - Google Sign-In 인증 및 Firebase
               Cloud Messaging(Android의 푸시 알림)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — iOS의 Pro 구독 결제 및
+              <Strong>Apple StoreKit</Strong> - iOS의 Pro 구독 결제 및
               갱신 처리
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — Android의 Pro 구독
+              <Strong>Google Play Billing</Strong> - Android의 Pro 구독
               결제 및 갱신 처리
             </>,
             <>
-              <Strong>Sentry</Strong> — 백엔드 오류 및 예외 모니터링.
+              <Strong>Sentry</Strong> - 백엔드 오류 및 예외 모니터링.
               개인 식별 정보 필터링이 활성화되어 있습니다(이메일,
               이름, 사용자 콘텐츠는 Sentry에 전송되지 않습니다).
             </>,
@@ -315,43 +315,43 @@ export function PolicyContentKo() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>

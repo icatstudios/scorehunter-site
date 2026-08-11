@@ -47,7 +47,7 @@ export function TermsContentJa() {
 
       <Divider />
 
-      <Section title="2. 本サービスの性質 — 重要">
+      <Section title="2. 本サービスの性質 - 重要">
         <SubHeading>
           2.1 ScoreHunter はギャンブルアプリではありません
         </SubHeading>
@@ -79,7 +79,7 @@ export function TermsContentJa() {
             </>,
             <>
               すべての試合は予想において
-              <Strong>同等の価値</Strong>を持ちます — ある試合が他より
+              <Strong>同等の価値</Strong>を持ちます - ある試合が他より
               「価値が高い」ということはありません
             </>,
             <>
@@ -126,7 +126,7 @@ export function TermsContentJa() {
             <>
               Pro メンバーシップなどの有料機能は
               <Strong>コンテストの結果に影響しません</Strong>
-              — ユーザー体験を向上させる追加機能を提供するのみです
+              - ユーザー体験を向上させる追加機能を提供するのみです
             </>,
           ]}
         />
@@ -149,7 +149,7 @@ export function TermsContentJa() {
             <>
               賞品は
               <Strong>保証されるものではなく</Strong>
-               — 開発者が告知するキャンペーンに限り提供されます
+               - 開発者が告知するキャンペーンに限り提供されます
             </>,
             <>
               賞品は
@@ -460,7 +460,7 @@ export function TermsContentJa() {
                 本アプリ内で提供されるあらゆる賞品、コンテスト、キャンペーン、
                 プロモーションは Apple Inc. と独立しています
               </Strong>{" "}
-              — Apple
+              - Apple
               はこれらに関し、いかなる形でもスポンサー、主催者、
               管理者ではありません
             </>,
@@ -507,7 +507,7 @@ export function TermsContentJa() {
                 本アプリ内で提供されるあらゆる賞品、コンテスト、キャンペーン、
                 プロモーションは Google LLC と独立しています
               </Strong>{" "}
-              — Google
+              - Google
               はこれらに関し、いかなる形でもスポンサー、主催者、
               管理者ではありません
             </>,
@@ -544,7 +544,7 @@ export function TermsContentJa() {
               <Strong>
                 返金リクエストは Apple または Google に提出する必要があります
               </Strong>
-              {" "}— 開発者へ直接の返金リクエストはできません
+              {" "}- 開発者へ直接の返金リクエストはできません
             </>,
             <>
               有料機能はユーザーに
@@ -554,7 +554,7 @@ export function TermsContentJa() {
             <>
               有料機能は
               <Strong>勝利を保証しません</Strong>
-               — すべてのユーザーはコンテストにおいて対等です
+               - すべてのユーザーはコンテストにおいて対等です
             </>,
           ]}
         />

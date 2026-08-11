@@ -14,7 +14,7 @@ export const faqEn: FAQCategory[] = [
       },
       {
         q: "How do I sign up?",
-        a: "Sign in with Apple or Google in seconds — no passwords, no email verification. We never see your password and we never store one.",
+        a: "Sign in with Apple or Google in seconds - no passwords, no email verification. We never see your password and we never store one.",
       },
       {
         q: "Which devices are supported?",
@@ -27,7 +27,7 @@ export const faqEn: FAQCategory[] = [
     items: [
       {
         q: "How does scoring work?",
-        a: "You earn points for correct outcomes (1, X, 2), exact scores, and goal scorers. Mini games add bonus picks. Every match is worth the same — no odds, no multipliers, no luck-based payouts.",
+        a: "You earn points for correct outcomes (1, X, 2), exact scores, and goal scorers. Mini games add bonus picks. Every match is worth the same - no odds, no multipliers, no luck-based payouts.",
       },
       {
         q: "What's a Score Hunt?",
@@ -35,15 +35,15 @@ export const faqEn: FAQCategory[] = [
       },
       {
         q: "Can I change my predictions?",
-        a: "Yes — you can edit your predictions any time before kickoff. Once a match starts, your prediction for that match is locked.",
+        a: "Yes - you can edit your predictions any time before kickoff. Once a match starts, your prediction for that match is locked.",
       },
       {
         q: "What are mini games?",
-        a: "Mini games are short-form prediction modes that run between full Score Hunt rounds. Quick fixtures, themed weeks, same skill principle — they keep things moving on quiet match days.",
+        a: "Mini games are short-form prediction modes that run between full Score Hunt rounds. Quick fixtures, themed weeks, same skill principle - they keep things moving on quiet match days.",
       },
       {
         q: "Is this gambling?",
-        a: "No. ScoreHunter contains no betting, no odds, no money in or out, no lotteries. All matches are equal value and any prizes are promotional only — never cash.",
+        a: "No. ScoreHunter contains no betting, no odds, no money in or out, no lotteries. All matches are equal value and any prizes are promotional only - never cash.",
       },
     ],
   },
@@ -69,7 +69,7 @@ export const faqEn: FAQCategory[] = [
     items: [
       {
         q: "What does Pro include?",
-        a: "Reduced ads, Pro-only trophies, an exclusive Pro badge on leaderboards, and priority support. Pro never affects competition results — all matches stay equal value for every player.",
+        a: "Reduced ads, Pro-only trophies, an exclusive Pro badge on leaderboards, and priority support. Pro never affects competition results - all matches stay equal value for every player.",
       },
       {
         q: "How do I subscribe?",
@@ -90,11 +90,11 @@ export const faqEn: FAQCategory[] = [
       },
       {
         q: "What data does ScoreHunter store about me?",
-        a: "Your username, country, favourite team, predictions, and trophies — basically what you'd expect for a leaderboard game. Email and real name stay private. Full breakdown is in our Privacy Policy.",
+        a: "Your username, country, favourite team, predictions, and trophies - basically what you'd expect for a leaderboard game. Email and real name stay private. Full breakdown is in our Privacy Policy.",
       },
       {
         q: "I forgot my password.",
-        a: "There is no password. Sign-in goes through Apple or Google — recovery happens at the Apple/Google level, not on ScoreHunter's side.",
+        a: "There is no password. Sign-in goes through Apple or Google - recovery happens at the Apple/Google level, not on ScoreHunter's side.",
       },
     ],
   },

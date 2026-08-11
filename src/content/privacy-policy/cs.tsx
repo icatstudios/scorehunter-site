@@ -43,7 +43,7 @@ export function PolicyContentCs() {
               přihlášení; Google při každém přihlášení)
             </>,
             <>
-              <Strong>Provider User ID</Strong> — jedinečný identifikátor
+              <Strong>Provider User ID</Strong> - jedinečný identifikátor
               pro rozpoznání vašeho účtu
             </>,
           ]}
@@ -54,7 +54,7 @@ export function PolicyContentCs() {
         <List
           items={[
             <>
-              <Strong>Uživatelské jméno</Strong> (zobrazované jméno —
+              <Strong>Uživatelské jméno</Strong> (zobrazované jméno -
               viditelné v žebříčcích)
             </>,
             <>
@@ -67,11 +67,11 @@ export function PolicyContentCs() {
               <Strong>Datum narození</Strong>
             </>,
             <>
-              <Strong>Pohlaví</Strong> (volitelné — &quot;nepřeji si
+              <Strong>Pohlaví</Strong> (volitelné - &quot;nepřeji si
               uvádět&quot; je možnost)
             </>,
             <>
-              <Strong>Stav předplatného Pro</Strong> — zda máte aktivní
+              <Strong>Stav předplatného Pro</Strong> - zda máte aktivní
               členství Pro a datum jeho ukončení
             </>,
           ]}
@@ -108,12 +108,12 @@ export function PolicyContentCs() {
             </>,
             <>
               <Strong>Verze aplikace a platforma</Strong> (kód verze, název
-              verze a zda používáte iOS nebo Android) — používá se k
+              verze a zda používáte iOS nebo Android) - používá se k
               poskytování podpory specifické pro verzi a k identifikaci
               problémů s kompatibilitou
             </>,
             <>
-              <Strong>Token push notifikací</Strong> — jedinečný token od
+              <Strong>Token push notifikací</Strong> - jedinečný token od
               služby Apple Push Notification service (APNs) nebo Firebase
               Cloud Messaging (FCM) pro doručování připomenutí zápasů,
               oznámení o cenách a důležitých upozornění. Push notifikace
@@ -159,14 +159,14 @@ export function PolicyContentCs() {
         <List
           items={[
             <>
-              <Strong>IP adresa</Strong> — používá se pro bezpečnostní
+              <Strong>IP adresa</Strong> - používá se pro bezpečnostní
               účely, včetně omezení rychlosti na autentizačních koncových
               bodech (např. až 15 pokusů o přihlášení za minutu na IP) a
               prevence zneužití. IP adresy nepoužíváme k vytváření
               reklamních profilů.
             </>,
             <>
-              <Strong>Hlášení chyb a pádů</Strong> — používá se k
+              <Strong>Hlášení chyb a pádů</Strong> - používá se k
               monitorování stability aplikace. Hlášení jsou filtrována, aby
               se vyloučily osobně identifikovatelné údaje.
             </>,
@@ -212,7 +212,7 @@ export function PolicyContentCs() {
             </>,
             <>
               <Strong>Reklama</Strong>: pro zobrazování reklam v Aplikaci a
-              měření jejich výkonu — podrobnosti viz sekce 8
+              měření jejich výkonu - podrobnosti viz sekce 8
             </>,
             <>
               <Strong>Analýza a vylepšování</Strong>: pro anonymní analýzu
@@ -239,7 +239,7 @@ export function PolicyContentCs() {
         <List
           items={[
             <>
-              <Strong>Amazon Web Services (AWS)</Strong> — hosting serverů
+              <Strong>Amazon Web Services (AWS)</Strong> - hosting serverů
               a databází (Frankfurt, Německo)
             </>,
             <>
@@ -247,29 +247,29 @@ export function PolicyContentCs() {
               <Anchor href="https://www.api-football.com">
                 api-football.com
               </Anchor>
-              ) — služba třetí strany poskytující údaje o zápasech, informace
+              ) - služba třetí strany poskytující údaje o zápasech, informace
               o týmech a ligách a související vizuální prostředky (loga a
               obrázky). S API-Football nejsou sdíleny žádné osobní údaje.
               ScoreHunter nevlastní práva k logům ani ochranným známkám
               dodávaným prostřednictvím této služby; podrobnosti viz sekce 11.
             </>,
             <>
-              <Strong>Apple</Strong> — autentizace Apple Sign-In
+              <Strong>Apple</Strong> - autentizace Apple Sign-In
             </>,
             <>
-              <Strong>Google</Strong> — autentizace Google Sign-In a
+              <Strong>Google</Strong> - autentizace Google Sign-In a
               Firebase Cloud Messaging (push notifikace na Androidu)
             </>,
             <>
-              <Strong>Apple StoreKit</Strong> — zpracovává nákupy a obnovení
+              <Strong>Apple StoreKit</Strong> - zpracovává nákupy a obnovení
               předplatného Pro na iOS
             </>,
             <>
-              <Strong>Google Play Billing</Strong> — zpracovává nákupy a
+              <Strong>Google Play Billing</Strong> - zpracovává nákupy a
               obnovení předplatného Pro na Androidu
             </>,
             <>
-              <Strong>Sentry</Strong> — backendové sledování chyb. Filtrování
+              <Strong>Sentry</Strong> - backendové sledování chyb. Filtrování
               osobně identifikovatelných údajů je aktivováno (do Sentry se
               neodesílá žádná e-mailová adresa, jméno ani uživatelský obsah).
             </>,
@@ -331,43 +331,43 @@ export function PolicyContentCs() {
           items={[
             <>
               <Strong>Google AdMob</Strong> &amp; Google User Messaging
-              Platform —{" "}
+              Platform -{" "}
               <Anchor href="https://policies.google.com/privacy">
                 policies.google.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>AppLovin</Strong> —{" "}
+              <Strong>AppLovin</Strong> -{" "}
               <Anchor href="https://www.applovin.com/privacy/">
                 applovin.com/privacy
               </Anchor>
             </>,
             <>
-              <Strong>Liftoff (Vungle)</Strong> —{" "}
+              <Strong>Liftoff (Vungle)</Strong> -{" "}
               <Anchor href="https://liftoff.io/privacy-policy/">
                 liftoff.io/privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>IronSource</Strong> —{" "}
+              <Strong>IronSource</Strong> -{" "}
               <Anchor href="https://developers.is.com/ironsource-mobile/general/privacy-information/">
                 developers.is.com/ironsource-mobile/general/privacy-information
               </Anchor>
             </>,
             <>
-              <Strong>Unity Ads</Strong> —{" "}
+              <Strong>Unity Ads</Strong> -{" "}
               <Anchor href="https://unity.com/legal/game-player-and-app-user-privacy-policy">
                 unity.com/legal/game-player-and-app-user-privacy-policy
               </Anchor>
             </>,
             <>
-              <Strong>Meta Audience Network</Strong> —{" "}
+              <Strong>Meta Audience Network</Strong> -{" "}
               <Anchor href="https://www.facebook.com/about/privacy">
                 facebook.com/about/privacy
               </Anchor>
             </>,
             <>
-              <Strong>InMobi</Strong> —{" "}
+              <Strong>InMobi</Strong> -{" "}
               <Anchor href="https://www.inmobi.com/privacy-policy">
                 inmobi.com/privacy-policy
               </Anchor>
@@ -621,7 +621,7 @@ export function PolicyContentCs() {
       <Section title="9. Mezinárodní přenosy údajů">
         <p>
           Vaše údaje mohou být zpracovávány mimo vaši domovskou zemi (AWS
-          Frankfurt — EU, jakož i datová centra našich reklamních partnerů
+          Frankfurt - EU, jakož i datová centra našich reklamních partnerů
           uvedených v sekci 3.4, která mohou být umístěna mimo EU). Tyto
           přenosy splňují bezpečnostní požadavky stanovené GDPR a KVKK.
         </p>
@@ -647,7 +647,7 @@ export function PolicyContentCs() {
           názvy lig, jména hráčů a vizuální prostředky (jako jsou loga týmů
           a lig), které pocházejí od našeho poskytovatele dat API-Football.
           Tyto názvy, loga a ochranné známky patří jejich příslušným
-          vlastníkům — včetně klubů, lig, federací a dalších držitelů práv.
+          vlastníkům - včetně klubů, lig, federací a dalších držitelů práv.
         </p>
         <p>
           ScoreHunter{" "}

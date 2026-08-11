@@ -45,7 +45,7 @@ export function TermsContentZhCn() {
 
       <Divider />
 
-      <Section title="2. 服务的性质 — 重要">
+      <Section title="2. 服务的性质 - 重要">
         <SubHeading>2.1 ScoreHunter 不是一款赌博应用</SubHeading>
         <p>
           ScoreHunter 是一款
@@ -71,7 +71,7 @@ export function TermsContentZhCn() {
             <>
               出于预测目的，所有比赛
               <Strong>价值相同</Strong>
-              — 不存在某场比赛比另一场&quot;更有价值&quot;的情况
+              - 不存在某场比赛比另一场&quot;更有价值&quot;的情况
             </>,
             <>
               本应用让足球爱好者在轻松愉快的环境中以知识和直觉一较高下
@@ -111,7 +111,7 @@ export function TermsContentZhCn() {
             </>,
             <>
               Pro 会员等付费功能<Strong>不会影响比赛结果</Strong>
-              — 仅提供改善用户体验的附加功能
+              - 仅提供改善用户体验的附加功能
             </>,
           ]}
         />
@@ -129,11 +129,11 @@ export function TermsContentZhCn() {
               ，旨在鼓励用户参与
             </>,
             <>
-              奖品<Strong>不作担保</Strong> — 仅在开发者公布的活动
+              奖品<Strong>不作担保</Strong> - 仅在开发者公布的活动
               范围内提供
             </>,
             <>
-              奖品<Strong>不以现金形式发放</Strong> — 仅以实物或
+              奖品<Strong>不以现金形式发放</Strong> - 仅以实物或
               数字礼品形式提供
             </>,
             <>
@@ -412,7 +412,7 @@ export function TermsContentZhCn() {
                 本应用内提供的任何奖品、比赛、活动或推广均独立于
                 Apple Inc.
               </Strong>{" "}
-              — Apple 不以任何方式作为此类活动的赞助方、组织方或
+              - Apple 不以任何方式作为此类活动的赞助方、组织方或
               管理方
             </>,
             "对于本应用内出现的任何法律问题或索赔，Apple Inc. 免除一切责任",
@@ -455,7 +455,7 @@ export function TermsContentZhCn() {
                 本应用内提供的任何奖品、比赛、活动或推广均独立于
                 Google LLC
               </Strong>{" "}
-              — Google 不以任何方式作为此类活动的赞助方、组织方或
+              - Google 不以任何方式作为此类活动的赞助方、组织方或
               管理方
             </>,
             "Google Play Store 仅是本应用的分发平台，对本应用的内容或运行不承担任何责任",
@@ -489,16 +489,16 @@ export function TermsContentZhCn() {
               <Strong>
                 退款请求必须向 Apple 或 Google 提交
               </Strong>
-              {" "}— 退款请求不能直接发送给开发者
+              {" "}- 退款请求不能直接发送给开发者
             </>,
             <>
               付费功能仅向用户提供
               <Strong>额外的体验</Strong>
-              — 不影响比赛结果或排名
+              - 不影响比赛结果或排名
             </>,
             <>
               付费功能<Strong>不保证获胜</Strong>
-              — 所有用户在比赛中地位平等
+              - 所有用户在比赛中地位平等
             </>,
           ]}
         />

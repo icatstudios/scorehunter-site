@@ -9,7 +9,7 @@ interface ScreenshotsDict {
 }
 
 // Locales we have native screenshots for. Each app screen was captured in
-// these languages — for any other locale we fall back to English.
+// these languages - for any other locale we fall back to English.
 const SCREENSHOT_LOCALES = ["de", "en", "es", "fr", "it", "pt", "tr"] as const;
 type ScreenshotLocale = (typeof SCREENSHOT_LOCALES)[number];
 
@@ -29,9 +29,9 @@ function pickScreenshotLocale(locale: Locale): ScreenshotLocale {
 // 3 in-app screens to show, in order. Numbers refer to the file name inside
 // the per-locale screenshot folder.
 const SLOTS: { num: 7 | 1 | 4; alt: string }[] = [
-  { num: 7, alt: "ScoreHunter app screen — match details" },
-  { num: 1, alt: "ScoreHunter app screen — Score Hunt prediction list" },
-  { num: 4, alt: "ScoreHunter app screen — user profile" },
+  { num: 7, alt: "ScoreHunter app screen - match details" },
+  { num: 1, alt: "ScoreHunter app screen - Score Hunt prediction list" },
+  { num: 4, alt: "ScoreHunter app screen - user profile" },
 ];
 
 function buildPhoneImages(locale: Locale): PhoneImage[] {
