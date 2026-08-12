@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
 import { notFound } from "next/navigation";
 import {
   locales,
@@ -30,6 +31,29 @@ const ogLocale: Record<string, string> = {
   ru: "ru_RU",
   ar: "ar_SA",
 };
+
+/**
+ * Poppins, self-hosted at build time.
+ *
+ * The font used to be four raw @font-face rules pointing at
+ * fonts.gstatic.com. The browser could only discover them after the
+ * stylesheet had downloaded and parsed, and then had to open a fresh
+ * connection to a third-party origin before a single glyph arrived.
+ * next/font emits the woff2 files under /_next/static/media and preloads
+ * them from <head>, so they download alongside the CSS on a connection
+ * that is already open.
+ *
+ * latin-ext is required, not a nicety: Turkish s-cedilla, g-breve and
+ * dotted-I live there, as do the Polish and Czech diacritics. The old
+ * hardcoded URLs were the latin subset only, so those characters were
+ * dropping to a fallback font in the middle of a word.
+ */
+const poppins = Poppins({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-poppins",
+});
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -83,7 +107,11 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound();
 
   return (
-    <html lang={htmlLang[locale]} dir={localeDirection[locale]}>
+    <html
+      lang={htmlLang[locale]}
+      dir={localeDirection[locale]}
+      className={poppins.variable}
+    >
       <body className="antialiased">{children}</body>
     </html>
   );
