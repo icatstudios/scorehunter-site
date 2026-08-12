@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 import {
   locales,
   isLocale,
@@ -112,7 +113,10 @@ export default async function LocaleLayout({
       dir={localeDirection[locale]}
       className={poppins.variable}
     >
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
